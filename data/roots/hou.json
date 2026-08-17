@@ -1,0 +1,39 @@
+{
+  "id": "hou",
+  "character": "侯",
+  "pinyin": "hóu",
+  "meaning": "marquis; nobleman (archaic title)",
+  "description": "侯 originally depicted an archer shooting at a target (a cloth target 厂/production of an arrow 矢 near a cliff-like shape), later borrowed for a feudal noble title. As a phonetic component it lends the \"hou\" sound to a family of characters, often combined with a semantic radical that narrows the meaning (人/亻 for people-related, 犭 for animals, 口 for mouth/speech, etc.).",
+  "derived": [
+    {
+      "character": "候",
+      "pinyin": "hòu",
+      "meaning": "to wait; time; season; to inquire after",
+      "aiDefinition": "REPLACE ME: paste the AI-generated definition for 候 here.",
+      "examples": [
+        { "word": "等候", "pinyin": "děng hòu", "meaning": "to wait" },
+        { "word": "气候", "pinyin": "qì hòu", "meaning": "climate" }
+      ]
+    },
+    {
+      "character": "猴",
+      "pinyin": "hóu",
+      "meaning": "monkey",
+      "aiDefinition": "REPLACE ME: paste the AI-generated definition for 猴 here.",
+      "examples": [
+        { "word": "猴子", "pinyin": "hóu zi", "meaning": "monkey" },
+        { "word": "猕猴", "pinyin": "mí hóu", "meaning": "macaque" }
+      ]
+    },
+    {
+      "character": "喉",
+      "pinyin": "hóu",
+      "meaning": "throat",
+      "aiDefinition": "REPLACE ME: paste the AI-generated definition for 喉 here.",
+      "examples": [
+        { "word": "喉咙", "pinyin": "hóu lóng", "meaning": "throat" },
+        { "word": "咽喉", "pinyin": "yān hóu", "meaning": "throat; a vital passage" }
+      ]
+    }
+  ]
+}
