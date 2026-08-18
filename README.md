@@ -1,118 +1,125 @@
 # Logical Chinese
 
-A database of Chinese characters grouped by their **root** — the phonetic or
-semantic component that a family of characters shares. E.g. 侯 is the root
-for 候, 猴, 喉.
+A personal database of Chinese characters, grouped by **pinyin sound and
+tone** — every `huang1`, `huang2`, `huang3`, `huang4` nested together under
+`huang`. Add characters yourself through the site, with a definition and an
+optional memory trick for each.
 
-Built with Next.js (App Router) + TypeScript + Tailwind. All data lives in
-plain JSON files, statically generated at build time — no database needed.
+Built with Next.js (App Router) + TypeScript + Tailwind, backed by a free
+Supabase Postgres database (so entries you add through the live site
+persist — a plain static site can't do that).
 
-## Why one page per *root*, not per *character*
+## One-time setup
 
-If every single derived character got its own page, a modestly complete
-database could mean thousands of statically generated routes. Instead, all
-characters that share a root live on **one page** (`/root/<id>`), each in
-its own anchored section (`/root/hou#候`). This keeps the number of routes
-equal to the number of *root groups* you've added (realistically dozens to a
-few hundred), while every character still gets a stable, shareable,
-directly-linkable URL. Search finds individual characters instantly and
-jumps straight to their section.
+### 1. Create a free Supabase project
 
-## Project structure
+1. Go to https://supabase.com, sign up, and create a new project (free tier).
+2. Once it's provisioned, open the **SQL Editor** and run the contents of
+   [`scripts/schema.sql`](scripts/schema.sql) — this creates the one table
+   the app needs.
+3. Go to **Project Settings → API** and copy:
+   - **Project URL** → this is `SUPABASE_URL`
+   - **service_role key** (not the `anon` key — this one bypasses row-level
+     security, which is fine since it's only ever used server-side) →
+     this is `SUPABASE_SERVICE_ROLE_KEY`
+
+### 2. Set environment variables
+
+Copy `.env.local.example` to `.env.local` and fill in:
 
 ```
-data/roots/*.json      one file per root character — this is your database
-lib/data.ts             reads & indexes the JSON files at build time
-app/page.tsx             homepage: search + grid of all roots
-app/root/[id]/page.tsx   one page per root, listing all derived characters
-components/              SearchBar, RootCard
-scripts/                 CLI helpers (see below)
+SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+ADMIN_PASSWORD=choose-a-password
 ```
 
-## Adding a new root group
+`ADMIN_PASSWORD` is whatever you want — it's the password you'll use to log
+in on the site to add/edit/delete characters. There's no separate account
+system; this is a single-admin personal tool.
 
-1. Scaffold a new file:
-
-   ```bash
-   npm run new-root -- --char 侯 --id hou --derived 候,猴,喉
-   ```
-
-   This creates `data/roots/hou.json` with empty fields.
-
-2. Auto-fill pinyin & a basic dictionary meaning from **CC-CEDICT** (a free,
-   open-source Chinese-English dictionary):
-
-   ```bash
-   npm run enrich
-   ```
-
-   This only fills in blank `pinyin` / `meaning` fields — it never touches
-   `aiDefinition`, `description`, or anything you've already written. Run
-   with `-- --force` if you ever want it to overwrite existing values.
-
-3. Open `data/roots/hou.json` and paste in the AI-generated definition for
-   each character into its `aiDefinition` field. Optionally fill in the
-   root's `description` (the etymological/logical link) and any `examples`
-   (compound words).
-
-4. Validate everything is well-formed before committing:
-
-   ```bash
-   npm run validate
-   ```
-
-5. Run the dev server to check it looks right:
-
-   ```bash
-   npm run dev
-   ```
-
-### JSON shape reference
-
-```jsonc
-{
-  "id": "hou",              // must match the filename
-  "character": "侯",
-  "pinyin": "hóu",
-  "meaning": "marquis; nobleman",
-  "description": "optional paragraph on the etymology/logic of this root",
-  "derived": [
-    {
-      "character": "候",
-      "pinyin": "hòu",
-      "meaning": "short dictionary gloss",
-      "aiDefinition": "your longer AI-written explanation goes here",
-      "examples": [
-        { "word": "等候", "pinyin": "děng hòu", "meaning": "to wait" }
-      ]
-    }
-  ]
-}
-```
-
-## Local development
+### 3. Install and run
 
 ```bash
 npm install
 npm run dev
 ```
 
-Visit http://localhost:3000
+Visit http://localhost:3000, click **Admin login** top-right, and log in
+with your `ADMIN_PASSWORD` to start adding characters.
 
-## Deploying
+### 4. (Optional) seed the two example character groups
 
-1. Push this folder to a new GitHub repo.
-2. Go to [vercel.com/new](https://vercel.com/new), import the repo, and
-   deploy — no configuration needed, Vercel auto-detects Next.js.
-3. Every time you add a root JSON file and push to `main`, Vercel rebuilds
-   and redeploys automatically.
+If you want the 侯/候/猴/喉 and 青/请/清/情/晴/精 examples from the earlier
+prototype pre-loaded:
 
-## Scripts
+```bash
+node --env-file=.env.local scripts/migrate-json-to-db.mjs
+```
 
-| Command                | What it does                                                |
-| ----------------------- | ------------------------------------------------------------ |
-| `npm run new-root`     | Scaffold a new `data/roots/<id>.json` file                  |
-| `npm run enrich`       | Fill blank pinyin/meaning fields from CC-CEDICT              |
-| `npm run validate`     | Check all root files are well-formed and free of duplicates  |
-| `npm run dev`          | Local dev server                                             |
-| `npm run build`        | Production build (also what Vercel runs)                     |
+## How data is structured
+
+Each character is one row: `character`, `sound_base` (pinyin without tone,
+e.g. `"hou"`), `tone` (1–4, or 5 for neutral), `meaning`, `definition`,
+`memory_trick`, and a list of example words. Pages are generated by
+grouping on `sound_base` then `tone` — so the whole `hou` family (`hou1`,
+`hou2`, `hou3`, `hou4`) lives together at `/sound/hou`, with each tone as
+its own nested section and each character as a directly-linkable anchor
+(`/sound/hou#<id>`).
+
+## Adding characters
+
+Once logged in as admin:
+
+1. Click **+ Add character** on the homepage.
+2. Type the character, then click **Look up** — this queries CC-CEDICT (a
+   free, open Chinese-English dictionary) and auto-fills pinyin + a basic
+   meaning if it finds a match. You can also type these in by hand.
+3. Pinyin is entered **numbered** (e.g. `hou4`, `huang2`) rather than with
+   accent marks — easier to type, and the site renders the accented form
+   (`hòu`, `huáng`) automatically.
+4. Paste your AI-generated definition into **Definition**.
+5. Add a **Memory trick** — a mnemonic hook, phonetic association, or
+   whatever helps it stick.
+6. Add any example words (optional).
+
+Edit and delete are available on each character's card once you're logged
+in.
+
+## Project structure
+
+```
+lib/characters.ts        Supabase queries + grouping logic
+lib/auth.ts               cookie-based admin gate
+lib/pinyin.ts              numbered pinyin (huang2) <-> accented (huáng)
+lib/supabaseAdmin.ts      server-only Supabase client (service role key)
+app/actions.ts             server actions: login/logout, create/update/delete
+app/page.tsx                homepage: all sounds, nested tone breakdown, search
+app/sound/[base]/page.tsx    one page per sound, tones nested underneath
+app/add, app/edit/[id]      character forms (admin only)
+app/login                   admin password form
+app/api/lookup               CC-CEDICT lookup endpoint used by the "Look up" button
+components/CharacterForm.tsx shared add/edit form
+components/SearchBar.tsx      client-side search across all characters
+scripts/schema.sql            run once in Supabase SQL editor
+scripts/migrate-json-to-db.mjs  optional seed data from the old prototype
+```
+
+## Deploying to Vercel
+
+1. Push this repo to GitHub.
+2. Go to https://vercel.com/new and import it.
+3. Before/after deploying, go to **Project Settings → Environment
+   Variables** and add the same three values from your `.env.local`
+   (`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `ADMIN_PASSWORD`).
+4. Redeploy if you added the env vars after the first deploy.
+
+Every subsequent `git push` to `main` redeploys automatically. Characters
+you add through the live site are stored in Supabase, not in the repo, so
+they persist across deploys without needing a commit.
+
+## A note on the admin password
+
+This is basic, appropriate-for-a-personal-project protection — a shared
+password gates write access, stored in an `httpOnly` cookie after login.
+It is not meant to withstand a targeted attack; don't store anything
+sensitive in this database, and don't reuse a password you use elsewhere.

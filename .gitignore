@@ -4,4 +4,4 @@ out
 .vercel
 *.log
 .DS_Store
-scripts/.cedict-cache/
+.env.local

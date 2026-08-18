@@ -7,14 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "new-root": "node scripts/new-root.mjs",
-    "enrich": "node scripts/enrich-cedict.mjs",
-    "validate": "node scripts/validate-data.mjs"
+    "migrate": "node scripts/migrate-json-to-db.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.112.3",
     "next": "^14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",
