@@ -451,7 +451,7 @@
 {"char": "登", "pinyin": "dēng", "syllable": "deng", "tone": 1, "core": "climbing up, and so entered in", "mnemonic": "treaDING / ascenDING", "invented": false, "crossRefs": [], "freqRank": 811, "traditional": ""},
 {"char": "等", "pinyin": "děng", "syllable": "deng", "tone": 3, "core": "of the same rank; and so waiting in line", "mnemonic": "same rank — waiting in a DINGy queue", "invented": false, "crossRefs": [], "freqRank": 128, "traditional": ""},
 {"char": "凳", "pinyin": "dèng", "syllable": "deng", "tone": 4, "core": "stool", "mnemonic": "the stool you DUmp yourself on", "invented": false, "crossRefs": [], "freqRank": 2965, "traditional": "櫈"},
-{"char": "澄", "pinyin": "dèng", "syllable": "deng", "tone": 4, "core": "left standing until clear", "mnemonic": "left to stand — the DUNGe settles", "invented": false, "crossRefs": ["chéng"], "freqRank": 2433, "traditional": "澂"},
+{"char": "澄", "pinyin": "dèng", "syllable": "deng", "tone": 4, "core": "left standing until clear", "mnemonic": "seTTLE", "invented": false, "crossRefs": ["chéng"], "freqRank": 2433, "traditional": "澂"},
 {"char": "瞪", "pinyin": "dèng", "syllable": "deng", "tone": 4, "core": "eyes opened wide and fixed", "mnemonic": "eyes wide — a DEAD-on stare", "invented": false, "crossRefs": [], "freqRank": 2387, "traditional": ""},
 {"char": "的", "pinyin": "dī", "syllable": "di", "tone": 1, "core": "in 的士, taxi", "mnemonic": "the taxi you flag — DEE for driver", "invented": false, "crossRefs": ["de"], "freqRank": 1, "traditional": ""},
 {"char": "低", "pinyin": "dī", "syllable": "di", "tone": 1, "core": "low down", "mnemonic": "dip", "invented": false, "crossRefs": [], "freqRank": 708, "traditional": ""},
