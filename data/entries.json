@@ -613,7 +613,7 @@
 {"char": "废", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "cast aside as useless", "mnemonic": "do aWAY with WAste", "invented": false, "crossRefs": [], "freqRank": 1182, "traditional": "廢癈"},
 {"char": "肺", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "lung", "mnemonic": "the lung's puFF", "invented": false, "crossRefs": [], "freqRank": 2348, "traditional": ""},
 {"char": "沸", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "boiling over", "mnemonic": "boiling / FIzzing over", "invented": false, "crossRefs": [], "freqRank": 2918, "traditional": ""},
-{"char": "分", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "divided into parts", "mnemonic": "divided — the FrActioN", "invented": false, "crossRefs": ["fèn"], "freqRank": 88, "traditional": "份"},
+{"char": "分", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "divided into parts", "mnemonic": "diVIded FRACtion", "invented": false, "crossRefs": ["fèn"], "freqRank": 88, "traditional": "份"},
 {"char": "芬", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "a spreading fragrance", "mnemonic": "a spreading FrAgraNce", "invented": false, "crossRefs": [], "freqRank": 2073, "traditional": ""},
 {"char": "纷", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "many and scattered about", "mnemonic": "many and scattered — a coNFusioN", "invented": false, "crossRefs": [], "freqRank": 1279, "traditional": "紛"},
 {"char": "吩", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "instructions given out", "mnemonic": "instructions given out — the word FLUNG down", "invented": false, "crossRefs": [], "freqRank": 2017, "traditional": ""},
