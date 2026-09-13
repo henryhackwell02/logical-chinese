@@ -1291,7 +1291,7 @@
 {"char": "兰", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "orchid", "mnemonic": "the orchid — the LANguid bloom", "invented": false, "crossRefs": [], "freqRank": 695, "traditional": "蘭"},
 {"char": "蓝", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "blue", "mnemonic": "blue — the LANdscape's colour", "invented": false, "crossRefs": [], "freqRank": 1365, "traditional": "藍"},
 {"char": "栏", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "the rail that bars, and the column it rules off", "mnemonic": "the rail that bars, and the column it rules off — the LANe divider", "invented": false, "crossRefs": [], "freqRank": 2310, "traditional": "欄"},
-{"char": "篮", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "basket", "mnemonic": "the basket — the LANdlady's basket", "invented": false, "crossRefs": [], "freqRank": 2682, "traditional": "籃"},
+{"char": "篮", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "basket", "mnemonic": "LAUNdry basket", "invented": false, "crossRefs": [], "freqRank": 2682, "traditional": "籃"},
 {"char": "拦", "pinyin": "lán", "syllable": "lan", "tone": 2, "core": "barred from passing", "mnemonic": "barred from passing — the LANe blocked", "invented": false, "crossRefs": [], "freqRank": 2150, "traditional": "攔"},
 {"char": "览", "pinyin": "lǎn", "syllable": "lan", "tone": 3, "core": "looked over broadly", "mnemonic": "gLANce at / Look AT", "invented": false, "crossRefs": [], "freqRank": 1906, "traditional": "覽"},
 {"char": "懒", "pinyin": "lǎn", "syllable": "lan", "tone": 3, "core": "unwilling to stir", "mnemonic": "languid", "invented": false, "crossRefs": [], "freqRank": 2367, "traditional": "嬾懶"},
