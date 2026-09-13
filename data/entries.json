@@ -385,7 +385,7 @@
 {"char": "错", "pinyin": "cuò", "syllable": "cuo", "tone": 4, "core": "crossed wrong, and so mistaken", "mnemonic": "CROssed wrong", "invented": false, "crossRefs": [], "freqRank": 747, "traditional": "錯"},
 {"char": "措", "pinyin": "cuò", "syllable": "cuo", "tone": 4, "core": "put in place and handled", "mnemonic": "put in place and COped with", "invented": false, "crossRefs": [], "freqRank": 1352, "traditional": ""},
 {"char": "挫", "pinyin": "cuò", "syllable": "cuo", "tone": 4, "core": "pushed down and checked", "mnemonic": "pushed down and CROssed out", "invented": false, "crossRefs": [], "freqRank": 2729, "traditional": ""},
-{"char": "搭", "pinyin": "dā", "syllable": "da", "tone": 1, "core": "laid across to join", "mnemonic": "laid across — a DAb to join", "invented": false, "crossRefs": [], "freqRank": 1923, "traditional": ""},
+{"char": "搭", "pinyin": "dā", "syllable": "da", "tone": 1, "core": "laid across to join", "mnemonic": "builD Up / MAtch up", "invented": false, "crossRefs": [], "freqRank": 1923, "traditional": ""},
 {"char": "答", "pinyin": "dā", "syllable": "da", "tone": 1, "core": "answering back", "mnemonic": "responDA / ANswer", "invented": false, "crossRefs": ["dá"], "freqRank": 571, "traditional": ""},
 {"char": "打", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "dozen", "mnemonic": "a DOZen — the dealer's set", "invented": false, "crossRefs": ["dǎ"], "freqRank": 240, "traditional": ""},
 {"char": "达", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "reaching all the way through", "mnemonic": "reaching all the way — DAsh through", "invented": false, "crossRefs": [], "freqRank": 336, "traditional": "達"},
