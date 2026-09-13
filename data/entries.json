@@ -553,7 +553,7 @@
 {"char": "躲", "pinyin": "duǒ", "syllable": "duo", "tone": 3, "core": "got out of sight", "mnemonic": "dodge", "invented": false, "crossRefs": [], "freqRank": 1844, "traditional": ""},
 {"char": "朵", "pinyin": "duǒ", "syllable": "duo", "tone": 3, "core": "a blossom-shaped cluster on a stem", "mnemonic": "the blossom's DOughy cluster", "invented": false, "crossRefs": [], "freqRank": 1800, "traditional": "朶"},
 {"char": "堕", "pinyin": "duò", "syllable": "duo", "tone": 4, "core": "fallen away and down", "mnemonic": "fallen away — DrOpped down", "invented": false, "crossRefs": [], "freqRank": 2666, "traditional": "墮"},
-{"char": "额", "pinyin": "é", "syllable": "e", "tone": 2, "core": "the flat brow, and the figure fixed on it", "mnemonic": "the brow, and the sum fixed there — a set AMount", "invented": false, "crossRefs": [], "freqRank": 1055, "traditional": "頟額"},
+{"char": "额", "pinyin": "é", "syllable": "e", "tone": 2, "core": "the flat brow, and the figure fixed on it", "mnemonic": "outER quoTA or AMount", "invented": false, "crossRefs": [], "freqRank": 1055, "traditional": "頟額"},
 {"char": "俄", "pinyin": "é", "syllable": "e", "tone": 2, "core": "in an instant", "mnemonic": "in an instant — AH, gone", "invented": false, "crossRefs": [], "freqRank": 1095, "traditional": ""},
 {"char": "鹅", "pinyin": "é", "syllable": "e", "tone": 2, "core": "goose", "mnemonic": "the goose's honk — AH!", "invented": false, "crossRefs": [], "freqRank": 2466, "traditional": "䳘鵝鵞"},
 {"char": "恶", "pinyin": "ě", "syllable": "e", "tone": 3, "core": "nausea rising", "mnemonic": "UGH — nausea rising", "invented": false, "crossRefs": ["è", "wù"], "freqRank": 787, "traditional": "噁惡"},
