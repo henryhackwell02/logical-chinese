@@ -447,7 +447,7 @@
 {"char": "得", "pinyin": "de", "syllable": "de", "tone": 5, "core": "the particle marking result", "mnemonic": "the marker of how it came out — DOne", "invented": false, "crossRefs": ["dé"], "freqRank": 36, "traditional": ""},
 {"char": "的", "pinyin": "de", "syllable": "de", "tone": 5, "core": "the possessive particle", "mnemonic": "the little DE that owns it", "invented": false, "crossRefs": ["dī", "dí", "dì"], "freqRank": 1, "traditional": ""},
 {"char": "得", "pinyin": "děi", "syllable": "dei", "tone": 3, "core": "must", "mnemonic": "you must — the DAY demands it", "invented": false, "crossRefs": ["dé"], "freqRank": 36, "traditional": ""},
-{"char": "灯", "pinyin": "dēng", "syllable": "deng", "tone": 1, "core": "lamp", "mnemonic": "the lamp's DINg of light", "invented": false, "crossRefs": [], "freqRank": 1138, "traditional": "燈"},
+{"char": "灯", "pinyin": "dēng", "syllable": "deng", "tone": 1, "core": "lamp", "mnemonic": "lanTERN", "invented": false, "crossRefs": [], "freqRank": 1138, "traditional": "燈"},
 {"char": "登", "pinyin": "dēng", "syllable": "deng", "tone": 1, "core": "climbing up, and so entered in", "mnemonic": "treaDING / ascenDING", "invented": false, "crossRefs": [], "freqRank": 811, "traditional": ""},
 {"char": "等", "pinyin": "děng", "syllable": "deng", "tone": 3, "core": "of the same rank; and so waiting in line", "mnemonic": "same rank — waiting in a DINGy queue", "invented": false, "crossRefs": [], "freqRank": 128, "traditional": ""},
 {"char": "凳", "pinyin": "dèng", "syllable": "deng", "tone": 4, "core": "stool", "mnemonic": "the stool you DUmp yourself on", "invented": false, "crossRefs": [], "freqRank": 2965, "traditional": "櫈"},
