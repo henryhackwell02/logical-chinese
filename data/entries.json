@@ -578,7 +578,7 @@
 {"char": "乏", "pinyin": "fá", "syllable": "fa", "tone": 2, "core": "running short", "mnemonic": "FAiling supply FAlling short", "invented": false, "crossRefs": [], "freqRank": 1572, "traditional": ""},
 {"char": "法", "pinyin": "fǎ", "syllable": "fa", "tone": 3, "core": "the rule, and the method that follows from it", "mnemonic": "the rule — the FAtwa laid down", "invented": false, "crossRefs": [], "freqRank": 77, "traditional": "㳒灋"},
 {"char": "发", "pinyin": "fà", "syllable": "fa", "tone": 4, "core": "hair, shooting out from the scalp", "mnemonic": "hair — the FAll of it from the scalp", "invented": true, "crossRefs": ["fā"], "freqRank": 58, "traditional": "發髮"},
-{"char": "翻", "pinyin": "fān", "syllable": "fan", "tone": 1, "core": "turned over", "mnemonic": "turned over — a FANned page", "invented": false, "crossRefs": [], "freqRank": 1142, "traditional": "飜"},
+{"char": "翻", "pinyin": "fān", "syllable": "fan", "tone": 1, "core": "turned over", "mnemonic": "FLIp through a FANned page", "invented": false, "crossRefs": [], "freqRank": 1142, "traditional": "飜"},
 {"char": "番", "pinyin": "fān", "syllable": "fan", "tone": 1, "core": "a turn taken; and the foreign beyond", "mnemonic": "a turn taken, and the FOreigN beyond", "invented": false, "crossRefs": [], "freqRank": 1267, "traditional": ""},
 {"char": "帆", "pinyin": "fān", "syllable": "fan", "tone": 1, "core": "sail", "mnemonic": "the sail the wind FANs", "invented": false, "crossRefs": [], "freqRank": 2718, "traditional": "㠶颿"},
 {"char": "藩", "pinyin": "fān", "syllable": "fan", "tone": 1, "core": "the screen that fences off", "mnemonic": "the screen that FENces off", "invented": false, "crossRefs": [], "freqRank": 2693, "traditional": ""},
