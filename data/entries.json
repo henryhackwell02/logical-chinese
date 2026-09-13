@@ -573,7 +573,7 @@
 {"char": "二", "pinyin": "èr", "syllable": "er", "tone": 4, "core": "two", "mnemonic": "two — a pAIR", "invented": false, "crossRefs": [], "freqRank": 72, "traditional": ""},
 {"char": "贰", "pinyin": "èr", "syllable": "er", "tone": 4, "core": "two in fraud-proof form; and so to double-cross", "mnemonic": "two, written safe — the pAIR that double-crosses", "invented": false, "crossRefs": [], "freqRank": 2537, "traditional": "貳"},
 {"char": "发", "pinyin": "fā", "syllable": "fa", "tone": 1, "core": "what shoots out from its source", "mnemonic": "what shoots out — FAr from its source", "invented": true, "crossRefs": ["fà"], "freqRank": 58, "traditional": "發髮"},
-{"char": "罚", "pinyin": "fá", "syllable": "fa", "tone": 2, "core": "punished", "mnemonic": "punished — the FAult paid for", "invented": false, "crossRefs": [], "freqRank": 1204, "traditional": "罰罸"},
+{"char": "罚", "pinyin": "fá", "syllable": "fa", "tone": 2, "core": "punished", "mnemonic": "FIne / FAult", "invented": false, "crossRefs": [], "freqRank": 1204, "traditional": "罰罸"},
 {"char": "伐", "pinyin": "fá", "syllable": "fa", "tone": 2, "core": "struck down; the axe taken to it", "mnemonic": "the axe FElls it", "invented": false, "crossRefs": [], "freqRank": 1465, "traditional": ""},
 {"char": "乏", "pinyin": "fá", "syllable": "fa", "tone": 2, "core": "running short", "mnemonic": "running short — the FAiling supply", "invented": false, "crossRefs": [], "freqRank": 1572, "traditional": ""},
 {"char": "法", "pinyin": "fǎ", "syllable": "fa", "tone": 3, "core": "the rule, and the method that follows from it", "mnemonic": "the rule — the FAtwa laid down", "invented": false, "crossRefs": [], "freqRank": 77, "traditional": "㳒灋"},
