@@ -422,7 +422,7 @@
 {"char": "但", "pinyin": "dàn", "syllable": "dan", "tone": 4, "core": "only, and so \"but\"", "mnemonic": "only — DON'T go further", "invented": false, "crossRefs": [], "freqRank": 121, "traditional": ""},
 {"char": "当", "pinyin": "dāng", "syllable": "dang", "tone": 1, "core": "standing in the position; facing it", "mnemonic": "AS and WHEN", "invented": false, "crossRefs": ["dàng"], "freqRank": 78, "traditional": "噹當"},
 {"char": "党", "pinyin": "dǎng", "syllable": "dang", "tone": 3, "core": "a faction bound together", "mnemonic": "PARty / FACtion", "invented": false, "crossRefs": [], "freqRank": 480, "traditional": "黨"},
-{"char": "挡", "pinyin": "dǎng", "syllable": "dang", "tone": 3, "core": "held off and blocked", "mnemonic": "blocked — DANG, held off", "invented": false, "crossRefs": ["dàng"], "freqRank": 2196, "traditional": "擋攩"},
+{"char": "挡", "pinyin": "dǎng", "syllable": "dang", "tone": 3, "core": "held off and blocked", "mnemonic": "hinDArence", "invented": false, "crossRefs": ["dàng"], "freqRank": 2196, "traditional": "擋攩"},
 {"char": "当", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "fitting the case, and so worth that much", "mnemonic": "fitting — worth that much, DONG for DONG", "invented": false, "crossRefs": ["dāng"], "freqRank": 78, "traditional": "噹當"},
 {"char": "荡", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "swilled and swept about", "mnemonic": "swilled and swept — sloshing aDANGle", "invented": false, "crossRefs": [], "freqRank": 1516, "traditional": "盪蕩"},
 {"char": "档", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "the filed record on its shelf", "mnemonic": "the file DUmped on the shelf", "invented": false, "crossRefs": [], "freqRank": 2162, "traditional": "檔"},
