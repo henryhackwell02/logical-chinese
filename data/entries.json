@@ -662,7 +662,7 @@
 {"char": "俯", "pinyin": "fǔ", "syllable": "fu", "tone": 3, "core": "bent down to look", "mnemonic": "bent down to look — FOrward and over", "invented": false, "crossRefs": [], "freqRank": 2285, "traditional": "俛"},
 {"char": "斧", "pinyin": "fǔ", "syllable": "fu", "tone": 3, "core": "axe", "mnemonic": "the axe — FEll it", "invented": false, "crossRefs": [], "freqRank": 2607, "traditional": ""},
 {"char": "甫", "pinyin": "fǔ", "syllable": "fu", "tone": 3, "core": "only just", "mnemonic": "only just — the FIrst moment", "invented": false, "crossRefs": [], "freqRank": 1749, "traditional": ""},
-{"char": "复", "pinyin": "fù", "syllable": "fu", "tone": 4, "core": "gone over again, and returned", "mnemonic": "gone over again — a FUll repeat", "invented": false, "crossRefs": [], "freqRank": 307, "traditional": "復複覆"},
+{"char": "复", "pinyin": "fù", "syllable": "fu", "tone": 4, "core": "gone over again, and returned", "mnemonic": "DOUbling back", "invented": false, "crossRefs": [], "freqRank": 307, "traditional": "復複覆"},
 {"char": "服", "pinyin": "fù", "syllable": "fu", "tone": 4, "core": "one dose", "mnemonic": "one dose — a FOOd-spoon of it", "invented": false, "crossRefs": ["fú"], "freqRank": 357, "traditional": ""},
 {"char": "腹", "pinyin": "fù", "syllable": "fu", "tone": 4, "core": "belly", "mnemonic": "the belly — FULl of it", "invented": false, "crossRefs": [], "freqRank": 1636, "traditional": ""},
 {"char": "富", "pinyin": "fù", "syllable": "fu", "tone": 4, "core": "richly supplied", "mnemonic": "full", "invented": false, "crossRefs": [], "freqRank": 778, "traditional": ""},
