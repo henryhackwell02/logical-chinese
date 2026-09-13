@@ -1026,11 +1026,57 @@ main {
   min-width: 5.5rem;
 }
 
+/* The drill bar sits directly above the card so the card itself is the first
+   thing on screen; the deck pickers move below it. */
+.drill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-block: 0.9rem;
+  border-block: 1px solid var(--rule);
+}
+
+.drill-bar .control-label {
+  min-width: 0;
+}
+
 .card {
   border: 1px solid var(--rule-firm);
   padding: clamp(1.5rem, 5vw, 2.75rem);
   text-align: center;
   margin-block: 1.5rem;
+}
+
+/* The meaning-first prompt: the core idea, set large in serif. */
+.card-idea {
+  font-size: clamp(1.375rem, 5vw, 2rem);
+  line-height: 1.25;
+  max-width: 26rem;
+  margin-inline: auto;
+  padding-block: clamp(1.25rem, 5vw, 2.25rem);
+}
+
+.card-reading {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.6rem;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.card-answer-char {
+  font-family: var(--han);
+  font-size: 1.9em;
+  line-height: 1.1;
+  color: var(--fg);
+}
+
+.card-answer-char:hover {
+  border-bottom: 1px solid var(--rule-firm);
 }
 
 .card-char {

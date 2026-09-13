@@ -10,9 +10,18 @@ import type { IndexRow } from '@/lib/search';
 import { charHref, soundHref } from '@/lib/site';
 
 const STORE = 'lc-progress-v1';
+const DIRECTION_STORE = 'lc-direction-v1';
 
 /** Leitner boxes: a miss drops you to box 1, a hit moves you up one. */
 const INTERVALS_MS = [0, 6e4 * 10, 864e5, 3 * 864e5, 7 * 864e5, 21 * 864e5];
+
+/**
+ * Recognition and recall are different skills that fail in different places.
+ * Seeing 张 and reaching for the sound is what reading asks of you; holding
+ * "opened and spread" and reaching for the character is what writing asks, and
+ * it is much the harder of the two. Both directions drill the same deck.
+ */
+type Direction = 'zh-en' | 'en-zh';
 
 interface Card {
   box: number;
@@ -49,6 +58,7 @@ export default function Practice({
   const params = useSearchParams();
   const [index, setIndex] = useState<IndexRow[] | null>(null);
   const [progress, setProgress] = useState<Progress>({});
+  const [direction, setDirection] = useState<Direction>('zh-en');
   const [syllable, setSyllable] = useState<string | null>(null);
   const [cluster, setCluster] = useState<string | null>(null);
   const [current, setCurrent] = useState<string | null>(null);
@@ -57,6 +67,12 @@ export default function Practice({
 
   useEffect(() => {
     setProgress(readProgress());
+    try {
+      const saved = window.localStorage.getItem(DIRECTION_STORE);
+      if (saved === 'zh-en' || saved === 'en-zh') setDirection(saved);
+    } catch {
+      /* ignore */
+    }
     import('@/lib/generated/search-index.json').then((mod) =>
       setIndex((mod.default ?? mod) as unknown as IndexRow[]),
     );
@@ -68,6 +84,16 @@ export default function Practice({
     setCurrent(null);
     setRevealed(false);
   }, [params]);
+
+  function chooseDirection(next: Direction) {
+    setDirection(next);
+    setRevealed(false);
+    try {
+      window.localStorage.setItem(DIRECTION_STORE, next);
+    } catch {
+      /* ignore */
+    }
+  }
 
   const clusterChars = useMemo(() => {
     if (!cluster) return null;
@@ -90,14 +116,10 @@ export default function Practice({
       const pool = from.filter((row) => from.length === 1 || idOf(row) !== avoid);
       const due = pool.filter((row) => (store[idOf(row)]?.due ?? 0) <= now);
       const choices = due.length ? due : pool;
-      let best = choices[0];
-      let bestDue = store[idOf(best)]?.due ?? 0;
+      let bestDue = Infinity;
       for (const row of choices) {
         const rowDue = store[idOf(row)]?.due ?? 0;
-        if (rowDue < bestDue) {
-          best = row;
-          bestDue = rowDue;
-        }
+        if (rowDue < bestDue) bestDue = rowDue;
       }
       const tied = choices.filter((row) => (store[idOf(row)]?.due ?? 0) === bestDue);
       return idOf(tied[Math.floor(Math.random() * tied.length)]);
@@ -135,12 +157,142 @@ export default function Practice({
   const scopeLabel = syllable
     ? `everything read ${syllable}`
     : cluster
-      ? clusterOptions.find((c) => c.slug === cluster)?.name.toLowerCase()
+      ? (clusterOptions.find((c) => c.slug === cluster)?.name.toLowerCase() ?? 'this cluster')
       : 'every reading ranked 1 to 500';
+
+  // A syllable reached from a sound page is usually not one of the twelve
+  // fullest, so it needs a chip of its own or nothing appears to be selected.
+  const syllableChips = useMemo(() => {
+    if (syllable && !crowded.some((c) => c.syllable === syllable)) {
+      return [{ syllable, count: deck.length }, ...crowded];
+    }
+    return crowded;
+  }, [crowded, syllable, deck.length]);
+
+  const answer = card && (
+    <>
+      <p className="card-reading">
+        <Link href={charHref(card[0])} lang="zh" className="card-answer-char">
+          {card[0]}
+        </Link>
+        <span>{card[1]}</span>
+        {card[8] === 1 && <InventedMark />}
+      </p>
+      <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
+      {coreAddsMeaning(card[4], card[5]) && <p className="core">{card[4]}</p>}
+    </>
+  );
 
   return (
     <>
-      <div className="controls">
+      <div className="drill-bar">
+        <div className="control">
+          <span className="control-label" id="direction-label">
+            Test
+          </span>
+          <ul className="chips" role="group" aria-labelledby="direction-label">
+            <li>
+              <button
+                type="button"
+                className="chip"
+                aria-pressed={direction === 'zh-en'}
+                onClick={() => chooseDirection('zh-en')}
+              >
+                character first
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                className="chip"
+                aria-pressed={direction === 'en-zh'}
+                onClick={() => chooseDirection('en-zh')}
+              >
+                meaning first
+              </button>
+            </li>
+          </ul>
+        </div>
+        <p className="note">
+          Drilling {scopeLabel} — {deck.length} {deck.length === 1 ? 'card' : 'cards'}.
+          {syllable && (
+            <>
+              {' '}
+              <Link href={soundHref(syllable)}>See the whole group laid out</Link>.
+            </>
+          )}
+        </p>
+      </div>
+
+      {!index && <p className="note">Loading the dictionary…</p>}
+
+      {card && (
+        <div className="card">
+          {direction === 'zh-en' ? (
+            <>
+              <p className="card-prompt">
+                {revealed ? 'the thread' : 'How is it read, and what is the thread?'}
+              </p>
+              <p className="card-char" lang="zh">
+                {card[0]}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="card-prompt">
+                {revealed ? 'the character' : 'Which character is this, and how is it read?'}
+              </p>
+              <p className="card-idea core">{card[4]}</p>
+            </>
+          )}
+
+          {revealed && <div className="card-answer">{answer}</div>}
+
+          <div className="card-actions">
+            {revealed ? (
+              <>
+                <button type="button" className="btn" onClick={() => grade(false)}>
+                  Missed it
+                </button>
+                <button type="button" className="btn" onClick={() => grade(true)}>
+                  Got it
+                </button>
+              </>
+            ) : (
+              <button type="button" className="btn" onClick={() => setRevealed(true)}>
+                Reveal
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
+      {index && !card && (
+        <p className="note">Nothing in this deck yet. Pick another sound or meaning below.</p>
+      )}
+
+      <div className="progress">
+        <span>{seen} answered this session</span>
+        <span>
+          {started} of {deck.length} started
+        </span>
+        <span>{learned} settling in</span>
+        <button
+          type="button"
+          className="btn-quiet"
+          style={{ padding: 0, textDecoration: 'underline' }}
+          onClick={() => {
+            if (!window.confirm('Clear all flashcard progress on this device?')) return;
+            setProgress({});
+            writeProgress({});
+            setSeen(0);
+          }}
+        >
+          Reset progress
+        </button>
+      </div>
+
+      <div className="controls" style={{ marginTop: '2.5rem' }}>
         <div className="control">
           <span className="control-label" id="drill-label">
             Drill a sound
@@ -151,7 +303,7 @@ export default function Practice({
                 commonest 500
               </Link>
             </li>
-            {crowded.map((s) => (
+            {syllableChips.map((s) => (
               <li key={s.syllable}>
                 <Link
                   href={`/practice/?syllable=${encodeURIComponent(s.syllable)}`}
@@ -183,82 +335,6 @@ export default function Practice({
             ))}
           </ul>
         </div>
-      </div>
-
-      <p className="note">
-        Drilling {scopeLabel} — {deck.length} {deck.length === 1 ? 'card' : 'cards'}.
-        {syllable && (
-          <>
-            {' '}
-            <Link href={soundHref(syllable)}>See the whole group laid out</Link>.
-          </>
-        )}
-      </p>
-
-      {!index && <p className="note">Loading the dictionary…</p>}
-
-      {card && (
-        <div className="card">
-          <p className="card-prompt">
-            {revealed ? 'the thread' : 'How is it read, and what is the thread?'}
-          </p>
-          <p className="card-char" lang="zh">
-            {card[0]}
-          </p>
-
-          {revealed ? (
-            <div className="card-answer">
-              <p className="hero-read">
-                {card[1]}
-                {card[8] === 1 && <InventedMark />}
-              </p>
-              <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
-              {coreAddsMeaning(card[4], card[5]) && <p className="core">{card[4]}</p>}
-              <div className="card-actions">
-                <button type="button" className="btn" onClick={() => grade(false)}>
-                  Missed it
-                </button>
-                <button type="button" className="btn" onClick={() => grade(true)}>
-                  Got it
-                </button>
-              </div>
-              <p className="note" style={{ marginTop: '1rem' }}>
-                <Link href={charHref(card[0])}>Open the full entry</Link>
-              </p>
-            </div>
-          ) : (
-            <div className="card-actions">
-              <button type="button" className="btn" onClick={() => setRevealed(true)}>
-                Reveal
-              </button>
-            </div>
-          )}
-        </div>
-      )}
-
-      {index && !card && (
-        <p className="note">Nothing in this deck yet. Pick another sound or meaning.</p>
-      )}
-
-      <div className="progress">
-        <span>{seen} answered this session</span>
-        <span>
-          {started} of {deck.length} started
-        </span>
-        <span>{learned} settling in</span>
-        <button
-          type="button"
-          className="btn-quiet"
-          style={{ padding: 0, textDecoration: 'underline' }}
-          onClick={() => {
-            if (!window.confirm('Clear all flashcard progress on this device?')) return;
-            setProgress({});
-            writeProgress({});
-            setSeen(0);
-          }}
-        >
-          Reset progress
-        </button>
       </div>
     </>
   );

@@ -26,10 +26,9 @@ export default function PracticePage() {
       <header className="page-head">
         <h1>Practise</h1>
         <p className="lede">
-          Flashcards over the mnemonics, spaced so the ones you miss come back sooner. The
-          useful mode is drilling a whole sound group at once: the difficulty is almost
-          never a single character in isolation, it is telling thirteen characters read
-          zhang apart.
+          Flashcards over the mnemonics, spaced so the ones you miss come back sooner. Test
+          in either direction, and drill a whole sound group at once — the difficulty is
+          rarely one character in isolation, it is telling thirteen that sound alike apart.
         </p>
       </header>
 
