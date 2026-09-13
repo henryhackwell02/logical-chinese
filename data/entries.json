@@ -439,7 +439,7 @@
 {"char": "倒", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "turned upside down and poured out", "mnemonic": "turned over and poured — DOWnward", "invented": false, "crossRefs": ["dǎo"], "freqRank": 587, "traditional": ""},
 {"char": "到", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "arriving at", "mnemonic": "arrive upTO", "invented": false, "crossRefs": [], "freqRank": 21, "traditional": ""},
 {"char": "盗", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "taken by stealth", "mnemonic": "plunDER", "invented": false, "crossRefs": [], "freqRank": 1328, "traditional": "盜"},
-{"char": "稻", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "rice in the paddy", "mnemonic": "rice DOWn in the paddy", "invented": false, "crossRefs": [], "freqRank": 2770, "traditional": ""},
+{"char": "稻", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "rice in the paddy", "mnemonic": "paDDY field", "invented": false, "crossRefs": [], "freqRank": 2770, "traditional": ""},
 {"char": "悼", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "mourned", "mnemonic": "mourned — DOWncast", "invented": false, "crossRefs": [], "freqRank": 2962, "traditional": ""},
 {"char": "德", "pinyin": "dé", "syllable": "de", "tone": 2, "core": "the good a person carries in them", "mnemonic": "the good you carry — DEcency", "invented": false, "crossRefs": [], "freqRank": 233, "traditional": "悳惪"},
 {"char": "得", "pinyin": "dé", "syllable": "de", "tone": 2, "core": "got hold of", "mnemonic": "got hold of — it's DElivered", "invented": false, "crossRefs": ["de", "děi"], "freqRank": 36, "traditional": ""},
