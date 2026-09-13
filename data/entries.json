@@ -388,7 +388,7 @@
 {"char": "搭", "pinyin": "dā", "syllable": "da", "tone": 1, "core": "laid across to join", "mnemonic": "builD Up / MAtch up", "invented": false, "crossRefs": [], "freqRank": 1923, "traditional": ""},
 {"char": "答", "pinyin": "dā", "syllable": "da", "tone": 1, "core": "answering back", "mnemonic": "responDA / ANswer", "invented": false, "crossRefs": ["dá"], "freqRank": 571, "traditional": ""},
 {"char": "打", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "dozen", "mnemonic": "a DOZen — the dealer's set", "invented": false, "crossRefs": ["dǎ"], "freqRank": 240, "traditional": ""},
-{"char": "达", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "reaching all the way through", "mnemonic": "reaching all the way — DAsh through", "invented": false, "crossRefs": [], "freqRank": 336, "traditional": "達"},
+{"char": "达", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "reaching all the way through", "mnemonic": "reach OUT / ATtain / raDAR", "invented": false, "crossRefs": [], "freqRank": 336, "traditional": "達"},
 {"char": "答", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "the answer given", "mnemonic": "the answer you DAsh back", "invented": false, "crossRefs": ["dā"], "freqRank": 571, "traditional": ""},
 {"char": "打", "pinyin": "dǎ", "syllable": "da", "tone": 3, "core": "striking, and by extension doing", "mnemonic": "DAsh it — strike it", "invented": false, "crossRefs": ["dá"], "freqRank": 240, "traditional": ""},
 {"char": "大", "pinyin": "dà", "syllable": "da", "tone": 4, "core": "big", "mnemonic": "DAd is big", "invented": false, "crossRefs": ["dài"], "freqRank": 15, "traditional": ""},
