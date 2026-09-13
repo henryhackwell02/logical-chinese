@@ -635,7 +635,7 @@
 {"char": "疯", "pinyin": "fēng", "syllable": "feng", "tone": 1, "core": "the mind gone wild", "mnemonic": "frenzy", "invented": false, "crossRefs": [], "freqRank": 1899, "traditional": "瘋"},
 {"char": "缝", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "stitched together", "mnemonic": "FISSure FASTening", "invented": false, "crossRefs": ["fèng"], "freqRank": 2120, "traditional": "縫"},
 {"char": "逢", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "met by chance", "mnemonic": "FALL UPon", "invented": false, "crossRefs": [], "freqRank": 1825, "traditional": ""},
-{"char": "讽", "pinyin": "fěng", "syllable": "feng", "tone": 3, "core": "said sidelong to mock", "mnemonic": "said sidelong — the FEiNt of a jibe", "invented": false, "crossRefs": [], "freqRank": 2516, "traditional": "諷"},
+{"char": "讽", "pinyin": "fěng", "syllable": "feng", "tone": 3, "core": "said sidelong to mock", "mnemonic": "FUNNY snide / comment", "invented": false, "crossRefs": [], "freqRank": 2516, "traditional": "諷"},
 {"char": "凤", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "phoenix", "mnemonic": "the phoenix — a FLAMiNG bird", "invented": false, "crossRefs": [], "freqRank": 1160, "traditional": "鳳"},
 {"char": "奉", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "held up and offered with both hands", "mnemonic": "held up and offered — both hands FULL", "invented": false, "crossRefs": [], "freqRank": 880, "traditional": ""},
 {"char": "缝", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "the seam, and the crack in it", "mnemonic": "the seam, and the crack — a FiNe split", "invented": false, "crossRefs": ["féng"], "freqRank": 2120, "traditional": "縫"},
