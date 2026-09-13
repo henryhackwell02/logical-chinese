@@ -1,0 +1,247 @@
+name: Suggestion
+
+# One pass over a mnemonic suggestion: validate it, then either land it straight
+# away or park it for approval.
+#
+#   Filed by you, or anyone else with write access  ->  applied and deployed now.
+#   Filed by anyone else                            ->  validated, labelled, and
+#                                                       held until a maintainer
+#                                                       adds the `approved` label.
+#
+# The repository is public, so the second path matters: without it anyone could
+# commit to the live dictionary. `author_association` is set by GitHub from the
+# filer's real permissions and cannot be spoofed by issue content.
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: suggestion-apply
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    # Only mnemonic issues that are still open, and — for label events — only the
+    # one label that means anything here.
+    if: >-
+      github.event.issue.state == 'open' &&
+      contains(github.event.issue.labels.*.name, 'mnemonic') &&
+      (github.event.action != 'labeled' || github.event.label.name == 'approved')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Issue bodies are untrusted input: they travel via the environment and a
+      # file, and are never interpolated into a shell command.
+      - name: Write the issue body to a file
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/body.md"
+
+      - name: Validate the suggestion
+        id: validate
+        continue-on-error: true
+        run: node scripts/apply-suggestion.mjs --body-file "$RUNNER_TEMP/body.md"
+
+      - name: Decide whether it can land now
+        id: gate
+        env:
+          ASSOCIATION: ${{ github.event.issue.author_association }}
+          ACTION: ${{ github.event.action }}
+          LABEL: ${{ github.event.label.name }}
+        run: |
+          trusted=false
+          case "$ASSOCIATION" in
+            OWNER|MEMBER|COLLABORATOR) trusted=true ;;
+          esac
+          if [ "$ACTION" = "labeled" ] && [ "$LABEL" = "approved" ]; then
+            trusted=true
+          fi
+          echo "trusted=$trusted" >> "$GITHUB_OUTPUT"
+          echo "author_association=$ASSOCIATION, landing now: $trusted"
+
+      # ---------------------------------------------------------------- rejected
+
+      - name: Report a suggestion that cannot be applied
+        if: steps.validate.outputs.ok != 'true'
+        uses: actions/github-script@v7
+        env:
+          MESSAGE: ${{ steps.validate.outputs.message }}
+        with:
+          script: |
+            const message = process.env.MESSAGE || 'The suggestion could not be read.';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                '**This needs a change before it can be applied.**',
+                '',
+                '> ' + message.split('\n').join('\n> '),
+                '',
+                'Edit the issue and it will be rechecked automatically.',
+              ].join('\n'),
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['needs-changes'],
+            });
+            await github.rest.issues
+              .removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'applies-cleanly',
+              })
+              .catch(() => {});
+
+      - name: Stop here if it was rejected
+        if: steps.validate.outputs.ok != 'true'
+        run: exit 1
+
+      # ------------------------------------------------- valid, but not yet trusted
+
+      - name: Hold it for approval
+        if: steps.gate.outputs.trusted != 'true'
+        uses: actions/github-script@v7
+        env:
+          MESSAGE: ${{ steps.validate.outputs.message }}
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                '**This applies cleanly.**',
+                '',
+                '```',
+                process.env.MESSAGE,
+                '```',
+                '',
+                'A maintainer can land it by adding the `approved` label — that commits the',
+                'change and the site redeploys on its own.',
+              ].join('\n'),
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['applies-cleanly'],
+            });
+            await github.rest.issues
+              .removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'needs-changes',
+              })
+              .catch(() => {});
+
+      # ------------------------------------------------------------------- landing
+
+      - name: Apply it to data/entries.json
+        if: steps.gate.outputs.trusted == 'true'
+        id: apply
+        run: node scripts/apply-suggestion.mjs --body-file "$RUNNER_TEMP/body.md" --write
+
+      - name: Re-check the data
+        if: steps.gate.outputs.trusted == 'true'
+        run: node scripts/check-data.mjs
+
+      - name: Confirm only one line moved
+        if: steps.gate.outputs.trusted == 'true'
+        run: |
+          changed=$(git diff --numstat -- data/entries.json)
+          echo "$changed"
+          test "$(echo "$changed" | awk '{print $1" "$2}')" = "1 1" \
+            || { echo "expected exactly one line added and one removed"; exit 1; }
+          test -z "$(git diff --name-only -- . ':!data/entries.json')" \
+            || { echo "unexpected changes outside data/entries.json"; exit 1; }
+
+      - name: Commit and push
+        if: steps.gate.outputs.trusted == 'true'
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          SUMMARY: ${{ steps.apply.outputs.message }}
+          CHAR: ${{ steps.apply.outputs.char }}
+          PINYIN: ${{ steps.apply.outputs.pinyin }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/entries.json
+          printf 'Update %s %s from a suggestion\n\n%s\n\nCloses #%s\nSuggested-by: @%s\n' \
+            "$CHAR" "$PINYIN" "$SUMMARY" "$ISSUE_NUMBER" "$ISSUE_USER" > "$RUNNER_TEMP/msg.txt"
+          git commit -F "$RUNNER_TEMP/msg.txt"
+          # Another suggestion may have landed while this one ran.
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Say it has landed
+        if: steps.gate.outputs.trusted == 'true' && success()
+        uses: actions/github-script@v7
+        env:
+          SUMMARY: ${{ steps.apply.outputs.message }}
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                '**Applied and pushed to `main`.**',
+                '',
+                '```',
+                process.env.SUMMARY,
+                '```',
+                '',
+                'The site redeploys from that commit, so it will be live shortly.',
+              ].join('\n'),
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });
+
+      - name: Say it could not land
+        if: failure() && steps.validate.outputs.ok == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body:
+                '**Could not apply this automatically.** See the run log linked above. ' +
+                'Nothing was committed, so the dictionary is untouched.',
+            });
+            await github.rest.issues
+              .removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'approved',
+              })
+              .catch(() => {});

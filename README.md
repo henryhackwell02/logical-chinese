@@ -62,20 +62,24 @@ Each entry page has a **Suggest a better mnemonic** link. It opens
 `.github/ISSUE_TEMPLATE/mnemonic.yml` with the character and reading already filled in, so
 a reader only writes the replacement. From there it is automatic:
 
-1. **On submit,** `suggestion-check.yml` validates it — the character exists, the reading
-   exists on that character, the text is English, and the mnemonic has something that would
+1. **On submit,** `suggestion.yml` validates it — the character exists, the reading exists
+   on that character, the text is English, and the mnemonic has something that would
    actually light up. It comments back with the exact change it would make, or with what is
-   wrong, and labels the issue `applies-cleanly` or `needs-changes`. Editing the issue
-   re-runs the check.
-2. **On approval,** adding the `approved` label fires `suggestion-apply.yml`. It rewrites
-   the one field on the one line, re-runs `check-data`, refuses to continue unless the diff
-   is exactly one line in `data/entries.json` and nothing else, commits to `main`, comments,
-   and closes the issue. Vercel redeploys from that commit.
+   wrong. Editing the issue re-runs the check.
+2. **Then it either lands or waits,** depending on who filed it:
 
-The `approved` label is the gate, and only accounts with write access can add labels — so
-the person who filed the issue cannot land their own change. That is deliberate: a public
-dictionary that accepts anonymous writes straight to `main` gets vandalised. Approving is
-one click.
+   | Filed by | What happens |
+   | --- | --- |
+   | You, or anyone with write access | Applied, committed and deployed straight away |
+   | Anyone else | Labelled `applies-cleanly` and held until a maintainer adds `approved` |
+
+   Landing means: rewrite the one field on the one line, re-run `check-data`, refuse to
+   continue unless the diff is exactly one line in `data/entries.json` and nothing else,
+   commit to `main`, comment, close the issue. Vercel redeploys from that commit.
+
+The split exists because the repository is public: without it, anyone could commit to the
+live dictionary. Trust comes from `author_association`, which GitHub sets from the filer's
+real permissions — it is not anything the issue body can claim.
 
 `scripts/apply-suggestion.mjs` does the edit and never re-serialises the file: it replaces
 the quoted value in place, then proves the bytes outside that line are unchanged, the field

@@ -141,10 +141,10 @@ export default function AboutPage() {
           Some of them are. Every entry has a{' '}
           <strong>Suggest a better mnemonic</strong> link that opens a short form on
           GitHub with the character and its reading already filled in. Write the
-          replacement, submit, and a check runs immediately to confirm it applies to the
-          right reading and that something in it would actually light up — it comments
-          back either way. Once it is approved the change is committed and the site
-          rebuilds itself, usually within a few minutes. Nobody retypes anything.
+          replacement and submit. A check runs immediately to confirm it applies to the
+          right reading and that something in it would actually light up, and comments
+          back either way. Accepted suggestions are committed and the site rebuilds
+          itself, usually within a few minutes. Nobody retypes anything.
         </p>
         <p>
           Corrections to the core ideas are as welcome as corrections to the mnemonics, and
