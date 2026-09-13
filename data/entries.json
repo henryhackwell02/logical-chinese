@@ -633,7 +633,7 @@
 {"char": "丰", "pinyin": "fēng", "syllable": "feng", "tone": 1, "core": "full and abundant", "mnemonic": "full and abundant — FLOURISHING", "invented": false, "crossRefs": [], "freqRank": 1186, "traditional": "豐"},
 {"char": "锋", "pinyin": "fēng", "syllable": "feng", "tone": 1, "core": "the cutting edge, and what goes in front", "mnemonic": "FRONT cutting edge", "invented": false, "crossRefs": [], "freqRank": 1711, "traditional": "鋒"},
 {"char": "疯", "pinyin": "fēng", "syllable": "feng", "tone": 1, "core": "the mind gone wild", "mnemonic": "frenzy", "invented": false, "crossRefs": [], "freqRank": 1899, "traditional": "瘋"},
-{"char": "缝", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "stitched together", "mnemonic": "stitched — the seam you FASteN", "invented": false, "crossRefs": ["fèng"], "freqRank": 2120, "traditional": "縫"},
+{"char": "缝", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "stitched together", "mnemonic": "FISSure FASTening", "invented": false, "crossRefs": ["fèng"], "freqRank": 2120, "traditional": "縫"},
 {"char": "逢", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "met by chance", "mnemonic": "FALL UPon", "invented": false, "crossRefs": [], "freqRank": 1825, "traditional": ""},
 {"char": "讽", "pinyin": "fěng", "syllable": "feng", "tone": 3, "core": "said sidelong to mock", "mnemonic": "said sidelong — the FEiNt of a jibe", "invented": false, "crossRefs": [], "freqRank": 2516, "traditional": "諷"},
 {"char": "凤", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "phoenix", "mnemonic": "the phoenix — a FLAMiNG bird", "invented": false, "crossRefs": [], "freqRank": 1160, "traditional": "鳳"},
