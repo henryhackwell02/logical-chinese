@@ -1,0 +1,4 @@
+# The hand-authored data files are edited directly on GitHub and must survive
+# byte-identical. Never normalise line endings and never run a formatter on them.
+data/entries.json -text
+data/clusters.json -text

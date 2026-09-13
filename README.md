@@ -1,125 +1,161 @@
 # Logical Chinese
 
-A personal database of Chinese characters, grouped by **pinyin sound and
-tone** — every `huang1`, `huang2`, `huang3`, `huang4` nested together under
-`huang`. Add characters yourself through the site, with a definition and an
-optional memory trick for each.
+A Mandarin dictionary organised by sound, built for remembering.
 
-Built with Next.js (App Router) + TypeScript + Tailwind, backed by a free
-Supabase Postgres database (so entries you add through the live site
-persist — a plain static site can't do that).
+Every character carries an English phrase with the Mandarin sound hidden inside it and
+spelled out in capitals — `inCANdescent`, `anchor`, `the mAlIgnant growth`. The site lights
+those capitals wherever they appear. Characters are grouped by syllable rather than by
+radical or stroke count, because the hard part of Mandarin is rarely a character in
+isolation; it is telling apart the thirteen that sound identical.
 
-## One-time setup
+3,021 readings of 2,764 characters, across 396 syllable pages and 33 meaning clusters.
+Statically exported, no database, no search server, no runtime dependencies beyond React.
 
-### 1. Create a free Supabase project
+---
 
-1. Go to https://supabase.com, sign up, and create a new project (free tier).
-2. Once it's provisioned, open the **SQL Editor** and run the contents of
-   [`scripts/schema.sql`](scripts/schema.sql) — this creates the one table
-   the app needs.
-3. Go to **Project Settings → API** and copy:
-   - **Project URL** → this is `SUPABASE_URL`
-   - **service_role key** (not the `anon` key — this one bypasses row-level
-     security, which is fine since it's only ever used server-side) →
-     this is `SUPABASE_SERVICE_ROLE_KEY`
+## The data
 
-### 2. Set environment variables
+Everything lives in two hand-authored files:
 
-Copy `.env.local.example` to `.env.local` and fill in:
+| File | Contents |
+| --- | --- |
+| `data/entries.json` | 3,021 readings, **one JSON object per line** |
+| `data/clusters.json` | 33 near-synonym groups with per-character notes and compounds |
 
-```
-SUPABASE_URL=https://YOUR_PROJECT.supabase.co
-SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-ADMIN_PASSWORD=choose-a-password
+```json
+{"char": "灿", "pinyin": "càn", "syllable": "can", "tone": 4, "core": "brilliantly shining", "mnemonic": "shining — CAN you look at it?", "invented": false, "crossRefs": [], "freqRank": 2769, "traditional": "燦"}
 ```
 
-`ADMIN_PASSWORD` is whatever you want — it's the password you'll use to log
-in on the site to add/edit/delete characters. There's no separate account
-system; this is a single-admin personal tool.
+| Field | Meaning |
+| --- | --- |
+| `syllable` | toneless pinyin — the primary organising axis, 396 distinct values |
+| `tone` | 1–4, or 5 for neutral |
+| `core` | the one idea running through every sense of the character |
+| `mnemonic` | English phrase; the capitals carry the Mandarin sound |
+| `invented` | `true` for the 29 threads that are memory aids rather than real etymology |
+| `crossRefs` | other pinyin readings of the same character |
+| `freqRank` | corpus frequency, 1 is commonest |
+| `traditional` | traditional variant(s), or `""` when unchanged |
 
-### 3. Install and run
+### Never reformat these two files
+
+They are edited by hand on GitHub, and the one-object-per-line layout is what makes a diff
+readable. `.gitattributes` pins their line endings, `.prettierignore` excludes them, and
+`npm run check-data` fails the build if the line count stops matching the object count.
+Do not run a formatter over `data/`.
+
+---
+
+## Editing after launch
+
+The intended workflow needs no local checkout:
+
+1. Open `data/entries.json` on GitHub and press the pencil.
+2. Find the line — one object per line, so search for the character.
+3. Edit `mnemonic` or `core` and commit to `main`.
+4. Vercel rebuilds and redeploys. Every derived page, the search index and the sitemap
+   regenerate from the file; nothing else needs touching.
+
+Each entry page has a **Suggest a better mnemonic** link that opens a prefilled GitHub
+issue with the character, its current mnemonic and a template — so readers can propose
+fixes without a checkout either.
+
+Before committing a large edit, run the integrity check:
+
+```bash
+npm run check-data
+```
+
+It verifies field shape, tone values, duplicate readings, the one-object-per-line layout,
+that every `crossRefs` entry has a reading of its own, that cluster slugs are routable, and
+that every cluster character exists in `entries.json`. Failures exit non-zero; warnings are
+printed but do not block.
+
+Three known warnings, all harmless: 炮 `bāo`, 椎 `chuí` and 椎 `zhuī` have sibling readings
+but empty `crossRefs`. The site derives sibling links from the data grouping rather than
+from `crossRefs`, so those readings still cross-link correctly in both directions.
+
+---
+
+## Local development
 
 ```bash
 npm install
-npm run dev
+npm run dev      # http://localhost:3000
+npm run build    # static export into out/
+npm run check-data
 ```
 
-Visit http://localhost:3000, click **Admin login** top-right, and log in
-with your `ADMIN_PASSWORD` to start adding characters.
+`npm run dev` and `npm run build` both run `scripts/build-search-index.mjs` first (via
+`predev`/`prebuild`), which regenerates `lib/generated/search-index.json` from
+`data/entries.json`. That file is gitignored — it is always rebuilt, so it can never drift
+from the data.
 
-### 4. (Optional) seed the two example character groups
+A production build writes `out/`: 3,203 pre-rendered pages, plus `sitemap.xml` and
+`robots.txt`.
 
-If you want the 侯/候/猴/喉 and 青/请/清/情/晴/精 examples from the earlier
-prototype pre-loaded:
+---
 
-```bash
-node --env-file=.env.local scripts/migrate-json-to-db.mjs
-```
+## Routes
 
-## How data is structured
+| Route | What it is |
+| --- | --- |
+| `/` | search-first home, demonstrating the mechanic on a real entry |
+| `/char/[char]` | the entry page — every reading of one character (2,764 pages) |
+| `/sound/[syllable]` | every character sharing a sound, grouped by tone (396 pages) |
+| `/meaning/[slug]` | a near-synonym cluster, with what separates the members (33 pages) |
+| `/meaning` | index of clusters |
+| `/browse` | frequency bands with tone, cluster and invented-thread filters; full A–Z syllable index |
+| `/practice` | spaced-repetition flashcards, scoped to a syllable group or a cluster |
+| `/about` | how the mnemonics work, the invented threads, sources and licence |
 
-Each character is one row: `character`, `sound_base` (pinyin without tone,
-e.g. `"hou"`), `tone` (1–4, or 5 for neutral), `meaning`, `definition`,
-`memory_trick`, and a list of example words. Pages are generated by
-grouping on `sound_base` then `tone` — so the whole `hou` family (`hou1`,
-`hou2`, `hou3`, `hou4`) lives together at `/sound/hou`, with each tone as
-its own nested section and each character as a directly-linkable anchor
-(`/sound/hou#<id>`).
+Characters are percent-encoded in URLs: `/char/%E7%81%BF/` is 灿.
 
-## Adding characters
+---
 
-Once logged in as admin:
+## How a few things work
 
-1. Click **+ Add character** on the homepage.
-2. Type the character, then click **Look up** — this queries CC-CEDICT (a
-   free, open Chinese-English dictionary) and auto-fills pinyin + a basic
-   meaning if it finds a match. You can also type these in by hand.
-3. Pinyin is entered **numbered** (e.g. `hou4`, `huang2`) rather than with
-   accent marks — easier to type, and the site renders the accented form
-   (`hòu`, `huáng`) automatically.
-4. Paste your AI-generated definition into **Definition**.
-5. Add a **Memory trick** — a mnemonic hook, phonetic association, or
-   whatever helps it stick.
-6. Add any example words (optional).
+**The highlight.** `lib/mnemonic.ts` handles the three conventions the data actually uses,
+in order: a run of two or more capitals is the sound (`douBlEd`); failing that, scattered
+single capitals are (`the mAlIgnant growth`, 87 entries); failing that, the whole mnemonic
+is a lowercase word that simply sounds like the syllable (`anchor`, 131 entries). Runs win
+outright, which keeps sentence-initial capitals and proper nouns out of the highlight. No
+mnemonic ever renders unlit.
 
-Edit and delete are available on each character's card once you're logged
-in.
+**The duplicated core line.** About three quarters of the mnemonics restate the core idea
+before the dash — `"opened and spread, and one flat sheet — the JAmmed-open sheet"` against
+a core of `"opened and spread; and one flat sheet"`. Printing both says the same thing
+twice, so `coreAddsMeaning()` suppresses the core line when it is already contained in the
+mnemonic. The mnemonic itself is always rendered whole and is never truncated. If those
+prefixes are ever trimmed out of the data, the core line reappears on its own.
 
-## Project structure
+**Search.** `lib/search.ts`, a plain filter over a prebuilt tuple index. Ranked: exact
+character, then exact syllable ignoring tones, then syllable prefix, then word-start in the
+core or mnemonic, then substring — frequency breaking ties. Pinyin is matched with
+diacritics stripped and `ü` folded to both `u` and `v`, so `zhang`, `zhāng`, `lu`, `lü` and
+`lv` all work. The index is a lazily imported chunk, so nothing is downloaded until someone
+reaches for the box, and there is no search API.
 
-```
-lib/characters.ts        Supabase queries + grouping logic
-lib/auth.ts               cookie-based admin gate
-lib/pinyin.ts              numbered pinyin (huang2) <-> accented (huáng)
-lib/supabaseAdmin.ts      server-only Supabase client (service role key)
-app/actions.ts             server actions: login/logout, create/update/delete
-app/page.tsx                homepage: all sounds, nested tone breakdown, search
-app/sound/[base]/page.tsx    one page per sound, tones nested underneath
-app/add, app/edit/[id]      character forms (admin only)
-app/login                   admin password form
-app/api/lookup               CC-CEDICT lookup endpoint used by the "Look up" button
-components/CharacterForm.tsx shared add/edit form
-components/SearchBar.tsx      client-side search across all characters
-scripts/schema.sql            run once in Supabase SQL editor
-scripts/migrate-json-to-db.mjs  optional seed data from the old prototype
-```
+**Audio** uses the browser's own `SpeechSynthesis` with `zh-CN`, feature-detected and
+hidden when unavailable. **Flashcard progress** is Leitner boxes in `localStorage`. Nothing
+is sent anywhere and there are no accounts.
 
-## Deploying to Vercel
+---
 
-1. Push this repo to GitHub.
-2. Go to https://vercel.com/new and import it.
-3. Before/after deploying, go to **Project Settings → Environment
-   Variables** and add the same three values from your `.env.local`
-   (`SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `ADMIN_PASSWORD`).
-4. Redeploy if you added the env vars after the first deploy.
+## Deployment
 
-Every subsequent `git push` to `main` redeploys automatically. Characters
-you add through the live site are stored in Supabase, not in the repo, so
-they persist across deploys without needing a commit.
+Vercel, from GitHub, on push to `main`. No `vercel.json` is needed: Vercel detects Next.js,
+runs `npm run build`, and serves the `output: 'export'` result from `out/`. Nothing about
+the build requires environment variables, secrets or a runtime.
 
-## A note on the admin password
+---
 
-This is basic, appropriate-for-a-personal-project protection — a shared
-password gates write access, stored in an `httpOnly` cookie after login.
-It is not meant to withstand a targeted attack; don't store anything
-sensitive in this database, and don't reuse a password you use elsewhere.
+## Attribution and licence
+
+The character, pinyin, traditional-variant and gloss substrate derives from
+[CC-CEDICT](https://cc-cedict.org/), used under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This attribution appears in
+the site footer on every page and again on `/about`.
+
+The core ideas, the mnemonics and the meaning clusters are original work by the site author,
+published under the same CC BY-SA 4.0 licence.

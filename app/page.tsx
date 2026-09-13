@@ -1,88 +1,139 @@
-import Link from "next/link";
-import { getAllCharacters, groupBySound } from "@/lib/characters";
-import { isAdmin } from "@/lib/auth";
-import { toneToAccented, toneLabel } from "@/lib/pinyin";
-import SearchBar from "@/components/SearchBar";
+import Link from 'next/link';
+import SiteSearch from '@/components/SiteSearch';
+import Mnemonic from '@/components/Mnemonic';
+import { EntryRows } from '@/components/Bits';
+import {
+  bySyllable,
+  clusters,
+  entries,
+  getEntriesForSyllable,
+  primaryReading,
+  stats,
+} from '@/lib/data';
+import { charHref, meaningHref, soundHref } from '@/lib/site';
 
-export const dynamic = "force-dynamic";
+/** The demonstration entry. Read from the data so it cannot drift from it. */
+const hero = primaryReading('灿');
 
-export default async function HomePage() {
-  const characters = await getAllCharacters();
-  const groups = groupBySound(characters);
-  const admin = isAdmin();
+const crowdedSyllables = [...bySyllable.entries()]
+  .map(([syllable, group]) => ({ syllable, count: new Set(group.map((e) => e.char)).size }))
+  .sort((a, b) => b.count - a.count || a.syllable.localeCompare(b.syllable))
+  .slice(0, 16);
 
+/** One row per character: 的 has three readings and should not open with all three. */
+const openers = [...new Set([...entries].sort((a, b) => a.freqRank - b.freqRank).map((e) => e.char))]
+  .slice(0, 8)
+  .map(primaryReading);
+
+const zhangCount = new Set(getEntriesForSyllable('zhang').map((e) => e.char)).size;
+
+export default function HomePage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
-      <div className="flex items-start justify-between gap-4 flex-wrap">
-        <div>
-          <h1 className="text-3xl font-bold tracking-tight">
-            Chinese characters, grouped by sound
-          </h1>
-          <p className="mt-2 text-stone-600 max-w-2xl">
-            Every character is filed under its pinyin syllable, then by
-            tone — huang1, huang2, huang3, huang4 all nested under{" "}
-            <span className="font-hanzi">huang</span>. Learn a syllable once
-            and see every character that shares it.
+    <div className="wrap">
+      <section className="hero">
+        <h1 className="sr-only">
+          Logical Chinese — a Mandarin dictionary organised by sound
+        </h1>
+        <p className="hero-lede">
+          A Mandarin dictionary organised by sound, built for remembering. Every character
+          carries an English phrase with the Mandarin hidden inside it, spelled out in
+          capitals.
+        </p>
+
+        <div className="hero-demo">
+          <div className="hero-char" lang="zh">
+            <Link href={charHref(hero.char)} aria-label={`${hero.char}, ${hero.pinyin}`}>
+              {hero.char}
+            </Link>
+          </div>
+          <div>
+            <p className="hero-read">{hero.pinyin}</p>
+            <Mnemonic text={hero.mnemonic} className="hero-mnemonic" as="div" />
+            <p className="hero-core core">{hero.core}</p>
+          </div>
+        </div>
+
+        <div className="hero-search">
+          <SiteSearch variant="hero" />
+        </div>
+        <p className="hero-gloss">
+          Type a character, a pinyin syllable without tone marks, or an English word from a
+          mnemonic. {stats.entries.toLocaleString('en-GB')} readings across{' '}
+          {stats.characters.toLocaleString('en-GB')} characters.
+        </p>
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>Sounds that pile up</h2>
+          <p>
+            <Link href={soundHref('zhang')}>{zhangCount} characters read zhang</Link>
           </p>
         </div>
-        {admin && (
-          <Link
-            href="/add"
-            className="shrink-0 rounded-lg bg-red-700 text-white px-4 py-2 text-sm font-medium hover:bg-red-800"
-          >
-            + Add character
-          </Link>
-        )}
-      </div>
-
-      <div className="mt-8 max-w-xl">
-        <SearchBar characters={characters} />
-      </div>
-
-      <h2 className="mt-12 text-xl font-semibold">
-        All sounds ({groups.length})
-      </h2>
-
-      {groups.length === 0 ? (
-        <p className="mt-4 text-stone-500">
-          No characters yet.{" "}
-          {admin ? (
-            <Link href="/add" className="text-red-700 underline">
-              Add the first one
-            </Link>
-          ) : (
-            <>
-              Log in as admin to start adding entries.
-            </>
-          )}
+        <p className="note" style={{ marginBottom: '1rem', maxWidth: '38rem' }}>
+          Mandarin has only about 400 syllables, so homophones stack. These are the
+          fullest. Each page sets the whole group side by side, sorted by tone, so the
+          mnemonics do the work of telling them apart.
         </p>
-      ) : (
-        <div className="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {groups.map((group) => (
-            <Link
-              key={group.soundBase}
-              href={`/sound/${group.soundBase}`}
-              className="block rounded-xl border border-stone-200 bg-white p-5 shadow-sm hover:shadow-md hover:border-red-300 transition"
-            >
-              <div className="text-lg font-medium text-stone-800">
-                {group.soundBase}
-              </div>
-              <div className="mt-3 space-y-1.5">
-                {group.tones.map(({ tone, characters }) => (
-                  <div key={tone} className="flex items-baseline gap-2 text-sm">
-                    <span className="text-stone-400 w-20 shrink-0">
-                      {toneToAccented(group.soundBase, tone)} · {toneLabel(tone)}
-                    </span>
-                    <span className="font-hanzi text-base text-stone-700">
-                      {characters.map((c) => c.character).join(" ")}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </Link>
+        <ul className="chips">
+          {crowdedSyllables.map(({ syllable, count }) => (
+            <li key={syllable}>
+              <Link href={soundHref(syllable)} className="chip">
+                {syllable}
+                <span className="chip-count">{count}</span>
+              </Link>
+            </li>
           ))}
+        </ul>
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>Where to start</h2>
+          <p className="section-more">
+            <Link href="/browse/">All {stats.entries.toLocaleString('en-GB')} readings</Link>
+          </p>
         </div>
-      )}
+        <EntryRows entries={openers} showSyllable />
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>Near-synonyms, pulled apart</h2>
+          <p className="section-more">
+            <Link href="/meaning/">All {stats.clusters} clusters</Link>
+          </p>
+        </div>
+        <ul className="cluster-list">
+          {clusters.slice(0, 6).map((cluster) => (
+            <li key={cluster.slug}>
+              <Link href={meaningHref(cluster.slug)} className="cluster-item">
+                <h3>{cluster.name}</h3>
+                <p className="cluster-idea">{cluster.sharedIdea}</p>
+                <p className="cluster-chars" lang="zh">
+                  {cluster.chars.join('')}
+                </p>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="section">
+        <div className="section-head">
+          <h2>An honest note</h2>
+        </div>
+        <p className="prose">
+          Most of the threads here follow the character&rsquo;s real semantic history.{' '}
+          {stats.invented} of them do not — usually where simplification folded two
+          unrelated traditional characters into one shape, and a thread had to be invented
+          to make the pair stick. Those are marked with a{' '}
+          <span className="seal">◇</span> wherever they appear, and can be filtered out
+          entirely on <Link href="/browse/">the browse page</Link>. They are useful for
+          learning and indefensible as history, and it seemed better to say so than to
+          hope nobody checked. <Link href="/about/">More on how this works.</Link>
+        </p>
+      </section>
     </div>
   );
 }

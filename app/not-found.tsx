@@ -1,15 +1,20 @@
-import Link from "next/link";
+import Link from 'next/link';
+import SiteSearch from '@/components/SiteSearch';
 
 export default function NotFound() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-20 text-center">
-      <div className="font-hanzi text-6xl text-stone-300">找不到</div>
-      <p className="mt-4 text-stone-600">
-        That page isn't in the database yet.
+    <div className="wrap wrap-narrow">
+      <header className="page-head" style={{ paddingTop: '3rem' }}>
+        <h1>Nothing here</h1>
+        <p className="lede">
+          That character or sound is not in the set. The dictionary covers the commonest
+          3,000 characters; anything rarer has no entry yet.
+        </p>
+      </header>
+      <SiteSearch variant="hero" />
+      <p className="crumb">
+        <Link href="/browse/">Browse everything</Link>
       </p>
-      <Link href="/" className="mt-4 inline-block text-red-700 underline">
-        Back to all sounds
-      </Link>
     </div>
   );
 }
