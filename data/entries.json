@@ -562,7 +562,7 @@
 {"char": "厄", "pinyin": "è", "syllable": "e", "tone": 4, "core": "hemmed in by hardship", "mnemonic": "hemmed in — an EMbattled fix", "invented": false, "crossRefs": [], "freqRank": 2705, "traditional": "戹"},
 {"char": "遏", "pinyin": "è", "syllable": "e", "tone": 4, "core": "checked and held back", "mnemonic": "checked — hEld back", "invented": false, "crossRefs": [], "freqRank": 2854, "traditional": ""},
 {"char": "愕", "pinyin": "è", "syllable": "e", "tone": 4, "core": "struck still with surprise", "mnemonic": "struck still — AGog", "invented": false, "crossRefs": [], "freqRank": 2896, "traditional": ""},
-{"char": "恩", "pinyin": "ēn", "syllable": "en", "tone": 1, "core": "kindness given from above", "mnemonic": "kindness from above — hANded down", "invented": false, "crossRefs": [], "freqRank": 784, "traditional": "㤙"},
+{"char": "恩", "pinyin": "ēn", "syllable": "en", "tone": 1, "core": "kindness given from above", "mnemonic": "kINdness", "invented": false, "crossRefs": [], "freqRank": 784, "traditional": "㤙"},
 {"char": "嗯", "pinyin": "ēn", "syllable": "en", "tone": 1, "core": "a low groan", "mnemonic": "a low mmm-ENN", "invented": false, "crossRefs": ["èn", "en"], "freqRank": 2496, "traditional": ""},
 {"char": "嗯", "pinyin": "èn", "syllable": "en", "tone": 4, "core": "the grunt that queries", "mnemonic": "ENN? — the grunt that asks", "invented": false, "crossRefs": ["ēn"], "freqRank": 2496, "traditional": ""},
 {"char": "嗯", "pinyin": "en", "syllable": "en", "tone": 5, "core": "the grunt that agrees", "mnemonic": "ENN — the grunt that agrees", "invented": false, "crossRefs": ["ēn"], "freqRank": 2496, "traditional": ""},
