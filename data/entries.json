@@ -594,7 +594,7 @@
 {"char": "贩", "pinyin": "fàn", "syllable": "fan", "tone": 4, "core": "bought to sell on", "mnemonic": "FLOG", "invented": false, "crossRefs": [], "freqRank": 2604, "traditional": "販"},
 {"char": "方", "pinyin": "fāng", "syllable": "fang", "tone": 1, "core": "square: the shape, the direction, the method", "mnemonic": "square — the FANG-straight shape and direction", "invented": false, "crossRefs": [], "freqRank": 63, "traditional": ""},
 {"char": "芳", "pinyin": "fāng", "syllable": "fang", "tone": 1, "core": "fragrant", "mnemonic": "FRAGrant", "invented": false, "crossRefs": [], "freqRank": 1373, "traditional": ""},
-{"char": "坊", "pinyin": "fāng", "syllable": "fang", "tone": 1, "core": "a walled quarter of a town", "mnemonic": "the walled quarter — a FANGed-off block", "invented": false, "crossRefs": ["fáng"], "freqRank": 2298, "traditional": ""},
+{"char": "坊", "pinyin": "fāng", "syllable": "fang", "tone": 1, "core": "a walled quarter of a town", "mnemonic": "FÁBrica", "invented": false, "crossRefs": ["fáng"], "freqRank": 2298, "traditional": ""},
 {"char": "房", "pinyin": "fáng", "syllable": "fang", "tone": 2, "core": "a room within a house; and so a branch of a family", "mnemonic": "FOUr-walled PARts", "invented": false, "crossRefs": [], "freqRank": 464, "traditional": ""},
 {"char": "防", "pinyin": "fáng", "syllable": "fang", "tone": 2, "core": "deFEND", "mnemonic": "fend", "invented": false, "crossRefs": [], "freqRank": 624, "traditional": ""},
 {"char": "坊", "pinyin": "fáng", "syllable": "fang", "tone": 2, "core": "a workshop", "mnemonic": "the workshop's FANGs of tools", "invented": false, "crossRefs": ["fāng"], "freqRank": 2298, "traditional": ""},
