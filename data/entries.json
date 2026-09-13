@@ -442,7 +442,7 @@
 {"char": "稻", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "rice in the paddy", "mnemonic": "paDDY field", "invented": false, "crossRefs": [], "freqRank": 2770, "traditional": ""},
 {"char": "悼", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "mourned", "mnemonic": "mourned — DOWncast", "invented": false, "crossRefs": [], "freqRank": 2962, "traditional": ""},
 {"char": "德", "pinyin": "dé", "syllable": "de", "tone": 2, "core": "the good a person carries in them", "mnemonic": "the good you carry — DEcency", "invented": false, "crossRefs": [], "freqRank": 233, "traditional": "悳惪"},
-{"char": "得", "pinyin": "dé", "syllable": "de", "tone": 2, "core": "got hold of", "mnemonic": "got hold of — it's DElivered", "invented": false, "crossRefs": ["de", "děi"], "freqRank": 36, "traditional": ""},
+{"char": "得", "pinyin": "dé", "syllable": "de", "tone": 2, "core": "got hold of", "mnemonic": "GET / obTAIN", "invented": false, "crossRefs": ["de", "děi"], "freqRank": 36, "traditional": ""},
 {"char": "地", "pinyin": "de", "syllable": "de", "tone": 5, "core": "the adverbial particle", "mnemonic": "the -ly on the end, DEftly", "invented": false, "crossRefs": ["dì"], "freqRank": 25, "traditional": ""},
 {"char": "得", "pinyin": "de", "syllable": "de", "tone": 5, "core": "the particle marking result", "mnemonic": "the marker of how it came out — DOne", "invented": false, "crossRefs": ["dé"], "freqRank": 36, "traditional": ""},
 {"char": "的", "pinyin": "de", "syllable": "de", "tone": 5, "core": "the possessive particle", "mnemonic": "the little DE that owns it", "invented": false, "crossRefs": ["dī", "dí", "dì"], "freqRank": 1, "traditional": ""},
