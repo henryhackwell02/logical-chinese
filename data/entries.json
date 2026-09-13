@@ -424,7 +424,7 @@
 {"char": "党", "pinyin": "dǎng", "syllable": "dang", "tone": 3, "core": "a faction bound together", "mnemonic": "PARty / FACtion", "invented": false, "crossRefs": [], "freqRank": 480, "traditional": "黨"},
 {"char": "挡", "pinyin": "dǎng", "syllable": "dang", "tone": 3, "core": "held off and blocked", "mnemonic": "hinDArence / DRAGging", "invented": false, "crossRefs": ["dàng"], "freqRank": 2196, "traditional": "擋攩"},
 {"char": "当", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "fitting the case, and so worth that much", "mnemonic": "fiTTING / ADequate", "invented": false, "crossRefs": ["dāng"], "freqRank": 78, "traditional": "噹當"},
-{"char": "荡", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "swilled and swept about", "mnemonic": "swilled and swept — sloshing aDANGle", "invented": false, "crossRefs": [], "freqRank": 1516, "traditional": "盪蕩"},
+{"char": "荡", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "swilled and swept about", "mnemonic": "squanDERing away", "invented": false, "crossRefs": [], "freqRank": 1516, "traditional": "盪蕩"},
 {"char": "档", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "the filed record on its shelf", "mnemonic": "the file DUmped on the shelf", "invented": false, "crossRefs": [], "freqRank": 2162, "traditional": "檔"},
 {"char": "挡", "pinyin": "dàng", "syllable": "dang", "tone": 4, "core": "put in order", "mnemonic": "put in order — DANGles in place", "invented": false, "crossRefs": ["dǎng"], "freqRank": 2196, "traditional": "擋攩"},
 {"char": "刀", "pinyin": "dāo", "syllable": "dao", "tone": 1, "core": "knife", "mnemonic": "the DAgger's blade", "invented": false, "crossRefs": [], "freqRank": 1035, "traditional": ""},
