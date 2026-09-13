@@ -6,8 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Coming from an entry page? The character and reading below are already filled in —
-        just write your suggestion and submit.
+        Coming from an entry page? The character and reading below are already filled in.
+        The two suggestion boxes are deliberately empty — write yours and submit. You do
+        not need to copy the existing mnemonic in; the bot looks it up and shows the
+        before and after itself.
 
         **How a mnemonic works:** an English phrase with the Mandarin sound spelled out in
         capitals. A run of two or more capitals gets highlighted on the site, so
@@ -33,7 +35,7 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     id: mnemonic
     attributes:
       label: Proposed mnemonic
@@ -42,7 +44,7 @@ body:
     validations:
       required: false
 
-  - type: textarea
+  - type: input
     id: core
     attributes:
       label: Proposed core idea

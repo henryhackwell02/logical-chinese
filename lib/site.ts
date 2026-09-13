@@ -6,20 +6,24 @@ export const SITE = {
 };
 
 /**
- * Opens the "Suggest a better mnemonic" issue form with the character and its
- * reading already filled in. The query keys are the field ids in
- * .github/ISSUE_TEMPLATE/mnemonic.yml; a workflow parses the submitted form and
- * applies it to data/entries.json once a maintainer approves it.
+ * Opens the "Suggest a better mnemonic" issue form, identifying the reading so
+ * the reader does not have to. The query keys are the field ids in
+ * .github/ISSUE_TEMPLATE/mnemonic.yml.
+ *
+ * Only `character` and `reading` are prefilled, deliberately. The two boxes the
+ * reader actually types into are left empty: nobody should have to clear the
+ * existing text before writing their own, and a prefilled field that reappears
+ * when you delete it reads as a broken form. The current mnemonic and core idea
+ * are not passed at all — scripts/apply-suggestion.mjs reads them straight out
+ * of data/entries.json and reports the before and after itself.
  */
-export function suggestUrl(char: string, pinyin: string, mnemonic: string, core: string) {
+export function suggestUrl(char: string, pinyin: string) {
   const params = new URLSearchParams({
     template: 'mnemonic.yml',
     title: `Mnemonic: ${char} ${pinyin}`,
     labels: 'mnemonic',
     character: char,
     reading: pinyin,
-    mnemonic,
-    core,
   });
   return `${SITE.repo}/issues/new?${params.toString()}`;
 }

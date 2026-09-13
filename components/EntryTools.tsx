@@ -59,7 +59,7 @@ export default function EntryTools({ entry }: { entry: Entry }) {
       </button>
       <a
         className="tool"
-        href={suggestUrl(entry.char, entry.pinyin, entry.mnemonic, entry.core)}
+        href={suggestUrl(entry.char, entry.pinyin)}
         target="_blank"
         rel="noreferrer noopener"
       >
