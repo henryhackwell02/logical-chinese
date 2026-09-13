@@ -432,7 +432,7 @@
 {"char": "岛", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "island", "mnemonic": "the island — DOWn in the sea", "invented": false, "crossRefs": [], "freqRank": 978, "traditional": "㠀島"},
 {"char": "倒", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "falling over", "mnemonic": "falling — DOWn it goes", "invented": false, "crossRefs": ["dào"], "freqRank": 587, "traditional": ""},
 {"char": "导", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "led along a channel", "mnemonic": "leaDing AROund", "invented": false, "crossRefs": [], "freqRank": 422, "traditional": "導"},
-{"char": "捣", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "pounded down", "mnemonic": "pounded DOWn", "invented": false, "crossRefs": [], "freqRank": 2865, "traditional": "搗"},
+{"char": "捣", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "pounded down", "mnemonic": "POUnd", "invented": false, "crossRefs": [], "freqRank": 2865, "traditional": "搗"},
 {"char": "祷", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "prayer", "mnemonic": "the prayer said DEvOutly", "invented": false, "crossRefs": [], "freqRank": 2549, "traditional": "禱"},
 {"char": "蹈", "pinyin": "dǎo", "syllable": "dao", "tone": 3, "core": "trodden underfoot", "mnemonic": "trodden DOWn underfoot", "invented": false, "crossRefs": [], "freqRank": 2739, "traditional": ""},
 {"char": "道", "pinyin": "dào", "syllable": "dao", "tone": 4, "core": "the way: road, method, principle", "mnemonic": "the road, and how to DO it", "invented": false, "crossRefs": [], "freqRank": 29, "traditional": ""},
