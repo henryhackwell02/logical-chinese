@@ -620,7 +620,7 @@
 {"char": "氛", "pinyin": "fēn", "syllable": "fen", "tone": 1, "core": "the air hanging about a place", "mnemonic": "the air about a place — the FEEliNg of it", "invented": false, "crossRefs": [], "freqRank": 2360, "traditional": ""},
 {"char": "焚", "pinyin": "fén", "syllable": "fen", "tone": 2, "core": "burned up", "mnemonic": "burned up — the FURNace", "invented": false, "crossRefs": [], "freqRank": 2146, "traditional": ""},
 {"char": "坟", "pinyin": "fén", "syllable": "fen", "tone": 2, "core": "a mound of earth over a grave", "mnemonic": "the mound over a grave — the FUNeral heap", "invented": false, "crossRefs": [], "freqRank": 2335, "traditional": "墳"},
-{"char": "粉", "pinyin": "fěn", "syllable": "fen", "tone": 3, "core": "ground to powder", "mnemonic": "ground to powder — FINe dust", "invented": false, "crossRefs": [], "freqRank": 1609, "traditional": ""},
+{"char": "粉", "pinyin": "fěn", "syllable": "fen", "tone": 3, "core": "ground to powder", "mnemonic": "FINE FLOur powder", "invented": false, "crossRefs": [], "freqRank": 1609, "traditional": ""},
 {"char": "分", "pinyin": "fèn", "syllable": "fen", "tone": 4, "core": "the share that falls to one", "mnemonic": "the share that FAlls to oNe", "invented": false, "crossRefs": ["fēn"], "freqRank": 88, "traditional": "份"},
 {"char": "份", "pinyin": "fèn", "syllable": "fen", "tone": 4, "core": "one portion counted out", "mnemonic": "one portion — your FAiR sharE", "invented": false, "crossRefs": [], "freqRank": 998, "traditional": ""},
 {"char": "奋", "pinyin": "fèn", "syllable": "fen", "tone": 4, "core": "roused into effort", "mnemonic": "roused — FIred up", "invented": false, "crossRefs": [], "freqRank": 1434, "traditional": "奮"},
