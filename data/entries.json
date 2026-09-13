@@ -395,7 +395,7 @@
 {"char": "待", "pinyin": "dāi", "syllable": "dai", "tone": 1, "core": "staying put", "mnemonic": "reMAIN / sTAY put", "invented": false, "crossRefs": ["dài"], "freqRank": 596, "traditional": ""},
 {"char": "呆", "pinyin": "dāi", "syllable": "dai", "tone": 1, "core": "blank and unmoving", "mnemonic": "dazed", "invented": false, "crossRefs": [], "freqRank": 1500, "traditional": "獃"},
 {"char": "歹", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "bad", "mnemonic": "bad — a DIre sort", "invented": false, "crossRefs": [], "freqRank": 2987, "traditional": ""},
-{"char": "逮", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "caught", "mnemonic": "caught — you're DId for", "invented": false, "crossRefs": ["dài"], "freqRank": 2287, "traditional": ""},
+{"char": "逮", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "caught", "mnemonic": "TAke for self", "invented": false, "crossRefs": ["dài"], "freqRank": 2287, "traditional": ""},
 {"char": "大", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "in 大夫, the physician", "mnemonic": "the DoctoR, a great man", "invented": false, "crossRefs": ["dà"], "freqRank": 15, "traditional": ""},
 {"char": "代", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "standing in for; one generation for another", "mnemonic": "subsTITute / TAke place of", "invented": false, "crossRefs": [], "freqRank": 201, "traditional": ""},
 {"char": "带", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "a band, and what it carries along", "mnemonic": "banD / TIE", "invented": false, "crossRefs": [], "freqRank": 358, "traditional": "帶"},
