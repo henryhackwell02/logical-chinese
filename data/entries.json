@@ -637,7 +637,7 @@
 {"char": "逢", "pinyin": "féng", "syllable": "feng", "tone": 2, "core": "met by chance", "mnemonic": "FALL UPon", "invented": false, "crossRefs": [], "freqRank": 1825, "traditional": ""},
 {"char": "讽", "pinyin": "fěng", "syllable": "feng", "tone": 3, "core": "said sidelong to mock", "mnemonic": "FUNNY snide / comment", "invented": false, "crossRefs": [], "freqRank": 2516, "traditional": "諷"},
 {"char": "凤", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "phoenix", "mnemonic": "the phoenix — a FLAMiNG bird", "invented": false, "crossRefs": [], "freqRank": 1160, "traditional": "鳳"},
-{"char": "奉", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "held up and offered with both hands", "mnemonic": "held up and offered — both hands FULL", "invented": false, "crossRefs": [], "freqRank": 880, "traditional": ""},
+{"char": "奉", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "held up and offered with both hands", "mnemonic": "respectFUL OFFEring", "invented": false, "crossRefs": [], "freqRank": 880, "traditional": ""},
 {"char": "缝", "pinyin": "fèng", "syllable": "feng", "tone": 4, "core": "the seam, and the crack in it", "mnemonic": "the seam, and the crack — a FiNe split", "invented": false, "crossRefs": ["féng"], "freqRank": 2120, "traditional": "縫"},
 {"char": "佛", "pinyin": "fó", "syllable": "fo", "tone": 2, "core": "Buddha", "mnemonic": "the Buddha — FOund enlightenment", "invented": false, "crossRefs": [], "freqRank": 833, "traditional": "彿髴"},
 {"char": "否", "pinyin": "fǒu", "syllable": "fou", "tone": 3, "core": "denied; or not", "mnemonic": "denied — a FLat no", "invented": false, "crossRefs": [], "freqRank": 729, "traditional": ""},
