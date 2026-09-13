@@ -1,0 +1,89 @@
+name: Check suggestion
+
+# Validates a mnemonic suggestion as soon as it is filed and reports back on the
+# issue, so a maintainer sees whether it is applicable before approving it.
+# Read-only: it never touches data/entries.json.
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    if: contains(github.event.issue.labels.*.name, 'mnemonic')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # The issue body is untrusted input, so it goes via the environment and a
+      # file — never interpolated into the shell.
+      - name: Write the issue body to a file
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: printf '%s' "$ISSUE_BODY" > /tmp/body.md
+
+      - name: Validate the suggestion
+        id: validate
+        continue-on-error: true
+        run: node scripts/apply-suggestion.mjs --body-file /tmp/body.md
+
+      - name: Report back on the issue
+        uses: actions/github-script@v7
+        env:
+          OK: ${{ steps.validate.outputs.ok }}
+          MESSAGE: ${{ steps.validate.outputs.message }}
+        with:
+          script: |
+            const ok = process.env.OK === 'true';
+            const message = process.env.MESSAGE || 'The suggestion could not be read.';
+            const body = ok
+              ? [
+                  '**This applies cleanly.**',
+                  '',
+                  '```',
+                  message,
+                  '```',
+                  '',
+                  'A maintainer can land it by adding the `approved` label — that commits the',
+                  'change to `main` and the site redeploys on its own.',
+                ].join('\n')
+              : [
+                  '**This needs a change before it can be applied.**',
+                  '',
+                  '> ' + message.split('\n').join('\n> '),
+                  '',
+                  'Edit the issue and it will be rechecked automatically.',
+                ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+
+            const labels = ok ? ['applies-cleanly'] : ['needs-changes'];
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels,
+            });
+            for (const stale of ok ? ['needs-changes'] : ['applies-cleanly']) {
+              await github.rest.issues
+                .removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  name: stale,
+                })
+                .catch(() => {});
+            }

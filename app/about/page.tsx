@@ -138,10 +138,17 @@ export default function AboutPage() {
 
         <h2>If a mnemonic is bad</h2>
         <p>
-          Some of them are. Every entry has a link that opens a prefilled issue on GitHub
-          with the character, the current mnemonic and a template, so a better one takes
-          about a minute to propose. Corrections to the core ideas are as welcome as
-          corrections to the mnemonics.{' '}
+          Some of them are. Every entry has a{' '}
+          <strong>Suggest a better mnemonic</strong> link that opens a short form on
+          GitHub with the character and its reading already filled in. Write the
+          replacement, submit, and a check runs immediately to confirm it applies to the
+          right reading and that something in it would actually light up — it comments
+          back either way. Once it is approved the change is committed and the site
+          rebuilds itself, usually within a few minutes. Nobody retypes anything.
+        </p>
+        <p>
+          Corrections to the core ideas are as welcome as corrections to the mnemonics, and
+          the same form takes both.{' '}
           <a href={SITE.repo} target="_blank" rel="noreferrer noopener">
             The repository is here.
           </a>

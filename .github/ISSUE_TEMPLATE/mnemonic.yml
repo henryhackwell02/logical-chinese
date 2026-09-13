@@ -1,0 +1,60 @@
+name: Suggest a better mnemonic
+description: Propose a replacement mnemonic, or a better core idea, for one reading.
+title: 'Mnemonic: '
+labels: ['mnemonic']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Coming from an entry page? The character and reading below are already filled in —
+        just write your suggestion and submit.
+
+        **How a mnemonic works:** an English phrase with the Mandarin sound spelled out in
+        capitals. A run of two or more capitals gets highlighted on the site, so
+        `inCANdescent` lights **CAN** for *càn*. Scattered single capitals work too
+        (`the mAlIgnant growth` for *ái*), and a single lowercase word that simply sounds
+        like the syllable is fine on its own (`anchor` for *ān*).
+
+  - type: input
+    id: character
+    attributes:
+      label: Character
+      description: A single character, exactly as it appears on the site.
+      placeholder: 灿
+    validations:
+      required: true
+
+  - type: input
+    id: reading
+    attributes:
+      label: Reading
+      description: The pinyin with its tone mark. Characters with several readings get one thread each.
+      placeholder: càn
+    validations:
+      required: true
+
+  - type: textarea
+    id: mnemonic
+    attributes:
+      label: Proposed mnemonic
+      description: Capitalise the letters that carry the Mandarin sound. Leave blank if you are only suggesting a core idea.
+      placeholder: inCANdescent
+    validations:
+      required: false
+
+  - type: textarea
+    id: core
+    attributes:
+      label: Proposed core idea
+      description: Optional. The one thread running through every sense of the character, in a short phrase.
+      placeholder: brilliantly shining
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why it is better
+      description: Closer to the sound? Easier to picture? Truer to the core idea?
+    validations:
+      required: false

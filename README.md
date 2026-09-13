@@ -56,9 +56,36 @@ The intended workflow needs no local checkout:
 4. Vercel rebuilds and redeploys. Every derived page, the search index and the sitemap
    regenerate from the file; nothing else needs touching.
 
-Each entry page has a **Suggest a better mnemonic** link that opens a prefilled GitHub
-issue with the character, its current mnemonic and a template — so readers can propose
-fixes without a checkout either.
+### Reader suggestions land themselves
+
+Each entry page has a **Suggest a better mnemonic** link. It opens
+`.github/ISSUE_TEMPLATE/mnemonic.yml` with the character and reading already filled in, so
+a reader only writes the replacement. From there it is automatic:
+
+1. **On submit,** `suggestion-check.yml` validates it — the character exists, the reading
+   exists on that character, the text is English, and the mnemonic has something that would
+   actually light up. It comments back with the exact change it would make, or with what is
+   wrong, and labels the issue `applies-cleanly` or `needs-changes`. Editing the issue
+   re-runs the check.
+2. **On approval,** adding the `approved` label fires `suggestion-apply.yml`. It rewrites
+   the one field on the one line, re-runs `check-data`, refuses to continue unless the diff
+   is exactly one line in `data/entries.json` and nothing else, commits to `main`, comments,
+   and closes the issue. Vercel redeploys from that commit.
+
+The `approved` label is the gate, and only accounts with write access can add labels — so
+the person who filed the issue cannot land their own change. That is deliberate: a public
+dictionary that accepts anonymous writes straight to `main` gets vandalised. Approving is
+one click.
+
+`scripts/apply-suggestion.mjs` does the edit and never re-serialises the file: it replaces
+the quoted value in place, then proves the bytes outside that line are unchanged, the field
+order is unchanged, and every other field is identical. Run it locally to preview a change:
+
+```bash
+node scripts/apply-suggestion.mjs --char 灿 --pinyin càn --mnemonic "inCANdescent"
+```
+
+Without `--write` it validates and reports without touching anything.
 
 Before committing a large edit, run the integrity check:
 

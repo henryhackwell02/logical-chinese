@@ -5,30 +5,23 @@ export const SITE = {
   repo: 'https://github.com/henryhackwell02/logical-chinese',
 };
 
-/** Prefilled GitHub issue for a better mnemonic — the only write path there is. */
+/**
+ * Opens the "Suggest a better mnemonic" issue form with the character and its
+ * reading already filled in. The query keys are the field ids in
+ * .github/ISSUE_TEMPLATE/mnemonic.yml; a workflow parses the submitted form and
+ * applies it to data/entries.json once a maintainer approves it.
+ */
 export function suggestUrl(char: string, pinyin: string, mnemonic: string, core: string) {
-  const title = `Better mnemonic for ${char} (${pinyin})`;
-  const body = [
-    `**Character:** ${char}`,
-    `**Reading:** ${pinyin}`,
-    `**Core idea:** ${core}`,
-    `**Current mnemonic:** ${mnemonic}`,
-    '',
-    '---',
-    '',
-    '**Suggested mnemonic:**',
-    '',
-    '<!-- Write the English phrase, capitalising the letters that carry the Mandarin sound.',
-    '     e.g. inCANdescent for càn. Two or more capitals in a row get highlighted on the site. -->',
-    '',
-    '',
-    '**Why it is better:**',
-    '',
-    '<!-- Closer to the sound? Easier to picture? Truer to the core idea? -->',
-    '',
-  ].join('\n');
-
-  return `${SITE.repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+  const params = new URLSearchParams({
+    template: 'mnemonic.yml',
+    title: `Mnemonic: ${char} ${pinyin}`,
+    labels: 'mnemonic',
+    character: char,
+    reading: pinyin,
+    mnemonic,
+    core,
+  });
+  return `${SITE.repo}/issues/new?${params.toString()}`;
 }
 
 export function charHref(char: string) {
