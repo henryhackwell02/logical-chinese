@@ -397,7 +397,7 @@
 {"char": "歹", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "bad", "mnemonic": "bad — a DIre sort", "invented": false, "crossRefs": [], "freqRank": 2987, "traditional": ""},
 {"char": "逮", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "caught", "mnemonic": "caught — you're DId for", "invented": false, "crossRefs": ["dài"], "freqRank": 2287, "traditional": ""},
 {"char": "大", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "in 大夫, the physician", "mnemonic": "the DoctoR, a great man", "invented": false, "crossRefs": ["dà"], "freqRank": 15, "traditional": ""},
-{"char": "代", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "standing in for; one generation for another", "mnemonic": "standing in — the next DAY's generation", "invented": false, "crossRefs": [], "freqRank": 201, "traditional": ""},
+{"char": "代", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "standing in for; one generation for another", "mnemonic": "subsTITute / TAke place of", "invented": false, "crossRefs": [], "freqRank": 201, "traditional": ""},
 {"char": "带", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "a band, and what it carries along", "mnemonic": "the band that carries — a DIAper strap", "invented": false, "crossRefs": [], "freqRank": 358, "traditional": "帶"},
 {"char": "待", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "waiting on, and so treating", "mnemonic": "waiting on — how you DEAl with them", "invented": false, "crossRefs": ["dāi"], "freqRank": 596, "traditional": ""},
 {"char": "袋", "pinyin": "dài", "syllable": "dai", "tone": 4, "core": "bag", "mnemonic": "the bag you carry — a DIttybag", "invented": false, "crossRefs": [], "freqRank": 1533, "traditional": ""},
