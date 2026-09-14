@@ -2378,7 +2378,7 @@
 {"char": "贤", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "worthy and able", "mnemonic": "SON (encouraging)", "invented": false, "crossRefs": [], "freqRank": 1097, "traditional": "賢"},
 {"char": "嫌", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "held against, and so disliked", "mnemonic": "suspiCION", "invented": false, "crossRefs": [], "freqRank": 1874, "traditional": ""},
 {"char": "咸", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "all together; and salty", "mnemonic": "SALTy", "invented": false, "crossRefs": [], "freqRank": 1670, "traditional": "鹹"},
-{"char": "衔", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "held in the mouth, and so the rank borne", "mnemonic": "held in the mouth, and so the rank borne — the SHANk in the teeth", "invented": false, "crossRefs": [], "freqRank": 2161, "traditional": "啣衘銜"},
+{"char": "衔", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "held in the mouth, and so the rank borne", "mnemonic": "SWALLow up", "invented": false, "crossRefs": [], "freqRank": 2161, "traditional": "啣衘銜"},
 {"char": "险", "pinyin": "xiǎn", "syllable": "xian", "tone": 3, "core": "the dangerous ground", "mnemonic": "the dangerous ground — the SHEEr drop", "invented": false, "crossRefs": [], "freqRank": 791, "traditional": "險"},
 {"char": "显", "pinyin": "xiǎn", "syllable": "xian", "tone": 3, "core": "brought out where it shows", "mnemonic": "brought out where it shows — SHOWN plain", "invented": false, "crossRefs": [], "freqRank": 533, "traditional": "顯"},
 {"char": "鲜", "pinyin": "xiǎn", "syllable": "xian", "tone": 3, "core": "rare", "mnemonic": "rare — SHY of turning up", "invented": false, "crossRefs": ["xiān"], "freqRank": 1070, "traditional": "尟尠鮮鱻"},
