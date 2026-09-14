@@ -2385,7 +2385,7 @@
 {"char": "线", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the thread, and the line", "mnemonic": "the thread, and the line — the SINEw of thread", "invented": false, "crossRefs": [], "freqRank": 542, "traditional": "綫線"},
 {"char": "现", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "showing now", "mnemonic": "showing now — SHOWN, right now", "invented": false, "crossRefs": [], "freqRank": 106, "traditional": "現"},
 {"char": "见", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "appearing", "mnemonic": "appearing — SEEN to come out", "invented": false, "crossRefs": ["jiàn"], "freqRank": 95, "traditional": "見"},
-{"char": "限", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the bound set on it", "mnemonic": "the bound set on it — the SHIElded edge", "invented": false, "crossRefs": [], "freqRank": 712, "traditional": ""},
+{"char": "限", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the bound set on it", "mnemonic": "FRONtier", "invented": false, "crossRefs": [], "freqRank": 712, "traditional": ""},
 {"char": "腺", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "gland", "mnemonic": "the gland — the SEEping node", "invented": false, "crossRefs": [], "freqRank": 2741, "traditional": ""},
 {"char": "陷", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "sunk into a trap", "mnemonic": "sunk into a trap — the SINKing in", "invented": false, "crossRefs": [], "freqRank": 1251, "traditional": ""},
 {"char": "献", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "offered up", "mnemonic": "offered up — the SHOWN gift", "invented": false, "crossRefs": [], "freqRank": 994, "traditional": "獻"},
