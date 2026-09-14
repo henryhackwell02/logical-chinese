@@ -2370,7 +2370,7 @@
 {"char": "吓", "pinyin": "xià", "syllable": "xia", "tone": 4, "core": "frightened", "mnemonic": "frightened — the SHOck", "invented": false, "crossRefs": ["hè"], "freqRank": 1596, "traditional": "嚇"},
 {"char": "先", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "ahead of the rest", "mnemonic": "ahead of the rest — SHOWN first", "invented": false, "crossRefs": [], "freqRank": 170, "traditional": ""},
 {"char": "仙", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "the immortal", "mnemonic": "CELEStial being", "invented": false, "crossRefs": [], "freqRank": 947, "traditional": "僊"},
-{"char": "纤", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "fine and delicate", "mnemonic": "fine and delicate — the SHEEr thread", "invented": false, "crossRefs": ["qiàn"], "freqRank": 2258, "traditional": "縴纖"},
+{"char": "纤", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "fine and delicate", "mnemonic": "FINE / THREAD-like", "invented": false, "crossRefs": ["qiàn"], "freqRank": 2258, "traditional": "縴纖"},
 {"char": "鲜", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "fresh and bright", "mnemonic": "fRESH ‘un", "invented": false, "crossRefs": ["xiǎn"], "freqRank": 1070, "traditional": "尟尠鮮鱻"},
 {"char": "掀", "pinyin": "xiān", "syllable": "xian", "tone": 1, "core": "lifted up at the edge", "mnemonic": "lifted up at the edge — the SHOve up", "invented": false, "crossRefs": [], "freqRank": 2702, "traditional": ""},
 {"char": "闲", "pinyin": "xián", "syllable": "xian", "tone": 2, "core": "unoccupied, with time free", "mnemonic": "unoccupied, with time free — the SHIrked hour", "invented": false, "crossRefs": [], "freqRank": 1265, "traditional": "閑閒"},
