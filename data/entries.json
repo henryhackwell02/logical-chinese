@@ -2389,7 +2389,7 @@
 {"char": "腺", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "gland", "mnemonic": "the gland — the SEEping node", "invented": false, "crossRefs": [], "freqRank": 2741, "traditional": ""},
 {"char": "陷", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "sunk into a trap", "mnemonic": "sunk into a trap — the SINKing in", "invented": false, "crossRefs": [], "freqRank": 1251, "traditional": ""},
 {"char": "献", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "offered up", "mnemonic": "offered up — the SHOWN gift", "invented": false, "crossRefs": [], "freqRank": 994, "traditional": "獻"},
-{"char": "宪", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the founding statute", "mnemonic": "the founding statute — the SHOWN law", "invented": false, "crossRefs": [], "freqRank": 1443, "traditional": "憲"},
+{"char": "宪", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the founding statute", "mnemonic": "constituTION", "invented": false, "crossRefs": [], "freqRank": 1443, "traditional": "憲"},
 {"char": "羡", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "wanting what another has", "mnemonic": "wanting what another has — the SIghing envy", "invented": false, "crossRefs": [], "freqRank": 2649, "traditional": "羨"},
 {"char": "县", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the county", "mnemonic": "the county — the SHIre", "invented": false, "crossRefs": [], "freqRank": 482, "traditional": "縣"},
 {"char": "相", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "one toward another", "mnemonic": "one toward another — the SHARING between", "invented": false, "crossRefs": ["xiàng"], "freqRank": 122, "traditional": ""},
