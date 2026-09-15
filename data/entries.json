@@ -1402,7 +1402,7 @@
 {"char": "六", "pinyin": "liù", "syllable": "liu", "tone": 4, "core": "six", "mnemonic": "six — the LOt after five", "invented": false, "crossRefs": [], "freqRank": 311, "traditional": ""},
 {"char": "陆", "pinyin": "liù", "syllable": "liu", "tone": 4, "core": "six, in fraud-proof form", "mnemonic": "six, written safe — the LOcked-down six", "invented": false, "crossRefs": ["lù"], "freqRank": 735, "traditional": "陸"},
 {"char": "龙", "pinyin": "lóng", "syllable": "long", "tone": 2, "core": "dragon", "mnemonic": "the dragon — a LONG serpent", "invented": false, "crossRefs": [], "freqRank": 548, "traditional": "龍"},
-{"char": "隆", "pinyin": "lóng", "syllable": "long", "tone": 2, "core": "swelling up grandly", "mnemonic": "swelling up grandly — a LONG rise", "invented": false, "crossRefs": [], "freqRank": 1196, "traditional": ""},
+{"char": "隆", "pinyin": "lóng", "syllable": "long", "tone": 2, "core": "swelling up grandly", "mnemonic": "PROSpering (swelling)", "invented": false, "crossRefs": [], "freqRank": 1196, "traditional": ""},
 {"char": "笼", "pinyin": "lóng", "syllable": "long", "tone": 2, "core": "the woven cage", "mnemonic": "the woven cage — the LONG basket", "invented": false, "crossRefs": ["lǒng"], "freqRank": 2036, "traditional": "籠"},
 {"char": "笼", "pinyin": "lǒng", "syllable": "long", "tone": 3, "core": "covered over as by a cage", "mnemonic": "covered over as by a cage — LOOMing over it", "invented": false, "crossRefs": ["lóng"], "freqRank": 2036, "traditional": "籠"},
 {"char": "拢", "pinyin": "lǒng", "syllable": "long", "tone": 3, "core": "drawn together and closed up", "mnemonic": "drawn together and closed up — pulled aLONG into one", "invented": false, "crossRefs": [], "freqRank": 1865, "traditional": "攏"},
