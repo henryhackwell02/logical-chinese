@@ -1920,7 +1920,7 @@
 {"char": "纱", "pinyin": "shā", "syllable": "sha", "tone": 1, "core": "thin gauze", "mnemonic": "thin gauze — the SHEEr cloth", "invented": false, "crossRefs": [], "freqRank": 2409, "traditional": "紗"},
 {"char": "刹", "pinyin": "shā", "syllable": "sha", "tone": 1, "core": "braked to a stop", "mnemonic": "braked to a stop — the SHUddering halt", "invented": false, "crossRefs": ["chà"], "freqRank": 2540, "traditional": "剎"},
 {"char": "傻", "pinyin": "shǎ", "syllable": "sha", "tone": 3, "core": "foolish", "mnemonic": "fooliSH", "invented": false, "crossRefs": [], "freqRank": 2322, "traditional": ""},
-{"char": "厦", "pinyin": "shà", "syllable": "sha", "tone": 4, "core": "the tall building", "mnemonic": "the tall building — the SHAft of a tower", "invented": false, "crossRefs": [], "freqRank": 2611, "traditional": "廈"},
+{"char": "厦", "pinyin": "shà", "syllable": "sha", "tone": 4, "core": "the tall building", "mnemonic": "（sky)scraPER", "invented": false, "crossRefs": [], "freqRank": 2611, "traditional": "廈"},
 {"char": "色", "pinyin": "shǎi", "syllable": "shai", "tone": 3, "core": "colour, spoken", "mnemonic": "colour, spoken — the SHAde of it", "invented": false, "crossRefs": ["sè"], "freqRank": 317, "traditional": ""},
 {"char": "晒", "pinyin": "shài", "syllable": "shai", "tone": 4, "core": "laid out under the sun", "mnemonic": "laid out under the sun — the SHIne on it", "invented": false, "crossRefs": [], "freqRank": 2885, "traditional": "曬"},
 {"char": "山", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "mountain", "mnemonic": "the mountain — the SHANk of rock", "invented": false, "crossRefs": [], "freqRank": 180, "traditional": ""},
