@@ -1095,7 +1095,7 @@
 {"char": "叫", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "called out, and so named", "mnemonic": "called out, and so named — CHOW, they shout", "invented": false, "crossRefs": [], "freqRank": 329, "traditional": "呌"},
 {"char": "较", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "set against for comparison", "mnemonic": "set against for comparison — CHEck one on the other", "invented": false, "crossRefs": [], "freqRank": 627, "traditional": "較"},
 {"char": "轿", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "the carried chair", "mnemonic": "the carried chair — the CHAir hoisted", "invented": false, "crossRefs": [], "freqRank": 2025, "traditional": "轎"},
-{"char": "结", "pinyin": "jiē", "syllable": "jie", "tone": 1, "core": "coming to fruit", "mnemonic": "coming to fruit — it comes to a hEAd", "invented": false, "crossRefs": ["jié"], "freqRank": 286, "traditional": "結"},
+{"char": "结", "pinyin": "jiē", "syllable": "jie", "tone": 1, "core": "coming to fruit", "mnemonic": "BEARing / come to HEAD", "invented": false, "crossRefs": ["jié"], "freqRank": 286, "traditional": "結"},
 {"char": "接", "pinyin": "jiē", "syllable": "jie", "tone": 1, "core": "taking hold of what comes", "mnemonic": "RECieve / GET / JOIN", "invented": false, "crossRefs": [], "freqRank": 282, "traditional": ""},
 {"char": "街", "pinyin": "jiē", "syllable": "jie", "tone": 1, "core": "street", "mnemonic": "the street — the JEtty of shops", "invented": false, "crossRefs": [], "freqRank": 1173, "traditional": ""},
 {"char": "阶", "pinyin": "jiē", "syllable": "jie", "tone": 1, "core": "a step in a flight", "mnemonic": "STEP / STAIrs", "invented": false, "crossRefs": [], "freqRank": 862, "traditional": "堦階"},
