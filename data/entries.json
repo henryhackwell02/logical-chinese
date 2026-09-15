@@ -1089,7 +1089,7 @@
 {"char": "缴", "pinyin": "jiǎo", "syllable": "jiao", "tone": 3, "core": "handed over as due", "mnemonic": "handed over as due — CHUcked in as owed", "invented": false, "crossRefs": [], "freqRank": 2133, "traditional": "繳"},
 {"char": "搅", "pinyin": "jiǎo", "syllable": "jiao", "tone": 3, "core": "stirred up", "mnemonic": "stirred up — CHUrned about", "invented": false, "crossRefs": [], "freqRank": 2798, "traditional": "攪"},
 {"char": "狡", "pinyin": "jiǎo", "syllable": "jiao", "tone": 3, "core": "cunning", "mnemonic": "cunning — a sly JACKal", "invented": false, "crossRefs": [], "freqRank": 2823, "traditional": ""},
-{"char": "教", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "the teaching, and the faith built on it", "mnemonic": "the teaching, and the faith on it — the CHUrch's doctrine", "invented": false, "crossRefs": ["jiāo"], "freqRank": 229, "traditional": ""},
+{"char": "教", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "the teaching, and the faith built on it", "mnemonic": "to teach HOW", "invented": false, "crossRefs": ["jiāo"], "freqRank": 229, "traditional": ""},
 {"char": "校", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "checked against a copy", "mnemonic": "RAther / conTRAST", "invented": false, "crossRefs": ["xiào"], "freqRank": 632, "traditional": ""},
 {"char": "觉", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "sleep", "mnemonic": "be jOUT like a light", "invented": false, "crossRefs": ["jué"], "freqRank": 362, "traditional": "覺"},
 {"char": "叫", "pinyin": "jiào", "syllable": "jiao", "tone": 4, "core": "called out, and so named", "mnemonic": "called out, and so named — CHOW, they shout", "invented": false, "crossRefs": [], "freqRank": 329, "traditional": "呌"},
