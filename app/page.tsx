@@ -8,6 +8,7 @@ import {
   entries,
   getEntriesForSyllable,
   primaryReading,
+  rankOf,
   stats,
 } from '@/lib/data';
 import { charHref, meaningHref, soundHref } from '@/lib/site';
@@ -21,7 +22,11 @@ const crowdedSyllables = [...bySyllable.entries()]
   .slice(0, 16);
 
 /** One row per character: 的 has three readings and should not open with all three. */
-const openers = [...new Set([...entries].sort((a, b) => a.freqRank - b.freqRank).map((e) => e.char))]
+const openers = [
+  ...new Set(
+    [...entries].sort((a, b) => rankOf(a.freqRank) - rankOf(b.freqRank)).map((e) => e.char),
+  ),
+]
   .slice(0, 8)
   .map(primaryReading);
 

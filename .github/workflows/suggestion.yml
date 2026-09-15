@@ -1,7 +1,8 @@
 name: Suggestion
 
-# One pass over a mnemonic suggestion: validate it, then either land it straight
-# away or park it for approval.
+# One pass over a reader contribution — a better mnemonic for an existing
+# reading (label `mnemonic`) or a character the dictionary does not have yet
+# (label `new-character`). Validate it, then either land it or park it.
 #
 #   Filed by you, or anyone else with write access  ->  applied and deployed now.
 #   Filed by anyone else                            ->  validated, labelled, and
@@ -20,17 +21,17 @@ permissions:
   contents: write
   issues: write
 
+# One contribution lands at a time, so two can never race on the same file.
 concurrency:
   group: suggestion-apply
   cancel-in-progress: false
 
 jobs:
   handle:
-    # Only mnemonic issues that are still open, and — for label events — only the
-    # one label that means anything here.
     if: >-
       github.event.issue.state == 'open' &&
-      contains(github.event.issue.labels.*.name, 'mnemonic') &&
+      (contains(github.event.issue.labels.*.name, 'mnemonic') ||
+       contains(github.event.issue.labels.*.name, 'new-character')) &&
       (github.event.action != 'labeled' || github.event.label.name == 'approved')
     runs-on: ubuntu-latest
     steps:
@@ -50,10 +51,27 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: printf '%s' "$ISSUE_BODY" > "$RUNNER_TEMP/body.md"
 
-      - name: Validate the suggestion
+      - name: Choose the handler
+        id: kind
+        env:
+          LABELS: ${{ toJSON(github.event.issue.labels.*.name) }}
+        run: |
+          if printf '%s' "$LABELS" | grep -q '"new-character"'; then
+            echo "kind=add" >> "$GITHUB_OUTPUT"
+            echo "script=scripts/add-entry.mjs" >> "$GITHUB_OUTPUT"
+            echo "noun=character" >> "$GITHUB_OUTPUT"
+          else
+            echo "kind=update" >> "$GITHUB_OUTPUT"
+            echo "script=scripts/apply-suggestion.mjs" >> "$GITHUB_OUTPUT"
+            echo "noun=suggestion" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate
         id: validate
         continue-on-error: true
-        run: node scripts/apply-suggestion.mjs --body-file "$RUNNER_TEMP/body.md"
+        env:
+          SCRIPT: ${{ steps.kind.outputs.script }}
+        run: node "$SCRIPT" --body-file "$RUNNER_TEMP/body.md"
 
       - name: Decide whether it can land now
         id: gate
@@ -74,14 +92,14 @@ jobs:
 
       # ---------------------------------------------------------------- rejected
 
-      - name: Report a suggestion that cannot be applied
+      - name: Report a contribution that cannot be applied
         if: steps.validate.outputs.ok != 'true'
         uses: actions/github-script@v7
         env:
           MESSAGE: ${{ steps.validate.outputs.message }}
         with:
           script: |
-            const message = process.env.MESSAGE || 'The suggestion could not be read.';
+            const message = process.env.MESSAGE || 'The form could not be read.';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -154,43 +172,55 @@ jobs:
 
       # ------------------------------------------------------------------- landing
 
-      - name: Apply it to data/entries.json
-        if: steps.gate.outputs.trusted == 'true'
-        id: apply
-        run: node scripts/apply-suggestion.mjs --body-file "$RUNNER_TEMP/body.md" --write
-
-      - name: Re-check the data
-        if: steps.gate.outputs.trusted == 'true'
-        run: node scripts/check-data.mjs
-
-      - name: Confirm only one line moved
-        if: steps.gate.outputs.trusted == 'true'
-        run: |
-          changed=$(git diff --numstat -- data/entries.json)
-          echo "$changed"
-          test "$(echo "$changed" | awk '{print $1" "$2}')" = "1 1" \
-            || { echo "expected exactly one line added and one removed"; exit 1; }
-          test -z "$(git diff --name-only -- . ':!data/entries.json')" \
-            || { echo "unexpected changes outside data/entries.json"; exit 1; }
-
-      - name: Commit and push
+      # Apply, check and commit together, on a fresh copy of main each attempt.
+      # If another contribution lands first the push is rejected, and the whole
+      # edit is redone on top of it rather than rebased — an insertion and an
+      # edit near each other would otherwise conflict.
+      - name: Land it
         if: steps.gate.outputs.trusted == 'true'
         env:
+          KIND: ${{ steps.kind.outputs.kind }}
+          SCRIPT: ${{ steps.kind.outputs.script }}
+          SUMMARY: ${{ steps.validate.outputs.message }}
+          CHAR: ${{ steps.validate.outputs.char }}
+          PINYIN: ${{ steps.validate.outputs.pinyin }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
-          SUMMARY: ${{ steps.apply.outputs.message }}
-          CHAR: ${{ steps.apply.outputs.char }}
-          PINYIN: ${{ steps.apply.outputs.pinyin }}
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/entries.json
-          printf 'Update %s %s from a suggestion\n\n%s\n\nCloses #%s\nSuggested-by: @%s\n' \
-            "$CHAR" "$PINYIN" "$SUMMARY" "$ISSUE_NUMBER" "$ISSUE_USER" > "$RUNNER_TEMP/msg.txt"
-          git commit -F "$RUNNER_TEMP/msg.txt"
-          # Another suggestion may have landed while this one ran.
+
+          if [ "$KIND" = "add" ]; then
+            title="Add $CHAR $PINYIN to the dictionary"
+          else
+            title="Update $CHAR $PINYIN from a suggestion"
+          fi
+          printf '%s\n\n%s\n\nCloses #%s\nSuggested-by: @%s\n' \
+            "$title" "$SUMMARY" "$ISSUE_NUMBER" "$ISSUE_USER" > "$RUNNER_TEMP/msg.txt"
+
           for attempt in 1 2 3; do
-            git pull --rebase origin main && git push origin main && exit 0
+            git fetch -q origin main
+            git reset -q --hard origin/main
+
+            node "$SCRIPT" --body-file "$RUNNER_TEMP/body.md" --write
+            node scripts/check-data.mjs
+
+            # An edit rewrites exactly one line. An addition inserts exactly one,
+            # or — when it lands at the very end of the file — also adds the
+            # comma to the line before it.
+            shape=$(git diff --numstat -- data/entries.json | awk '{print $1" "$2}')
+            case "$KIND:$shape" in
+              "update:1 1"|"add:1 0"|"add:2 1") ;;
+              *) echo "unexpected diff shape for $KIND: '$shape'"; exit 1 ;;
+            esac
+            if [ -n "$(git diff --name-only -- . ':!data/entries.json')" ]; then
+              echo "unexpected changes outside data/entries.json"; exit 1
+            fi
+
+            git add data/entries.json
+            git commit -q -F "$RUNNER_TEMP/msg.txt"
+            if git push -q origin HEAD:main; then exit 0; fi
+            echo "main moved while this ran; redoing the edit on top of it"
             sleep 5
           done
           exit 1
@@ -199,15 +229,20 @@ jobs:
         if: steps.gate.outputs.trusted == 'true' && success()
         uses: actions/github-script@v7
         env:
-          SUMMARY: ${{ steps.apply.outputs.message }}
+          SUMMARY: ${{ steps.validate.outputs.message }}
+          KIND: ${{ steps.kind.outputs.kind }}
         with:
           script: |
+            const headline =
+              process.env.KIND === 'add'
+                ? '**Added to the dictionary and pushed to `main`.**'
+                : '**Applied and pushed to `main`.**';
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: [
-                '**Applied and pushed to `main`.**',
+                headline,
                 '',
                 '```',
                 process.env.SUMMARY,

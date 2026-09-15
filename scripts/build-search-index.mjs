@@ -19,7 +19,7 @@ const entries = JSON.parse(readFileSync(join(root, 'data/entries.json'), 'utf8')
 const toneless = (s) =>
   s
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/ü/g, 'u')
     .toLowerCase();
 

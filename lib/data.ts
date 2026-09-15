@@ -44,6 +44,11 @@ for (const cluster of clusters) {
   }
 }
 
+/** Sort key for frequency: unranked additions sort after every ranked character. */
+export function rankOf(rank: number | null | undefined): number {
+  return rank ?? Number.POSITIVE_INFINITY;
+}
+
 export function getEntriesForChar(char: string): Entry[] {
   const readings = byChar.get(char) ?? [];
   return [...readings].sort((a, b) => a.tone - b.tone);
@@ -51,7 +56,7 @@ export function getEntriesForChar(char: string): Entry[] {
 
 export function getEntriesForSyllable(syllable: string): Entry[] {
   const group = bySyllable.get(syllable) ?? [];
-  return [...group].sort((a, b) => a.tone - b.tone || a.freqRank - b.freqRank);
+  return [...group].sort((a, b) => a.tone - b.tone || rankOf(a.freqRank) - rankOf(b.freqRank));
 }
 
 /** Syllable entries split into tone buckets, empty tones dropped. */
@@ -94,7 +99,10 @@ export function otherReadings(entry: Entry): Entry[] {
 /** The most representative reading of a character: the commonest one. */
 export function primaryReading(char: string): Entry {
   const readings = getEntriesForChar(char);
-  return readings.reduce((best, e) => (e.freqRank < best.freqRank ? e : best), readings[0]);
+  return readings.reduce(
+    (best, e) => (rankOf(e.freqRank) < rankOf(best.freqRank) ? e : best),
+    readings[0],
+  );
 }
 
 export const FREQUENCY_BANDS = [
@@ -105,6 +113,7 @@ export const FREQUENCY_BANDS = [
   { id: '1501-2000', label: '1501 – 2000', from: 1501, to: 2000 },
   { id: '2001-2500', label: '2001 – 2500', from: 2001, to: 2500 },
   { id: '2501-3000', label: '2501 – 3000', from: 2501, to: 3000 },
+  { id: 'added', label: 'added', from: null, to: null },
 ] as const;
 
 export const stats = {
@@ -114,4 +123,6 @@ export const stats = {
   clusters: clusters.length,
   invented: entries.filter((e) => e.invented).length,
   multiReading: [...byChar.values()].filter((g) => g.length > 1).length,
+  /** Characters added by hand, outside the ranked 3,000. */
+  added: new Set(entries.filter((e) => e.freqRank === null).map((e) => e.char)).size,
 };

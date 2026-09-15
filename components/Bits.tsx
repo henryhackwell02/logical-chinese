@@ -60,7 +60,7 @@ export function EntryRow({ entry, showSyllable = false }: { entry: Entry; showSy
             {entry.syllable}
           </Link>
         )}
-        <span>no. {entry.freqRank}</span>
+        <span>{entry.freqRank === null ? 'added' : `no. ${entry.freqRank}`}</span>
       </div>
     </li>
   );

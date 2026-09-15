@@ -141,8 +141,19 @@ export default function CharPage({ params }: { params: { char: string } }) {
                 <div className="fact">
                   <dt>Frequency</dt>
                   <dd>
-                    no. {entry.freqRank} of 3,000{' '}
-                    <span className="note">by corpus count</span>
+                    {entry.freqRank === null ? (
+                      <>
+                        not ranked{' '}
+                        <span className="note">
+                          — added outside the 3,000 commonest characters
+                        </span>
+                      </>
+                    ) : (
+                      <>
+                        no. {entry.freqRank} of 3,000{' '}
+                        <span className="note">by corpus count</span>
+                      </>
+                    )}
                   </dd>
                 </div>
 

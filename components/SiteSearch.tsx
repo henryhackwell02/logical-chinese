@@ -4,7 +4,7 @@ import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { search, type Hit, type IndexRow } from '@/lib/search';
 import { coreAddsMeaning, parseMnemonic } from '@/lib/mnemonic';
-import { charHref } from '@/lib/site';
+import { addCharUrl, charHref } from '@/lib/site';
 
 /**
  * The index is a lazily-imported chunk rather than a fetch: no API, no search
@@ -193,9 +193,18 @@ export default function SiteSearch({ variant = 'compact' }: { variant?: 'compact
         <div className="search-results" id={listId} role="listbox">
           {hits.length === 0 ? (
             <p className="search-empty">
-              {index
-                ? 'Nothing matches. Try a pinyin syllable without tone marks, or an English word from a mnemonic.'
-                : 'Loading the dictionary…'}
+              {!index ? (
+                'Loading the dictionary…'
+              ) : /^\p{Script=Han}$/u.test(query.trim()) ? (
+                <>
+                  <span lang="zh">{query.trim()}</span> is not in the dictionary yet.{' '}
+                  <a href={addCharUrl(query.trim())} target="_blank" rel="noreferrer noopener">
+                    Add it
+                  </a>
+                </>
+              ) : (
+                'Nothing matches. Try a pinyin syllable without tone marks, or an English word from a mnemonic.'
+              )}
             </p>
           ) : (
             hits.map((hit, i) => (

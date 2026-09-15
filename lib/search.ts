@@ -8,7 +8,7 @@ export type IndexRow = [
   tone: number,
   core: string,
   mnemonic: string,
-  freqRank: number,
+  freqRank: number | null,
   traditional: string,
   invented: 0 | 1,
   tonelessPinyin: string,
@@ -22,7 +22,7 @@ export interface Hit {
   tone: number;
   core: string;
   mnemonic: string;
-  freqRank: number;
+  freqRank: number | null;
   invented: boolean;
 }
 
@@ -39,7 +39,7 @@ export function search(index: IndexRow[], rawQuery: string, limit = 40): Hit[] {
   const query = rawQuery.trim();
   if (!query) return [];
 
-  const hasHan = /[㐀-鿿豈-﫿]/.test(query);
+  const hasHan = /[\u3400-\u9fff\uf900-\ufaff]/.test(query);
   const q = toneless(query);
   const scored: { row: IndexRow; rank: number }[] = [];
 
@@ -65,7 +65,9 @@ export function search(index: IndexRow[], rawQuery: string, limit = 40): Hit[] {
     if (rank !== -1) scored.push({ row, rank });
   }
 
-  scored.sort((a, b) => a.rank - b.rank || a.row[6] - b.row[6]);
+  // Unranked additions sort after every ranked character.
+  const r = (n: number | null) => n ?? Number.POSITIVE_INFINITY;
+  scored.sort((a, b) => a.rank - b.rank || r(a.row[6]) - r(b.row[6]));
 
   return scored.slice(0, limit).map(({ row }) => ({
     char: row[0],

@@ -105,7 +105,7 @@ export default function Practice({
     if (!index) return [];
     if (syllable) return index.filter((row) => row[2] === syllable);
     if (clusterChars) return index.filter((row) => clusterChars.has(row[0]));
-    return index.filter((row) => row[6] <= 500);
+    return index.filter((row) => row[6] !== null && row[6] <= 500);
   }, [index, syllable, clusterChars]);
 
   /** Next card: the one that has been waiting longest, unseen counting as due now. */

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Mnemonic from '@/components/Mnemonic';
 import { coreAddsMeaning } from '@/lib/mnemonic';
 import { entries, primaryReading, stats } from '@/lib/data';
-import { SITE } from '@/lib/site';
+import { SITE, addCharUrl } from '@/lib/site';
 import { charHref } from '@/lib/site';
 
 export const metadata: Metadata = {
@@ -130,6 +130,8 @@ export default function AboutPage() {
         <p>
           {stats.characters.toLocaleString('en-GB')} characters, the commonest 3,000 by
           corpus frequency, which between them account for about 98.4% of running text.
+          {stats.added > 0 &&
+            ` ${stats.added} more ${stats.added === 1 ? 'has' : 'have'} been added by hand.`}
           Characters with more than one reading — {stats.multiReading} of them — get a
           separate thread for each reading, because a different sound is usually a
           different word. There are {stats.syllables} syllable pages and {stats.clusters}{' '}
@@ -152,6 +154,18 @@ export default function AboutPage() {
           <a href={SITE.repo} target="_blank" rel="noreferrer noopener">
             The repository is here.
           </a>
+        </p>
+
+        <h2>If a character is missing</h2>
+        <p>
+          The set starts from the commonest 3,000, so rarer characters will be missing.
+          Search for one that is not here and the results offer to add it, or use the{' '}
+          <a href={addCharUrl()} target="_blank" rel="noreferrer noopener">
+            add-a-character form
+          </a>{' '}
+          directly. Give its reading, a mnemonic and a core idea, and it is filed under its
+          sound, in its tone group, like everything else. An added character has no corpus
+          rank, so it is listed as added rather than numbered.
         </p>
 
         <h2>Sources and licence</h2>

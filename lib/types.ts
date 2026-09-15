@@ -7,7 +7,8 @@ export interface Entry {
   mnemonic: string;
   invented: boolean;
   crossRefs: string[];
-  freqRank: number;
+  /** Corpus rank, 1 is commonest. null for characters added outside the ranked 3,000. */
+  freqRank: number | null;
   traditional: string;
 }
 

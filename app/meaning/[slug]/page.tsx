@@ -47,7 +47,7 @@ export default function ClusterPage({ params }: { params: { slug: string } }) {
       <header className="page-head">
         <h1>{cluster.name}</h1>
         <p className="lede">
-          {cluster.chars.join(' ')} — {cluster.sharedIdea}
+          {cluster.chars.join('\u2009')} — {cluster.sharedIdea}
         </p>
       </header>
 

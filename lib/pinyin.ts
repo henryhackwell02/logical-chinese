@@ -10,7 +10,7 @@
 export function toneless(pinyin: string): string {
   return pinyin
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/ü/g, 'u')
     .replace(/Ü/g, 'U')
     .toLowerCase()
@@ -21,7 +21,7 @@ export function toneless(pinyin: string): string {
 export function vForm(pinyin: string): string | null {
   const stripped = pinyin
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .trim();
   if (!stripped.includes('ü')) return null;

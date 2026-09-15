@@ -18,7 +18,7 @@ export function RichNote({ text }: { text: string }) {
   );
 }
 
-const HAN = /[㐀-鿿]/;
+const HAN = /[\u3400-\u9fff]/;
 
 /**
  * A few entries in `compounds` are sentences about the cluster rather than

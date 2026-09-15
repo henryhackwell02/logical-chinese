@@ -1,0 +1,75 @@
+name: Add a character
+description: Propose a character that is not in the dictionary yet, with its mnemonic.
+title: 'New character: '
+labels: ['new-character']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Adds a character the dictionary does not have yet. It is filed under its sound,
+        in its tone group, alongside everything else that shares that syllable.
+
+        **The mnemonic** is an English phrase with the Mandarin sound spelled out in
+        capitals — `trembLIN'` lights **LIN** for *lǐn*. **The core idea** is the one
+        thread running through every sense of the character, in a short phrase.
+
+  - type: input
+    id: character
+    attributes:
+      label: Character
+      description: One simplified character.
+      placeholder: 凛
+    validations:
+      required: true
+
+  - type: input
+    id: reading
+    attributes:
+      label: Reading
+      description: Pinyin with its tone mark, or with a tone number — lǐn and lin3 both work. Use v for ü.
+      placeholder: lǐn
+    validations:
+      required: true
+
+  - type: input
+    id: mnemonic
+    attributes:
+      label: Mnemonic
+      description: Capitalise the letters that carry the Mandarin sound.
+      placeholder: (what gets you) trembLIN'
+    validations:
+      required: true
+
+  - type: input
+    id: core
+    attributes:
+      label: Core idea
+      description: The one thread through every sense of the character.
+      placeholder: biting cold, and so stern and awe-inspiring
+    validations:
+      required: true
+
+  - type: input
+    id: traditional
+    attributes:
+      label: Traditional form
+      description: Optional. Leave blank if it is written the same way.
+      placeholder: 凜
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: etymology
+    attributes:
+      label: Etymology
+      options:
+        - label: This thread is a memory aid, not established etymology
+          required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional. Anything worth knowing about why this character belongs.
+    validations:
+      required: false

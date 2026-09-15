@@ -12,9 +12,12 @@ import { charHref, soundHref } from '@/lib/site';
 interface Band {
   id: string;
   label: string;
-  from: number;
-  to: number;
+  /** Both null for the band of unranked, hand-added characters. */
+  from: number | null;
+  to: number | null;
 }
+
+const r = (n: number | null) => n ?? Number.POSITIVE_INFINITY;
 
 export default function BrowseExplorer({
   bands,
@@ -52,14 +55,16 @@ export default function BrowseExplorer({
       .filter((row) => {
         if (cluster) {
           if (!clusterChars?.has(row[0])) return false;
-        } else if (row[6] < active.from || row[6] > active.to) {
+        } else if (active.from === null) {
+          if (row[6] !== null) return false;
+        } else if (row[6] === null || row[6] < active.from || row[6] > active.to!) {
           return false;
         }
         if (tone !== null && row[3] !== tone) return false;
         if (hideInvented && row[8] === 1) return false;
         return true;
       })
-      .sort((a, b) => a[6] - b[6] || a[3] - b[3]);
+      .sort((a, b) => r(a[6]) - r(b[6]) || a[3] - b[3] || a[0].localeCompare(b[0]));
   }, [index, band, tone, cluster, hideInvented, clusterChars, bands]);
 
   return (
@@ -192,7 +197,7 @@ export default function BrowseExplorer({
             {coreAddsMeaning(row[4], row[5]) && <p className="row-core core">{row[4]}</p>}
             <div className="row-meta">
               <Link href={soundHref(row[2])}>{row[2]}</Link>
-              <span>no. {row[6]}</span>
+              <span>{row[6] === null ? 'added' : `no. ${row[6]}`}</span>
             </div>
           </li>
         ))}

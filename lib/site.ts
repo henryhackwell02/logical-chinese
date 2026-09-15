@@ -28,6 +28,21 @@ export function suggestUrl(char: string, pinyin: string) {
   return `${SITE.repo}/issues/new?${params.toString()}`;
 }
 
+/**
+ * Opens the "Add a character" issue form, with the character filled in when it
+ * is known — from a search that came up empty, say. Handled by the same
+ * workflow as mnemonic suggestions, via scripts/add-entry.mjs.
+ */
+export function addCharUrl(char?: string) {
+  const params = new URLSearchParams({
+    template: 'add-character.yml',
+    title: char ? `New character: ${char}` : 'New character: ',
+    labels: 'new-character',
+  });
+  if (char) params.set('character', char);
+  return `${SITE.repo}/issues/new?${params.toString()}`;
+}
+
 export function charHref(char: string) {
   return `/char/${encodeURIComponent(char)}/`;
 }

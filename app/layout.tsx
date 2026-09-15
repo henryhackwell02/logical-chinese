@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
 import SiteSearch from '@/components/SiteSearch';
-import { SITE } from '@/lib/site';
+import { SITE, addCharUrl } from '@/lib/site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -67,6 +67,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/meaning/">Meaning clusters</Link>
                 <Link href="/practice/">Flashcards</Link>
                 <Link href="/about/">About the mnemonics</Link>
+                <a href={addCharUrl()} target="_blank" rel="noreferrer noopener">
+                  Add a character
+                </a>
                 <a href={SITE.repo} target="_blank" rel="noreferrer noopener">
                   Source and corrections
                 </a>

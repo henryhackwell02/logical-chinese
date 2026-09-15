@@ -34,7 +34,7 @@ Everything lives in two hand-authored files:
 | `mnemonic` | English phrase; the capitals carry the Mandarin sound |
 | `invented` | `true` for the 29 threads that are memory aids rather than real etymology |
 | `crossRefs` | other pinyin readings of the same character |
-| `freqRank` | corpus frequency, 1 is commonest |
+| `freqRank` | corpus frequency, 1 is commonest; `null` for a character added outside the ranked 3,000 |
 | `traditional` | traditional variant(s), or `""` when unchanged |
 
 ### Never reformat these two files
@@ -90,6 +90,35 @@ node scripts/apply-suggestion.mjs --char 灿 --pinyin càn --mnemonic "inCANdesc
 ```
 
 Without `--write` it validates and reports without touching anything.
+
+### Adding a character
+
+Characters outside the 3,000 can be added the same way. A search for a single character
+the dictionary does not have offers **Add it**, and the footer, `/about` and the 404 page
+link to `.github/ISSUE_TEMPLATE/add-character.yml`. The form asks for the reading (`lǐn` or
+`lin3`; `v` for `ü`), a mnemonic, a core idea, and optionally a traditional form and an
+invented-thread flag.
+
+It runs through the same `suggestion.yml` workflow, keyed on the `new-character` label, with
+the same rule: filed by you, it lands at once; filed by anyone else, it waits for
+`approved`.
+
+`scripts/add-entry.mjs` does the insertion. It derives the syllable and tone from the
+reading, files the line at the end of its tone group within its syllable — 凛 *lǐn* sits
+after the *lín* group and before *lìn* — or, for a sound the file has never seen, where
+that syllable sorts (`ü` ordering as `u:`, so *lu* < *lü* < *lüe* < *luan*). It formats the
+line exactly like its neighbours, then proves every existing entry is still present, in
+order and byte-for-byte unchanged. It refuses a character that is already here; adding a
+further reading to an existing character is not supported through the form yet.
+
+```bash
+node scripts/add-entry.mjs --char 凛 --pinyin lin3 --mnemonic "(what gets you) trembLIN'"   --core "biting cold, and so stern and awe-inspiring" --traditional 凜
+```
+
+**Added characters have no frequency rank.** Their `freqRank` is `null` rather than an
+invented number: they sort after every ranked character, show as *added* instead of
+*no. N*, have their own band on `/browse`, and are left out of the commonest-500 flashcard
+deck.
 
 Before committing a large edit, run the integrity check:
 
