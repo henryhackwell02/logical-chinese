@@ -1924,7 +1924,7 @@
 {"char": "色", "pinyin": "shǎi", "syllable": "shai", "tone": 3, "core": "colour, spoken", "mnemonic": "colour, spoken — the SHAde of it", "invented": false, "crossRefs": ["sè"], "freqRank": 317, "traditional": ""},
 {"char": "晒", "pinyin": "shài", "syllable": "shai", "tone": 4, "core": "laid out under the sun", "mnemonic": "laid out under the sun — the SHIne on it", "invented": false, "crossRefs": [], "freqRank": 2885, "traditional": "曬"},
 {"char": "山", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "mountain", "mnemonic": "the mountain — the SHANk of rock", "invented": false, "crossRefs": [], "freqRank": 180, "traditional": ""},
-{"char": "扇", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "fanned with a flat blade", "mnemonic": "fanned with a flat blade — the SHOveliNG air", "invented": false, "crossRefs": ["shàn"], "freqRank": 1945, "traditional": ""},
+{"char": "扇", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "fanned with a flat blade", "mnemonic": "swatting FAN", "invented": false, "crossRefs": ["shàn"], "freqRank": 1945, "traditional": ""},
 {"char": "衫", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "a light upper garment", "mnemonic": "a light upper garment — the SHIrt", "invented": false, "crossRefs": [], "freqRank": 2253, "traditional": ""},
 {"char": "珊", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "coral", "mnemonic": "coral — the SHANked reef", "invented": false, "crossRefs": [], "freqRank": 2674, "traditional": ""},
 {"char": "删", "pinyin": "shān", "syllable": "shan", "tone": 1, "core": "struck out", "mnemonic": "struck out — the SHAve off", "invented": false, "crossRefs": [], "freqRank": 2905, "traditional": "刪"},
