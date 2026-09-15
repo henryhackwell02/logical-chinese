@@ -2352,6 +2352,7 @@
 {"char": "昔", "pinyin": "xī", "syllable": "xi", "tone": 1, "core": "the time before", "mnemonic": "yeSTER year SINCE", "invented": false, "crossRefs": [], "freqRank": 1742, "traditional": ""},
 {"char": "牺", "pinyin": "xī", "syllable": "xi", "tone": 1, "core": "the beast given up in sacrifice", "mnemonic": "the beast given up in sacrifice — the SACrifice", "invented": false, "crossRefs": [], "freqRank": 2186, "traditional": "犧"},
 {"char": "晰", "pinyin": "xī", "syllable": "xi", "tone": 1, "core": "clearly told apart", "mnemonic": "clearly told apart — you SEE the difference", "invented": false, "crossRefs": [], "freqRank": 2665, "traditional": "晳皙"},
+{"char": "熄", "pinyin": "xī", "syllable": "xi", "tone": 1, "core": "A withering dying out of flames", "mnemonic": "eXTINguish", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "习", "pinyin": "xí", "syllable": "xi", "tone": 2, "core": "done over until it sticks", "mnemonic": "done over until it sticks — the SEcond nature", "invented": false, "crossRefs": [], "freqRank": 771, "traditional": "習"},
 {"char": "席", "pinyin": "xí", "syllable": "xi", "tone": 2, "core": "the mat, and the seat and feast on it", "mnemonic": "seat", "invented": false, "crossRefs": [], "freqRank": 941, "traditional": "蓆"},
 {"char": "袭", "pinyin": "xí", "syllable": "xi", "tone": 2, "core": "coming on unlooked-for; and passed down", "mnemonic": "coming on unlooked-for, and passed down — the SEIzure from nowhere", "invented": false, "crossRefs": [], "freqRank": 1157, "traditional": "襲"},
