@@ -1076,7 +1076,7 @@
 {"char": "浆", "pinyin": "jiàng", "syllable": "jiang", "tone": 4, "core": "starch paste", "mnemonic": "starch paste — the GLUeY stuff", "invented": false, "crossRefs": ["jiāng"], "freqRank": 2894, "traditional": "漿"},
 {"char": "匠", "pinyin": "jiàng", "syllable": "jiang", "tone": 4, "core": "the craftsman with his tools", "mnemonic": "the craftsman with his tools — the JOiNer", "invented": false, "crossRefs": [], "freqRank": 2170, "traditional": ""},
 {"char": "交", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "handed across between two", "mnemonic": "handed across — the exCHAnGE", "invented": false, "crossRefs": [], "freqRank": 334, "traditional": ""},
-{"char": "教", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "taught to another", "mnemonic": "taught to another — sHOWn how", "invented": false, "crossRefs": ["jiào"], "freqRank": 229, "traditional": ""},
+{"char": "教", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "taught to another", "mnemonic": "to teach HOW", "invented": false, "crossRefs": ["jiào"], "freqRank": 229, "traditional": ""},
 {"char": "胶", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "glue that sticks fast", "mnemonic": "glue", "invented": false, "crossRefs": [], "freqRank": 2368, "traditional": "膠"},
 {"char": "焦", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "burnt dry, and so fretting", "mnemonic": "burnt dry, and so fretting — CHArred and anxious", "invented": false, "crossRefs": [], "freqRank": 1657, "traditional": ""},
 {"char": "娇", "pinyin": "jiāo", "syllable": "jiao", "tone": 1, "core": "delicate and cosseted", "mnemonic": "delicate and cosseted — a CHOice darling", "invented": false, "crossRefs": [], "freqRank": 2029, "traditional": "嬌"},
