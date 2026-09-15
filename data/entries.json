@@ -337,7 +337,7 @@
 {"char": "穿", "pinyin": "chuān", "syllable": "chuan", "tone": 1, "core": "passing right through; and so put on", "mnemonic": "CHANNEls right through, and pulls on", "invented": false, "crossRefs": [], "freqRank": 867, "traditional": ""},
 {"char": "传", "pinyin": "chuán", "syllable": "chuan", "tone": 2, "core": "passed from one to the next", "mnemonic": "CHAiNed on from one to the next", "invented": false, "crossRefs": ["zhuàn"], "freqRank": 320, "traditional": "傳"},
 {"char": "船", "pinyin": "chuán", "syllable": "chuan", "tone": 2, "core": "boat", "mnemonic": "the boat's CHURNing wake", "invented": false, "crossRefs": [], "freqRank": 600, "traditional": "舩"},
-{"char": "喘", "pinyin": "chuǎn", "syllable": "chuan", "tone": 3, "core": "breath coming short", "mnemonic": "breath CHURNing short", "invented": false, "crossRefs": [], "freqRank": 2296, "traditional": ""},
+{"char": "喘", "pinyin": "chuǎn", "syllable": "chuan", "tone": 3, "core": "breath coming short", "mnemonic": "gasPIN' for breath", "invented": false, "crossRefs": [], "freqRank": 2296, "traditional": ""},
 {"char": "串", "pinyin": "chuàn", "syllable": "chuan", "tone": 4, "core": "threaded onto one line", "mnemonic": "CHAiNed onto one line", "invented": false, "crossRefs": [], "freqRank": 2181, "traditional": ""},
 {"char": "创", "pinyin": "chuāng", "syllable": "chuang", "tone": 1, "core": "a wound: cut open", "mnemonic": "the wound — CHOPped open", "invented": false, "crossRefs": ["chuàng"], "freqRank": 769, "traditional": "剏剙創"},
 {"char": "窗", "pinyin": "chuāng", "syllable": "chuang", "tone": 1, "core": "window", "mnemonic": "the window's CHink", "invented": false, "crossRefs": [], "freqRank": 1180, "traditional": "牎牕窓窻"},
