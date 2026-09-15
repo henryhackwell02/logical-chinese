@@ -953,7 +953,7 @@
 {"char": "贿", "pinyin": "huì", "syllable": "hui", "tone": 4, "core": "goods given to buy favour", "mnemonic": "goods given to buy favour — the WEIghty gift", "invented": false, "crossRefs": [], "freqRank": 2698, "traditional": "賄"},
 {"char": "婚", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "marriage", "mnemonic": "two become HUN", "invented": false, "crossRefs": [], "freqRank": 1080, "traditional": ""},
 {"char": "昏", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "dusk, and the mind gone dim in it", "mnemonic": "dusk, and the mind gone dim — WANiNG light", "invented": false, "crossRefs": [], "freqRank": 1524, "traditional": "昬"},
-{"char": "混", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "muddied by mixing", "mnemonic": "muddied by mixing — a WOOlly blend", "invented": false, "crossRefs": ["hùn"], "freqRank": 1296, "traditional": ""},
+{"char": "混", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "muddied by mixing", "mnemonic": "WOOly / MUDdy", "invented": false, "crossRefs": ["hùn"], "freqRank": 1296, "traditional": ""},
 {"char": "魂", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "the soul that can leave the body", "mnemonic": "the soul that can leave — the WrAitH", "invented": false, "crossRefs": [], "freqRank": 1389, "traditional": "䰟"},
 {"char": "浑", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "thick and unclear throughout", "mnemonic": "thick and unclear throughout — WHOlly muddy", "invented": false, "crossRefs": [], "freqRank": 1835, "traditional": "渾"},
 {"char": "混", "pinyin": "hùn", "syllable": "hun", "tone": 4, "core": "mixed in among", "mnemonic": "mixed in among — WOUNd in with the rest", "invented": false, "crossRefs": ["hún"], "freqRank": 1296, "traditional": ""},
