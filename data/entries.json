@@ -64,6 +64,7 @@
 {"char": "办", "pinyin": "bàn", "syllable": "ban", "tone": 4, "core": "got dealt with", "mnemonic": "HANdle it", "invented": false, "crossRefs": [], "freqRank": 425, "traditional": "辦"},
 {"char": "伴", "pinyin": "bàn", "syllable": "ban", "tone": 4, "core": "the one alongside", "mnemonic": "the comPANion at your side", "invented": false, "crossRefs": [], "freqRank": 1452, "traditional": ""},
 {"char": "扮", "pinyin": "bàn", "syllable": "ban", "tone": 4, "core": "an appearance not one's own", "mnemonic": "disguised behind a BANdana", "invented": false, "crossRefs": [], "freqRank": 2137, "traditional": ""},
+{"char": "绊", "pinyin": "bàn", "syllable": "ban", "tone": 4, "core": "to (make) trip / stumble", "mnemonic": "stumBLE", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "邦", "pinyin": "bāng", "syllable": "bang", "tone": 1, "core": "a state as a body of people", "mnemonic": "the nation BANGs its drum", "invented": false, "crossRefs": [], "freqRank": 1448, "traditional": ""},
 {"char": "帮", "pinyin": "bāng", "syllable": "bang", "tone": 1, "core": "strength added to another's", "mnemonic": "lend a HANd", "invented": false, "crossRefs": [], "freqRank": 933, "traditional": "幇幚幫"},
 {"char": "榜", "pinyin": "bǎng", "syllable": "bang", "tone": 3, "core": "a board of names posted publicly", "mnemonic": "names up on the BANner", "invented": false, "crossRefs": [], "freqRank": 2493, "traditional": "牓"},
