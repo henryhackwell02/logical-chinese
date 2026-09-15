@@ -878,7 +878,7 @@
 {"char": "虹", "pinyin": "hóng", "syllable": "hong", "tone": 2, "core": "rainbow", "mnemonic": "the rainbow's HOOp", "invented": false, "crossRefs": [], "freqRank": 2414, "traditional": ""},
 {"char": "弘", "pinyin": "hóng", "syllable": "hong", "tone": 2, "core": "broad and generous", "mnemonic": "broad and generous — a HANdsome span", "invented": false, "crossRefs": [], "freqRank": 1809, "traditional": ""},
 {"char": "哄", "pinyin": "hǒng", "syllable": "hong", "tone": 3, "core": "coaxed along with soothing noise", "mnemonic": "coaxed with soothing noise — HUshed along", "invented": false, "crossRefs": ["hōng"], "freqRank": 2533, "traditional": "閧鬨"},
-{"char": "哄", "pinyin": "hòng", "syllable": "hong", "tone": 4, "core": "an uproar", "mnemonic": "an uproar — the HOWling row", "invented": false, "crossRefs": ["hōng"], "freqRank": 2533, "traditional": "閧鬨"},
+{"char": "哄", "pinyin": "hòng", "syllable": "hong", "tone": 4, "core": "an uproar", "mnemonic": "each HAHA with tone suggesting motive", "invented": false, "crossRefs": ["hōng"], "freqRank": 2533, "traditional": "閧鬨"},
 {"char": "喉", "pinyin": "hóu", "syllable": "hou", "tone": 2, "core": "throat", "mnemonic": "the throat you HOWl through", "invented": false, "crossRefs": [], "freqRank": 2377, "traditional": ""},
 {"char": "猴", "pinyin": "hóu", "syllable": "hou", "tone": 2, "core": "monkey", "mnemonic": "the monkey's HOOting", "invented": false, "crossRefs": [], "freqRank": 2432, "traditional": ""},
 {"char": "侯", "pinyin": "hóu", "syllable": "hou", "tone": 2, "core": "a marquis", "mnemonic": "the marquis — a HigH-Up", "invented": false, "crossRefs": [], "freqRank": 936, "traditional": ""},
