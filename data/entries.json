@@ -249,7 +249,7 @@
 {"char": "裳", "pinyin": "cháng", "syllable": "chang", "tone": 2, "core": "the lower garment", "mnemonic": "the lower gown you CHANGe into", "invented": false, "crossRefs": [], "freqRank": 2484, "traditional": ""},
 {"char": "场", "pinyin": "chǎng", "syllable": "chang", "tone": 3, "core": "a place set for something to happen", "mnemonic": "the CHAmber set for it", "invented": false, "crossRefs": ["cháng"], "freqRank": 296, "traditional": "場塲"},
 {"char": "厂", "pinyin": "chǎng", "syllable": "chang", "tone": 3, "core": "an open-sided works", "mnemonic": "the open-sided CHAntry works", "invented": false, "crossRefs": [], "freqRank": 1155, "traditional": "廠"},
-{"char": "敞", "pinyin": "chǎng", "syllable": "chang", "tone": 3, "core": "open and unobstructed", "mnemonic": "CHANnels wide open", "invented": false, "crossRefs": [], "freqRank": 2808, "traditional": ""},
+{"char": "敞", "pinyin": "chǎng", "syllable": "chang", "tone": 3, "core": "open and unobstructed", "mnemonic": "spACIOUS CHAnnel", "invented": false, "crossRefs": [], "freqRank": 2808, "traditional": ""},
 {"char": "唱", "pinyin": "chàng", "syllable": "chang", "tone": 4, "core": "sounded out with the voice", "mnemonic": "chant", "invented": false, "crossRefs": [], "freqRank": 1351, "traditional": ""},
 {"char": "畅", "pinyin": "chàng", "syllable": "chang", "tone": 4, "core": "flowing unobstructed", "mnemonic": "flowing free, unCHAiNed", "invented": false, "crossRefs": [], "freqRank": 2294, "traditional": "暢"},
 {"char": "倡", "pinyin": "chàng", "syllable": "chang", "tone": 4, "core": "led off for others to follow", "mnemonic": "CHANting the lead for others", "invented": false, "crossRefs": [], "freqRank": 2465, "traditional": ""},
