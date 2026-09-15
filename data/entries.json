@@ -1109,7 +1109,7 @@
 {"char": "截", "pinyin": "jié", "syllable": "jie", "tone": 2, "core": "cut clean across", "mnemonic": "SEver / SECT", "invented": false, "crossRefs": [], "freqRank": 1790, "traditional": ""},
 {"char": "劫", "pinyin": "jié", "syllable": "jie", "tone": 2, "core": "seized by force, and so calamity", "mnemonic": "a RAID of JEOpardy", "invented": false, "crossRefs": [], "freqRank": 1812, "traditional": "刦刧刼"},
 {"char": "竭", "pinyin": "jié", "syllable": "jie", "tone": 2, "core": "drained to nothing", "mnemonic": "SPEnt / DRIED up", "invented": false, "crossRefs": [], "freqRank": 2091, "traditional": ""},
-{"char": "诘", "pinyin": "jié", "syllable": "jie", "tone": 2, "core": "pressed with questions", "mnemonic": "pressed with questions — the JEering interrogation", "invented": false, "crossRefs": [], "freqRank": 2753, "traditional": "詰"},
+{"char": "诘", "pinyin": "jié", "syllable": "jie", "tone": 2, "core": "pressed with questions", "mnemonic": "inTERRogate", "invented": false, "crossRefs": [], "freqRank": 2753, "traditional": "詰"},
 {"char": "解", "pinyin": "jiě", "syllable": "jie", "tone": 3, "core": "taken apart, and so understood", "mnemonic": "unTIE", "invented": false, "crossRefs": ["jiè"], "freqRank": 234, "traditional": ""},
 {"char": "姐", "pinyin": "jiě", "syllable": "jie", "tone": 3, "core": "elder sister", "mnemonic": "elder sister — the JEune fille ahead of you", "invented": false, "crossRefs": [], "freqRank": 649, "traditional": ""},
 {"char": "解", "pinyin": "jiè", "syllable": "jie", "tone": 4, "core": "sent under escort", "mnemonic": "sent under escort — JAIled and moved", "invented": false, "crossRefs": ["jiě"], "freqRank": 234, "traditional": ""},
