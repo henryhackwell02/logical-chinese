@@ -956,7 +956,7 @@
 {"char": "混", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "muddied by mixing", "mnemonic": "WOOly / MUDdy", "invented": false, "crossRefs": ["hùn"], "freqRank": 1296, "traditional": ""},
 {"char": "魂", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "the soul that can leave the body", "mnemonic": "the soul that can leave — the WrAitH", "invented": false, "crossRefs": [], "freqRank": 1389, "traditional": "䰟"},
 {"char": "浑", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "thick and unclear throughout", "mnemonic": "thick and unclear throughout — WHOlly muddy", "invented": false, "crossRefs": [], "freqRank": 1835, "traditional": "渾"},
-{"char": "混", "pinyin": "hùn", "syllable": "hun", "tone": 4, "core": "mixed in among", "mnemonic": "mixed in among — WOUNd in with the rest", "invented": false, "crossRefs": ["hún"], "freqRank": 1296, "traditional": ""},
+{"char": "混", "pinyin": "hùn", "syllable": "hun", "tone": 4, "core": "mixed in among", "mnemonic": "BUNG it all in together", "invented": false, "crossRefs": ["hún"], "freqRank": 1296, "traditional": ""},
 {"char": "和", "pinyin": "huó", "syllable": "huo", "tone": 2, "core": "worked together with water", "mnemonic": "worked together with water — WHOle dough kneaded", "invented": false, "crossRefs": ["hé"], "freqRank": 24, "traditional": "咊龢"},
 {"char": "活", "pinyin": "huó", "syllable": "huo", "tone": 2, "core": "living, and the work of the living", "mnemonic": "living, and the work of the living — WHAt keeps you going", "invented": false, "crossRefs": [], "freqRank": 284, "traditional": ""},
 {"char": "火", "pinyin": "huǒ", "syllable": "huo", "tone": 3, "core": "fire", "mnemonic": "WHOA, fire!", "invented": false, "crossRefs": [], "freqRank": 431, "traditional": ""},
