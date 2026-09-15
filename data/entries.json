@@ -1375,6 +1375,7 @@
 {"char": "烈", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "fierce and burning", "mnemonic": "fierce and burning — a bLAZE", "invented": false, "crossRefs": [], "freqRank": 912, "traditional": ""},
 {"char": "猎", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "hunting", "mnemonic": "hunting — the LEAsh let slip", "invented": false, "crossRefs": [], "freqRank": 1804, "traditional": "獵"},
 {"char": "劣", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "falling short in quality", "mnemonic": "falling short in quality — LESs than it should be", "invented": false, "crossRefs": [], "freqRank": 2131, "traditional": ""},
+{"char": "冽", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "cold, raw, chilly", "mnemonic": "chilLIE", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "林", "pinyin": "lín", "syllable": "lin", "tone": 2, "core": "a stand of trees, and so any set of the same kind", "mnemonic": "a stand of trees, and any set of the same kind — the LINE of them", "invented": false, "crossRefs": [], "freqRank": 355, "traditional": ""},
 {"char": "临", "pinyin": "lín", "syllable": "lin", "tone": 2, "core": "coming up close and overlooking", "mnemonic": "coming up close and overlooking — LEANING in", "invented": false, "crossRefs": [], "freqRank": 750, "traditional": "臨"},
 {"char": "邻", "pinyin": "lín", "syllable": "lin", "tone": 2, "core": "next door", "mnemonic": "next door — the one in your LINe", "invented": false, "crossRefs": [], "freqRank": 1654, "traditional": "鄰隣"},
