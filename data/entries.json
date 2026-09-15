@@ -2046,7 +2046,7 @@
 {"char": "数", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "counted off one by one", "mnemonic": "counted off one by one — the SUM ticked", "invented": false, "crossRefs": ["shù"], "freqRank": 213, "traditional": "數"},
 {"char": "属", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "belonging under; the genus", "mnemonic": "belonging under; the genus — the SOrt it's under", "invented": false, "crossRefs": ["zhǔ"], "freqRank": 552, "traditional": "屬"},
 {"char": "鼠", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "rat", "mnemonic": "the rat — the SCUrrier", "invented": false, "crossRefs": [], "freqRank": 1940, "traditional": ""},
-{"char": "署", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "the office, and signing for it", "mnemonic": "the office, and signing for it — the SUb-office", "invented": false, "crossRefs": [], "freqRank": 1385, "traditional": ""},
+{"char": "署", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "the office, and signing for it", "mnemonic": "SIGn off on (from HQ)", "invented": false, "crossRefs": [], "freqRank": 1385, "traditional": ""},
 {"char": "暑", "pinyin": "shǔ", "syllable": "shu", "tone": 3, "core": "the summer heat", "mnemonic": "the summer heat — the SULtry season", "invented": false, "crossRefs": [], "freqRank": 2701, "traditional": ""},
 {"char": "数", "pinyin": "shù", "syllable": "shu", "tone": 4, "core": "the number counted", "mnemonic": "the number counted — the SUM", "invented": false, "crossRefs": ["shǔ", "shuò"], "freqRank": 213, "traditional": "數"},
 {"char": "术", "pinyin": "shù", "syllable": "shu", "tone": 4, "core": "the method practised", "mnemonic": "the method practised — the SKIll", "invented": false, "crossRefs": [], "freqRank": 385, "traditional": "朮術"},
