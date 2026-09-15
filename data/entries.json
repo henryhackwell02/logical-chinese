@@ -560,7 +560,7 @@
 {"char": "恶", "pinyin": "ě", "syllable": "e", "tone": 3, "core": "nausea rising", "mnemonic": "UGH — nausea rising", "invented": false, "crossRefs": ["è", "wù"], "freqRank": 787, "traditional": "噁惡"},
 {"char": "恶", "pinyin": "è", "syllable": "e", "tone": 4, "core": "bad and vicious", "mnemonic": "evil", "invented": false, "crossRefs": ["ě", "wù"], "freqRank": 787, "traditional": "噁惡"},
 {"char": "饿", "pinyin": "è", "syllable": "e", "tone": 4, "core": "hungry", "mnemonic": "hungry — an EMpty gut", "invented": false, "crossRefs": [], "freqRank": 2113, "traditional": "餓"},
-{"char": "厄", "pinyin": "è", "syllable": "e", "tone": 4, "core": "hemmed in by hardship", "mnemonic": "hemmed in — an EMbattled fix", "invented": false, "crossRefs": [], "freqRank": 2705, "traditional": "戹"},
+{"char": "厄", "pinyin": "è", "syllable": "e", "tone": 4, "core": "hemmed in by hardship", "mnemonic": "disasTER", "invented": false, "crossRefs": [], "freqRank": 2705, "traditional": "戹"},
 {"char": "遏", "pinyin": "è", "syllable": "e", "tone": 4, "core": "checked and held back", "mnemonic": "checked — hEld back", "invented": false, "crossRefs": [], "freqRank": 2854, "traditional": ""},
 {"char": "愕", "pinyin": "è", "syllable": "e", "tone": 4, "core": "struck still with surprise", "mnemonic": "struck still — AGog", "invented": false, "crossRefs": [], "freqRank": 2896, "traditional": ""},
 {"char": "恩", "pinyin": "ēn", "syllable": "en", "tone": 1, "core": "kindness given from above", "mnemonic": "kINdness", "invented": false, "crossRefs": [], "freqRank": 784, "traditional": "㤙"},
