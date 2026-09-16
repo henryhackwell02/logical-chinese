@@ -53,6 +53,7 @@
 {"char": "爸", "pinyin": "bà", "syllable": "ba", "tone": 4, "core": "father", "mnemonic": "papa", "invented": false, "crossRefs": [], "freqRank": 1263, "traditional": ""},
 {"char": "吧", "pinyin": "ba", "syllable": "ba", "tone": 5, "core": "the burst softened to a suggestion", "mnemonic": "a soft BA — shall we?", "invented": false, "crossRefs": ["bā"], "freqRank": 608, "traditional": ""},
 {"char": "罢", "pinyin": "ba", "syllable": "ba", "tone": 5, "core": "the same, worn down further", "mnemonic": "a worn-down BA", "invented": false, "crossRefs": ["bà"], "freqRank": 739, "traditional": "罷"},
+{"char": "掰", "pinyin": "bāi", "syllable": "bai", "tone": 1, "core": "break apart/off", "mnemonic": "BREAK off", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "白", "pinyin": "bái", "syllable": "bai", "tone": 2, "core": "white, and so blank", "mnemonic": "blank", "invented": false, "crossRefs": [], "freqRank": 259, "traditional": ""},
 {"char": "百", "pinyin": "bǎi", "syllable": "bai", "tone": 3, "core": "a hundred; all kinds", "mnemonic": "a hundred, BY the score", "invented": false, "crossRefs": [], "freqRank": 252, "traditional": ""},
 {"char": "摆", "pinyin": "bǎi", "syllable": "bai", "tone": 3, "core": "set out, or swung to and fro", "mnemonic": "laid out, swinging BY", "invented": false, "crossRefs": [], "freqRank": 1242, "traditional": "擺"},
