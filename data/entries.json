@@ -41,6 +41,7 @@
 {"char": "八", "pinyin": "bā", "syllable": "ba", "tone": 1, "core": "eight", "mnemonic": "eight in a BAtch", "invented": false, "crossRefs": [], "freqRank": 321, "traditional": ""},
 {"char": "吧", "pinyin": "bā", "syllable": "ba", "tone": 1, "core": "a clipped burst of sound", "mnemonic": "BAh — a clipped bark", "invented": false, "crossRefs": ["ba", "biā"], "freqRank": 608, "traditional": ""},
 {"char": "叭", "pinyin": "bā", "syllable": "ba", "tone": 1, "core": "a sharp crack", "mnemonic": "BAng, a sharp crack", "invented": false, "crossRefs": [], "freqRank": 2864, "traditional": ""},
+{"char": "扒", "pinyin": "bā", "syllable": "ba", "tone": 1, "core": "peeling / skinning / clinging on", "mnemonic": "tearing / pulling down BARE", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "拔", "pinyin": "bá", "syllable": "ba", "tone": 2, "core": "drawn up out of what holds it", "mnemonic": "extRActed from what held it", "invented": false, "crossRefs": [], "freqRank": 1347, "traditional": ""},
 {"char": "跋", "pinyin": "bá", "syllable": "ba", "tone": 2, "core": "trekking rough ground; the note that follows", "mnemonic": "the BAckpack over rough ground", "invented": false, "crossRefs": [], "freqRank": 2895, "traditional": ""},
 {"char": "把", "pinyin": "bǎ", "syllable": "ba", "tone": 3, "core": "taking hold of", "mnemonic": "grab the BAr", "invented": false, "crossRefs": ["bà"], "freqRank": 120, "traditional": ""},
