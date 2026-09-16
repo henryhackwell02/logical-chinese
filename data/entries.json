@@ -100,6 +100,7 @@
 {"char": "抱", "pinyin": "bào", "syllable": "bao", "tone": 4, "core": "held in encircling arms", "mnemonic": "wrapped in a BOA's hold", "invented": false, "crossRefs": [], "freqRank": 1179, "traditional": ""},
 {"char": "豹", "pinyin": "bào", "syllable": "bao", "tone": 4, "core": "leopard", "mnemonic": "the leoPARD", "invented": false, "crossRefs": [], "freqRank": 2423, "traditional": ""},
 {"char": "鲍", "pinyin": "bào", "syllable": "bao", "tone": 4, "core": "abalone", "mnemonic": "aBAlOne on the rock", "invented": false, "crossRefs": [], "freqRank": 2127, "traditional": "鮑"},
+{"char": "曝", "pinyin": "bào", "syllable": "bao", "tone": 4, "core": "to expose (photos / details)", "mnemonic": "exPOSE / BRING to light", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "背", "pinyin": "bēi", "syllable": "bei", "tone": 1, "core": "a load carried on the back", "mnemonic": "BEAR it on your BACK", "invented": false, "crossRefs": ["bèi"], "freqRank": 864, "traditional": "揹"},
 {"char": "悲", "pinyin": "bēi", "syllable": "bei", "tone": 1, "core": "sorrow that weighs", "mnemonic": "BEwAIled sorrow", "invented": false, "crossRefs": [], "freqRank": 1221, "traditional": ""},
 {"char": "杯", "pinyin": "bēi", "syllable": "bei", "tone": 1, "core": "a cup", "mnemonic": "beaker", "invented": false, "crossRefs": [], "freqRank": 1359, "traditional": "桮盃"},
