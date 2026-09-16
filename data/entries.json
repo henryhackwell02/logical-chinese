@@ -18,6 +18,7 @@
 {"char": "艾", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "mugwort; cropped short", "mnemonic": "AY — mugwort, cropped and burned", "invented": false, "crossRefs": ["yì"], "freqRank": 1521, "traditional": ""},
 {"char": "碍", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "standing in the way", "mnemonic": "the AIbstruction in your path", "invented": false, "crossRefs": [], "freqRank": 1709, "traditional": "礙"},
 {"char": "唉", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "the sigh deepened to lament", "mnemonic": "AY me, alas", "invented": false, "crossRefs": ["āi"], "freqRank": 2551, "traditional": ""},
+{"char": "暧", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "Dim / Obscure", "mnemonic": "AIbscure / I can’t see!", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "安", "pinyin": "ān", "syllable": "an", "tone": 1, "core": "at rest in its proper place", "mnemonic": "anchor", "invented": false, "crossRefs": [], "freqRank": 172, "traditional": ""},
 {"char": "鞍", "pinyin": "ān", "syllable": "an", "tone": 1, "core": "what settles a rider on a horse", "mnemonic": "the saddle you lANd on", "invented": false, "crossRefs": [], "freqRank": 2871, "traditional": "鞌"},
 {"char": "庵", "pinyin": "ān", "syllable": "an", "tone": 1, "core": "a small secluded shelter", "mnemonic": "a hermit's quiet ANnexe", "invented": false, "crossRefs": [], "freqRank": 2427, "traditional": "菴"},
