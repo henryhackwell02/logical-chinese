@@ -84,7 +84,7 @@
 {"char": "磅", "pinyin": "bàng", "syllable": "bang", "tone": 4, "core": "as in weight / money", "mnemonic": "POUND", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "谤", "pinyin": "bàng", "syllable": "bang", "tone": 4, "core": "defame or slander", "mnemonic": "speak BAD of / SLAnder", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "包", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "wrapped round and taken on whole", "mnemonic": "bag", "invented": false, "crossRefs": [], "freqRank": 540, "traditional": ""},
-{"char": "胞", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "the membrane enclosing; kin from one womb", "mnemonic": "siblings from one enveloping BOWl", "invented": false, "crossRefs": [], "freqRank": 1648, "traditional": ""},
+{"char": "胞", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "the membrane enclosing; kin from one womb", "mnemonic": "BORN memBRANE", "invented": false, "crossRefs": [], "freqRank": 1648, "traditional": ""},
 {"char": "炮", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "cooked fast in a shallow pan", "mnemonic": "BOWl-fried in a flash", "invented": false, "crossRefs": [], "freqRank": 1089, "traditional": "砲"},
 {"char": "剥", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "the outer layer stripped off", "mnemonic": "stripped BAre, Outer layer off", "invented": false, "crossRefs": ["bō"], "freqRank": 2210, "traditional": "剝"},
 {"char": "褒", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "made large; praised", "mnemonic": "praise that BlOWs him up big", "invented": false, "crossRefs": [], "freqRank": 2924, "traditional": "襃"},
