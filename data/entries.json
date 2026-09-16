@@ -89,6 +89,7 @@
 {"char": "剥", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "the outer layer stripped off", "mnemonic": "stripped BAre, Outer layer off", "invented": false, "crossRefs": ["bō"], "freqRank": 2210, "traditional": "剝"},
 {"char": "褒", "pinyin": "bāo", "syllable": "bao", "tone": 1, "core": "made large; praised", "mnemonic": "praise that BlOWs him up big", "invented": false, "crossRefs": [], "freqRank": 2924, "traditional": "襃"},
 {"char": "薄", "pinyin": "báo", "syllable": "bao", "tone": 2, "core": "thin in thickness", "mnemonic": "BOArd-thin, barely there", "invented": false, "crossRefs": ["bó"], "freqRank": 1285, "traditional": ""},
+{"char": "雹", "pinyin": "báo", "syllable": "bao", "tone": 2, "core": "Hail(stone)", "mnemonic": "BALL of ice", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "保", "pinyin": "bǎo", "syllable": "bao", "tone": 3, "core": "kept safe and unchanged", "mnemonic": "PROtect and keep safe", "invented": false, "crossRefs": [], "freqRank": 285, "traditional": ""},
 {"char": "宝", "pinyin": "bǎo", "syllable": "bao", "tone": 3, "core": "kept because precious", "mnemonic": "the precious BOOty", "invented": false, "crossRefs": [], "freqRank": 580, "traditional": "寳寶"},
 {"char": "堡", "pinyin": "bǎo", "syllable": "bao", "tone": 3, "core": "a fortified earthwork", "mnemonic": "the stronghold, BOlted fast", "invented": false, "crossRefs": [], "freqRank": 1737, "traditional": ""},
