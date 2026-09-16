@@ -115,6 +115,7 @@
 {"char": "辈", "pinyin": "bèi", "syllable": "bei", "tone": 4, "core": "a rank in a generational line", "mnemonic": "the generation you BElong to", "invented": false, "crossRefs": [], "freqRank": 1475, "traditional": "輩"},
 {"char": "悖", "pinyin": "bèi", "syllable": "bei", "tone": 4, "core": "running against", "mnemonic": "reBELs against it, contrarily", "invented": false, "crossRefs": [], "freqRank": 2982, "traditional": "誖"},
 {"char": "惫", "pinyin": "bèi", "syllable": "bei", "tone": 4, "core": "exhausted", "mnemonic": "to be absolutely BEAT", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "狈", "pinyin": "bèi", "syllable": "bei", "tone": 4, "core": "had short legs so “wretched / distressed”", "mnemonic": "wolf-like BEAST", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "奔", "pinyin": "bēn", "syllable": "ben", "tone": 1, "core": "running headlong", "mnemonic": "BENt on running flat out", "invented": false, "crossRefs": ["bèn"], "freqRank": 1113, "traditional": "犇逩"},
 {"char": "本", "pinyin": "běn", "syllable": "ben", "tone": 3, "core": "the root: origin, basis, volume", "mnemonic": "the root, BENeath it all", "invented": false, "crossRefs": [], "freqRank": 104, "traditional": ""},
 {"char": "奔", "pinyin": "bèn", "syllable": "ben", "tone": 4, "core": "running headlong at a destination", "mnemonic": "BENt on getting there", "invented": false, "crossRefs": ["bēn"], "freqRank": 1113, "traditional": "犇逩"},
