@@ -122,6 +122,7 @@
 {"char": "笨", "pinyin": "bèn", "syllable": "ben", "tone": 4, "core": "heavy and unhandy", "mnemonic": "blunt", "invented": false, "crossRefs": [], "freqRank": 2713, "traditional": ""},
 {"char": "崩", "pinyin": "bēng", "syllable": "beng", "tone": 1, "core": "giving way and falling in", "mnemonic": "BURSTs inwards", "invented": false, "crossRefs": [], "freqRank": 1951, "traditional": ""},
 {"char": "蹦", "pinyin": "bèng", "syllable": "beng", "tone": 4, "core": "leaping / springing / jumping", "mnemonic": "sPRING / BOUNce", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "迸", "pinyin": "bèng", "syllable": "beng", "tone": 4, "core": "spouting or spurting", "mnemonic": "BURST forth", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "逼", "pinyin": "bī", "syllable": "bi", "tone": 1, "core": "pressed until no room is left", "mnemonic": "PREssed, comPELled", "invented": false, "crossRefs": [], "freqRank": 1570, "traditional": "偪"},
 {"char": "鼻", "pinyin": "bí", "syllable": "bi", "tone": 2, "core": "nose", "mnemonic": "the BEAk on your face", "invented": false, "crossRefs": [], "freqRank": 1513, "traditional": ""},
 {"char": "比", "pinyin": "bǐ", "syllable": "bi", "tone": 3, "core": "set side by side and measured", "mnemonic": "put them side BY side", "invented": false, "crossRefs": [], "freqRank": 250, "traditional": ""},
