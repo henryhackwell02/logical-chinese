@@ -13,6 +13,7 @@
 {"char": "挨", "pinyin": "ái", "syllable": "ai", "tone": 2, "core": "pressed on, and bearing it", "mnemonic": "AIling, but bearing it", "invented": false, "crossRefs": ["āi"], "freqRank": 2255, "traditional": "捱"},
 {"char": "癌", "pinyin": "ái", "syllable": "ai", "tone": 2, "core": "flesh growing where it shouldn't", "mnemonic": "the mAlIgnant growth", "invented": false, "crossRefs": [], "freqRank": 2239, "traditional": ""},
 {"char": "矮", "pinyin": "ǎi", "syllable": "ai", "tone": 3, "core": "short of the expected height", "mnemonic": "barely eYE-high", "invented": false, "crossRefs": [], "freqRank": 2398, "traditional": ""},
+{"char": "蔼", "pinyin": "ǎi", "syllable": "ai", "tone": 3, "core": "Kind and you’d get along well", "mnemonic": "Affable / AImiable", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "爱", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "held dear enough to be drawn toward", "mnemonic": "the apple of my eYE", "invented": false, "crossRefs": [], "freqRank": 421, "traditional": "愛"},
 {"char": "艾", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "mugwort; cropped short", "mnemonic": "AY — mugwort, cropped and burned", "invented": false, "crossRefs": ["yì"], "freqRank": 1521, "traditional": ""},
 {"char": "碍", "pinyin": "ài", "syllable": "ai", "tone": 4, "core": "standing in the way", "mnemonic": "the AIbstruction in your path", "invented": false, "crossRefs": [], "freqRank": 1709, "traditional": "礙"},
