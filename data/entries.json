@@ -30,6 +30,7 @@
 {"char": "岸", "pinyin": "àn", "syllable": "an", "tone": 4, "core": "the raised edge where water stops", "mnemonic": "the bANkside where water stops", "invented": false, "crossRefs": [], "freqRank": 1056, "traditional": "㟁"},
 {"char": "昂", "pinyin": "áng", "syllable": "ang", "tone": 2, "core": "the head lifted", "mnemonic": "chin up at an ANGle", "invented": false, "crossRefs": [], "freqRank": 2030, "traditional": ""},
 {"char": "熬", "pinyin": "āo", "syllable": "ao", "tone": 1, "core": "cooked slowly in liquid", "mnemonic": "the Arduous sOAk", "invented": false, "crossRefs": ["áo"], "freqRank": 2837, "traditional": ""},
+{"char": "凹", "pinyin": "āo", "syllable": "ao", "tone": 1, "core": "concave / indented", "mnemonic": "carved OUt", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "熬", "pinyin": "áo", "syllable": "ao", "tone": 2, "core": "held over long heat until it yields", "mnemonic": "endure it — OW, the long heat", "invented": false, "crossRefs": ["āo"], "freqRank": 2837, "traditional": ""},
 {"char": "敖", "pinyin": "áo", "syllable": "ao", "tone": 2, "core": "roaming without purpose", "mnemonic": "rOAming, with no aim", "invented": false, "crossRefs": [], "freqRank": 2875, "traditional": ""},
 {"char": "鳌", "pinyin": "áo", "syllable": "ao", "tone": 2, "core": "the great sea turtle", "mnemonic": "the great sea tAOtle", "invented": false, "crossRefs": [], "freqRank": 2954, "traditional": "鰲鼇"},
