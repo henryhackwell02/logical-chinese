@@ -168,7 +168,7 @@
 {"char": "别", "pinyin": "bié", "syllable": "bie", "tone": 2, "core": "parted off; and so \"don't\"", "mnemonic": "BE off — don't", "invented": false, "crossRefs": ["biè"], "freqRank": 244, "traditional": "別彆"},
 {"char": "别", "pinyin": "biè", "syllable": "bie", "tone": 4, "core": "turned against the grain", "mnemonic": "BENt the wrong way", "invented": false, "crossRefs": ["bié"], "freqRank": 244, "traditional": "別彆"},
 {"char": "宾", "pinyin": "bīn", "syllable": "bin", "tone": 1, "core": "the guest received", "mnemonic": "estEEMed guest", "invented": false, "crossRefs": [], "freqRank": 1380, "traditional": "賓"},
-{"char": "滨", "pinyin": "bīn", "syllable": "bin", "tone": 1, "core": "the water's edge", "mnemonic": "Border on the water", "invented": false, "crossRefs": [], "freqRank": 2661, "traditional": "濱"},
+{"char": "滨", "pinyin": "bīn", "syllable": "bin", "tone": 1, "core": "the water's edge", "mnemonic": "BRINK", "invented": false, "crossRefs": [], "freqRank": 2661, "traditional": "濱"},
 {"char": "彬", "pinyin": "bīn", "syllable": "bin", "tone": 1, "core": "substance and polish in balance", "mnemonic": "polish and substance, both BuIlt IN", "invented": false, "crossRefs": [], "freqRank": 2858, "traditional": ""},
 {"char": "兵", "pinyin": "bīng", "syllable": "bing", "tone": 1, "core": "arms and those who bear them", "mnemonic": "BrINGing arms", "invented": false, "crossRefs": [], "freqRank": 238, "traditional": ""},
 {"char": "冰", "pinyin": "bīng", "syllable": "bing", "tone": 1, "core": "ice", "mnemonic": "a BINGe of ice", "invented": false, "crossRefs": [], "freqRank": 1183, "traditional": "氷"},
