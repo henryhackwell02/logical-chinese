@@ -1782,7 +1782,7 @@
 {"char": "讫", "pinyin": "qì", "syllable": "qi", "tone": 4, "core": "settled and done", "mnemonic": "settled and done — the CHEque cleared", "invented": false, "crossRefs": [], "freqRank": 2771, "traditional": "訖"},
 {"char": "迄", "pinyin": "qì", "syllable": "qi", "tone": 4, "core": "up until now", "mnemonic": "up until now — CHEck the date so far", "invented": false, "crossRefs": [], "freqRank": 2868, "traditional": ""},
 {"char": "卡", "pinyin": "qiǎ", "syllable": "qia", "tone": 3, "core": "wedged and stuck", "mnemonic": "wedged and stuck — CHOck-jammed", "invented": false, "crossRefs": ["kǎ"], "freqRank": 913, "traditional": ""},
-{"char": "恰", "pinyin": "qià", "syllable": "qia", "tone": 4, "core": "just so, exactly", "mnemonic": "just so, exactly — CHIMes exactly", "invented": false, "crossRefs": [], "freqRank": 1388, "traditional": ""},
+{"char": "恰", "pinyin": "qià", "syllable": "qia", "tone": 4, "core": "just so, exactly", "mnemonic": "JUST so", "invented": false, "crossRefs": [], "freqRank": 1388, "traditional": ""},
 {"char": "洽", "pinyin": "qià", "syllable": "qia", "tone": 4, "core": "brought into agreement", "mnemonic": "ACcord and Agree", "invented": false, "crossRefs": [], "freqRank": 2963, "traditional": ""},
 {"char": "千", "pinyin": "qiān", "syllable": "qian", "tone": 1, "core": "thousand", "mnemonic": "a thousand — a CHAINed thousand", "invented": false, "crossRefs": [], "freqRank": 376, "traditional": "韆"},
 {"char": "签", "pinyin": "qiān", "syllable": "qian", "tone": 1, "core": "the slip signed or drawn", "mnemonic": "sign", "invented": false, "crossRefs": [], "freqRank": 1447, "traditional": "簽籖籤"},
