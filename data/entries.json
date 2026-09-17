@@ -197,6 +197,7 @@
 {"char": "膊", "pinyin": "bó", "syllable": "bo", "tone": 2, "core": "the upper arm", "mnemonic": "the upper arm's BOne", "invented": false, "crossRefs": [], "freqRank": 2703, "traditional": ""},
 {"char": "帛", "pinyin": "bó", "syllable": "bo", "tone": 2, "core": "silk cloth", "mnemonic": "the silk BOlt", "invented": false, "crossRefs": [], "freqRank": 2390, "traditional": ""},
 {"char": "舶", "pinyin": "bó", "syllable": "bo", "tone": 2, "core": "a seagoing ship", "mnemonic": "the seagoing BOAt", "invented": false, "crossRefs": [], "freqRank": 2667, "traditional": ""},
+{"char": "簸", "pinyin": "bǒ", "syllable": "bo", "tone": 3, "core": "tossing up and down / winnowing", "mnemonic": "BUmp around / TOss up and down", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "卜", "pinyin": "bo", "syllable": "bo", "tone": 5, "core": "reduced syllable in plant names", "mnemonic": "the -BO in radish", "invented": false, "crossRefs": ["bǔ"], "freqRank": 1866, "traditional": "蔔"},
 {"char": "补", "pinyin": "bǔ", "syllable": "bu", "tone": 3, "core": "what is missing, filled in", "mnemonic": "PAtch it Up", "invented": false, "crossRefs": [], "freqRank": 954, "traditional": "補"},
 {"char": "捕", "pinyin": "bǔ", "syllable": "bu", "tone": 3, "core": "seized and held", "mnemonic": "grABbed and held", "invented": false, "crossRefs": [], "freqRank": 1350, "traditional": ""},
