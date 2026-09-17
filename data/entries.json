@@ -159,6 +159,7 @@
 {"char": "辩", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "a case argued in speech", "mnemonic": "the BIcker, the BAttle of words", "invented": false, "crossRefs": [], "freqRank": 1482, "traditional": "辯"},
 {"char": "遍", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "over the whole extent; one full pass", "mnemonic": "BEEN over every inch", "invented": false, "crossRefs": [], "freqRank": 1072, "traditional": "徧"},
 {"char": "辨", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "told apart", "mnemonic": "tell whIch is whIch, BIt by BIt", "invented": false, "crossRefs": [], "freqRank": 1897, "traditional": ""},
+{"char": "辫", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "braid / queue / plait - all lined up", "mnemonic": "BRAID / PLAIt", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "边", "pinyin": "bian", "syllable": "bian", "tone": 5, "core": "the edge reduced to a location suffix", "mnemonic": "the -sIDe on the end", "invented": false, "crossRefs": ["biān"], "freqRank": 300, "traditional": "邊"},
 {"char": "标", "pinyin": "biāo", "syllable": "biao", "tone": 1, "core": "the mark set outside to identify", "mnemonic": "the label the BuYer reads", "invented": false, "crossRefs": [], "freqRank": 606, "traditional": "標"},
 {"char": "彪", "pinyin": "biāo", "syllable": "biao", "tone": 1, "core": "tiger stripes; vigour", "mnemonic": "tiger stripes — a BIG show", "invented": false, "crossRefs": [], "freqRank": 2272, "traditional": ""},
