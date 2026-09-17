@@ -162,7 +162,7 @@
 {"char": "辫", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "braid / queue / plait - all lined up", "mnemonic": "BRAID / PLAIt", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "边", "pinyin": "bian", "syllable": "bian", "tone": 5, "core": "the edge reduced to a location suffix", "mnemonic": "the -sIDe on the end", "invented": false, "crossRefs": ["biān"], "freqRank": 300, "traditional": "邊"},
 {"char": "标", "pinyin": "biāo", "syllable": "biao", "tone": 1, "core": "the mark set outside to identify", "mnemonic": "outer MARK or symBOL", "invented": false, "crossRefs": [], "freqRank": 606, "traditional": "標"},
-{"char": "彪", "pinyin": "biāo", "syllable": "biao", "tone": 1, "core": "tiger stripes; vigour", "mnemonic": "tiger stripes — a BIG show", "invented": false, "crossRefs": [], "freqRank": 2272, "traditional": ""},
+{"char": "彪", "pinyin": "biāo", "syllable": "biao", "tone": 1, "core": "tiger stripes; vigour", "mnemonic": "RAWR", "invented": false, "crossRefs": [], "freqRank": 2272, "traditional": ""},
 {"char": "表", "pinyin": "biǎo", "syllable": "biao", "tone": 3, "core": "the face shown outward — of a thing, a table, or a watch", "mnemonic": "BE OUt on display", "invented": true, "crossRefs": [], "freqRank": 217, "traditional": "錶"},
 {"char": "憋", "pinyin": "biē", "syllable": "bie", "tone": 1, "core": "Holding in/back", "mnemonic": "resTRAIN / hold BACK", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "别", "pinyin": "bié", "syllable": "bie", "tone": 2, "core": "parted off; and so \"don't\"", "mnemonic": "BE off — don't", "invented": false, "crossRefs": ["biè"], "freqRank": 244, "traditional": "別彆"},
