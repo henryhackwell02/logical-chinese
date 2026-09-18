@@ -218,6 +218,7 @@
 {"char": "彩", "pinyin": "cǎi", "syllable": "cai", "tone": 3, "core": "colour bright enough to draw the eye", "mnemonic": "VIbrant and bRIght", "invented": false, "crossRefs": [], "freqRank": 1207, "traditional": ""},
 {"char": "采", "pinyin": "cǎi", "syllable": "cai", "tone": 3, "core": "picked out and taken", "mnemonic": "SElect it, exTRAct it", "invented": false, "crossRefs": [], "freqRank": 679, "traditional": "採"},
 {"char": "踩", "pinyin": "cǎi", "syllable": "cai", "tone": 3, "core": "the foot put down on", "mnemonic": "tREAd on it", "invented": false, "crossRefs": [], "freqRank": 2939, "traditional": "跴"},
+{"char": "睬", "pinyin": "cǎi", "syllable": "cai", "tone": 3, "core": "Pay attention to", "mnemonic": "TAKE notice of", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "菜", "pinyin": "cài", "syllable": "cai", "tone": 4, "core": "a plant gathered to eat", "mnemonic": "the KAle you eat", "invented": false, "crossRefs": [], "freqRank": 1394, "traditional": ""},
 {"char": "参", "pinyin": "cān", "syllable": "can", "tone": 1, "core": "entered into and taken part", "mnemonic": "Come ANd join in", "invented": false, "crossRefs": ["shēn"], "freqRank": 508, "traditional": "㕘參叅葠蓡"},
 {"char": "餐", "pinyin": "cān", "syllable": "can", "tone": 1, "core": "a meal taken", "mnemonic": "canteen", "invented": false, "crossRefs": [], "freqRank": 1719, "traditional": ""},
