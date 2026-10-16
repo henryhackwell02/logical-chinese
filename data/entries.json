@@ -2995,7 +2995,7 @@
 {"char": "眨", "pinyin": "zhǎ", "syllable": "zha", "tone": 3, "core": "blinked", "mnemonic": "blinked — the JErk of an eyelid", "invented": false, "crossRefs": [], "freqRank": 2339, "traditional": ""},
 {"char": "炸", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "burst apart", "mnemonic": "BLASt", "invented": false, "crossRefs": ["zhá"], "freqRank": 1202, "traditional": ""},
 {"char": "诈", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "got by trickery", "mnemonic": "got by trickery — the JAPe", "invented": false, "crossRefs": [], "freqRank": 2242, "traditional": "詐"},
-{"char": "榨", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "pressed until it yields", "mnemonic": "JAmmed down till it gives", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "榨", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "pressed until it yields", "mnemonic": "exTRACT / press OUT", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "斋", "pinyin": "zhāi", "syllable": "zhai", "tone": 1, "core": "abstaining, and the room kept for it", "mnemonic": "abstaining, and the room kept for it — the JEjune fast", "invented": false, "crossRefs": [], "freqRank": 2018, "traditional": "亝齋"},
 {"char": "摘", "pinyin": "zhāi", "syllable": "zhai", "tone": 1, "core": "picked off", "mnemonic": "picked off — the JErk off the stem", "invented": false, "crossRefs": [], "freqRank": 2315, "traditional": ""},
 {"char": "宅", "pinyin": "zhái", "syllable": "zhai", "tone": 2, "core": "the dwelling", "mnemonic": "the dwelling — the JOint you live in", "invented": false, "crossRefs": [], "freqRank": 1688, "traditional": ""},
