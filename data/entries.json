@@ -3010,7 +3010,7 @@
 {"char": "斩", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "cut through at a stroke", "mnemonic": "cut through at a stroke — the CHOp", "invented": false, "crossRefs": [], "freqRank": 1511, "traditional": "斬"},
 {"char": "盏", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "the small cup, and the lamp like it", "mnemonic": "the small cup, and the lamp like it — the JArful", "invented": false, "crossRefs": [], "freqRank": 2756, "traditional": "盞"},
 {"char": "崭", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "brand new, standing out", "mnemonic": "TOWeringly", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "嶄"},
-{"char": "战", "pinyin": "zhàn", "syllable": "zhan", "tone": 4, "core": "battle", "mnemonic": "battle — the JOUst", "invented": false, "crossRefs": [], "freqRank": 161, "traditional": "戰"},
+{"char": "战", "pinyin": "zhàn", "syllable": "zhan", "tone": 4, "core": "battle", "mnemonic": "BATtle", "invented": false, "crossRefs": [], "freqRank": 161, "traditional": "戰"},
 {"char": "站", "pinyin": "zhàn", "syllable": "zhan", "tone": 4, "core": "standing, and the stop stood at", "mnemonic": "stand", "invented": false, "crossRefs": [], "freqRank": 652, "traditional": ""},
 {"char": "占", "pinyin": "zhàn", "syllable": "zhan", "tone": 4, "core": "laying claim to ground", "mnemonic": "laying claim to ground — the JUmp on it", "invented": true, "crossRefs": ["zhān"], "freqRank": 848, "traditional": "佔"},
 {"char": "张", "pinyin": "zhāng", "syllable": "zhang", "tone": 1, "core": "opened and spread; and one flat sheet", "mnemonic": "opened and spread, and one flat sheet — the JAmmed-open sheet", "invented": false, "crossRefs": [], "freqRank": 266, "traditional": "張"},
