@@ -3048,7 +3048,7 @@
 {"char": "这", "pinyin": "zhè", "syllable": "zhe", "tone": 4, "core": "this", "mnemonic": "this — JUst this", "invented": false, "crossRefs": [], "freqRank": 11, "traditional": "這"},
 {"char": "着", "pinyin": "zhe", "syllable": "zhe", "tone": 5, "core": "the marker of action going on", "mnemonic": "the marker of action going on — the -ing, JUst now", "invented": false, "crossRefs": ["zhāo"], "freqRank": 47, "traditional": "著"},
 {"char": "真", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "true, and not merely seeming", "mnemonic": "true, and not merely seeming — the GENuine", "invented": false, "crossRefs": [], "freqRank": 226, "traditional": ""},
-{"char": "针", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "the needle", "mnemonic": "the needle — the JAb of it", "invented": false, "crossRefs": [], "freqRank": 1334, "traditional": "針鍼"},
+{"char": "针", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "the needle", "mnemonic": "inJECTion", "invented": false, "crossRefs": [], "freqRank": 1334, "traditional": "針鍼"},
 {"char": "珍", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "held precious", "mnemonic": "held precious — the GEm", "invented": false, "crossRefs": [], "freqRank": 1306, "traditional": "珎"},
 {"char": "侦", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "scouted out", "mnemonic": "scouted out — the JAUNt to spy", "invented": false, "crossRefs": [], "freqRank": 1830, "traditional": "偵遉"},
 {"char": "贞", "pinyin": "zhēn", "syllable": "zhen", "tone": 1, "core": "holding true", "mnemonic": "holding true — the GENuine constancy", "invented": false, "crossRefs": [], "freqRank": 1546, "traditional": "貞"},
