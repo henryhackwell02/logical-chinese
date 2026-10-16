@@ -3005,7 +3005,7 @@
 {"char": "占", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "laying claim to a sign; divining", "mnemonic": "JUDGement (divine)", "invented": true, "crossRefs": ["zhàn"], "freqRank": 848, "traditional": "佔"},
 {"char": "沾", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "touched, and so wetted or tainted", "mnemonic": "DAMPen / moisTEN", "invented": false, "crossRefs": [], "freqRank": 2531, "traditional": "霑"},
 {"char": "瞻", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "gazed at from afar", "mnemonic": "gazed at from afar — the JAuNt of the eye", "invented": false, "crossRefs": [], "freqRank": 2747, "traditional": ""},
-{"char": "粘", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "stuck fast", "mnemonic": "stuck fast — the JAmmed-on", "invented": false, "crossRefs": [], "freqRank": 2543, "traditional": ""},
+{"char": "粘", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "stuck fast", "mnemonic": "ADHered / JAMmy", "invented": false, "crossRefs": [], "freqRank": 2543, "traditional": ""},
 {"char": "展", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "spread open and shown", "mnemonic": "spread open and shown — the JAUNt laid out", "invented": false, "crossRefs": [], "freqRank": 346, "traditional": ""},
 {"char": "斩", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "cut through at a stroke", "mnemonic": "cut through at a stroke — the CHOp", "invented": false, "crossRefs": [], "freqRank": 1511, "traditional": "斬"},
 {"char": "盏", "pinyin": "zhǎn", "syllable": "zhan", "tone": 3, "core": "the small cup, and the lamp like it", "mnemonic": "the small cup, and the lamp like it — the JArful", "invented": false, "crossRefs": [], "freqRank": 2756, "traditional": "盞"},
