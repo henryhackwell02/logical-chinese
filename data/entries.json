@@ -2955,7 +2955,7 @@
 {"char": "灾", "pinyin": "zāi", "syllable": "zai", "tone": 1, "core": "disaster", "mnemonic": "diSASter", "invented": false, "crossRefs": [], "freqRank": 1273, "traditional": "災烖菑"},
 {"char": "栽", "pinyin": "zāi", "syllable": "zai", "tone": 1, "core": "planted in", "mnemonic": "SOWing / drop in PLACE", "invented": false, "crossRefs": [], "freqRank": 2476, "traditional": ""},
 {"char": "载", "pinyin": "zǎi", "syllable": "zai", "tone": 3, "core": "set down in writing; the year", "mnemonic": "WRIte down and SAID", "invented": false, "crossRefs": ["zài"], "freqRank": 970, "traditional": "載"},
-{"char": "宰", "pinyin": "zǎi", "syllable": "zai", "tone": 3, "core": "butchered, and so ruling over", "mnemonic": "butchered, and so ruling over — the SLIce of the master", "invented": false, "crossRefs": [], "freqRank": 1449, "traditional": ""},
+{"char": "宰", "pinyin": "zǎi", "syllable": "zai", "tone": 3, "core": "butchered, and so ruling over", "mnemonic": "maSSACre", "invented": false, "crossRefs": [], "freqRank": 1449, "traditional": ""},
 {"char": "在", "pinyin": "zài", "syllable": "zai", "tone": 4, "core": "being at", "mnemonic": "being at — where it's SIted", "invented": false, "crossRefs": [], "freqRank": 7, "traditional": ""},
 {"char": "载", "pinyin": "zài", "syllable": "zai", "tone": 4, "core": "carried and loaded", "mnemonic": "carried and loaded — the SIt of the cargo", "invented": false, "crossRefs": ["zǎi"], "freqRank": 970, "traditional": "載"},
 {"char": "再", "pinyin": "zài", "syllable": "zai", "tone": 4, "core": "once more", "mnemonic": "once more — SAY it again", "invented": false, "crossRefs": [], "freqRank": 242, "traditional": ""},
