@@ -3039,7 +3039,7 @@
 {"char": "罩", "pinyin": "zhào", "syllable": "zhao", "tone": 4, "core": "the cover placed over", "mnemonic": "shROUD / HOOD Over", "invented": false, "crossRefs": [], "freqRank": 2216, "traditional": ""},
 {"char": "召", "pinyin": "zhào", "syllable": "zhao", "tone": 4, "core": "called together", "mnemonic": "called together — the JOin-up call", "invented": false, "crossRefs": [], "freqRank": 987, "traditional": ""},
 {"char": "兆", "pinyin": "zhào", "syllable": "zhao", "tone": 4, "core": "the omen read; and a million", "mnemonic": "Omen", "invented": false, "crossRefs": [], "freqRank": 1926, "traditional": ""},
-{"char": "折", "pinyin": "zhē", "syllable": "zhe", "tone": 1, "core": "turned over and tipped out", "mnemonic": "turned over and tipped out — the JErk over", "invented": false, "crossRefs": ["zhé"], "freqRank": 1137, "traditional": "摺"},
+{"char": "折", "pinyin": "zhē", "syllable": "zhe", "tone": 1, "core": "turned over and tipped out", "mnemonic": "fracTURE", "invented": false, "crossRefs": ["zhé"], "freqRank": 1137, "traditional": "摺"},
 {"char": "遮", "pinyin": "zhē", "syllable": "zhe", "tone": 1, "core": "screened from view", "mnemonic": "screened from view — the JAcketed-off", "invented": false, "crossRefs": [], "freqRank": 2249, "traditional": ""},
 {"char": "折", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "broken and bent back, and so discounted", "mnemonic": "broken and bent back, and so discounted — the JErked break", "invented": false, "crossRefs": ["zhē", "shé"], "freqRank": 1137, "traditional": "摺"},
 {"char": "哲", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "wise", "mnemonic": "wise — the JUdicious one", "invented": false, "crossRefs": [], "freqRank": 1299, "traditional": "喆"},
