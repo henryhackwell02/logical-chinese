@@ -2993,7 +2993,7 @@
 {"char": "炸", "pinyin": "zhá", "syllable": "zha", "tone": 2, "core": "cooked in deep fat", "mnemonic": "cooked in deep fat — the JAr of oil", "invented": false, "crossRefs": ["zhà"], "freqRank": 1202, "traditional": ""},
 {"char": "札", "pinyin": "zhá", "syllable": "zha", "tone": 2, "core": "the writing slip, and the note on it", "mnemonic": "the writing slip, and the note on it — the JOtting", "invented": false, "crossRefs": [], "freqRank": 2947, "traditional": "剳劄"},
 {"char": "眨", "pinyin": "zhǎ", "syllable": "zha", "tone": 3, "core": "blinked", "mnemonic": "blinked — the JErk of an eyelid", "invented": false, "crossRefs": [], "freqRank": 2339, "traditional": ""},
-{"char": "炸", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "burst apart", "mnemonic": "burst apart — the JOlt of a blast", "invented": false, "crossRefs": ["zhá"], "freqRank": 1202, "traditional": ""},
+{"char": "炸", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "burst apart", "mnemonic": "BLASt", "invented": false, "crossRefs": ["zhá"], "freqRank": 1202, "traditional": ""},
 {"char": "诈", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "got by trickery", "mnemonic": "got by trickery — the JAPe", "invented": false, "crossRefs": [], "freqRank": 2242, "traditional": "詐"},
 {"char": "榨", "pinyin": "zhà", "syllable": "zha", "tone": 4, "core": "pressed until it yields", "mnemonic": "JAmmed down till it gives", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "斋", "pinyin": "zhāi", "syllable": "zhai", "tone": 1, "core": "abstaining, and the room kept for it", "mnemonic": "abstaining, and the room kept for it — the JEjune fast", "invented": false, "crossRefs": [], "freqRank": 2018, "traditional": "亝齋"},
