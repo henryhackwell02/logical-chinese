@@ -3026,7 +3026,7 @@
 {"char": "丈", "pinyin": "zhàng", "syllable": "zhang", "tone": 4, "core": "the ten-foot measure; and the elder man", "mnemonic": "the ten-foot measure, and the elder man — the JUdged span", "invented": false, "crossRefs": [], "freqRank": 1129, "traditional": ""},
 {"char": "涨", "pinyin": "zhàng", "syllable": "zhang", "tone": 4, "core": "swollen out", "mnemonic": "swollen out — the JUtting swell", "invented": false, "crossRefs": ["zhǎng"], "freqRank": 2096, "traditional": "漲"},
 {"char": "胀", "pinyin": "zhàng", "syllable": "zhang", "tone": 4, "core": "swollen from within", "mnemonic": "exPANDed / swollen", "invented": false, "crossRefs": [], "freqRank": 2487, "traditional": "脹"},
-{"char": "杖", "pinyin": "zhàng", "syllable": "zhang", "tone": 4, "core": "the staff", "mnemonic": "the staff — the JOisted stick", "invented": false, "crossRefs": [], "freqRank": 2007, "traditional": ""},
+{"char": "杖", "pinyin": "zhàng", "syllable": "zhang", "tone": 4, "core": "the staff", "mnemonic": "STAFF", "invented": false, "crossRefs": [], "freqRank": 2007, "traditional": ""},
 {"char": "着", "pinyin": "zhāo", "syllable": "zhao", "tone": 1, "core": "the move made", "mnemonic": "the move made — the JAb of a move", "invented": false, "crossRefs": ["zháo", "zhe", "zhuó"], "freqRank": 47, "traditional": "著"},
 {"char": "朝", "pinyin": "zhāo", "syllable": "zhao", "tone": 1, "core": "morning", "mnemonic": "morning — the day's JAunt begins", "invented": false, "crossRefs": ["cháo"], "freqRank": 382, "traditional": ""},
 {"char": "招", "pinyin": "zhāo", "syllable": "zhao", "tone": 1, "core": "beckoned, and so brought on", "mnemonic": "beckoned, and so brought on — the JOin-me wave", "invented": false, "crossRefs": [], "freqRank": 894, "traditional": ""},
