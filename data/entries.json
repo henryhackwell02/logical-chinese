@@ -939,7 +939,7 @@
 {"char": "坏", "pinyin": "huài", "syllable": "huai", "tone": 4, "core": "gone bad", "mnemonic": "gone bad — WHY spoil it", "invented": false, "crossRefs": [], "freqRank": 925, "traditional": "壞"},
 {"char": "欢", "pinyin": "huān", "syllable": "huan", "tone": 1, "core": "glad, and noisy with it", "mnemonic": "HAppy", "invented": false, "crossRefs": [], "freqRank": 723, "traditional": "懽歡讙驩"},
 {"char": "环", "pinyin": "huán", "syllable": "huan", "tone": 2, "core": "a ring, and each link in it", "mnemonic": "the ring, and each link — a WHEel round", "invented": false, "crossRefs": [], "freqRank": 796, "traditional": "環"},
-{"char": "还", "pinyin": "huán", "syllable": "huan", "tone": 2, "core": "given back", "mnemonic": "given back — WHAt you retUrN", "invented": false, "crossRefs": ["hái"], "freqRank": 87, "traditional": "還"},
+{"char": "还", "pinyin": "huán", "syllable": "huan", "tone": 2, "core": "given back", "mnemonic": "reTURN", "invented": false, "crossRefs": ["hái"], "freqRank": 87, "traditional": "還"},
 {"char": "缓", "pinyin": "huǎn", "syllable": "huan", "tone": 3, "core": "slowed and slackened", "mnemonic": "slowed and slackened — WANiNG pace", "invented": false, "crossRefs": [], "freqRank": 1224, "traditional": "緩"},
 {"char": "换", "pinyin": "huàn", "syllable": "huan", "tone": 4, "core": "one put in place of another", "mnemonic": "one put in place of another — a sWAp", "invented": false, "crossRefs": [], "freqRank": 935, "traditional": "換"},
 {"char": "患", "pinyin": "huàn", "syllable": "huan", "tone": 4, "core": "the trouble one suffers", "mnemonic": "the trouble you suffer — WHAt aiLs you", "invented": false, "crossRefs": [], "freqRank": 1217, "traditional": ""},
