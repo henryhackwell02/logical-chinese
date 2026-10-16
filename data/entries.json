@@ -2952,7 +2952,7 @@
 {"char": "杂", "pinyin": "zá", "syllable": "za", "tone": 2, "core": "mixed together", "mnemonic": "the A-Z of stuff", "invented": false, "crossRefs": [], "freqRank": 926, "traditional": "襍雜"},
 {"char": "砸", "pinyin": "zá", "syllable": "za", "tone": 2, "core": "smashed down, and so botched", "mnemonic": "smashed down, and so botched — the SMAsh", "invented": false, "crossRefs": [], "freqRank": 2633, "traditional": ""},
 {"char": "咋", "pinyin": "zǎ", "syllable": "za", "tone": 3, "core": "how, said bluntly", "mnemonic": "a flat ZAp of a question", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
-{"char": "灾", "pinyin": "zāi", "syllable": "zai", "tone": 1, "core": "disaster", "mnemonic": "disaster — the ZIgzag of ruin", "invented": false, "crossRefs": [], "freqRank": 1273, "traditional": "災烖菑"},
+{"char": "灾", "pinyin": "zāi", "syllable": "zai", "tone": 1, "core": "disaster", "mnemonic": "diSASter", "invented": false, "crossRefs": [], "freqRank": 1273, "traditional": "災烖菑"},
 {"char": "栽", "pinyin": "zāi", "syllable": "zai", "tone": 1, "core": "planted in", "mnemonic": "planted in — the SOWiNG", "invented": false, "crossRefs": [], "freqRank": 2476, "traditional": ""},
 {"char": "载", "pinyin": "zǎi", "syllable": "zai", "tone": 3, "core": "set down in writing; the year", "mnemonic": "set down in writing, and the year — the SAId and recorded", "invented": false, "crossRefs": ["zài"], "freqRank": 970, "traditional": "載"},
 {"char": "宰", "pinyin": "zǎi", "syllable": "zai", "tone": 3, "core": "butchered, and so ruling over", "mnemonic": "butchered, and so ruling over — the SLIce of the master", "invented": false, "crossRefs": [], "freqRank": 1449, "traditional": ""},
