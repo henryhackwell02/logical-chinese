@@ -3078,7 +3078,7 @@
 {"char": "知", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "known", "mnemonic": "known — you're clued IN", "invented": false, "crossRefs": [], "freqRank": 101, "traditional": ""},
 {"char": "织", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "woven together", "mnemonic": "woven together — the STITCHing", "invented": false, "crossRefs": [], "freqRank": 734, "traditional": "織"},
 {"char": "支", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "the branch propped out, and so supporting", "mnemonic": "the branch propped out, and so supporting — the JIb that props", "invented": false, "crossRefs": [], "freqRank": 510, "traditional": ""},
-{"char": "脂", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "fat and grease", "mnemonic": "fat and grease — the GREase", "invented": false, "crossRefs": [], "freqRank": 2437, "traditional": ""},
+{"char": "脂", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "fat and grease", "mnemonic": "FUDGY fat/oil", "invented": false, "crossRefs": [], "freqRank": 2437, "traditional": ""},
 {"char": "只", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "one alone of what should be a pair", "mnemonic": "JUST one", "invented": true, "crossRefs": ["zhǐ"], "freqRank": 96, "traditional": "祇秖衹隻"},
 {"char": "汁", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "juice", "mnemonic": "juice — the JUICE", "invented": false, "crossRefs": [], "freqRank": 2944, "traditional": ""},
 {"char": "枝", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "the branch", "mnemonic": "the branch — the twIG", "invented": false, "crossRefs": [], "freqRank": 1430, "traditional": ""},
