@@ -2962,7 +2962,7 @@
 {"char": "咱", "pinyin": "zán", "syllable": "zan", "tone": 2, "core": "we, you and I", "mnemonic": "we, you and I — the SUM of us", "invented": false, "crossRefs": [], "freqRank": 1376, "traditional": "偺喒"},
 {"char": "攒", "pinyin": "zǎn", "syllable": "zan", "tone": 3, "core": "saved up bit by bit", "mnemonic": "SAved up, coin by coin", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "攢"},
 {"char": "赞", "pinyin": "zàn", "syllable": "zan", "tone": 4, "core": "spoken in support", "mnemonic": "SUpport / PRAIse", "invented": false, "crossRefs": [], "freqRank": 1147, "traditional": "讃讚賛贊"},
-{"char": "暂", "pinyin": "zàn", "syllable": "zan", "tone": 4, "core": "for the time being", "mnemonic": "for the time being — the SNAtch of time", "invented": false, "crossRefs": [], "freqRank": 1436, "traditional": "暫蹔"},
+{"char": "暂", "pinyin": "zàn", "syllable": "zan", "tone": 4, "core": "for the time being", "mnemonic": "SHORT-TErm", "invented": false, "crossRefs": [], "freqRank": 1436, "traditional": "暫蹔"},
 {"char": "脏", "pinyin": "zāng", "syllable": "zang", "tone": 1, "core": "soiled", "mnemonic": "soiled — the STAiN", "invented": true, "crossRefs": ["zàng"], "freqRank": 2009, "traditional": "臟髒"},
 {"char": "赃", "pinyin": "zāng", "syllable": "zang", "tone": 1, "core": "goods taken in crime", "mnemonic": "goods taken in crime — the STOleN haul", "invented": false, "crossRefs": [], "freqRank": 2855, "traditional": "贓贜"},
 {"char": "藏", "pinyin": "zàng", "syllable": "zang", "tone": 4, "core": "the storehouse; Tibet", "mnemonic": "the storehouse — the STOrAGE", "invented": false, "crossRefs": ["cáng"], "freqRank": 928, "traditional": ""},
