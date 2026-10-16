@@ -3001,7 +3001,7 @@
 {"char": "宅", "pinyin": "zhái", "syllable": "zhai", "tone": 2, "core": "the dwelling", "mnemonic": "the dwelling — the JOint you live in", "invented": false, "crossRefs": [], "freqRank": 1688, "traditional": ""},
 {"char": "窄", "pinyin": "zhǎi", "syllable": "zhai", "tone": 3, "core": "narrow", "mnemonic": "narrow — the JAmmed gap", "invented": false, "crossRefs": [], "freqRank": 2576, "traditional": ""},
 {"char": "债", "pinyin": "zhài", "syllable": "zhai", "tone": 4, "core": "debt", "mnemonic": "DEBT to PAY", "invented": false, "crossRefs": [], "freqRank": 1489, "traditional": "債"},
-{"char": "寨", "pinyin": "zhài", "syllable": "zhai", "tone": 4, "core": "the stockaded camp", "mnemonic": "the stockaded camp — the JAgged palisade", "invented": false, "crossRefs": [], "freqRank": 1815, "traditional": "砦"},
+{"char": "寨", "pinyin": "zhài", "syllable": "zhai", "tone": 4, "core": "the stockaded camp", "mnemonic": "stoCKADE", "invented": false, "crossRefs": [], "freqRank": 1815, "traditional": "砦"},
 {"char": "占", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "laying claim to a sign; divining", "mnemonic": "laying claim to a sign; divining — the JUdgement read", "invented": true, "crossRefs": ["zhàn"], "freqRank": 848, "traditional": "佔"},
 {"char": "沾", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "touched, and so wetted or tainted", "mnemonic": "touched, and so wetted or tainted — the DAmp on it", "invented": false, "crossRefs": [], "freqRank": 2531, "traditional": "霑"},
 {"char": "瞻", "pinyin": "zhān", "syllable": "zhan", "tone": 1, "core": "gazed at from afar", "mnemonic": "gazed at from afar — the JAuNt of the eye", "invented": false, "crossRefs": [], "freqRank": 2747, "traditional": ""},
