@@ -1,8 +1,31 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { IBM_Plex_Sans, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
 import SiteSearch from '@/components/SiteSearch';
 import { SITE, addCharUrl } from '@/lib/site';
+
+/**
+ * Self-hosted at build time: Next downloads these and serves them from this
+ * domain, so there is no request to Google and no runtime dependency.
+ *
+ * Source Serif 4 carries the dictionary's own voice — core ideas, running
+ * heads, labels — and is used in italic throughout, so both styles are needed.
+ * IBM Plex Sans does the structural work and sets the mnemonic itself.
+ */
+const serif = Source_Serif_4({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-serif',
+});
+
+const sans = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  display: 'swap',
+  variable: '--font-sans',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -33,7 +56,7 @@ export const viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <body>
         <a className="skip" href="#main">
           Skip to content

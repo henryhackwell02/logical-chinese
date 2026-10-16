@@ -1,43 +1,93 @@
 /* ==========================================================================
-   Logical Chinese
-   Ink on paper, hairline rules, and one colour: the highlighter over the sound.
-   No cards, no shadows, no rounded boxes. The lit capitals are the only shout.
+   Logical Chinese — an editorial dictionary
+
+   The page is set like a printed reference: a ruled masthead, running heads in
+   italic, characters hanging in their own margin column, and sections divided
+   by rules rather than boxed into cards. Type does the structural work.
+
+   Colour is rationed to two, and both carry meaning:
+     highlighter  the Mandarin sound hidden inside the English phrase
+     seal red     a thread that is a memory aid rather than real etymology
+   Nothing else is coloured, so nothing competes with the mark.
    ========================================================================== */
 
 :root {
-  --bg: #f6f7f4;
-  --fg: #17212b;
+  /* --- ink and paper ---------------------------------------------------- */
+  --paper: #f6f7f4;
+  --ink: #17212b;
   --muted: #6a7787;
-  --rule: rgba(23, 33, 43, 0.14);
-  --rule-firm: rgba(23, 33, 43, 0.3);
-  --wash: rgba(23, 33, 43, 0.045);
+  --faint: #8b96a3;
+  --rule: rgba(23, 33, 43, 0.13);
+  --rule-firm: rgba(23, 33, 43, 0.26);
+  --rule-strong: rgba(23, 33, 43, 0.85);
+  --wash: rgba(23, 33, 43, 0.035);
   --hl: #ffe08a;
   --hl-ink: #17212b;
   --seal: #a6402e;
 
-  --sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
-    sans-serif;
-  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia,
+  /* --- families ---------------------------------------------------------
+     --font-serif and --font-sans are set by next/font in app/layout.tsx. */
+  --serif: var(--font-serif), 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia,
     'Times New Roman', serif;
+  --sans: var(--font-sans), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
   --han: 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Heiti SC', 'Microsoft YaHei',
     'Source Han Sans SC', sans-serif;
 
-  --gutter: clamp(1.125rem, 4vw, 3rem);
-  --measure: 40rem;
-  --wide: 66rem;
+  /* --- type scale --------------------------------------------------------- */
+  --t-xs: 0.75rem;
+  --t-sm: 0.8125rem;
+  --t-base: 0.9375rem;
+  --t-md: 1.0625rem;
+  --t-lg: 1.25rem;
+  --t-xl: clamp(1.375rem, 1.1rem + 1.1vw, 1.75rem);
+  --t-2xl: clamp(1.75rem, 1.3rem + 1.9vw, 2.5rem);
+  --t-3xl: clamp(2.125rem, 1.4rem + 3vw, 3.5rem);
+  --t-display: clamp(2.5rem, 1.3rem + 5.2vw, 5rem);
+
+  /* --- spacing, quarter-rem steps ---------------------------------------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 2.75rem;
+  --s-8: 3.5rem;
+  --s-9: 5rem;
+
+  /* --- measure and gutters ------------------------------------------------ */
+  --gutter: clamp(1.125rem, 0.6rem + 2.4vw, 3.25rem);
+  --measure: 34rem;
+  --wide: 68rem;
+
+  /* the hanging-character column, shared by every list and the entry page */
+  --margin-col: 3rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --margin-col: 4.25rem;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #12181d;
-    --fg: #e8ebe6;
-    --muted: #96a3b0;
-    --rule: rgba(232, 235, 230, 0.16);
-    --rule-firm: rgba(232, 235, 230, 0.34);
-    --wash: rgba(232, 235, 230, 0.05);
+    --paper: #12181d;
+    --ink: #e9ece7;
+    --muted: #97a4b1;
+    --faint: #7d8a97;
+    --rule: rgba(233, 236, 231, 0.15);
+    --rule-firm: rgba(233, 236, 231, 0.32);
+    --rule-strong: rgba(233, 236, 231, 0.8);
+    --wash: rgba(233, 236, 231, 0.045);
     --seal: #e07a66;
   }
 }
+
+/* ==========================================================================
+   Reset and base
+   ========================================================================== */
 
 *,
 *::before,
@@ -51,11 +101,11 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--fg);
+  background: var(--paper);
+  color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
-  line-height: 1.55;
+  line-height: 1.5;
   font-synthesis-weight: none;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -68,6 +118,8 @@ h4,
 p,
 ul,
 ol,
+dl,
+dd,
 figure,
 blockquote {
   margin: 0;
@@ -84,11 +136,14 @@ a {
   text-decoration: none;
 }
 
+/* Prose links keep an underline; structural links take their affordance from
+   position and hover, so lists do not turn into a field of rules. */
 a:not([class]) {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 0.2em;
   text-decoration-color: var(--rule-firm);
+  transition: text-decoration-color 120ms ease;
 }
 
 a:not([class]):hover {
@@ -109,7 +164,7 @@ input {
 }
 
 :focus-visible {
-  outline: 2px solid var(--fg);
+  outline: 2px solid var(--ink);
   outline-offset: 3px;
 }
 
@@ -117,10 +172,6 @@ input {
   background: var(--hl);
   color: var(--hl-ink);
 }
-
-/* --------------------------------------------------------------------------
-   The mechanic
-   -------------------------------------------------------------------------- */
 
 .sr-only {
   position: absolute;
@@ -135,14 +186,19 @@ input {
   border: 0;
 }
 
+/* ==========================================================================
+   The mechanic — hanzi and the highlighter
+   ========================================================================== */
+
 .hanzi {
   font-family: var(--han);
-  font-size: 1.25em;
+  font-size: 1.22em;
   line-height: 1.1;
   font-weight: 400;
 }
 
-/* A marker swipe, not a filled box: the band stops short of the line box. */
+/* A marker swipe: the band stops short of the line box top and bottom, so it
+   reads as ink laid over type rather than as a filled rectangle. */
 .lit {
   background: linear-gradient(
     180deg,
@@ -152,8 +208,8 @@ input {
     transparent calc(100% - 0.08em)
   );
   color: var(--hl-ink);
-  padding: 0 0.08em;
-  margin: 0 -0.04em;
+  padding: 0 0.09em;
+  margin: 0 -0.045em;
   border-radius: 0.05em;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -162,35 +218,20 @@ input {
 .mnemonic {
   font-family: var(--sans);
   font-weight: 500;
-  letter-spacing: -0.012em;
+  letter-spacing: -0.011em;
   overflow-wrap: break-word;
+  text-wrap: pretty;
 }
 
+/* The core idea is the dictionary's own voice: serif, italic, quieter. */
 .core {
   font-family: var(--serif);
-  font-size: 1.0625rem;
-  line-height: 1.5;
-}
-
-.prose {
-  font-family: var(--serif);
-  font-size: 1.0625rem;
-  line-height: 1.65;
-  max-width: var(--measure);
-}
-
-.prose p + p {
-  margin-top: 0.9em;
-}
-
-.prose h2 {
-  font-family: var(--sans);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  margin: 2.4rem 0 0.6rem;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--rule);
+  font-style: italic;
+  font-size: var(--t-md);
+  line-height: 1.45;
+  color: var(--muted);
+  font-variant-numeric: oldstyle-nums;
+  text-wrap: pretty;
 }
 
 .seal {
@@ -198,23 +239,57 @@ input {
   font-style: normal;
 }
 
-/* --------------------------------------------------------------------------
-   Shell
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   Prose
+   ========================================================================== */
+
+.prose {
+  font-family: var(--serif);
+  font-size: var(--t-md);
+  line-height: 1.62;
+  max-width: var(--measure);
+  font-variant-numeric: oldstyle-nums;
+  text-wrap: pretty;
+}
+
+.prose p + p {
+  margin-top: 0.85em;
+}
+
+.prose h2 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--t-lg);
+  margin: var(--s-7) 0 var(--s-2);
+  padding-top: var(--s-3);
+  border-top: 1px solid var(--rule);
+  color: var(--ink);
+}
+
+.note {
+  font-size: var(--t-sm);
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ==========================================================================
+   Frame
+   ========================================================================== */
 
 .skip {
   position: absolute;
   left: -9999px;
   top: 0;
-  padding: 0.6rem 1rem;
-  background: var(--bg);
-  border: 1px solid var(--fg);
-  z-index: 50;
+  padding: var(--s-2) var(--s-4);
+  background: var(--paper);
+  border: 1px solid var(--ink);
+  z-index: 60;
 }
 
 .skip:focus {
-  left: 0.5rem;
-  top: 0.5rem;
+  left: var(--s-2);
+  top: var(--s-2);
 }
 
 .shell {
@@ -231,71 +306,81 @@ input {
 }
 
 .wrap-narrow {
-  max-width: 48rem;
+  max-width: 50rem;
 }
 
+main {
+  flex: 1;
+}
+
+/* --- masthead: a ruled banner, as on a printed title page ----------------- */
+
 .masthead {
-  border-bottom: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule-strong);
+  position: relative;
+}
+
+/* the fine second rule that makes a masthead read as a masthead */
+.masthead::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 1px;
+  background: var(--rule);
 }
 
 .masthead-inner {
   display: flex;
   align-items: center;
-  gap: 1rem 1.5rem;
+  gap: var(--s-3) var(--s-5);
   flex-wrap: wrap;
-  padding-block: 0.85rem;
+  padding-block: var(--s-3);
 }
 
 .wordmark {
-  font-weight: 650;
-  font-size: 0.9375rem;
-  letter-spacing: -0.005em;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: var(--t-md);
   white-space: nowrap;
   display: inline-flex;
   align-items: baseline;
-  gap: 0.45rem;
+  gap: var(--s-2);
 }
 
 .wordmark .wordmark-han {
   font-family: var(--han);
-  font-size: 1.0625rem;
-  color: var(--muted);
+  font-size: 1.05em;
+  color: var(--seal);
+  font-weight: 400;
 }
 
 .nav {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 0.3rem 1.1rem;
-  font-size: 0.875rem;
+  gap: var(--s-1) var(--s-5);
+  font-size: var(--t-sm);
   margin-left: auto;
   min-width: 0;
-}
-
-@media (max-width: 26rem) {
-  .nav {
-    gap: 0.3rem 0.85rem;
-    font-size: 0.8125rem;
-  }
-  .wordmark {
-    font-size: 0.875rem;
-  }
 }
 
 .nav a {
   color: var(--muted);
   padding-block: 0.15rem;
   border-bottom: 1px solid transparent;
+  transition: color 120ms ease, border-color 120ms ease;
 }
 
 .nav a:hover {
-  color: var(--fg);
+  color: var(--ink);
   border-bottom-color: var(--rule-firm);
 }
 
 .nav a[aria-current='page'] {
-  color: var(--fg);
-  border-bottom-color: var(--fg);
+  color: var(--ink);
+  border-bottom-color: var(--ink);
 }
 
 .masthead-search {
@@ -307,7 +392,7 @@ input {
 @media (min-width: 46rem) {
   .masthead-search {
     order: 0;
-    max-width: 22rem;
+    max-width: 21rem;
     margin-left: auto;
   }
   .nav {
@@ -315,97 +400,174 @@ input {
   }
 }
 
-main {
-  flex: 1;
+@media (max-width: 26rem) {
+  .nav {
+    gap: var(--s-1) var(--s-4);
+    font-size: var(--t-xs);
+  }
+  .wordmark {
+    font-size: var(--t-base);
+  }
 }
 
+/* --- running head: the italic line at the top of every inner page --------- */
+
+.crumb {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-sm);
+  color: var(--muted);
+  padding-top: var(--s-5);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--s-1) var(--s-3);
+}
+
+.crumb a {
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.crumb a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--rule-firm);
+}
+
+/* --- colophon ------------------------------------------------------------ */
+
 .foot {
-  margin-top: 4.5rem;
-  border-top: 1px solid var(--rule);
-  padding-block: 1.75rem 3rem;
-  font-size: 0.8125rem;
+  margin-top: var(--s-9);
+  border-top: 1px solid var(--rule-strong);
+  padding-block: var(--s-5) var(--s-8);
+  font-size: var(--t-sm);
   color: var(--muted);
 }
 
 .foot p {
   max-width: 44rem;
+  font-family: var(--serif);
+  line-height: 1.6;
+  font-variant-numeric: oldstyle-nums;
 }
 
 .foot p + p {
-  margin-top: 0.7rem;
+  margin-top: var(--s-2);
 }
 
 .foot-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 1.1rem;
-  margin-bottom: 1.1rem;
+  gap: var(--s-1) var(--s-5);
+  margin-bottom: var(--s-4);
+  font-family: var(--sans);
 }
 
-/* --------------------------------------------------------------------------
-   Section furniture — lowercase labels on a rule, never all-caps eyebrows
-   -------------------------------------------------------------------------- */
+.foot-nav a {
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.foot-nav a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--rule-firm);
+}
+
+/* ==========================================================================
+   Page and section heads
+   ========================================================================== */
+
+.page-head {
+  padding-block: var(--s-4) var(--s-5);
+}
+
+.page-head h1 {
+  font-family: var(--serif);
+  font-size: var(--t-2xl);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.014em;
+}
+
+.page-head .lede {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-md);
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: var(--s-2);
+  max-width: var(--measure);
+  font-variant-numeric: oldstyle-nums;
+  text-wrap: pretty;
+}
 
 .section {
-  margin-top: 3.25rem;
+  margin-top: var(--s-8);
 }
 
+/* A section head is a rule with an italic serif label sitting on it. */
 .section-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 1rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid var(--rule-firm);
-  margin-bottom: 1.25rem;
+  gap: var(--s-4);
+  padding-bottom: var(--s-2);
+  border-bottom: 1px solid var(--rule-strong);
+  margin-bottom: var(--s-4);
 }
 
 .section-head h2 {
-  font-size: 0.9375rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-lg);
   font-weight: 600;
+  line-height: 1.2;
 }
 
 .section-head p,
 .section-more {
-  font-size: 0.8125rem;
+  font-size: var(--t-sm);
   color: var(--muted);
+  white-space: nowrap;
 }
 
-.note {
-  font-size: 0.8125rem;
-  color: var(--muted);
+.section-head a:hover {
+  color: var(--ink);
 }
 
-/* --------------------------------------------------------------------------
+/* ==========================================================================
    Home
-   -------------------------------------------------------------------------- */
+   ========================================================================== */
 
 .hero {
-  padding-block: clamp(2.5rem, 7vw, 4.5rem) 0;
+  padding-block: var(--s-8) 0;
 }
 
 .hero-lede {
   font-family: var(--serif);
-  font-size: clamp(1.0625rem, 2.2vw, 1.25rem);
+  font-size: clamp(1.0625rem, 0.95rem + 0.6vw, 1.3125rem);
+  line-height: 1.5;
   color: var(--muted);
-  max-width: 32rem;
-  margin-bottom: clamp(2rem, 5vw, 3rem);
+  max-width: 33rem;
+  margin-bottom: var(--s-7);
+  text-wrap: pretty;
 }
 
+/* The demonstration entry is set exactly as the dictionary sets every other
+   entry: character hanging in the margin, reading above the phrase. */
 .hero-demo {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: clamp(1.25rem, 4vw, 2.5rem);
+  gap: var(--s-4) clamp(1.25rem, 3vw, 2.5rem);
   align-items: start;
-  padding-bottom: 1.75rem;
-  border-bottom: 1px solid var(--rule);
+  padding-bottom: var(--s-5);
+  border-bottom: 1px solid var(--rule-strong);
 }
 
 .hero-char {
   font-family: var(--han);
-  font-size: clamp(4.5rem, 15vw, 8.5rem);
-  line-height: 0.9;
-  letter-spacing: 0;
+  font-size: var(--t-display);
+  line-height: 0.88;
 }
 
 .hero-char a {
@@ -413,37 +575,41 @@ main {
 }
 
 .hero-read {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-family: var(--serif);
+  font-size: var(--t-lg);
   color: var(--muted);
-  font-variant-numeric: tabular-nums;
-  margin-bottom: 0.35rem;
+  font-variant-numeric: oldstyle-nums;
+  margin-bottom: var(--s-2);
 }
 
 .hero-mnemonic {
-  font-size: clamp(1.75rem, 6.2vw, 3.25rem);
-  line-height: 1.12;
-  margin-bottom: 0.75rem;
+  font-size: var(--t-3xl);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--s-3);
 }
 
 .hero-core {
-  font-size: clamp(1rem, 2.4vw, 1.1875rem);
-  max-width: 26rem;
+  font-size: var(--t-lg);
+  max-width: 28rem;
 }
 
 .hero-search {
-  margin-top: 1.75rem;
+  margin-top: var(--s-6);
 }
 
 .hero-gloss {
-  margin-top: 1rem;
-  font-size: 0.8125rem;
+  margin-top: var(--s-3);
+  font-size: var(--t-sm);
   color: var(--muted);
-  max-width: 34rem;
+  max-width: 36rem;
+  font-family: var(--serif);
+  font-variant-numeric: oldstyle-nums;
 }
 
-/* --------------------------------------------------------------------------
+/* ==========================================================================
    Search
-   -------------------------------------------------------------------------- */
+   ========================================================================== */
 
 .search {
   position: relative;
@@ -452,17 +618,18 @@ main {
 .search-field {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  border-bottom: 2px solid var(--fg);
+  gap: var(--s-2);
+  border-bottom: 2px solid var(--ink);
 }
 
 .search-compact .search-field {
   border-bottom-width: 1px;
   border-bottom-color: var(--rule-firm);
+  transition: border-color 120ms ease;
 }
 
 .search-compact .search-field:focus-within {
-  border-bottom-color: var(--fg);
+  border-bottom-color: var(--ink);
 }
 
 .search input {
@@ -470,25 +637,32 @@ main {
   min-width: 0;
   background: none;
   border: 0;
-  padding: 0.7rem 0 0.6rem;
-  font-size: 1.125rem;
+  padding: var(--s-3) 0 var(--s-2);
+  font-family: var(--serif);
+  font-size: var(--t-lg);
   outline: none;
 }
 
 .search-compact input {
-  font-size: 0.9375rem;
+  font-family: var(--sans);
+  font-size: var(--t-base);
   padding: 0.4rem 0 0.35rem;
 }
 
 .search input::placeholder {
-  color: var(--muted);
+  color: var(--faint);
   opacity: 1;
+  font-style: italic;
+}
+
+.search-compact input::placeholder {
+  font-style: normal;
 }
 
 .search-key {
   font-family: var(--sans);
   font-size: 0.6875rem;
-  color: var(--muted);
+  color: var(--faint);
   border: 1px solid var(--rule);
   padding: 0.05rem 0.3rem;
   line-height: 1.4;
@@ -497,36 +671,37 @@ main {
 
 .search-clear {
   flex: none;
-  font-size: 0.8125rem;
+  font-size: var(--t-sm);
   color: var(--muted);
   padding: 0.2rem 0.3rem;
 }
 
 .search-clear:hover {
-  color: var(--fg);
+  color: var(--ink);
 }
 
 .search-results {
   position: absolute;
-  z-index: 30;
+  z-index: 40;
   inset-inline: 0;
   top: calc(100% + 1px);
-  background: var(--bg);
-  border: 1px solid var(--rule-firm);
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
   border-top: 0;
   max-height: min(24rem, 62vh);
   overflow-y: auto;
   overscroll-behavior: contain;
 }
 
+/* Results are miniature entries, with the same hanging margin column. */
 .search-hit {
   display: grid;
-  grid-template-columns: 2.4rem 1fr;
-  gap: 0.15rem 0.75rem;
+  grid-template-columns: 2.25rem 1fr;
+  gap: 0.1rem var(--s-3);
   align-items: baseline;
   width: 100%;
   text-align: left;
-  padding: 0.6rem 0.8rem;
+  padding: var(--s-2) var(--s-3);
   border-bottom: 1px solid var(--rule);
 }
 
@@ -548,97 +723,155 @@ main {
 .search-hit-line {
   display: flex;
   align-items: baseline;
-  gap: 0.5rem;
+  gap: var(--s-2);
   flex-wrap: wrap;
 }
 
 .search-hit-pinyin {
-  font-size: 0.875rem;
+  font-family: var(--serif);
+  font-size: var(--t-base);
   color: var(--muted);
   flex: none;
 }
 
 .search-hit-mnemonic {
-  font-size: 0.9375rem;
+  font-size: var(--t-base);
   font-weight: 500;
 }
 
 .search-hit-core {
   font-family: var(--serif);
-  font-size: 0.875rem;
+  font-style: italic;
+  font-size: var(--t-sm);
   color: var(--muted);
   grid-column: 2;
 }
 
 .search-empty {
-  padding: 0.9rem 0.8rem;
-  font-size: 0.875rem;
+  padding: var(--s-3);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-base);
   color: var(--muted);
 }
 
-/* --------------------------------------------------------------------------
-   Entry rows — the shared list form, used on sound / browse / meaning pages
-   -------------------------------------------------------------------------- */
+.search-empty a {
+  font-style: normal;
+  border-bottom: 1px solid var(--rule-firm);
+}
+
+.search-empty a:hover {
+  border-bottom-color: currentColor;
+}
+
+/* ==========================================================================
+   Entry lists — the dictionary column
+
+   The character hangs in its own ruled margin, exactly as on the entry page,
+   so a list row and a full entry read as the same object at two sizes.
+   ========================================================================== */
 
 .rows {
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid var(--rule-strong);
 }
 
 .row {
   display: grid;
-  grid-template-columns: 3.25rem 1fr;
-  gap: 0.2rem 1rem;
-  padding-block: 0.95rem;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  column-gap: var(--s-4);
+  row-gap: 0.15rem;
+  padding-block: var(--s-3);
   border-bottom: 1px solid var(--rule);
   align-items: baseline;
+  position: relative;
+  transition: background-color 120ms ease;
 }
 
 .row:hover {
   background: var(--wash);
 }
 
+/* the hairline dividing the hanging character from its text */
+.row::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--margin-col) - var(--s-4) / 2);
+  width: 1px;
+  background: var(--rule);
+}
+
 .row-char {
   font-family: var(--han);
   font-size: 2rem;
-  line-height: 1.05;
+  line-height: 1;
   grid-row: span 3;
+  align-self: start;
+  padding-top: 0.1em;
 }
 
 .row-head {
   display: flex;
   align-items: baseline;
-  gap: 0.55rem;
+  gap: var(--s-2);
   flex-wrap: wrap;
 }
 
 .row-pinyin {
-  font-size: 0.9375rem;
+  font-family: var(--serif);
+  font-size: var(--t-md);
   color: var(--muted);
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: oldstyle-nums;
+  border-bottom: 1px solid transparent;
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.row-pinyin:hover {
+  color: var(--ink);
+  border-bottom-color: var(--rule-firm);
 }
 
 .row-mnemonic {
-  font-size: 1.0625rem;
-  line-height: 1.4;
+  font-size: var(--t-md);
+  line-height: 1.35;
 }
 
 .row-core {
-  font-family: var(--serif);
-  font-size: 0.9375rem;
-  color: var(--muted);
+  font-size: var(--t-base);
 }
 
 .row-meta {
-  font-size: 0.75rem;
-  color: var(--muted);
+  font-family: var(--sans);
+  font-size: var(--t-xs);
+  color: var(--faint);
   display: flex;
-  gap: 0.9rem;
+  gap: var(--s-4);
   flex-wrap: wrap;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* The syllable in a row's meta column is a link; without this it reads as plain
+   text, since classed links get no underline. */
+.row-meta-link {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 0.18em;
+  text-decoration-color: var(--rule-firm);
+  transition: text-decoration-color 120ms ease, color 120ms ease;
+}
+
+.row-meta a:hover {
+  color: var(--ink);
+}
+
+.row-meta a:hover.row-meta-link {
+  text-decoration-color: currentColor;
 }
 
 @media (min-width: 48rem) {
   .row {
-    grid-template-columns: 4rem minmax(0, 1fr) 9rem;
+    grid-template-columns: var(--margin-col) minmax(0, 1fr) 7.5rem;
   }
   .row-char {
     font-size: 2.375rem;
@@ -646,131 +879,159 @@ main {
   .row-meta {
     grid-column: 3;
     grid-row: 1 / span 3;
-    justify-content: flex-end;
     text-align: right;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
     align-items: flex-end;
+    align-self: start;
+    padding-top: 0.35rem;
   }
 }
 
-/* --------------------------------------------------------------------------
-   Tone bands on the sound page
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   Sound pages — tone bands
+   ========================================================================== */
 
-.tone-band {
-  margin-top: 2.25rem;
+.syllable-title {
+  font-family: var(--serif);
+  font-size: var(--t-3xl);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1;
 }
 
+.tone-band {
+  margin-top: var(--s-7);
+}
+
+/* A hairline above and a heavy rule below: the band opens like a new column. */
 .tone-head {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 0.2rem 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--fg);
+  gap: 0.2rem var(--s-3);
+  padding-block: var(--s-2);
+  border-bottom: 2px solid var(--ink);
+  border-top: 1px solid var(--rule);
 }
 
 .tone-head h2 {
-  font-size: 1.125rem;
+  font-family: var(--serif);
+  font-size: var(--t-lg);
   font-weight: 600;
-  font-variant-numeric: tabular-nums;
+  font-variant-numeric: oldstyle-nums;
 }
 
 .tone-head .tone-desc {
-  font-size: 0.8125rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-sm);
   color: var(--muted);
 }
 
 .tone-head .tone-count {
   margin-left: auto;
-  font-size: 0.8125rem;
-  color: var(--muted);
+  font-size: var(--t-xs);
+  color: var(--faint);
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 .tone-contour {
-  font-size: 1rem;
+  font-size: 0.95em;
   color: var(--muted);
   letter-spacing: -0.06em;
 }
 
-/* --------------------------------------------------------------------------
-   Character page
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   The entry page
+   ========================================================================== */
 
 .entry {
-  padding-top: clamp(1.75rem, 5vw, 3rem);
+  padding-top: var(--s-5);
 }
 
 .entry-top {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: clamp(1.25rem, 4vw, 2.25rem);
+  gap: var(--s-4) clamp(1.25rem, 3vw, 2.25rem);
   align-items: start;
+  padding-bottom: var(--s-5);
+  border-bottom: 2px solid var(--ink);
 }
 
 .entry-char {
   font-family: var(--han);
-  font-size: clamp(4rem, 13vw, 7rem);
-  line-height: 0.95;
+  font-size: clamp(3.75rem, 2.2rem + 6.5vw, 6.5rem);
+  line-height: 0.92;
+  font-weight: 400;
 }
 
 .entry-pinyin {
-  font-size: clamp(1.25rem, 3.4vw, 1.75rem);
+  font-family: var(--serif);
+  font-size: var(--t-xl);
+  font-weight: 600;
   display: flex;
   align-items: baseline;
-  gap: 0.6rem;
+  gap: var(--s-3);
   flex-wrap: wrap;
+  font-variant-numeric: oldstyle-nums;
+  letter-spacing: -0.01em;
 }
 
 .entry-tone {
-  font-size: 0.8125rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: var(--t-sm);
   color: var(--muted);
 }
 
 .reading {
-  padding-top: 1.75rem;
-  margin-top: 1.75rem;
+  padding-top: var(--s-6);
+  margin-top: var(--s-6);
   border-top: 1px solid var(--rule);
 }
 
 .reading:first-of-type {
   border-top: 0;
-  margin-top: 1.25rem;
+  margin-top: var(--s-5);
   padding-top: 0;
 }
 
 .reading-mnemonic {
-  font-size: clamp(1.5rem, 5.2vw, 2.5rem);
-  line-height: 1.15;
-  margin: 0.85rem 0 0.9rem;
+  font-size: var(--t-2xl);
+  line-height: 1.12;
+  letter-spacing: -0.018em;
+  margin: var(--s-3) 0;
+  max-width: 24ch;
 }
 
 .reading-core {
-  font-size: clamp(1.0625rem, 2.6vw, 1.25rem);
-  max-width: 34rem;
+  font-size: var(--t-lg);
+  max-width: var(--measure);
 }
 
 .reading-tools {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1.25rem;
+  gap: var(--s-2);
+  margin-top: var(--s-5);
 }
 
 .tool {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.8125rem;
+  gap: var(--s-1);
+  font-size: var(--t-sm);
   color: var(--muted);
   border: 1px solid var(--rule);
-  padding: 0.32rem 0.6rem;
+  padding: 0.32rem 0.65rem;
   background: none;
+  transition: color 120ms ease, border-color 120ms ease;
 }
 
 .tool:hover {
-  color: var(--fg);
+  color: var(--ink);
   border-color: var(--rule-firm);
 }
 
@@ -779,27 +1040,39 @@ main {
   cursor: default;
 }
 
+/* Facts are a ruled definition list, labels in italic serif. */
 .facts {
-  margin-top: 1.5rem;
+  margin-top: var(--s-5);
   border-top: 1px solid var(--rule);
-  font-size: 0.875rem;
+  font-size: var(--t-base);
 }
 
 .fact {
   display: grid;
-  grid-template-columns: 9rem 1fr;
-  gap: 0.35rem 1rem;
-  padding-block: 0.6rem;
+  grid-template-columns: 8.5rem 1fr;
+  gap: var(--s-1) var(--s-4);
+  padding-block: var(--s-2);
   border-bottom: 1px solid var(--rule);
 }
 
 .fact dt {
+  font-family: var(--serif);
+  font-style: italic;
   color: var(--muted);
-  font-size: 0.8125rem;
+  font-size: var(--t-base);
 }
 
 .fact dd {
   margin: 0;
+  font-variant-numeric: oldstyle-nums;
+}
+
+.fact dd a {
+  border-bottom: 1px solid var(--rule-firm);
+}
+
+.fact dd a:hover {
+  border-bottom-color: currentColor;
 }
 
 @media (max-width: 34rem) {
@@ -811,17 +1084,17 @@ main {
 .inline-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.9rem;
+  gap: var(--s-1) var(--s-4);
 }
 
-/* --------------------------------------------------------------------------
-   Chips — syllables, clusters, filters. Bordered, square, quiet.
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   Chips — filters and shortcuts
+   ========================================================================== */
 
 .chips {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: var(--s-1);
 }
 
 .chip {
@@ -829,10 +1102,11 @@ main {
   align-items: baseline;
   gap: 0.35rem;
   border: 1px solid var(--rule);
-  padding: 0.28rem 0.55rem;
-  font-size: 0.875rem;
+  padding: 0.3rem 0.6rem;
+  font-size: var(--t-base);
   background: none;
-  line-height: 1.35;
+  line-height: 1.3;
+  transition: border-color 120ms ease, background-color 120ms ease;
 }
 
 .chip:hover {
@@ -841,62 +1115,65 @@ main {
 }
 
 .chip-count {
-  font-size: 0.75rem;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
+  font-size: var(--t-xs);
+  color: var(--faint);
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 .chip[aria-pressed='true'],
 .chip[data-on='true'] {
-  border-color: var(--fg);
-  background: var(--fg);
-  color: var(--bg);
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .chip[aria-pressed='true'] .chip-count,
 .chip[data-on='true'] .chip-count {
-  color: var(--bg);
-  opacity: 0.75;
+  color: var(--paper);
+  opacity: 0.72;
 }
 
-/* --------------------------------------------------------------------------
-   Invented-thread marker — the only place seal red appears
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   The invented-thread marker — the only other colour
+   ========================================================================== */
 
 .invented {
   color: var(--seal);
+  font-size: 0.82em;
+  cursor: help;
   text-decoration: none;
   -webkit-text-decoration: none;
-  font-size: 0.85em;
-  cursor: help;
   border-bottom: 0;
-  margin-left: 0.15em;
+  margin-left: 0.1em;
 }
 
 .invented-note {
   display: flex;
-  gap: 0.6rem;
+  gap: var(--s-2);
   align-items: baseline;
-  font-size: 0.8125rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-base);
   color: var(--muted);
   border-left: 2px solid var(--seal);
-  padding: 0.5rem 0 0.5rem 0.75rem;
-  margin-top: 1.25rem;
-  max-width: 34rem;
+  padding: var(--s-2) 0 var(--s-2) var(--s-3);
+  margin-top: var(--s-5);
+  max-width: var(--measure);
 }
 
-/* --------------------------------------------------------------------------
+/* ==========================================================================
    Meaning clusters
-   -------------------------------------------------------------------------- */
+   ========================================================================== */
 
 .cluster-list {
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid var(--rule-strong);
 }
 
 .cluster-item {
   display: block;
-  padding-block: 1rem;
+  padding-block: var(--s-4);
   border-bottom: 1px solid var(--rule);
+  transition: background-color 120ms ease;
 }
 
 .cluster-item:hover {
@@ -905,63 +1182,80 @@ main {
 
 .cluster-item h2,
 .cluster-item h3 {
-  font-size: 1.0625rem;
+  font-family: var(--serif);
+  font-size: var(--t-lg);
   font-weight: 600;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.1rem;
 }
 
 .cluster-item .cluster-idea {
   font-family: var(--serif);
+  font-style: italic;
   color: var(--muted);
-  font-size: 0.9375rem;
+  font-size: var(--t-base);
 }
 
 .cluster-chars {
   font-family: var(--han);
-  font-size: 1.375rem;
-  margin-top: 0.4rem;
-  letter-spacing: 0.12em;
-  color: var(--fg);
+  font-size: 1.4rem;
+  margin-top: var(--s-2);
+  letter-spacing: 0.14em;
+  color: var(--ink);
 }
 
 .contrast {
-  border-top: 1px solid var(--rule);
+  border-top: 1px solid var(--rule-strong);
 }
 
 .contrast-row {
   display: grid;
-  grid-template-columns: 2.75rem 1fr;
-  gap: 0.2rem 1rem;
-  padding-block: 0.85rem;
+  grid-template-columns: 2.5rem minmax(0, 1fr);
+  gap: 0.15rem var(--s-4);
+  padding-block: var(--s-3);
   border-bottom: 1px solid var(--rule);
   align-items: baseline;
+  position: relative;
+}
+
+.contrast-row::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(2.5rem - var(--s-4) / 2);
+  width: 1px;
+  background: var(--rule);
 }
 
 .contrast-char {
   font-family: var(--han);
   font-size: 1.75rem;
-  line-height: 1.05;
+  line-height: 1;
   grid-row: span 2;
+  align-self: start;
+  padding-top: 0.1em;
 }
 
 .contrast-note {
   font-family: var(--serif);
-  font-size: 1rem;
+  font-size: var(--t-md);
+  line-height: 1.45;
+  text-wrap: pretty;
 }
 
 .compounds {
   display: grid;
-  gap: 0.1rem 1.5rem;
+  gap: 0 var(--s-5);
   grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 .compound {
   display: flex;
   align-items: baseline;
-  gap: 0.6rem;
-  padding-block: 0.4rem;
+  gap: var(--s-2);
+  padding-block: var(--s-2);
   border-bottom: 1px solid var(--rule);
-  font-size: 0.9375rem;
+  font-size: var(--t-base);
 }
 
 .compound-word {
@@ -972,69 +1266,58 @@ main {
 
 .compound-gloss {
   font-family: var(--serif);
+  font-style: italic;
   color: var(--muted);
 }
 
 .remark {
   font-family: var(--serif);
-  font-size: 0.9375rem;
+  font-size: var(--t-md);
+  line-height: 1.55;
   color: var(--muted);
-  padding-block: 0.5rem;
+  padding-block: var(--s-2);
   max-width: var(--measure);
 }
 
-.remark .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-  border: 0;
+.remark .hanzi {
+  color: var(--ink);
 }
 
-.hanzi {
-  color: var(--fg);
-}
-
-/* --------------------------------------------------------------------------
-   Browse + practice controls
-   -------------------------------------------------------------------------- */
+/* ==========================================================================
+   Controls, cards and practice
+   ========================================================================== */
 
 .controls {
   display: grid;
-  gap: 1rem;
-  padding-block: 1.25rem;
+  gap: var(--s-4);
+  padding-block: var(--s-4);
   border-block: 1px solid var(--rule);
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--s-5);
 }
 
 .control {
   display: flex;
   align-items: baseline;
-  gap: 0.75rem;
+  gap: var(--s-3);
   flex-wrap: wrap;
 }
 
 .control-label {
-  font-size: 0.8125rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-base);
   color: var(--muted);
   flex: none;
   min-width: 5.5rem;
 }
 
-/* The drill bar sits directly above the card so the card itself is the first
-   thing on screen; the deck pickers move below it. */
 .drill-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  gap: 0.5rem 1.5rem;
-  padding-block: 0.9rem;
+  gap: var(--s-2) var(--s-5);
+  padding-block: var(--s-3);
   border-block: 1px solid var(--rule);
 }
 
@@ -1042,85 +1325,96 @@ main {
   min-width: 0;
 }
 
-.card {
-  border: 1px solid var(--rule-firm);
-  padding: clamp(1.5rem, 5vw, 2.75rem);
-  text-align: center;
-  margin-block: 1.5rem;
+.drill-bar .note {
+  font-family: var(--serif);
+  font-style: italic;
 }
 
-/* The meaning-first prompt: the core idea, set large in serif. */
+.card {
+  border: 1px solid var(--rule-strong);
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  text-align: center;
+  margin-block: var(--s-5);
+}
+
+.card-prompt {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-base);
+  color: var(--muted);
+  margin-bottom: var(--s-4);
+}
+
+.card-char {
+  font-family: var(--han);
+  font-size: clamp(4.5rem, 2rem + 12vw, 8rem);
+  line-height: 1;
+}
+
 .card-idea {
-  font-size: clamp(1.375rem, 5vw, 2rem);
+  font-size: var(--t-2xl);
   line-height: 1.25;
   max-width: 26rem;
   margin-inline: auto;
-  padding-block: clamp(1.25rem, 5vw, 2.25rem);
+  padding-block: clamp(1.25rem, 4vw, 2.25rem);
+  font-style: italic;
+  color: var(--ink);
+}
+
+.card-answer {
+  margin-top: var(--s-5);
+  padding-top: var(--s-5);
+  border-top: 1px solid var(--rule);
 }
 
 .card-reading {
   display: flex;
   align-items: baseline;
   justify-content: center;
-  gap: 0.6rem;
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  gap: var(--s-2);
+  font-family: var(--serif);
+  font-size: var(--t-lg);
   color: var(--muted);
-  margin-bottom: 0.6rem;
+  margin-bottom: var(--s-2);
+  font-variant-numeric: oldstyle-nums;
 }
 
 .card-answer-char {
   font-family: var(--han);
   font-size: 1.9em;
   line-height: 1.1;
-  color: var(--fg);
+  color: var(--ink);
 }
 
 .card-answer-char:hover {
   border-bottom: 1px solid var(--rule-firm);
 }
 
-.card-char {
-  font-family: var(--han);
-  font-size: clamp(4.5rem, 20vw, 8rem);
-  line-height: 1;
-}
-
-.card-prompt {
-  font-size: 0.8125rem;
-  color: var(--muted);
-  margin-bottom: 1rem;
-}
-
-.card-answer {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--rule);
-}
-
 .card-mnemonic {
-  font-size: clamp(1.25rem, 4.5vw, 2rem);
+  font-size: var(--t-xl);
   line-height: 1.2;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--s-2);
 }
 
 .card-actions {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 1.5rem;
+  gap: var(--s-2);
+  margin-top: var(--s-5);
 }
 
 .btn {
-  border: 1px solid var(--fg);
-  padding: 0.5rem 1.1rem;
-  font-size: 0.9375rem;
+  border: 1px solid var(--ink);
+  padding: 0.5rem 1.15rem;
+  font-size: var(--t-base);
   background: none;
+  transition: background-color 120ms ease, color 120ms ease;
 }
 
 .btn:hover {
-  background: var(--fg);
-  color: var(--bg);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 .btn-quiet {
@@ -1130,69 +1424,47 @@ main {
 
 .btn-quiet:hover {
   background: none;
-  color: var(--fg);
+  color: var(--ink);
   border-color: var(--rule-firm);
 }
 
 .progress {
   display: flex;
-  gap: 1.5rem;
+  gap: var(--s-5);
   flex-wrap: wrap;
-  font-size: 0.8125rem;
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.crumb {
-  font-size: 0.8125rem;
-  color: var(--muted);
-  padding-top: 1.5rem;
-}
-
-.crumb a:hover {
-  color: var(--fg);
-}
-
-.page-head {
-  padding-block: 1.25rem 1.5rem;
-}
-
-.page-head h1 {
-  font-size: clamp(1.5rem, 4.5vw, 2.125rem);
-  line-height: 1.15;
-  letter-spacing: -0.015em;
-}
-
-.page-head .lede {
   font-family: var(--serif);
+  font-style: italic;
+  font-size: var(--t-base);
   color: var(--muted);
-  margin-top: 0.5rem;
-  max-width: var(--measure);
+  font-variant-numeric: oldstyle-nums;
 }
 
-.syllable-title {
-  font-family: var(--sans);
-  font-size: clamp(2.25rem, 8vw, 3.5rem);
-  letter-spacing: -0.02em;
-  line-height: 1;
-}
+/* ==========================================================================
+   Browse index
+   ========================================================================== */
 
 .alpha-index {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.5rem;
-  font-size: 0.9375rem;
+  gap: var(--s-1) var(--s-2);
+  font-size: var(--t-base);
+  font-variant-numeric: oldstyle-nums;
 }
 
 .alpha-index a {
   color: var(--muted);
-  padding: 0.1rem 0.25rem;
+  padding: 0.1rem 0.28rem;
+  transition: color 120ms ease, background-color 120ms ease;
 }
 
 .alpha-index a:hover {
-  color: var(--fg);
+  color: var(--ink);
   background: var(--wash);
 }
+
+/* ==========================================================================
+   Preferences
+   ========================================================================== */
 
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -1209,7 +1481,13 @@ main {
   .masthead,
   .foot,
   .search,
-  .reading-tools {
+  .reading-tools,
+  .controls,
+  .drill-bar {
     display: none;
+  }
+  .row::before,
+  .contrast-row::before {
+    background: #000;
   }
 }
