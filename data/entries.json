@@ -2982,7 +2982,7 @@
 {"char": "责", "pinyin": "zé", "syllable": "ze", "tone": 2, "core": "what one is answerable for", "mnemonic": "responSAbility", "invented": false, "crossRefs": [], "freqRank": 626, "traditional": "責"},
 {"char": "泽", "pinyin": "zé", "syllable": "ze", "tone": 2, "core": "the marsh, and the sheen of wetness", "mnemonic": "the marsh, and the sheen of wetness — the SEEpage", "invented": false, "crossRefs": [], "freqRank": 1032, "traditional": "澤"},
 {"char": "择", "pinyin": "zé", "syllable": "ze", "tone": 2, "core": "picked out", "mnemonic": "picked out — the SElection", "invented": false, "crossRefs": [], "freqRank": 1075, "traditional": "擇"},
-{"char": "贼", "pinyin": "zéi", "syllable": "zei", "tone": 2, "core": "the thief, and the sly in him", "mnemonic": "the thief, and the sly in him — the SAY-nothing thief", "invented": false, "crossRefs": [], "freqRank": 930, "traditional": "賊"},
+{"char": "贼", "pinyin": "zéi", "syllable": "zei", "tone": 2, "core": "the thief, and the sly in him", "mnemonic": "ThIEf / TRAItor", "invented": false, "crossRefs": [], "freqRank": 930, "traditional": "賊"},
 {"char": "怎", "pinyin": "zěn", "syllable": "zen", "tone": 3, "core": "how", "mnemonic": "how — how the SEN do you", "invented": false, "crossRefs": [], "freqRank": 391, "traditional": ""},
 {"char": "增", "pinyin": "zēng", "syllable": "zeng", "tone": 1, "core": "added to", "mnemonic": "added to — the SUM grows", "invented": false, "crossRefs": [], "freqRank": 519, "traditional": ""},
 {"char": "曾", "pinyin": "zēng", "syllable": "zeng", "tone": 1, "core": "one generation further out", "mnemonic": "one generation further out — the SOoNer generation", "invented": false, "crossRefs": ["céng"], "freqRank": 465, "traditional": ""},
