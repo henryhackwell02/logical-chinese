@@ -2968,7 +2968,7 @@
 {"char": "藏", "pinyin": "zàng", "syllable": "zang", "tone": 4, "core": "the storehouse; Tibet", "mnemonic": "the storehouse — the STOrAGE", "invented": false, "crossRefs": ["cáng"], "freqRank": 928, "traditional": ""},
 {"char": "脏", "pinyin": "zàng", "syllable": "zang", "tone": 4, "core": "the innards", "mnemonic": "the innards — the STOmach and the rest", "invented": true, "crossRefs": ["zāng"], "freqRank": 2009, "traditional": "臟髒"},
 {"char": "葬", "pinyin": "zàng", "syllable": "zang", "tone": 4, "core": "buried", "mnemonic": "buried — the STOwing away", "invented": false, "crossRefs": [], "freqRank": 1647, "traditional": "塟"},
-{"char": "糟", "pinyin": "zāo", "syllable": "zao", "tone": 1, "core": "the dregs, and the mess of them", "mnemonic": "the dregs, and the mess of them — the SOUr lees", "invented": false, "crossRefs": [], "freqRank": 2270, "traditional": ""},
+{"char": "糟", "pinyin": "zāo", "syllable": "zao", "tone": 1, "core": "the dregs, and the mess of them", "mnemonic": "OUTCast bits", "invented": false, "crossRefs": [], "freqRank": 2270, "traditional": ""},
 {"char": "遭", "pinyin": "zāo", "syllable": "zao", "tone": 1, "core": "run into, usually ill", "mnemonic": "enCOUNter", "invented": false, "crossRefs": [], "freqRank": 1148, "traditional": ""},
 {"char": "凿", "pinyin": "záo", "syllable": "zao", "tone": 2, "core": "chiselled out", "mnemonic": "chiselled out — the SAW-out", "invented": false, "crossRefs": [], "freqRank": 2735, "traditional": "鑿"},
 {"char": "早", "pinyin": "zǎo", "syllable": "zao", "tone": 3, "core": "early", "mnemonic": "early — the SOOner", "invented": false, "crossRefs": [], "freqRank": 456, "traditional": ""},
