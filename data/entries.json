@@ -3081,7 +3081,7 @@
 {"char": "脂", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "fat and grease", "mnemonic": "FUDGY fat/oil", "invented": false, "crossRefs": [], "freqRank": 2437, "traditional": ""},
 {"char": "只", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "one alone of what should be a pair", "mnemonic": "JUST one", "invented": true, "crossRefs": ["zhǐ"], "freqRank": 96, "traditional": "祇秖衹隻"},
 {"char": "汁", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "juice", "mnemonic": "juice — the JUICE", "invented": false, "crossRefs": [], "freqRank": 2944, "traditional": ""},
-{"char": "枝", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "the branch", "mnemonic": "the branch — the twIG", "invented": false, "crossRefs": [], "freqRank": 1430, "traditional": ""},
+{"char": "枝", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "the branch", "mnemonic": "braNCH", "invented": false, "crossRefs": [], "freqRank": 1430, "traditional": ""},
 {"char": "肢", "pinyin": "zhī", "syllable": "zhi", "tone": 1, "core": "limb", "mnemonic": "the limb — the JOInt-limb", "invented": false, "crossRefs": [], "freqRank": 2707, "traditional": ""},
 {"char": "直", "pinyin": "zhí", "syllable": "zhi", "tone": 2, "core": "straight", "mnemonic": "straight — the DIrect line", "invented": false, "crossRefs": [], "freqRank": 258, "traditional": ""},
 {"char": "职", "pinyin": "zhí", "syllable": "zhi", "tone": 2, "core": "the post held, and its duty", "mnemonic": "the post held, and its duty — the JOb", "invented": false, "crossRefs": [], "freqRank": 619, "traditional": "職"},
