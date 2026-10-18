@@ -3167,7 +3167,7 @@
 {"char": "转", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "turned round and round", "mnemonic": "turned round and round — the TURN", "invented": false, "crossRefs": ["zhuǎn"], "freqRank": 374, "traditional": "轉"},
 {"char": "传", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "the life handed down in writing", "mnemonic": "JOURnal passed ON", "invented": false, "crossRefs": ["chuán"], "freqRank": 320, "traditional": "傳"},
 {"char": "撰", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "composed", "mnemonic": "COMPosed", "invented": false, "crossRefs": [], "freqRank": 1682, "traditional": "譔"},
-{"char": "赚", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "earned", "mnemonic": "earned — the JUst reward", "invented": false, "crossRefs": [], "freqRank": 2499, "traditional": "賺"},
+{"char": "赚", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "earned", "mnemonic": "EARN", "invented": false, "crossRefs": [], "freqRank": 2499, "traditional": "賺"},
 {"char": "装", "pinyin": "zhuāng", "syllable": "zhuang", "tone": 1, "core": "put on and fitted out", "mnemonic": "inSTALLED and aDORNED", "invented": false, "crossRefs": [], "freqRank": 569, "traditional": "裝"},
 {"char": "庄", "pinyin": "zhuāng", "syllable": "zhuang", "tone": 1, "core": "the farmstead; and the house that banks", "mnemonic": "MANOR / FARM", "invented": false, "crossRefs": [], "freqRank": 977, "traditional": "莊"},
 {"char": "妆", "pinyin": "zhuāng", "syllable": "zhuang", "tone": 1, "core": "made up and adorned", "mnemonic": "aDORNED", "invented": false, "crossRefs": [], "freqRank": 2337, "traditional": "妝粧"},
