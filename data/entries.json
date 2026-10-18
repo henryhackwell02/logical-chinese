@@ -3211,7 +3211,7 @@
 {"char": "揍", "pinyin": "zòu", "syllable": "zou", "tone": 4, "core": "struck, hit", "mnemonic": "SOcked one", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "租", "pinyin": "zū", "syllable": "zu", "tone": 1, "core": "held for a payment", "mnemonic": "leaSE TO", "invented": false, "crossRefs": [], "freqRank": 1550, "traditional": ""},
 {"char": "族", "pinyin": "zú", "syllable": "zu", "tone": 2, "core": "the clan, and any group like it", "mnemonic": "the clan, and any group like it — the SOrt you belong to", "invented": false, "crossRefs": [], "freqRank": 637, "traditional": ""},
-{"char": "足", "pinyin": "zú", "syllable": "zu", "tone": 2, "core": "the foot, and being enough to stand on", "mnemonic": "the foot, and being enough to stand on — SUfficient to stand", "invented": false, "crossRefs": [], "freqRank": 502, "traditional": ""},
+{"char": "足", "pinyin": "zú", "syllable": "zu", "tone": 2, "core": "the foot, and being enough to stand on", "mnemonic": "FOOT / SUfficient", "invented": false, "crossRefs": [], "freqRank": 502, "traditional": ""},
 {"char": "卒", "pinyin": "zú", "syllable": "zu", "tone": 2, "core": "the foot soldier; and coming to an end", "mnemonic": "the foot soldier, and coming to an end — the SOldier's end", "invented": false, "crossRefs": [], "freqRank": 1043, "traditional": "䘚"},
 {"char": "组", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "put together into a set", "mnemonic": "put together into a set — the SEt", "invented": false, "crossRefs": [], "freqRank": 463, "traditional": "組"},
 {"char": "祖", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "the forebear", "mnemonic": "the forebear — the ancESTOR", "invented": false, "crossRefs": [], "freqRank": 663, "traditional": ""},
