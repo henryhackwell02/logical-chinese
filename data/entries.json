@@ -2748,7 +2748,7 @@
 {"char": "杨", "pinyin": "yáng", "syllable": "yang", "tone": 2, "core": "poplar", "mnemonic": "the poplar — the YEArniNG tall tree", "invented": false, "crossRefs": [], "freqRank": 834, "traditional": "楊"},
 {"char": "养", "pinyin": "yǎng", "syllable": "yang", "tone": 3, "core": "kept and brought up", "mnemonic": "kept and brought up — the YEArs of rearing", "invented": false, "crossRefs": [], "freqRank": 805, "traditional": "養"},
 {"char": "氧", "pinyin": "yǎng", "syllable": "yang", "tone": 3, "core": "oxygen", "mnemonic": "oxygen — what the YAWN takes in", "invented": false, "crossRefs": [], "freqRank": 2307, "traditional": ""},
-{"char": "仰", "pinyin": "yǎng", "syllable": "yang", "tone": 3, "core": "face turned up", "mnemonic": "face turned up — the YAWN skyward", "invented": false, "crossRefs": [], "freqRank": 1422, "traditional": ""},
+{"char": "仰", "pinyin": "yǎng", "syllable": "yang", "tone": 3, "core": "face turned up", "mnemonic": "FACE UP", "invented": false, "crossRefs": [], "freqRank": 1422, "traditional": ""},
 {"char": "痒", "pinyin": "yǎng", "syllable": "yang", "tone": 3, "core": "itching", "mnemonic": "ANTs in pANTs", "invented": false, "crossRefs": [], "freqRank": 2953, "traditional": "癢"},
 {"char": "样", "pinyin": "yàng", "syllable": "yang", "tone": 4, "core": "the pattern shown", "mnemonic": "PATTern / MANNER", "invented": false, "crossRefs": [], "freqRank": 113, "traditional": "樣"},
 {"char": "要", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "demanded of", "mnemonic": "demanded of — the YOWl for it", "invented": false, "crossRefs": ["yào"], "freqRank": 32, "traditional": ""},
