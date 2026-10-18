@@ -2771,7 +2771,7 @@
 {"char": "业", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "the line of work", "mnemonic": "emploYEment / busINess", "invented": false, "crossRefs": [], "freqRank": 162, "traditional": "業"},
 {"char": "叶", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "the leaf, and the flat page like it", "mnemonic": "the leaf, and the flat page like it — the YEllOW leaf", "invented": true, "crossRefs": ["xié"], "freqRank": 968, "traditional": "葉"},
 {"char": "夜", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "night", "mnemonic": "night — the YEs, it's late", "invented": false, "crossRefs": [], "freqRank": 524, "traditional": "亱"},
-{"char": "液", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "liquid", "mnemonic": "liquid — the wEt", "invented": false, "crossRefs": [], "freqRank": 1757, "traditional": ""},
+{"char": "液", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "liquid", "mnemonic": "WET liquid", "invented": false, "crossRefs": [], "freqRank": 1757, "traditional": ""},
 {"char": "页", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "the page", "mnemonic": "the page — the lEAf of a book", "invented": false, "crossRefs": [], "freqRank": 1170, "traditional": "頁"},
 {"char": "咽", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "choked", "mnemonic": "choked — the YEllING stopped", "invented": false, "crossRefs": ["yān"], "freqRank": 2172, "traditional": "嚥"},
 {"char": "一", "pinyin": "yī", "syllable": "yi", "tone": 1, "core": "one", "mnemonic": "one — the wEE one", "invented": false, "crossRefs": [], "freqRank": 2, "traditional": ""},
