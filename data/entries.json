@@ -2792,7 +2792,7 @@
 {"char": "椅", "pinyin": "yǐ", "syllable": "yi", "tone": 3, "core": "chair", "mnemonic": "EZ chair", "invented": false, "crossRefs": [], "freqRank": 1882, "traditional": ""},
 {"char": "蚁", "pinyin": "yǐ", "syllable": "yi", "tone": 3, "core": "ant", "mnemonic": "the ant — the tEEnY thing", "invented": false, "crossRefs": [], "freqRank": 2761, "traditional": "蟻"},
 {"char": "倚", "pinyin": "yǐ", "syllable": "yi", "tone": 3, "core": "leaned against", "mnemonic": "REly upon", "invented": false, "crossRefs": [], "freqRank": 2168, "traditional": ""},
-{"char": "义", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "what is right, and the sense borne", "mnemonic": "what is right, and the sense borne — the rIghtness", "invented": false, "crossRefs": [], "freqRank": 220, "traditional": "義"},
+{"char": "义", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "what is right, and the sense borne", "mnemonic": "jusTICE / what's RIGHT", "invented": false, "crossRefs": [], "freqRank": 220, "traditional": "義"},
 {"char": "意", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "what is meant", "mnemonic": "FEEling / MEAning - sits behind", "invented": false, "crossRefs": [], "freqRank": 114, "traditional": ""},
 {"char": "异", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "other than the rest", "mnemonic": "other than the rest — the EccEntric one", "invented": false, "crossRefs": [], "freqRank": 661, "traditional": "異"},
 {"char": "衣", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "worn", "mnemonic": "worn — dressed IN it", "invented": false, "crossRefs": ["yī"], "freqRank": 590, "traditional": ""},
