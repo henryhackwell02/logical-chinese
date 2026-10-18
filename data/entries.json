@@ -3194,7 +3194,7 @@
 {"char": "滋", "pinyin": "zī", "syllable": "zi", "tone": 1, "core": "nourished into growth", "mnemonic": "nourished into growth — the fEEding", "invented": false, "crossRefs": [], "freqRank": 2081, "traditional": ""},
 {"char": "姿", "pinyin": "zī", "syllable": "zi", "tone": 1, "core": "the bearing shown", "mnemonic": "the bearing shown — the poIse", "invented": false, "crossRefs": [], "freqRank": 2043, "traditional": ""},
 {"char": "咨", "pinyin": "zī", "syllable": "zi", "tone": 1, "core": "asked for counsel", "mnemonic": "asked for counsel — the querY", "invented": false, "crossRefs": [], "freqRank": 2506, "traditional": ""},
-{"char": "子", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "the child, and the small thing", "mnemonic": "the child, and the small thing — the SEEd", "invented": false, "crossRefs": ["zi"], "freqRank": 27, "traditional": ""},
+{"char": "子", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "the child, and the small thing", "mnemonic": "SON / SEEd / SMALL thing", "invented": false, "crossRefs": ["zi"], "freqRank": 27, "traditional": ""},
 {"char": "紫", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "purple", "mnemonic": "purple — the vIolet", "invented": false, "crossRefs": [], "freqRank": 1391, "traditional": ""},
 {"char": "仔", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "the young one; and close-worked", "mnemonic": "the young one, and close-worked — the SEEdling", "invented": false, "crossRefs": [], "freqRank": 1646, "traditional": ""},
 {"char": "姊", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "elder sister", "mnemonic": "the elder sister — the SIster", "invented": false, "crossRefs": [], "freqRank": 2070, "traditional": "姉"},
