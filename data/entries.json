@@ -2816,7 +2816,7 @@
 {"char": "亦", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "also", "mnemonic": "also — lIkEwise", "invented": false, "crossRefs": [], "freqRank": 501, "traditional": ""},
 {"char": "绎", "pinyin": "yì", "syllable": "yi", "tone": 4, "core": "drawn out and followed through", "mnemonic": "conTINued", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "繹"},
 {"char": "音", "pinyin": "yīn", "syllable": "yin", "tone": 1, "core": "the sound made, and the note in it", "mnemonic": "the sound made, and the note in it — the tuNE takeN IN", "invented": false, "crossRefs": [], "freqRank": 562, "traditional": ""},
-{"char": "因", "pinyin": "yīn", "syllable": "yin", "tone": 1, "core": "what a thing rests on, and so the cause", "mnemonic": "what a thing rests on, and so the cause — the reasoN behIND", "invented": false, "crossRefs": [], "freqRank": 107, "traditional": "囙"},
+{"char": "因", "pinyin": "yīn", "syllable": "yin", "tone": 1, "core": "what a thing rests on, and so the cause", "mnemonic": "reaSON", "invented": false, "crossRefs": [], "freqRank": 107, "traditional": "囙"},
 {"char": "阴", "pinyin": "yīn", "syllable": "yin", "tone": 1, "core": "the shaded side; the yin", "mnemonic": "the shaded side; the yin — the shade you're IN", "invented": false, "crossRefs": [], "freqRank": 852, "traditional": "陰隂"},
 {"char": "姻", "pinyin": "yīn", "syllable": "yin", "tone": 1, "core": "the tie made by marriage", "mnemonic": "the tie made by marriage — the joINING", "invented": false, "crossRefs": [], "freqRank": 2039, "traditional": "婣"},
 {"char": "银", "pinyin": "yín", "syllable": "yin", "tone": 2, "core": "silver", "mnemonic": "silver — the shINe of it", "invented": false, "crossRefs": [], "freqRank": 673, "traditional": "銀"},
