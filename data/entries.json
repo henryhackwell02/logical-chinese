@@ -3199,7 +3199,7 @@
 {"char": "仔", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "the young one; and close-worked", "mnemonic": "the young one, and close-worked — the SEEdling", "invented": false, "crossRefs": [], "freqRank": 1646, "traditional": ""},
 {"char": "姊", "pinyin": "zǐ", "syllable": "zi", "tone": 3, "core": "elder sister", "mnemonic": "the elder sister — the SIster", "invented": false, "crossRefs": [], "freqRank": 2070, "traditional": "姉"},
 {"char": "自", "pinyin": "zì", "syllable": "zi", "tone": 4, "core": "oneself, and so from", "mnemonic": "oneself, and so from — the SElf", "invented": false, "crossRefs": [], "freqRank": 41, "traditional": ""},
-{"char": "字", "pinyin": "zì", "syllable": "zi", "tone": 4, "core": "the written character", "mnemonic": "the written character — the lEtter SEt down", "invented": false, "crossRefs": [], "freqRank": 347, "traditional": ""},
+{"char": "字", "pinyin": "zì", "syllable": "zi", "tone": 4, "core": "the written character", "mnemonic": "worDS / SYmbol", "invented": false, "crossRefs": [], "freqRank": 347, "traditional": ""},
 {"char": "子", "pinyin": "zi", "syllable": "zi", "tone": 5, "core": "the noun suffix", "mnemonic": "SON / SEEd / SMALL thing", "invented": false, "crossRefs": ["zǐ"], "freqRank": 27, "traditional": ""},
 {"char": "宗", "pinyin": "zōng", "syllable": "zong", "tone": 1, "core": "the ancestral line, and the school that follows it", "mnemonic": "SCHOOl / SECT", "invented": false, "crossRefs": [], "freqRank": 416, "traditional": ""},
 {"char": "踪", "pinyin": "zōng", "syllable": "zong", "tone": 1, "core": "the track left", "mnemonic": "the track left — the SIGN left", "invented": false, "crossRefs": [], "freqRank": 1767, "traditional": "蹤"},
