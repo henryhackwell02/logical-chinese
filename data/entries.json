@@ -2753,7 +2753,7 @@
 {"char": "样", "pinyin": "yàng", "syllable": "yang", "tone": 4, "core": "the pattern shown", "mnemonic": "PATTern / MANNER", "invented": false, "crossRefs": [], "freqRank": 113, "traditional": "樣"},
 {"char": "要", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "demanded of", "mnemonic": "demanded of — the YOWl for it", "invented": false, "crossRefs": ["yào"], "freqRank": 32, "traditional": ""},
 {"char": "腰", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "the waist", "mnemonic": "the waist — the YOke of the body", "invented": false, "crossRefs": [], "freqRank": 1526, "traditional": ""},
-{"char": "妖", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "bewitching and uncanny", "mnemonic": "bewitching and uncanny — the YOWliNG spirit", "invented": false, "crossRefs": [], "freqRank": 1484, "traditional": ""},
+{"char": "妖", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "bewitching and uncanny", "mnemonic": "YOWling PHANtom", "invented": false, "crossRefs": [], "freqRank": 1484, "traditional": ""},
 {"char": "邀", "pinyin": "yāo", "syllable": "yao", "tone": 1, "core": "asked to come", "mnemonic": "asked to come — the YOo-hoo", "invented": false, "crossRefs": [], "freqRank": 1905, "traditional": ""},
 {"char": "摇", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "shaken to and fro", "mnemonic": "yaw", "invented": false, "crossRefs": [], "freqRank": 1038, "traditional": "搖"},
 {"char": "遥", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "far off", "mnemonic": "far off — a YOnder way", "invented": false, "crossRefs": [], "freqRank": 1618, "traditional": "遙"},
