@@ -3223,7 +3223,7 @@
 {"char": "最", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the most", "mnemonic": "the most — the SUpErlative", "invented": false, "crossRefs": [], "freqRank": 176, "traditional": "㝡冣"},
 {"char": "醉", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "drunk", "mnemonic": "drunk — the SOUsed", "invented": false, "crossRefs": [], "freqRank": 1603, "traditional": ""},
 {"char": "尊", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "held high in honour", "mnemonic": "held high in honour — the SOverEIGN", "invented": false, "crossRefs": [], "freqRank": 1019, "traditional": ""},
-{"char": "遵", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "followed as laid down", "mnemonic": "followed as laid down — the SOUNd obedience", "invented": false, "crossRefs": [], "freqRank": 1612, "traditional": ""},
+{"char": "遵", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "followed as laid down", "mnemonic": "obSERVE", "invented": false, "crossRefs": [], "freqRank": 1612, "traditional": ""},
 {"char": "作", "pinyin": "zuō", "syllable": "zuo", "tone": 1, "core": "the workshop", "mnemonic": "the workshop — the SHOp floor", "invented": false, "crossRefs": ["zuò"], "freqRank": 62, "traditional": ""},
 {"char": "昨", "pinyin": "zuó", "syllable": "zuo", "tone": 2, "core": "yesterday", "mnemonic": "yesterday — the day SO gone", "invented": false, "crossRefs": [], "freqRank": 1456, "traditional": ""},
 {"char": "左", "pinyin": "zuǒ", "syllable": "zuo", "tone": 3, "core": "the left hand", "mnemonic": "the left hand — the SOUth-paw", "invented": false, "crossRefs": [], "freqRank": 527, "traditional": ""},
