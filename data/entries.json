@@ -3108,7 +3108,7 @@
 {"char": "滞", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "stuck and not flowing", "mnemonic": "stuck and not flowing — the STIcking", "invented": false, "crossRefs": [], "freqRank": 2441, "traditional": "滯"},
 {"char": "稚", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "young and unformed", "mnemonic": "young and unformed — the childISH", "invented": false, "crossRefs": [], "freqRank": 2843, "traditional": "稺穉"},
 {"char": "掷", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "flung", "mnemonic": "flung — the JEttison", "invented": false, "crossRefs": [], "freqRank": 2654, "traditional": "擲"},
-{"char": "秩", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "the order of rank", "mnemonic": "the order of rank — the reGIster of rank", "invented": false, "crossRefs": [], "freqRank": 1802, "traditional": ""},
+{"char": "秩", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "the order of rank", "mnemonic": "regISTer / RANK", "invented": false, "crossRefs": [], "freqRank": 1802, "traditional": ""},
 {"char": "帜", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "the flag you are known by", "mnemonic": "the flag that SItes your side", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "幟"},
 {"char": "挚", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "held in earnest, sincere", "mnemonic": "a grip held in earneST", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "摯"},
 {"char": "中", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "the middle", "mnemonic": "the middle — the CENtre", "invented": false, "crossRefs": ["zhòng"], "freqRank": 18, "traditional": ""},
