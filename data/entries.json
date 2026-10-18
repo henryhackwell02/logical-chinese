@@ -2758,7 +2758,7 @@
 {"char": "摇", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "shaken to and fro", "mnemonic": "ROCK to and FRO", "invented": false, "crossRefs": [], "freqRank": 1038, "traditional": "搖"},
 {"char": "遥", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "far off", "mnemonic": "far off — a YOnder way", "invented": false, "crossRefs": [], "freqRank": 1618, "traditional": "遙"},
 {"char": "窑", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "the kiln, and the cave like it", "mnemonic": "COAl / Oven", "invented": false, "crossRefs": [], "freqRank": 2755, "traditional": "窯窰"},
-{"char": "谣", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "the song passed round, and so rumour", "mnemonic": "the song passed round, and so rumour — the YArn sung", "invented": false, "crossRefs": [], "freqRank": 2807, "traditional": "謠"},
+{"char": "谣", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "the song passed round, and so rumour", "mnemonic": "BAllad", "invented": false, "crossRefs": [], "freqRank": 2807, "traditional": "謠"},
 {"char": "肴", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "cooked dishes, well made", "mnemonic": "the dishes you YEArn for", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "咬", "pinyin": "yǎo", "syllable": "yao", "tone": 3, "core": "bitten", "mnemonic": "jaw", "invented": false, "crossRefs": [], "freqRank": 1889, "traditional": "齩"},
 {"char": "药", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "the plant taken as remedy", "mnemonic": "the plant taken as remedy — the YArrOW", "invented": false, "crossRefs": [], "freqRank": 731, "traditional": "葯藥"},
