@@ -2763,7 +2763,7 @@
 {"char": "咬", "pinyin": "yǎo", "syllable": "yao", "tone": 3, "core": "bitten", "mnemonic": "knash OUT", "invented": false, "crossRefs": [], "freqRank": 1889, "traditional": "齩"},
 {"char": "药", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "the plant taken as remedy", "mnemonic": "the plant taken as remedy — the YArrOW", "invented": false, "crossRefs": [], "freqRank": 731, "traditional": "葯藥"},
 {"char": "要", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "wanted, and so important", "mnemonic": "wanted, and so important — what YOu want", "invented": false, "crossRefs": ["yāo"], "freqRank": 32, "traditional": ""},
-{"char": "耀", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "shining out", "mnemonic": "shining out — the glOW", "invented": false, "crossRefs": [], "freqRank": 1991, "traditional": ""},
+{"char": "耀", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "shining out", "mnemonic": "gLOW-rious", "invented": false, "crossRefs": [], "freqRank": 1991, "traditional": ""},
 {"char": "爷", "pinyin": "yé", "syllable": "ye", "tone": 2, "core": "grandfather", "mnemonic": "grandfather — the YEsteryear man", "invented": false, "crossRefs": [], "freqRank": 703, "traditional": "爺"},
 {"char": "野", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "the open country, and the wildness of it", "mnemonic": "the open country, and the wildness of it — the YOnder wild", "invented": false, "crossRefs": [], "freqRank": 901, "traditional": "埜壄"},
 {"char": "也", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "also", "mnemonic": "also — YEs, and", "invented": false, "crossRefs": [], "freqRank": 26, "traditional": ""},
