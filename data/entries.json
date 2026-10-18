@@ -3162,7 +3162,7 @@
 {"char": "爪", "pinyin": "zhuǎ", "syllable": "zhua", "tone": 3, "core": "the animal's foot", "mnemonic": "the animal's foot — the CLAW", "invented": false, "crossRefs": ["zhǎo"], "freqRank": 2579, "traditional": ""},
 {"char": "拽", "pinyin": "zhuài", "syllable": "zhuai", "tone": 4, "core": "dragged with force", "mnemonic": "a JUddering drag", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "专", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "turned wholly on one thing", "mnemonic": "JUST ON / focus ON", "invented": false, "crossRefs": [], "freqRank": 564, "traditional": "專耑"},
-{"char": "砖", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "brick", "mnemonic": "the brick — the JAmmed-in block", "invented": false, "crossRefs": [], "freqRank": 2652, "traditional": "塼甎磚"},
+{"char": "砖", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "brick", "mnemonic": "ONE on top of ONE", "invented": false, "crossRefs": [], "freqRank": 2652, "traditional": "塼甎磚"},
 {"char": "转", "pinyin": "zhuǎn", "syllable": "zhuan", "tone": 3, "core": "turned to another course", "mnemonic": "turn", "invented": false, "crossRefs": ["zhuàn"], "freqRank": 374, "traditional": "轉"},
 {"char": "转", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "turned round and round", "mnemonic": "turned round and round — the TURN", "invented": false, "crossRefs": ["zhuǎn"], "freqRank": 374, "traditional": "轉"},
 {"char": "传", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "the life handed down in writing", "mnemonic": "the life handed down in writing — the JOUrnal of a life", "invented": false, "crossRefs": ["chuán"], "freqRank": 320, "traditional": "傳"},
