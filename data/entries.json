@@ -3117,7 +3117,7 @@
 {"char": "忠", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "heart set true on", "mnemonic": "heart set true on — the CONstancy", "invented": false, "crossRefs": [], "freqRank": 863, "traditional": ""},
 {"char": "衷", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "what is felt inmost", "mnemonic": "what is felt inmost — the CONviction within", "invented": false, "crossRefs": [], "freqRank": 2283, "traditional": ""},
 {"char": "种", "pinyin": "zhǒng", "syllable": "zhong", "tone": 3, "core": "the seed, and the kind it breeds", "mnemonic": "SORT", "invented": false, "crossRefs": ["zhòng"], "freqRank": 85, "traditional": "種"},
-{"char": "肿", "pinyin": "zhǒng", "syllable": "zhong", "tone": 3, "core": "swollen up", "mnemonic": "swollen up — the swellING", "invented": false, "crossRefs": [], "freqRank": 2104, "traditional": "腫"},
+{"char": "肿", "pinyin": "zhǒng", "syllable": "zhong", "tone": 3, "core": "swollen up", "mnemonic": "SWOLLED up", "invented": false, "crossRefs": [], "freqRank": 2104, "traditional": "腫"},
 {"char": "中", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "hitting the middle", "mnemonic": "hitting the middle — the CENtre struck", "invented": false, "crossRefs": ["zhōng"], "freqRank": 18, "traditional": ""},
 {"char": "重", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "heavy, and so weighed as important", "mnemonic": "heavy, and so weighed as important — the TONNage", "invented": false, "crossRefs": ["chóng"], "freqRank": 146, "traditional": ""},
 {"char": "种", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "sown", "mnemonic": "sown — the SOWN ground", "invented": false, "crossRefs": ["zhǒng"], "freqRank": 85, "traditional": "種"},
