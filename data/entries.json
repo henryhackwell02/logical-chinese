@@ -2760,7 +2760,7 @@
 {"char": "窑", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "the kiln, and the cave like it", "mnemonic": "COAl / Oven", "invented": false, "crossRefs": [], "freqRank": 2755, "traditional": "窯窰"},
 {"char": "谣", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "the song passed round, and so rumour", "mnemonic": "BAllad", "invented": false, "crossRefs": [], "freqRank": 2807, "traditional": "謠"},
 {"char": "肴", "pinyin": "yáo", "syllable": "yao", "tone": 2, "core": "cooked dishes, well made", "mnemonic": "the dishes you YEArn for", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
-{"char": "咬", "pinyin": "yǎo", "syllable": "yao", "tone": 3, "core": "bitten", "mnemonic": "jaw", "invented": false, "crossRefs": [], "freqRank": 1889, "traditional": "齩"},
+{"char": "咬", "pinyin": "yǎo", "syllable": "yao", "tone": 3, "core": "bitten", "mnemonic": "knash OUT", "invented": false, "crossRefs": [], "freqRank": 1889, "traditional": "齩"},
 {"char": "药", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "the plant taken as remedy", "mnemonic": "the plant taken as remedy — the YArrOW", "invented": false, "crossRefs": [], "freqRank": 731, "traditional": "葯藥"},
 {"char": "要", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "wanted, and so important", "mnemonic": "wanted, and so important — what YOu want", "invented": false, "crossRefs": ["yāo"], "freqRank": 32, "traditional": ""},
 {"char": "耀", "pinyin": "yào", "syllable": "yao", "tone": 4, "core": "shining out", "mnemonic": "shining out — the glOW", "invented": false, "crossRefs": [], "freqRank": 1991, "traditional": ""},
