@@ -3219,7 +3219,7 @@
 {"char": "钻", "pinyin": "zuān", "syllable": "zuan", "tone": 1, "core": "bored into", "mnemonic": "bored into — the SWANNing in", "invented": false, "crossRefs": ["zuàn"], "freqRank": 1994, "traditional": "鑚鑽"},
 {"char": "钻", "pinyin": "zuàn", "syllable": "zuan", "tone": 4, "core": "the drill, and the diamond in it", "mnemonic": "the drill, and the diamond in it — the STONe that bores", "invented": false, "crossRefs": ["zuān"], "freqRank": 1994, "traditional": "鑚鑽"},
 {"char": "嘴", "pinyin": "zuǐ", "syllable": "zui", "tone": 3, "core": "the mouth, and any spout like it", "mnemonic": "noZZLE /BEAK", "invented": false, "crossRefs": [], "freqRank": 1132, "traditional": ""},
-{"char": "罪", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the guilt, and the crime", "mnemonic": "the guilt, and the crime — the SIn", "invented": false, "crossRefs": [], "freqRank": 607, "traditional": "辠"},
+{"char": "罪", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the guilt, and the crime", "mnemonic": "bLAME / cRIME / SIN", "invented": false, "crossRefs": [], "freqRank": 607, "traditional": "辠"},
 {"char": "最", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the most", "mnemonic": "the most — the SUpErlative", "invented": false, "crossRefs": [], "freqRank": 176, "traditional": "㝡冣"},
 {"char": "醉", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "drunk", "mnemonic": "drunk — the SOUsed", "invented": false, "crossRefs": [], "freqRank": 1603, "traditional": ""},
 {"char": "尊", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "held high in honour", "mnemonic": "SENior reSPEct", "invented": false, "crossRefs": [], "freqRank": 1019, "traditional": ""},
