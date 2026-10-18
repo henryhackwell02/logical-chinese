@@ -3215,7 +3215,7 @@
 {"char": "卒", "pinyin": "zú", "syllable": "zu", "tone": 2, "core": "the foot soldier; and coming to an end", "mnemonic": "SOldier", "invented": false, "crossRefs": [], "freqRank": 1043, "traditional": "䘚"},
 {"char": "组", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "put together into a set", "mnemonic": "pull TO gether", "invented": false, "crossRefs": [], "freqRank": 463, "traditional": "組"},
 {"char": "祖", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "the forebear", "mnemonic": "the forebear — the ancESTOR", "invented": false, "crossRefs": [], "freqRank": 663, "traditional": ""},
-{"char": "阻", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "blocked in the way", "mnemonic": "blocked in the way — the STOp", "invented": false, "crossRefs": [], "freqRank": 1287, "traditional": ""},
+{"char": "阻", "pinyin": "zǔ", "syllable": "zu", "tone": 3, "core": "blocked in the way", "mnemonic": "obsTRUCT", "invented": false, "crossRefs": [], "freqRank": 1287, "traditional": ""},
 {"char": "钻", "pinyin": "zuān", "syllable": "zuan", "tone": 1, "core": "bored into", "mnemonic": "go HAM into", "invented": false, "crossRefs": ["zuàn"], "freqRank": 1994, "traditional": "鑚鑽"},
 {"char": "钻", "pinyin": "zuàn", "syllable": "zuan", "tone": 4, "core": "the drill, and the diamond in it", "mnemonic": "go HAM into", "invented": false, "crossRefs": ["zuān"], "freqRank": 1994, "traditional": "鑚鑽"},
 {"char": "嘴", "pinyin": "zuǐ", "syllable": "zui", "tone": 3, "core": "the mouth, and any spout like it", "mnemonic": "noZZLE /BEAK", "invented": false, "crossRefs": [], "freqRank": 1132, "traditional": ""},
