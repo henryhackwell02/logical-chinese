@@ -3090,7 +3090,7 @@
 {"char": "执", "pinyin": "zhí", "syllable": "zhi", "tone": 2, "core": "held fast, and so carried out", "mnemonic": "SEIze / capTURE / manAGE", "invented": false, "crossRefs": [], "freqRank": 721, "traditional": "執"},
 {"char": "殖", "pinyin": "zhí", "syllable": "zhi", "tone": 2, "core": "bred and multiplied", "mnemonic": "reproDUCE", "invented": false, "crossRefs": [], "freqRank": 1744, "traditional": ""},
 {"char": "侄", "pinyin": "zhí", "syllable": "zhi", "tone": 2, "core": "brother's son", "mnemonic": "brother's son — the nephew, one step DIstant", "invented": false, "crossRefs": [], "freqRank": 2147, "traditional": "妷姪"},
-{"char": "指", "pinyin": "zhǐ", "syllable": "zhi", "tone": 3, "core": "the finger, and pointing with it", "mnemonic": "the finger, and pointing with it — the DIgit", "invented": false, "crossRefs": [], "freqRank": 289, "traditional": ""},
+{"char": "指", "pinyin": "zhǐ", "syllable": "zhi", "tone": 3, "core": "the finger, and pointing with it", "mnemonic": "GESTURE / diGIT", "invented": false, "crossRefs": [], "freqRank": 289, "traditional": ""},
 {"char": "纸", "pinyin": "zhǐ", "syllable": "zhi", "tone": 3, "core": "paper", "mnemonic": "paper — the SHEEt", "invented": false, "crossRefs": [], "freqRank": 1126, "traditional": "帋紙"},
 {"char": "止", "pinyin": "zhǐ", "syllable": "zhi", "tone": 3, "core": "brought to a halt", "mnemonic": "brought to a halt — the STop", "invented": false, "crossRefs": [], "freqRank": 565, "traditional": ""},
 {"char": "只", "pinyin": "zhǐ", "syllable": "zhi", "tone": 3, "core": "only", "mnemonic": "only — JUst that", "invented": false, "crossRefs": ["zhī"], "freqRank": 96, "traditional": "祇秖衹隻"},
