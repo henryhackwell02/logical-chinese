@@ -2739,7 +2739,7 @@
 {"char": "宴", "pinyin": "yàn", "syllable": "yan", "tone": 4, "core": "the feast", "mnemonic": "BANquet", "invented": false, "crossRefs": [], "freqRank": 1751, "traditional": "讌醼"},
 {"char": "咽", "pinyin": "yàn", "syllable": "yan", "tone": 4, "core": "swallowed", "mnemonic": "swallowed — dowN the YAWNing throat", "invented": false, "crossRefs": ["yān"], "freqRank": 2172, "traditional": "嚥"},
 {"char": "焰", "pinyin": "yàn", "syllable": "yan", "tone": 4, "core": "the flame's tongue", "mnemonic": "FLAMEd", "invented": false, "crossRefs": [], "freqRank": 2507, "traditional": "燄"},
-{"char": "央", "pinyin": "yāng", "syllable": "yang", "tone": 1, "core": "the middle point", "mnemonic": "the middle point — the YANK to centre", "invented": false, "crossRefs": [], "freqRank": 975, "traditional": ""},
+{"char": "央", "pinyin": "yāng", "syllable": "yang", "tone": 1, "core": "the middle point", "mnemonic": "RIGHT down centre", "invented": false, "crossRefs": [], "freqRank": 975, "traditional": ""},
 {"char": "殃", "pinyin": "yāng", "syllable": "yang", "tone": 1, "core": "calamity falling on you", "mnemonic": "calAMity", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "阳", "pinyin": "yáng", "syllable": "yang", "tone": 2, "core": "the sunlit side; the yang", "mnemonic": "the sunlit side; the yang — the YANG", "invented": false, "crossRefs": [], "freqRank": 410, "traditional": "陽"},
 {"char": "洋", "pinyin": "yáng", "syllable": "yang", "tone": 2, "core": "the ocean, and so foreign", "mnemonic": "oCEAN / OUT there", "invented": false, "crossRefs": [], "freqRank": 940, "traditional": ""},
