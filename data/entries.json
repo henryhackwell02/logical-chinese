@@ -2840,7 +2840,7 @@
 {"char": "盈", "pinyin": "yíng", "syllable": "ying", "tone": 2, "core": "filled and running over", "mnemonic": "fillING / brimmING", "invented": false, "crossRefs": [], "freqRank": 1969, "traditional": ""},
 {"char": "荧", "pinyin": "yíng", "syllable": "ying", "tone": 2, "core": "a faint glimmer", "mnemonic": "twinklING / glimmerING", "invented": false, "crossRefs": [], "freqRank": 2935, "traditional": "熒"},
 {"char": "赢", "pinyin": "yíng", "syllable": "ying", "tone": 2, "core": "coming out with the gain", "mnemonic": "win", "invented": false, "crossRefs": [], "freqRank": 2132, "traditional": "贏"},
-{"char": "影", "pinyin": "yǐng", "syllable": "ying", "tone": 3, "core": "the shadow, and the image cast", "mnemonic": "the shadow, and the image cast — the castING of it", "invented": false, "crossRefs": [], "freqRank": 474, "traditional": ""},
+{"char": "影", "pinyin": "yǐng", "syllable": "ying", "tone": 3, "core": "the shadow, and the image cast", "mnemonic": "reflectING / IMage / PICTure", "invented": false, "crossRefs": [], "freqRank": 474, "traditional": ""},
 {"char": "颖", "pinyin": "yǐng", "syllable": "ying", "tone": 3, "core": "the point that stands out", "mnemonic": "the sharp tip, shINING new", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "穎"},
 {"char": "应", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "answering what was asked", "mnemonic": "answering what was asked — the answerING", "invented": false, "crossRefs": ["yīng"], "freqRank": 147, "traditional": "應"},
 {"char": "硬", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "hard and unyielding", "mnemonic": "hard and unyielding — the unyieldING", "invented": false, "crossRefs": [], "freqRank": 1384, "traditional": ""},
