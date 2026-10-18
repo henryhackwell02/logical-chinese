@@ -3221,7 +3221,7 @@
 {"char": "嘴", "pinyin": "zuǐ", "syllable": "zui", "tone": 3, "core": "the mouth, and any spout like it", "mnemonic": "noZZLE /BEAK", "invented": false, "crossRefs": [], "freqRank": 1132, "traditional": ""},
 {"char": "罪", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the guilt, and the crime", "mnemonic": "bLAME / cRIME / SIN", "invented": false, "crossRefs": [], "freqRank": 607, "traditional": "辠"},
 {"char": "最", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "the most", "mnemonic": "the most — the SUpErlative", "invented": false, "crossRefs": [], "freqRank": 176, "traditional": "㝡冣"},
-{"char": "醉", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "drunk", "mnemonic": "drunk — the SOUsed", "invented": false, "crossRefs": [], "freqRank": 1603, "traditional": ""},
+{"char": "醉", "pinyin": "zuì", "syllable": "zui", "tone": 4, "core": "drunk", "mnemonic": "SWAYing drunk", "invented": false, "crossRefs": [], "freqRank": 1603, "traditional": ""},
 {"char": "尊", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "held high in honour", "mnemonic": "SENior reSPEct", "invented": false, "crossRefs": [], "freqRank": 1019, "traditional": ""},
 {"char": "遵", "pinyin": "zūn", "syllable": "zun", "tone": 1, "core": "followed as laid down", "mnemonic": "obSERVE", "invented": false, "crossRefs": [], "freqRank": 1612, "traditional": ""},
 {"char": "作", "pinyin": "zuō", "syllable": "zuo", "tone": 1, "core": "the workshop", "mnemonic": "the workshop — the SHOp floor", "invented": false, "crossRefs": ["zuò"], "freqRank": 62, "traditional": ""},
