@@ -2844,7 +2844,7 @@
 {"char": "颖", "pinyin": "yǐng", "syllable": "ying", "tone": 3, "core": "the point that stands out", "mnemonic": "TIP of it", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "穎"},
 {"char": "应", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "answering what was asked", "mnemonic": "echoING / respondING", "invented": false, "crossRefs": ["yīng"], "freqRank": 147, "traditional": "應"},
 {"char": "硬", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "hard and unyielding", "mnemonic": "FIRM / stIFF", "invented": false, "crossRefs": [], "freqRank": 1384, "traditional": ""},
-{"char": "映", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "thrown back as an image", "mnemonic": "thrown back as an image — the mirrorING", "invented": false, "crossRefs": [], "freqRank": 1525, "traditional": "暎"},
+{"char": "映", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "thrown back as an image", "mnemonic": "vISible / mirrorING", "invented": false, "crossRefs": [], "freqRank": 1525, "traditional": "暎"},
 {"char": "哟", "pinyin": "yō", "syllable": "yo", "tone": 1, "core": "a small cry of surprise", "mnemonic": "a small cry of surprise — YO!", "invented": false, "crossRefs": ["yo"], "freqRank": 2777, "traditional": "喲"},
 {"char": "哟", "pinyin": "yo", "syllable": "yo", "tone": 5, "core": "the coaxing particle", "mnemonic": "the coaxing particle — a soft YO", "invented": false, "crossRefs": ["yō"], "freqRank": 2777, "traditional": "喲"},
 {"char": "庸", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "the ordinary run, put to ordinary use", "mnemonic": "the ordinary run, put to ordinary use — the everydaY ONe", "invented": false, "crossRefs": [], "freqRank": 2049, "traditional": ""},
