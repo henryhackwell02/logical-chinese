@@ -227,7 +227,7 @@
 {"char": "蚕", "pinyin": "cán", "syllable": "can", "tone": 2, "core": "silkworm", "mnemonic": "the Silky CAterpillar", "invented": false, "crossRefs": [], "freqRank": 2796, "traditional": "蠶"},
 {"char": "惭", "pinyin": "cán", "syllable": "can", "tone": 2, "core": "shame at one's own shortfall", "mnemonic": "CAN't meet your own eye", "invented": false, "crossRefs": [], "freqRank": 2724, "traditional": "慙慚"},
 {"char": "惨", "pinyin": "cǎn", "syllable": "can", "tone": 3, "core": "bleak and cruel to witness", "mnemonic": "bleak — you CAN'T bear to look", "invented": false, "crossRefs": [], "freqRank": 1720, "traditional": "慘"},
-{"char": "灿", "pinyin": "càn", "syllable": "can", "tone": 4, "core": "brilliantly shining", "mnemonic": "shining — CAN you look at it?", "invented": false, "crossRefs": [], "freqRank": 2769, "traditional": "燦"},
+{"char": "灿", "pinyin": "càn", "syllable": "can", "tone": 4, "core": "brilliantly shining", "mnemonic": "inCANdescent", "invented": false, "crossRefs": [], "freqRank": 2769, "traditional": "燦"},
 {"char": "苍", "pinyin": "cāng", "syllable": "cang", "tone": 1, "core": "the blue-green of sky, sea and age", "mnemonic": "the blue-green of sky and CHANGing age", "invented": false, "crossRefs": [], "freqRank": 1755, "traditional": "蒼"},
 {"char": "仓", "pinyin": "cāng", "syllable": "cang", "tone": 1, "core": "a store for grain", "mnemonic": "the grain store's CHAmber", "invented": false, "crossRefs": [], "freqRank": 1677, "traditional": "倉"},
 {"char": "舱", "pinyin": "cāng", "syllable": "cang", "tone": 1, "core": "the enclosed space in a vessel", "mnemonic": "the CAbin inside the vessel", "invented": false, "crossRefs": [], "freqRank": 2117, "traditional": "艙"},
