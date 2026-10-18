@@ -3183,7 +3183,7 @@
 {"char": "准", "pinyin": "zhǔn", "syllable": "zhun", "tone": 3, "core": "measured true, and so allowed", "mnemonic": "measured true, and so allowed — the JUst-right", "invented": false, "crossRefs": [], "freqRank": 440, "traditional": "準"},
 {"char": "桌", "pinyin": "zhuō", "syllable": "zhuo", "tone": 1, "core": "table", "mnemonic": "the table — the JOIned boards", "invented": false, "crossRefs": [], "freqRank": 1330, "traditional": "槕"},
 {"char": "拙", "pinyin": "zhuō", "syllable": "zhuo", "tone": 1, "core": "clumsy", "mnemonic": "clumsy — the JUmbling hands", "invented": false, "crossRefs": [], "freqRank": 2785, "traditional": ""},
-{"char": "捉", "pinyin": "zhuō", "syllable": "zhuo", "tone": 1, "core": "caught hold of", "mnemonic": "caught hold of — the JUmped-on", "invented": false, "crossRefs": [], "freqRank": 1780, "traditional": ""},
+{"char": "捉", "pinyin": "zhuō", "syllable": "zhuo", "tone": 1, "core": "caught hold of", "mnemonic": "capTURE", "invented": false, "crossRefs": [], "freqRank": 1780, "traditional": ""},
 {"char": "着", "pinyin": "zhuó", "syllable": "zhuo", "tone": 2, "core": "put on and applied", "mnemonic": "put on and applied — the JOIned-on", "invented": false, "crossRefs": ["zhāo"], "freqRank": 47, "traditional": "著"},
 {"char": "酌", "pinyin": "zhuó", "syllable": "zhuo", "tone": 2, "core": "poured out, and so weighed up", "mnemonic": "poured out, and so weighed up — the JUdged measure", "invented": false, "crossRefs": [], "freqRank": 2526, "traditional": ""},
 {"char": "卓", "pinyin": "zhuó", "syllable": "zhuo", "tone": 2, "core": "standing out above", "mnemonic": "standing out above — the JUtting one", "invented": false, "crossRefs": [], "freqRank": 2063, "traditional": ""},
