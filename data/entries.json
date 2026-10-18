@@ -2830,7 +2830,7 @@
 {"char": "印", "pinyin": "yìn", "syllable": "yin", "tone": 4, "core": "pressed to leave a mark", "mnemonic": "IN-prINt", "invented": false, "crossRefs": [], "freqRank": 705, "traditional": ""},
 {"char": "饮", "pinyin": "yìn", "syllable": "yin", "tone": 4, "core": "given drink", "mnemonic": "given drink — poured IN for them", "invented": false, "crossRefs": ["yǐn"], "freqRank": 1233, "traditional": "㱃飲"},
 {"char": "荫", "pinyin": "yìn", "syllable": "yin", "tone": 4, "core": "shade, and shelter under it", "mnemonic": "shadIN'", "invented": false, "crossRefs": [], "freqRank": 2822, "traditional": "廕蔭"},
-{"char": "应", "pinyin": "yīng", "syllable": "ying", "tone": 1, "core": "ought to", "mnemonic": "ought to — you're meaNING to", "invented": false, "crossRefs": ["yìng"], "freqRank": 147, "traditional": "應"},
+{"char": "应", "pinyin": "yīng", "syllable": "ying", "tone": 1, "core": "ought to", "mnemonic": "agREEing to", "invented": false, "crossRefs": ["yìng"], "freqRank": 147, "traditional": "應"},
 {"char": "英", "pinyin": "yīng", "syllable": "ying", "tone": 1, "core": "the flower's best, and so outstanding", "mnemonic": "the flower's best, and so outstanding — the bloom's kING", "invented": false, "crossRefs": [], "freqRank": 404, "traditional": ""},
 {"char": "鹰", "pinyin": "yīng", "syllable": "ying", "tone": 1, "core": "the hawk", "mnemonic": "the hawk — the wING on high", "invented": false, "crossRefs": [], "freqRank": 2140, "traditional": "鷹"},
 {"char": "婴", "pinyin": "yīng", "syllable": "ying", "tone": 1, "core": "the infant", "mnemonic": "the infant — the weaNING one", "invented": false, "crossRefs": [], "freqRank": 2267, "traditional": "嬰"},
