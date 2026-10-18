@@ -3165,7 +3165,7 @@
 {"char": "砖", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "brick", "mnemonic": "ONE on top of ONE", "invented": false, "crossRefs": [], "freqRank": 2652, "traditional": "塼甎磚"},
 {"char": "转", "pinyin": "zhuǎn", "syllable": "zhuan", "tone": 3, "core": "turned to another course", "mnemonic": "TURN around/on", "invented": false, "crossRefs": ["zhuàn"], "freqRank": 374, "traditional": "轉"},
 {"char": "转", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "turned round and round", "mnemonic": "turned round and round — the TURN", "invented": false, "crossRefs": ["zhuǎn"], "freqRank": 374, "traditional": "轉"},
-{"char": "传", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "the life handed down in writing", "mnemonic": "the life handed down in writing — the JOUrnal of a life", "invented": false, "crossRefs": ["chuán"], "freqRank": 320, "traditional": "傳"},
+{"char": "传", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "the life handed down in writing", "mnemonic": "JOURnal passed ON", "invented": false, "crossRefs": ["chuán"], "freqRank": 320, "traditional": "傳"},
 {"char": "撰", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "composed", "mnemonic": "composed — the JOtting-together", "invented": false, "crossRefs": [], "freqRank": 1682, "traditional": "譔"},
 {"char": "赚", "pinyin": "zhuàn", "syllable": "zhuan", "tone": 4, "core": "earned", "mnemonic": "earned — the JUst reward", "invented": false, "crossRefs": [], "freqRank": 2499, "traditional": "賺"},
 {"char": "装", "pinyin": "zhuāng", "syllable": "zhuang", "tone": 1, "core": "put on and fitted out", "mnemonic": "inSTALLED and aDORNED", "invented": false, "crossRefs": [], "freqRank": 569, "traditional": "裝"},
