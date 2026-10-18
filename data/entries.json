@@ -2767,7 +2767,7 @@
 {"char": "爷", "pinyin": "yé", "syllable": "ye", "tone": 2, "core": "grandfather", "mnemonic": "grandfather — the YEsteryear man", "invented": false, "crossRefs": [], "freqRank": 703, "traditional": "爺"},
 {"char": "野", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "the open country, and the wildness of it", "mnemonic": "FERal", "invented": false, "crossRefs": [], "freqRank": 901, "traditional": "埜壄"},
 {"char": "也", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "also", "mnemonic": "also — YEs, and", "invented": false, "crossRefs": [], "freqRank": 26, "traditional": ""},
-{"char": "冶", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "smelted; and alluring", "mnemonic": "smelted, and alluring — the YIElding metal", "invented": false, "crossRefs": [], "freqRank": 2824, "traditional": ""},
+{"char": "冶", "pinyin": "yě", "syllable": "ye", "tone": 3, "core": "smelted; and alluring", "mnemonic": "SMELt", "invented": false, "crossRefs": [], "freqRank": 2824, "traditional": ""},
 {"char": "业", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "the line of work", "mnemonic": "the line of work — what YOu do", "invented": false, "crossRefs": [], "freqRank": 162, "traditional": "業"},
 {"char": "叶", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "the leaf, and the flat page like it", "mnemonic": "the leaf, and the flat page like it — the YEllOW leaf", "invented": true, "crossRefs": ["xié"], "freqRank": 968, "traditional": "葉"},
 {"char": "夜", "pinyin": "yè", "syllable": "ye", "tone": 4, "core": "night", "mnemonic": "night — the YEs, it's late", "invented": false, "crossRefs": [], "freqRank": 524, "traditional": "亱"},
