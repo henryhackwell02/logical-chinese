@@ -3160,7 +3160,7 @@
 {"char": "铸", "pinyin": "zhù", "syllable": "zhu", "tone": 4, "core": "cast in metal", "mnemonic": "cast in metal — the CAST", "invented": false, "crossRefs": [], "freqRank": 2449, "traditional": "鑄"},
 {"char": "抓", "pinyin": "zhuā", "syllable": "zhua", "tone": 1, "core": "seized in the claw", "mnemonic": "claw", "invented": false, "crossRefs": [], "freqRank": 1181, "traditional": ""},
 {"char": "爪", "pinyin": "zhuǎ", "syllable": "zhua", "tone": 3, "core": "the animal's foot", "mnemonic": "the animal's foot — the CLAW", "invented": false, "crossRefs": ["zhǎo"], "freqRank": 2579, "traditional": ""},
-{"char": "拽", "pinyin": "zhuài", "syllable": "zhuai", "tone": 4, "core": "dragged with force", "mnemonic": "a JUddering drag", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "拽", "pinyin": "zhuài", "syllable": "zhuai", "tone": 4, "core": "dragged with force", "mnemonic": "DRAGging", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "专", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "turned wholly on one thing", "mnemonic": "JUST ON / focus ON", "invented": false, "crossRefs": [], "freqRank": 564, "traditional": "專耑"},
 {"char": "砖", "pinyin": "zhuān", "syllable": "zhuan", "tone": 1, "core": "brick", "mnemonic": "ONE on top of ONE", "invented": false, "crossRefs": [], "freqRank": 2652, "traditional": "塼甎磚"},
 {"char": "转", "pinyin": "zhuǎn", "syllable": "zhuan", "tone": 3, "core": "turned to another course", "mnemonic": "TURN around/on", "invented": false, "crossRefs": ["zhuàn"], "freqRank": 374, "traditional": "轉"},
