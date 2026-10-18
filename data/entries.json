@@ -2824,7 +2824,7 @@
 {"char": "吟", "pinyin": "yín", "syllable": "yin", "tone": 2, "core": "chanted low", "mnemonic": "chanTIN'", "invented": false, "crossRefs": [], "freqRank": 1938, "traditional": "唫"},
 {"char": "寅", "pinyin": "yín", "syllable": "yin", "tone": 2, "core": "third earthly branch", "mnemonic": "branch three — the thIrd IN line", "invented": false, "crossRefs": [], "freqRank": 1690, "traditional": ""},
 {"char": "引", "pinyin": "yǐn", "syllable": "yin", "tone": 3, "core": "drawn out and led on", "mnemonic": "draw IN", "invented": false, "crossRefs": [], "freqRank": 457, "traditional": ""},
-{"char": "隐", "pinyin": "yǐn", "syllable": "yin", "tone": 3, "core": "kept out of sight", "mnemonic": "kept out of sight — the hiddeN wIthIN", "invented": false, "crossRefs": [], "freqRank": 961, "traditional": "隱"},
+{"char": "隐", "pinyin": "yǐn", "syllable": "yin", "tone": 3, "core": "kept out of sight", "mnemonic": "HIDden withIN", "invented": false, "crossRefs": [], "freqRank": 961, "traditional": "隱"},
 {"char": "饮", "pinyin": "yǐn", "syllable": "yin", "tone": 3, "core": "drunk", "mnemonic": "drunk — taken IN", "invented": false, "crossRefs": ["yìn"], "freqRank": 1233, "traditional": "㱃飲"},
 {"char": "瘾", "pinyin": "yǐn", "syllable": "yin", "tone": 3, "core": "the craving that pulls you back", "mnemonic": "the itch that pulls you IN", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "癮"},
 {"char": "印", "pinyin": "yìn", "syllable": "yin", "tone": 4, "core": "pressed to leave a mark", "mnemonic": "imprint", "invented": false, "crossRefs": [], "freqRank": 705, "traditional": ""},
