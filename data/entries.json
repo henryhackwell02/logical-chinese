@@ -3110,7 +3110,7 @@
 {"char": "掷", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "flung", "mnemonic": "flung — the JEttison", "invented": false, "crossRefs": [], "freqRank": 2654, "traditional": "擲"},
 {"char": "秩", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "the order of rank", "mnemonic": "regISTer / RANK", "invented": false, "crossRefs": [], "freqRank": 1802, "traditional": ""},
 {"char": "帜", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "the flag you are known by", "mnemonic": "DRAPed flag", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "幟"},
-{"char": "挚", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "held in earnest, sincere", "mnemonic": "a grip held in earneST", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "摯"},
+{"char": "挚", "pinyin": "zhì", "syllable": "zhi", "tone": 4, "core": "held in earnest, sincere", "mnemonic": "earnEST / SINCERE", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "摯"},
 {"char": "中", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "the middle", "mnemonic": "the middle — the CENtre", "invented": false, "crossRefs": ["zhòng"], "freqRank": 18, "traditional": ""},
 {"char": "终", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "the end reached", "mnemonic": "the end reached — the CONclusion", "invented": false, "crossRefs": [], "freqRank": 546, "traditional": "終"},
 {"char": "钟", "pinyin": "zhōng", "syllable": "zhong", "tone": 1, "core": "the bell that gathers and strikes the hours", "mnemonic": "the bell that gathers and strikes the hours — the GONG", "invented": true, "crossRefs": [], "freqRank": 949, "traditional": "鍾鐘"},
