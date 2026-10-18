@@ -3119,7 +3119,7 @@
 {"char": "种", "pinyin": "zhǒng", "syllable": "zhong", "tone": 3, "core": "the seed, and the kind it breeds", "mnemonic": "SORT", "invented": false, "crossRefs": ["zhòng"], "freqRank": 85, "traditional": "種"},
 {"char": "肿", "pinyin": "zhǒng", "syllable": "zhong", "tone": 3, "core": "swollen up", "mnemonic": "SWOLLED up", "invented": false, "crossRefs": [], "freqRank": 2104, "traditional": "腫"},
 {"char": "中", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "hitting the middle", "mnemonic": "hitting the middle — the CENtre struck", "invented": false, "crossRefs": ["zhōng"], "freqRank": 18, "traditional": ""},
-{"char": "重", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "heavy, and so weighed as important", "mnemonic": "heavy, and so weighed as important — the TONNage", "invented": false, "crossRefs": ["chóng"], "freqRank": 146, "traditional": ""},
+{"char": "重", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "heavy, and so weighed as important", "mnemonic": "STRONG - heavy and serious", "invented": false, "crossRefs": ["chóng"], "freqRank": 146, "traditional": ""},
 {"char": "种", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "sown", "mnemonic": "GROW and SOW", "invented": false, "crossRefs": ["zhǒng"], "freqRank": 85, "traditional": "種"},
 {"char": "众", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "the many", "mnemonic": "the many — the ThrONG", "invented": false, "crossRefs": [], "freqRank": 369, "traditional": "眾衆"},
 {"char": "仲", "pinyin": "zhòng", "syllable": "zhong", "tone": 4, "core": "the middle one of three", "mnemonic": "the middle one of three — the seCONd of three", "invented": false, "crossRefs": [], "freqRank": 1319, "traditional": ""},
