@@ -2933,7 +2933,7 @@
 {"char": "越", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "passing over and beyond", "mnemonic": "EXCeed", "invented": false, "crossRefs": [], "freqRank": 486, "traditional": ""},
 {"char": "阅", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "gone over and read", "mnemonic": "WADE through and reVIEW", "invented": false, "crossRefs": [], "freqRank": 1587, "traditional": "閱"},
 {"char": "岳", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "the high peak; and the wife's father", "mnemonic": "the high peak, and the wife's father — the mOUNtain-in-law", "invented": false, "crossRefs": [], "freqRank": 1477, "traditional": "嶽"},
-{"char": "跃", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "leapt", "mnemonic": "leapt — the vaULt", "invented": false, "crossRefs": [], "freqRank": 1664, "traditional": "躍"},
+{"char": "跃", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "leapt", "mnemonic": "LEAP", "invented": false, "crossRefs": [], "freqRank": 1664, "traditional": "躍"},
 {"char": "悦", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "gladdened", "mnemonic": "gladdened — the wELl-pleased", "invented": false, "crossRefs": [], "freqRank": 1616, "traditional": "悅"},
 {"char": "钥", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "the key", "mnemonic": "the key — what YOU turn", "invented": false, "crossRefs": [], "freqRank": 2714, "traditional": "鑰"},
 {"char": "晕", "pinyin": "yūn", "syllable": "yun", "tone": 1, "core": "the head gone swimming", "mnemonic": "the head gone swimming — the swOON", "invented": false, "crossRefs": ["yùn"], "freqRank": 2037, "traditional": "暈"},
