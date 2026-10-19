@@ -799,7 +799,7 @@
 {"char": "巩", "pinyin": "gǒng", "syllable": "gong", "tone": 3, "core": "made firm", "mnemonic": "made firm — GONG-solid", "invented": false, "crossRefs": [], "freqRank": 2663, "traditional": "鞏"},
 {"char": "共", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "shared together", "mnemonic": "shared together — GOING in as one", "invented": false, "crossRefs": [], "freqRank": 375, "traditional": ""},
 {"char": "供", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "laid out as an offering, and so confessed", "mnemonic": "laid out as an offering, and so confessed — the GOOds owned up to", "invented": false, "crossRefs": ["gōng"], "freqRank": 645, "traditional": ""},
-{"char": "贡", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "sent up as tribute", "mnemonic": "sent up as tribute — GOODS to the throne", "invented": false, "crossRefs": [], "freqRank": 1348, "traditional": "貢"},
+{"char": "贡", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "sent up as tribute", "mnemonic": "OFFer / GIFT up", "invented": false, "crossRefs": [], "freqRank": 1348, "traditional": "貢"},
 {"char": "钩", "pinyin": "gōu", "syllable": "gou", "tone": 1, "core": "hook", "mnemonic": "the hook — GOUged in", "invented": false, "crossRefs": [], "freqRank": 2234, "traditional": "鈎鉤"},
 {"char": "沟", "pinyin": "gōu", "syllable": "gou", "tone": 1, "core": "a cut channel", "mnemonic": "gouge", "invented": false, "crossRefs": [], "freqRank": 1806, "traditional": "溝"},
 {"char": "勾", "pinyin": "gōu", "syllable": "gou", "tone": 1, "core": "hooked and drawn out", "mnemonic": "hooked and drawn out — GOt it out", "invented": false, "crossRefs": [], "freqRank": 2041, "traditional": ""},
