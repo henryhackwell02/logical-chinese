@@ -2857,7 +2857,7 @@
 {"char": "咏", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "sung out in words", "mnemonic": "sung out in words — the YOdel", "invented": false, "crossRefs": [], "freqRank": 2815, "traditional": "詠"},
 {"char": "踊", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "leaping up eagerly", "mnemonic": "YOUNG legs, leaping", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "踴"},
 {"char": "用", "pinyin": "yòng", "syllable": "yong", "tone": 4, "core": "put to use", "mnemonic": "USE", "invented": false, "crossRefs": [], "freqRank": 57, "traditional": ""},
-{"char": "佣", "pinyin": "yòng", "syllable": "yong", "tone": 4, "core": "the middleman's cut", "mnemonic": "the middleman's cut — the YOked man's cut", "invented": false, "crossRefs": ["yōng"], "freqRank": 2734, "traditional": "傭"},
+{"char": "佣", "pinyin": "yòng", "syllable": "yong", "tone": 4, "core": "the middleman's cut", "mnemonic": "YOUR cut", "invented": false, "crossRefs": ["yōng"], "freqRank": 2734, "traditional": "傭"},
 {"char": "优", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "better than the rest", "mnemonic": "better than the rest — the YOu-first one", "invented": false, "crossRefs": [], "freqRank": 911, "traditional": "優"},
 {"char": "忧", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "weighed on by worry", "mnemonic": "woe", "invented": false, "crossRefs": [], "freqRank": 1275, "traditional": "憂"},
 {"char": "幽", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "hidden away and still", "mnemonic": "hidden away and still — the YOnder quiet", "invented": false, "crossRefs": [], "freqRank": 1439, "traditional": ""},
