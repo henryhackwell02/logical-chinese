@@ -2403,7 +2403,7 @@
 {"char": "椭", "pinyin": "tuǒ", "syllable": "tuo", "tone": 3, "core": "oval", "mnemonic": "the TOe-shaped circle", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "橢"},
 {"char": "拓", "pinyin": "tuò", "syllable": "tuo", "tone": 4, "core": "pushed out wider", "mnemonic": "push oUT TO include", "invented": false, "crossRefs": ["tà"], "freqRank": 2575, "traditional": ""},
 {"char": "唾", "pinyin": "tuò", "syllable": "tuo", "tone": 4, "core": "spat out, and so scorned", "mnemonic": "spiT OUT", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
-{"char": "挖", "pinyin": "wā", "syllable": "wa", "tone": 1, "core": "dug out", "mnemonic": "dug out — the WHAcking spade", "invented": false, "crossRefs": [], "freqRank": 2180, "traditional": ""},
+{"char": "挖", "pinyin": "wā", "syllable": "wa", "tone": 1, "core": "dug out", "mnemonic": "WHAck out / exCAVate", "invented": false, "crossRefs": [], "freqRank": 2180, "traditional": ""},
 {"char": "哇", "pinyin": "wā", "syllable": "wa", "tone": 1, "core": "the cry of surprise", "mnemonic": "the cry of surprise — WAh!", "invented": false, "crossRefs": ["wa"], "freqRank": 2839, "traditional": ""},
 {"char": "娃", "pinyin": "wá", "syllable": "wa", "tone": 2, "core": "the small child", "mnemonic": "the small child — the WAin, the little one", "invented": false, "crossRefs": [], "freqRank": 2207, "traditional": ""},
 {"char": "瓦", "pinyin": "wǎ", "syllable": "wa", "tone": 3, "core": "the roof tile", "mnemonic": "the roof tile — the WAll-tile", "invented": false, "crossRefs": [], "freqRank": 1378, "traditional": ""},
