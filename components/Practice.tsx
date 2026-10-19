@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { coreAddsMeaning } from '@/lib/mnemonic';
 import Mnemonic from './Mnemonic';
 import { InventedMark } from './Bits';
@@ -65,6 +65,9 @@ function listPhrase(items: string[]): string {
   return `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
 }
 
+const sameSelection = (a: string[], b: string[]) =>
+  a.length === b.length && a.every((s, i) => s === b[i]);
+
 export default function Practice({
   syllableOptions,
   clusterOptions,
@@ -73,6 +76,7 @@ export default function Practice({
   clusterOptions: { slug: string; name: string; chars: string[] }[];
 }) {
   const params = useSearchParams();
+  const router = useRouter();
   const [index, setIndex] = useState<IndexRow[] | null>(null);
   const [progress, setProgress] = useState<Progress>({});
   const [direction, setDirection] = useState<Direction>('zh-en');
@@ -83,6 +87,8 @@ export default function Practice({
   const [revealed, setRevealed] = useState(false);
   const [seen, setSeen] = useState(0);
   const [filter, setFilter] = useState('');
+  /** The sounds ticked but not yet drilled. Only Submit navigates. */
+  const [draft, setDraft] = useState<string[]>([]);
 
   useEffect(() => {
     setProgress(readProgress());
@@ -98,7 +104,9 @@ export default function Practice({
   }, []);
 
   useEffect(() => {
-    setSyllables(parseSyllables(params.get('syllable')));
+    const fromUrl = parseSyllables(params.get('syllable'));
+    setSyllables(fromUrl);
+    setDraft(fromUrl);
     setCluster(params.get('cluster'));
     setAnyChar(params.get('deck') === 'any');
     setCurrent(null);
@@ -185,23 +193,34 @@ export default function Practice({
         ? 'any character on the site'
         : 'every reading ranked 1 to 500';
 
-  /** Toggling a sound drops any other deck, so the URL carries one choice at a time. */
-  const toggleHref = useCallback(
-    (syllable: string) =>
-      practiceHref(
-        syllableSet.has(syllable)
-          ? syllables.filter((s) => s !== syllable)
-          : [...syllables, syllable],
-      ),
-    [syllables, syllableSet],
-  );
+  const draftSet = useMemo(() => new Set(draft), [draft]);
+
+  /** Ticking a sound only changes the draft; the deck reloads once, on submit. */
+  const toggleDraft = useCallback((syllable: string) => {
+    setDraft((chosen) =>
+      chosen.includes(syllable)
+        ? chosen.filter((s) => s !== syllable)
+        : [...chosen, syllable],
+    );
+  }, []);
+
+  const draftCards = useMemo(() => {
+    if (!index || !draftSet.size) return 0;
+    return index.filter((row) => draftSet.has(row[2])).length;
+  }, [index, draftSet]);
+
+  const pending = !sameSelection(draft, syllables);
+
+  function submitDraft() {
+    if (!pending) return;
+    router.push(practiceHref(draft));
+  }
 
   const shownSyllables = useMemo(() => {
     const needle = filter.trim().toLowerCase();
-    const pool = syllableOptions.filter((s) => !syllableSet.has(s.syllable));
-    if (!needle) return pool;
-    return pool.filter((s) => s.syllable.startsWith(needle));
-  }, [syllableOptions, syllableSet, filter]);
+    if (!needle) return syllableOptions;
+    return syllableOptions.filter((s) => s.syllable.startsWith(needle));
+  }, [syllableOptions, filter]);
 
   // The answer is whatever the prompt did not already give away.
   const answer = card && (
@@ -369,35 +388,19 @@ export default function Practice({
             </label>
           </div>
 
-          {syllables.length > 0 && (
-            <ul className="chips chips-chosen" role="group" aria-label="Sounds chosen">
-              {syllables.map((s) => (
-                <li key={s}>
-                  <Link href={toggleHref(s)} className="chip" data-on={true}>
-                    {s}
-                    <span className="chip-remove" aria-hidden="true">
-                      ×
-                    </span>
-                    <span className="sr-only"> — remove</span>
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link href="/practice/" className="btn-quiet picker-clear">
-                  Clear all
-                </Link>
-              </li>
-            </ul>
-          )}
-
           <div className="picker-scroll">
             <ul className="chips" role="group" aria-labelledby="drill-label">
               {shownSyllables.map((s) => (
                 <li key={s.syllable}>
-                  <Link href={toggleHref(s.syllable)} className="chip">
+                  <button
+                    type="button"
+                    className="chip"
+                    aria-pressed={draftSet.has(s.syllable)}
+                    onClick={() => toggleDraft(s.syllable)}
+                  >
                     {s.syllable}
                     <span className="chip-count">{s.count}</span>
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -406,6 +409,34 @@ export default function Practice({
                 No sound starts with “{filter.trim()}”.
               </p>
             )}
+          </div>
+
+          {/* Below the list, so ticking a sound never shifts the list under the cursor. */}
+          <div className="picker-submit">
+            <p className="note picker-chosen" aria-live="polite">
+              {draft.length === 0
+                ? 'No sounds ticked.'
+                : `${listPhrase(draft)} — ${draftCards} ${draftCards === 1 ? 'card' : 'cards'}`}
+            </p>
+            <div className="picker-buttons">
+              {draft.length > 0 && (
+                <button
+                  type="button"
+                  className="btn-quiet picker-clear"
+                  onClick={() => setDraft([])}
+                >
+                  Untick all
+                </button>
+              )}
+              <button
+                type="button"
+                className="btn"
+                onClick={submitDraft}
+                disabled={!pending}
+              >
+                {draft.length === 0 ? 'Back to the commonest 500' : 'Drill these sounds'}
+              </button>
+            </div>
           </div>
         </div>
 
