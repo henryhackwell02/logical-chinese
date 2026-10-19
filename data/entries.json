@@ -359,7 +359,7 @@
 {"char": "除", "pinyin": "chú", "syllable": "chu", "tone": 2, "core": "taken away and cleared", "mnemonic": "CHUcked out and cleared", "invented": false, "crossRefs": [], "freqRank": 475, "traditional": ""},
 {"char": "厨", "pinyin": "chú", "syllable": "chu", "tone": 2, "core": "kitchen", "mnemonic": "the kitchen's CHEf", "invented": false, "crossRefs": [], "freqRank": 2277, "traditional": "㕑廚"},
 {"char": "处", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "being situated, and dealing with it", "mnemonic": "situated — you CHOose how to deal", "invented": false, "crossRefs": ["chù"], "freqRank": 207, "traditional": "處"},
-{"char": "储", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "laid by in reserve", "mnemonic": "CHUcked by in reserve", "invented": false, "crossRefs": [], "freqRank": 1710, "traditional": "儲"},
+{"char": "储", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "laid by in reserve", "mnemonic": "STOCKpile (CHOCKS of it)", "invented": false, "crossRefs": [], "freqRank": 1710, "traditional": "儲"},
 {"char": "楚", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "sharp and distinct — in sight, or in pain", "mnemonic": "sharp — it CHEws at you", "invented": false, "crossRefs": [], "freqRank": 842, "traditional": ""},
 {"char": "础", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "the stone a pillar stands on", "mnemonic": "the stone the pillar's CHOcked on", "invented": false, "crossRefs": [], "freqRank": 1211, "traditional": "礎"},
 {"char": "处", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "a place", "mnemonic": "the place you're CHUcked", "invented": false, "crossRefs": ["chǔ"], "freqRank": 207, "traditional": "處"},
