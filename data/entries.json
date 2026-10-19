@@ -2568,7 +2568,7 @@
 {"char": "箱", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "the case", "mnemonic": "the case — the SHIppING crate", "invented": false, "crossRefs": [], "freqRank": 1663, "traditional": ""},
 {"char": "厢", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "the side compartment", "mnemonic": "the side compartment — the SIde chamber", "invented": false, "crossRefs": [], "freqRank": 2474, "traditional": "廂"},
 {"char": "镶", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "set into a surface", "mnemonic": "the SHINING inlay, set in", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "鑲"},
-{"char": "降", "pinyin": "xiáng", "syllable": "xiang", "tone": 2, "core": "brought down in surrender", "mnemonic": "brought down in surrender — the SHIeld laid down", "invented": false, "crossRefs": ["jiàng"], "freqRank": 647, "traditional": ""},
+{"char": "降", "pinyin": "xiáng", "syllable": "xiang", "tone": 2, "core": "brought down in surrender", "mnemonic": "SUBdue / SURrender", "invented": false, "crossRefs": ["jiàng"], "freqRank": 647, "traditional": ""},
 {"char": "详", "pinyin": "xiáng", "syllable": "xiang", "tone": 2, "core": "set out in full", "mnemonic": "set out in full — SHOWN in detail", "invented": false, "crossRefs": [], "freqRank": 1427, "traditional": "詳"},
 {"char": "祥", "pinyin": "xiáng", "syllable": "xiang", "tone": 2, "core": "the good omen", "mnemonic": "the good omen — the SHINiNG sign", "invented": false, "crossRefs": [], "freqRank": 1537, "traditional": ""},
 {"char": "翔", "pinyin": "xiáng", "syllable": "xiang", "tone": 2, "core": "gliding on the wing", "mnemonic": "gliding on the wing — the SOARING", "invented": false, "crossRefs": [], "freqRank": 2187, "traditional": ""},
