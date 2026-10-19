@@ -2563,7 +2563,7 @@
 {"char": "县", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the county", "mnemonic": "the county — the SHIre", "invented": false, "crossRefs": [], "freqRank": 482, "traditional": "縣"},
 {"char": "馅", "pinyin": "xiàn", "syllable": "xian", "tone": 4, "core": "the filling inside", "mnemonic": "what's SHUt INside the bun", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "餡"},
 {"char": "相", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "one toward another", "mnemonic": "shARING / facING", "invented": false, "crossRefs": ["xiàng"], "freqRank": 122, "traditional": ""},
-{"char": "香", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "fragrant", "mnemonic": "fragrant — the SHEER scent", "invented": false, "crossRefs": [], "freqRank": 678, "traditional": ""},
+{"char": "香", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "fragrant", "mnemonic": "SMElling SPICE and nice", "invented": false, "crossRefs": [], "freqRank": 678, "traditional": ""},
 {"char": "乡", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "the home village", "mnemonic": "the home village — the SHIre you're from", "invented": false, "crossRefs": [], "freqRank": 877, "traditional": "鄉"},
 {"char": "箱", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "the case", "mnemonic": "the case — the SHIppING crate", "invented": false, "crossRefs": [], "freqRank": 1663, "traditional": ""},
 {"char": "厢", "pinyin": "xiāng", "syllable": "xiang", "tone": 1, "core": "the side compartment", "mnemonic": "the side compartment — the SIde chamber", "invented": false, "crossRefs": [], "freqRank": 2474, "traditional": "廂"},
