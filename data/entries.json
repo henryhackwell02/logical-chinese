@@ -2852,7 +2852,7 @@
 {"char": "佣", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "hired on", "mnemonic": "emPLOY", "invented": false, "crossRefs": ["yòng"], "freqRank": 2734, "traditional": "傭"},
 {"char": "永", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "going on without end", "mnemonic": "ON and ON FORever", "invented": false, "crossRefs": [], "freqRank": 757, "traditional": ""},
 {"char": "勇", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "brave", "mnemonic": "brave - YOUng and STROng", "invented": false, "crossRefs": [], "freqRank": 1172, "traditional": ""},
-{"char": "泳", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "swimming", "mnemonic": "swimming — the YOu in the water", "invented": false, "crossRefs": [], "freqRank": 2980, "traditional": ""},
+{"char": "泳", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "swimming", "mnemonic": "swimSTROKE", "invented": false, "crossRefs": [], "freqRank": 2980, "traditional": ""},
 {"char": "涌", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "welling up and rushing out", "mnemonic": "fLOW fORTh", "invented": false, "crossRefs": [], "freqRank": 1937, "traditional": "湧"},
 {"char": "咏", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "sung out in words", "mnemonic": "sung out in words — the YOdel", "invented": false, "crossRefs": [], "freqRank": 2815, "traditional": "詠"},
 {"char": "踊", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "leaping up eagerly", "mnemonic": "YOUNG legs, leaping", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "踴"},
