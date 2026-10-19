@@ -65,6 +65,32 @@ if (bodyLines.length !== entries.length) {
   );
 }
 
+// --- HSK vocabulary -----------------------------------------------------------
+const hskRaw = read('data/hsk.json');
+const hsk = JSON.parse(hskRaw);
+
+const hskLines = hskRaw.split('\n').filter((l) => l.trim().startsWith('{'));
+if (hskLines.length !== hsk.length) {
+  fail(
+    `hsk.json must keep one object per line: ${hsk.length} objects across ${hskLines.length} object-lines`,
+  );
+}
+
+const hskSeen = new Set();
+for (const w of hsk) {
+  if (typeof w.word !== 'string' || !w.word) fail(`hsk: entry with no word`);
+  else if (!/^[㐀-鿿]+$/.test(w.word)) {
+    fail(`hsk: "${w.word}" is not all Han characters`);
+  }
+  if (!Number.isInteger(w.level) || w.level < 1 || w.level > 6) {
+    fail(`hsk ${w.word}: level must be 1-6, got ${w.level}`);
+  }
+  if (typeof w.pinyin !== 'string' || !w.pinyin) fail(`hsk ${w.word}: no pinyin`);
+  if (typeof w.gloss !== 'string' || !w.gloss) fail(`hsk ${w.word}: no gloss`);
+  if (hskSeen.has(w.word)) fail(`hsk: duplicate word ${w.word}`);
+  hskSeen.add(w.word);
+}
+
 // --- cross-references resolve in both directions ------------------------------
 const readings = new Map();
 for (const e of entries) {
@@ -120,6 +146,10 @@ console.log(`characters   ${chars}`);
 console.log(`syllables    ${syllables}`);
 console.log(`clusters     ${clusters.length}`);
 console.log(`invented     ${invented}`);
+
+const hskChars = new Set(hsk.flatMap((w) => [...w.word]));
+const withWords = [...readings.keys()].filter((c) => hskChars.has(c)).length;
+console.log(`hsk words    ${hsk.length} (${withWords} characters carry at least one)`);
 
 if (warnings.length) {
   console.log(`\n${warnings.length} warning(s):`);

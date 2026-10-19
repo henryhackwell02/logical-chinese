@@ -1067,6 +1067,43 @@ main {
   font-variant-numeric: oldstyle-nums;
 }
 
+/* ---------------------------------------------------------------- HSK words
+
+   The vocabulary a character turns up in. Long lists (不 reaches 63 words), so
+   the words get room to breathe and the separators stay out of the way. */
+
+.hsk {
+  margin-top: var(--s-7);
+}
+
+.hsk-head {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: var(--t-lg);
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.hsk-note {
+  margin: var(--s-1) 0 0;
+  max-width: 34em;
+}
+
+.hsk .facts {
+  margin-top: var(--s-3);
+}
+
+.hsk-words {
+  line-height: 1.7;
+  word-break: keep-all;
+}
+
+.hsk-sep {
+  color: var(--faint);
+  margin-right: 0.1em;
+}
+
 .fact dd a {
   border-bottom: 1px solid var(--rule-firm);
 }

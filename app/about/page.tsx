@@ -187,6 +187,20 @@ export default function AboutPage() {
           written Chinese.
         </p>
         <p>
+          The words listed on each character page are the official HSK 2012 (HSK 2.0)
+          vocabulary for levels 1 to 6, taken from the lists published at{' '}
+          <a
+            href="https://github.com/glxxyz/hskhsk.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            hskhsk.com
+          </a>{' '}
+          under the MIT licence. The syllabus runs to 5,001 listings; six words are set at
+          two levels apiece, and each is filed here at the lower of the two, leaving 4,995
+          distinct words. They cover 2,619 of the characters in this dictionary.
+        </p>
+        <p>
           The core ideas, the mnemonics and the meaning clusters are original work by the
           site author, and are published under the same CC BY-SA 4.0 licence — reuse them,
           credit them, and share what you build on them the same way.

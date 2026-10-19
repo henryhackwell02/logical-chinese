@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Mnemonic from '@/components/Mnemonic';
@@ -10,6 +11,7 @@ import {
   getEntriesForSyllable,
   otherReadings,
 } from '@/lib/data';
+import { hskForChar } from '@/lib/hsk';
 import { coreAddsMeaning, litRuns } from '@/lib/mnemonic';
 import { toneless } from '@/lib/pinyin';
 import { charHref, meaningHref, soundHref } from '@/lib/site';
@@ -60,6 +62,7 @@ export default function CharPage({ params }: { params: { char: string } }) {
   const char = decode(params.char);
   const readings = getEntriesForChar(char);
   const clusters = getClustersForChar(char);
+  const hsk = hskForChar(char);
   const primary = readings[0];
   const traditional = [...new Set(readings.flatMap((r) => [...r.traditional]))].filter(
     (t) => t !== char,
@@ -200,6 +203,33 @@ export default function CharPage({ params }: { params: { char: string } }) {
               </div>
             )}
           </dl>
+        )}
+
+        {hsk.length > 0 && (
+          <section className="hsk" aria-labelledby="hsk-head">
+            <h2 className="hsk-head" id="hsk-head">
+              Words it appears in
+            </h2>
+            <p className="note hsk-note">
+              Every word in the HSK 1-6 vocabulary built on this character, by the
+              level each is introduced at.
+            </p>
+            <dl className="facts">
+              {hsk.map((group) => (
+                <div className="fact" key={group.level}>
+                  <dt>HSK {group.level}</dt>
+                  <dd className="hsk-words">
+                    {group.words.map((word, i) => (
+                      <Fragment key={word.word}>
+                        {i > 0 && <span className="hsk-sep">, </span>}
+                        <Hanzi>{word.word}</Hanzi>
+                      </Fragment>
+                    ))}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
         )}
       </article>
 
