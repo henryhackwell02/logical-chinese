@@ -364,7 +364,7 @@
 {"char": "础", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "the stone a pillar stands on", "mnemonic": "the stone the pillar's CHOcked on", "invented": false, "crossRefs": [], "freqRank": 1211, "traditional": "礎"},
 {"char": "处", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "a place", "mnemonic": "the place you're CHUcked", "invented": false, "crossRefs": ["chǔ"], "freqRank": 207, "traditional": "處"},
 {"char": "触", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "touching, and so setting off", "mnemonic": "a touch that sets it off — CHOOses to fire", "invented": false, "crossRefs": [], "freqRank": 1417, "traditional": "觸"},
-{"char": "畜", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "the kept animal", "mnemonic": "the beast you CHUck feed to", "invented": false, "crossRefs": ["xù"], "freqRank": 2065, "traditional": ""},
+{"char": "畜", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "the kept animal", "mnemonic": "CHUCKie ducks", "invented": false, "crossRefs": ["xù"], "freqRank": 2065, "traditional": ""},
 {"char": "黜", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "put out of office", "mnemonic": "CHUcked out of office", "invented": false, "crossRefs": [], "freqRank": 2958, "traditional": ""},
 {"char": "矗", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "standing tall and upright", "mnemonic": "CHUrch-tall and upright", "invented": false, "crossRefs": [], "freqRank": 2527, "traditional": ""},
 {"char": "川", "pinyin": "chuān", "syllable": "chuan", "tone": 1, "core": "a river running through level land", "mnemonic": "the river CHANNEls through", "invented": false, "crossRefs": [], "freqRank": 1009, "traditional": ""},
