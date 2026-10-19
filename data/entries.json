@@ -572,7 +572,7 @@
 {"char": "赌", "pinyin": "dǔ", "syllable": "du", "tone": 3, "core": "staked on a chance", "mnemonic": "staked on a chance — DOUble or nothing", "invented": false, "crossRefs": [], "freqRank": 2226, "traditional": "賭"},
 {"char": "堵", "pinyin": "dǔ", "syllable": "du", "tone": 3, "core": "blocked up; the wall that blocks", "mnemonic": "blocked up — a DUll wall", "invented": false, "crossRefs": [], "freqRank": 2572, "traditional": ""},
 {"char": "笃", "pinyin": "dǔ", "syllable": "du", "tone": 3, "core": "heavy and steadfast; grave", "mnemonic": "heavy and steadfast — DOUr", "invented": false, "crossRefs": [], "freqRank": 2598, "traditional": "篤"},
-{"char": "睹", "pinyin": "dǔ", "syllable": "du", "tone": 3, "core": "seen with one's own eyes", "mnemonic": "seen with your own eyes — you DO see it", "invented": false, "crossRefs": [], "freqRank": 2603, "traditional": "覩"},
+{"char": "睹", "pinyin": "dǔ", "syllable": "du", "tone": 3, "core": "seen with one's own eyes", "mnemonic": "i DONE seen it!", "invented": false, "crossRefs": [], "freqRank": 2603, "traditional": "覩"},
 {"char": "度", "pinyin": "dù", "syllable": "du", "tone": 4, "core": "the measure of an extent, and passing through it", "mnemonic": "the measure — DUration passed through", "invented": false, "crossRefs": ["duó"], "freqRank": 196, "traditional": ""},
 {"char": "杜", "pinyin": "dù", "syllable": "du", "tone": 4, "core": "stopped up and shut out", "mnemonic": "stopped up — the DOOr shut", "invented": false, "crossRefs": [], "freqRank": 1191, "traditional": ""},
 {"char": "肚", "pinyin": "dù", "syllable": "du", "tone": 4, "core": "belly", "mnemonic": "the belly — where DOUgh goes", "invented": false, "crossRefs": ["dǔ"], "freqRank": 1971, "traditional": ""},
