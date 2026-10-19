@@ -2879,7 +2879,7 @@
 {"char": "祐", "pinyin": "yòu", "syllable": "you", "tone": 4, "core": "blessed from above", "mnemonic": "besTOW / PROtect", "invented": false, "crossRefs": [], "freqRank": 2460, "traditional": ""},
 {"char": "鱼", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "fish", "mnemonic": "the fish — the YOU-shaped swimmer", "invented": false, "crossRefs": [], "freqRank": 919, "traditional": "魚"},
 {"char": "于", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "at, in, from", "mnemonic": "at, in, from — YOU are at", "invented": false, "crossRefs": [], "freqRank": 33, "traditional": "於"},
-{"char": "余", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "the remainder, and the \"I\" that remains", "mnemonic": "the remainder, and the I that remains — YOU, what's left", "invented": true, "crossRefs": [], "freqRank": 503, "traditional": "餘"},
+{"char": "余", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "the remainder, and the \"I\" that remains", "mnemonic": "SURplus", "invented": true, "crossRefs": [], "freqRank": 503, "traditional": "餘"},
 {"char": "渔", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "taking fish", "mnemonic": "taking fish — the YOU-with-a-net", "invented": false, "crossRefs": [], "freqRank": 1954, "traditional": "漁"},
 {"char": "愚", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "dull of wit", "mnemonic": "dull of wit — the YOkel", "invented": false, "crossRefs": [], "freqRank": 1759, "traditional": ""},
 {"char": "娱", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "amused", "mnemonic": "amused — YOU're entertained", "invented": false, "crossRefs": [], "freqRank": 2766, "traditional": "娛"},
