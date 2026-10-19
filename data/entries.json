@@ -2888,7 +2888,7 @@
 {"char": "舆", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "what the public carries", "mnemonic": "multiTUDES / PUblic / the YOU!", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "輿"},
 {"char": "语", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "language spoken", "mnemonic": "language spoken — what YOU say", "invented": false, "crossRefs": [], "freqRank": 485, "traditional": "語"},
 {"char": "雨", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "rain", "mnemonic": "rain — the dOWnpour", "invented": false, "crossRefs": [], "freqRank": 847, "traditional": ""},
-{"char": "与", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "given, and so with", "mnemonic": "given, and so with — given to YOU", "invented": false, "crossRefs": ["yù"], "freqRank": 80, "traditional": "與"},
+{"char": "与", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "given, and so with", "mnemonic": "take YOUR place", "invented": false, "crossRefs": ["yù"], "freqRank": 80, "traditional": "與"},
 {"char": "羽", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "feather", "mnemonic": "the feather — the plUme", "invented": false, "crossRefs": [], "freqRank": 1669, "traditional": ""},
 {"char": "宇", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "the roof's span, and so all space", "mnemonic": "the roof's span, and so all space — the whole UNiverse", "invented": false, "crossRefs": [], "freqRank": 1244, "traditional": ""},
 {"char": "予", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "given", "mnemonic": "given — handed to YOU", "invented": false, "crossRefs": [], "freqRank": 1058, "traditional": ""},
