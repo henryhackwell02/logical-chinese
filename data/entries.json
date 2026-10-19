@@ -2946,7 +2946,7 @@
 {"char": "晕", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "the ring round sun or moon", "mnemonic": "SWOOning crOWN", "invented": false, "crossRefs": ["yūn"], "freqRank": 2037, "traditional": "暈"},
 {"char": "孕", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "carrying young", "mnemonic": "carrying young — the YOUNg carried", "invented": false, "crossRefs": [], "freqRank": 2312, "traditional": ""},
 {"char": "蕴", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "gathered and held within", "mnemonic": "accUMUlate", "invented": false, "crossRefs": [], "freqRank": 2776, "traditional": "蘊"},
-{"char": "熨", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "pressed smooth with heat", "mnemonic": "the warm rUN of it, pressed smooth", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "熨", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "pressed smooth with heat", "mnemonic": "rUN sMOOth", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "酝", "pinyin": "yùn", "syllable": "yun", "tone": 4, "core": "brewed slowly, worked on", "mnemonic": "wOUND up slowly into wine", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "醞"},
 {"char": "扎", "pinyin": "zā", "syllable": "za", "tone": 1, "core": "bound round", "mnemonic": "bound round — the STRAp", "invented": false, "crossRefs": ["zhā"], "freqRank": 1620, "traditional": "紥紮"},
 {"char": "杂", "pinyin": "zá", "syllable": "za", "tone": 2, "core": "mixed together", "mnemonic": "the A-Z of stuff", "invented": false, "crossRefs": [], "freqRank": 926, "traditional": "襍雜"},
