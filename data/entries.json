@@ -1569,7 +1569,7 @@
 {"char": "迈", "pinyin": "mài", "syllable": "mai", "tone": 4, "core": "a stride taken", "mnemonic": "a stride taken — the MIle stepped", "invented": false, "crossRefs": [], "freqRank": 1981, "traditional": "邁"},
 {"char": "埋", "pinyin": "mán", "syllable": "man", "tone": 2, "core": "complaint buried, then let out", "mnemonic": "complaint buried, then let out — the MOAN dug up", "invented": false, "crossRefs": ["mái"], "freqRank": 1774, "traditional": ""},
 {"char": "蛮", "pinyin": "mán", "syllable": "man", "tone": 2, "core": "rough and beyond the pale", "mnemonic": "rough and beyond the pale — the MANnerless one", "invented": false, "crossRefs": [], "freqRank": 1798, "traditional": "蠻"},
-{"char": "瞒", "pinyin": "mán", "syllable": "man", "tone": 2, "core": "kept from another's sight", "mnemonic": "kept from another's sight — the MAsk oN it", "invented": false, "crossRefs": [], "freqRank": 2461, "traditional": "瞞"},
+{"char": "瞒", "pinyin": "mán", "syllable": "man", "tone": 2, "core": "kept from another's sight", "mnemonic": "MASked", "invented": false, "crossRefs": [], "freqRank": 2461, "traditional": "瞞"},
 {"char": "满", "pinyin": "mǎn", "syllable": "man", "tone": 3, "core": "filled to the brim", "mnemonic": "filled to the brim — as MUch as it takes", "invented": false, "crossRefs": [], "freqRank": 447, "traditional": "滿"},
 {"char": "曼", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "drawn out long", "mnemonic": "drawn out long — a MONG-drawn line", "invented": false, "crossRefs": [], "freqRank": 1483, "traditional": ""},
 {"char": "慢", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "slow", "mnemonic": "slow — the MOsey", "invented": false, "crossRefs": [], "freqRank": 920, "traditional": ""},
