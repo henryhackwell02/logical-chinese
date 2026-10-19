@@ -2111,7 +2111,7 @@
 {"char": "什", "pinyin": "shén", "syllable": "shen", "tone": 2, "core": "what", "mnemonic": "what — SAY what", "invented": false, "crossRefs": ["shí"], "freqRank": 182, "traditional": ""},
 {"char": "审", "pinyin": "shěn", "syllable": "shen", "tone": 3, "core": "gone over closely, and so tried", "mnemonic": "gone over closely, and so tried — the SHAkedown", "invented": false, "crossRefs": [], "freqRank": 872, "traditional": "審"},
 {"char": "甚", "pinyin": "shèn", "syllable": "shen", "tone": 4, "core": "to a great degree", "mnemonic": "to a great degree — SUN-high", "invented": false, "crossRefs": [], "freqRank": 445, "traditional": ""},
-{"char": "慎", "pinyin": "shèn", "syllable": "shen", "tone": 4, "core": "going carefully", "mnemonic": "going carefully — the SHUNning of risk", "invented": false, "crossRefs": [], "freqRank": 1745, "traditional": "昚"},
+{"char": "慎", "pinyin": "shèn", "syllable": "shen", "tone": 4, "core": "going carefully", "mnemonic": "cauTION", "invented": false, "crossRefs": [], "freqRank": 1745, "traditional": "昚"},
 {"char": "肾", "pinyin": "shèn", "syllable": "shen", "tone": 4, "core": "kidney", "mnemonic": "the kidney — the SIeve iNside", "invented": false, "crossRefs": [], "freqRank": 2840, "traditional": "腎"},
 {"char": "渗", "pinyin": "shèn", "syllable": "shen", "tone": 4, "core": "soaking slowly through", "mnemonic": "the SHEen of damp coming through", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "滲"},
 {"char": "生", "pinyin": "shēng", "syllable": "sheng", "tone": 1, "core": "coming into life, and raw with it", "mnemonic": "coming into life, and raw with it — SPRINGiNG up", "invented": false, "crossRefs": [], "freqRank": 40, "traditional": ""},
