@@ -350,7 +350,7 @@
 {"char": "愁", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "worry sitting on the mind", "mnemonic": "worry you CHEw on", "invented": false, "crossRefs": [], "freqRank": 1870, "traditional": ""},
 {"char": "酬", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "returned in kind for what was given", "mnemonic": "paid back in kind — CHEque returned", "invented": false, "crossRefs": [], "freqRank": 2100, "traditional": "詶酧醻"},
 {"char": "绸", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "silk", "mnemonic": "the silk's smooth CHUte", "invented": false, "crossRefs": [], "freqRank": 2813, "traditional": "綢"},
-{"char": "畴", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "a marked-off field; a category", "mnemonic": "the marked-off field, its own CHApter", "invented": false, "crossRefs": [], "freqRank": 2904, "traditional": "疇"},
+{"char": "畴", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "a marked-off field; a category", "mnemonic": "CHAPter / CLASS / CATegory", "invented": false, "crossRefs": [], "freqRank": 2904, "traditional": "疇"},
 {"char": "稠", "pinyin": "chóu", "syllable": "chou", "tone": 2, "core": "thick and close-packed", "mnemonic": "CHOWder-thick", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "丑", "pinyin": "chǒu", "syllable": "chou", "tone": 3, "core": "ugly; the clown", "mnemonic": "CLOWN face!", "invented": false, "crossRefs": [], "freqRank": 1369, "traditional": "醜"},
 {"char": "臭", "pinyin": "chòu", "syllable": "chou", "tone": 4, "core": "a bad smell", "mnemonic": "stenCH OF", "invented": false, "crossRefs": ["xiù"], "freqRank": 2361, "traditional": ""},
