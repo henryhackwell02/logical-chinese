@@ -2041,7 +2041,7 @@
 {"char": "丧", "pinyin": "sāng", "syllable": "sang", "tone": 1, "core": "the mourning for a death", "mnemonic": "the mourning for a death — the SONG of grief", "invented": false, "crossRefs": ["sàng"], "freqRank": 1226, "traditional": "喪"},
 {"char": "桑", "pinyin": "sāng", "syllable": "sang", "tone": 1, "core": "mulberry", "mnemonic": "the mulberry — the SONG-bird's tree", "invented": false, "crossRefs": [], "freqRank": 1504, "traditional": "桒"},
 {"char": "丧", "pinyin": "sàng", "syllable": "sang", "tone": 4, "core": "losing what mattered", "mnemonic": "losing what mattered — the SONG gone out of you", "invented": false, "crossRefs": ["sāng"], "freqRank": 1226, "traditional": "喪"},
-{"char": "骚", "pinyin": "sāo", "syllable": "sao", "tone": 1, "core": "stirred into disorder", "mnemonic": "stirred into disorder — the SOUr commotion", "invented": false, "crossRefs": [], "freqRank": 2473, "traditional": "騷"},
+{"char": "骚", "pinyin": "sāo", "syllable": "sao", "tone": 1, "core": "stirred into disorder", "mnemonic": "ROWdy STir", "invented": false, "crossRefs": [], "freqRank": 2473, "traditional": "騷"},
 {"char": "扫", "pinyin": "sǎo", "syllable": "sao", "tone": 3, "core": "swept clear", "mnemonic": "swept clear — the SWOOp of the brush", "invented": false, "crossRefs": ["sào"], "freqRank": 1592, "traditional": "掃"},
 {"char": "嫂", "pinyin": "sǎo", "syllable": "sao", "tone": 3, "core": "elder brother's wife", "mnemonic": "elder brother's wife — the SO-and-so's wife", "invented": false, "crossRefs": [], "freqRank": 2013, "traditional": ""},
 {"char": "扫", "pinyin": "sào", "syllable": "sao", "tone": 4, "core": "the broom", "mnemonic": "the broom — the SWEEper", "invented": false, "crossRefs": ["sǎo"], "freqRank": 1592, "traditional": "掃"},
