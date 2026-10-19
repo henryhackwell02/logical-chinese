@@ -2277,7 +2277,7 @@
 {"char": "他", "pinyin": "tā", "syllable": "ta", "tone": 1, "core": "he", "mnemonic": "he — THAt fellow", "invented": false, "crossRefs": [], "freqRank": 10, "traditional": ""},
 {"char": "它", "pinyin": "tā", "syllable": "ta", "tone": 1, "core": "it", "mnemonic": "it — THAt thing", "invented": false, "crossRefs": [], "freqRank": 139, "traditional": ""},
 {"char": "她", "pinyin": "tā", "syllable": "ta", "tone": 1, "core": "she", "mnemonic": "she — THAt woman", "invented": false, "crossRefs": [], "freqRank": 125, "traditional": ""},
-{"char": "塌", "pinyin": "tā", "syllable": "ta", "tone": 1, "core": "sunk in and fallen down", "mnemonic": "sunk in and fallen down — the THUd of collapse", "invented": false, "crossRefs": [], "freqRank": 2844, "traditional": ""},
+{"char": "塌", "pinyin": "tā", "syllable": "ta", "tone": 1, "core": "sunk in and fallen down", "mnemonic": "TUMble DOWN", "invented": false, "crossRefs": [], "freqRank": 2844, "traditional": ""},
 {"char": "塔", "pinyin": "tǎ", "syllable": "ta", "tone": 3, "core": "the tiered tower", "mnemonic": "tower", "invented": false, "crossRefs": [], "freqRank": 1203, "traditional": "墖"},
 {"char": "踏", "pinyin": "tà", "syllable": "ta", "tone": 4, "core": "trodden on", "mnemonic": "tread", "invented": false, "crossRefs": [], "freqRank": 1984, "traditional": ""},
 {"char": "拓", "pinyin": "tà", "syllable": "ta", "tone": 4, "core": "the rubbing pressed off a stone", "mnemonic": "the rubbing pressed off a stone — the TAke-off print", "invented": false, "crossRefs": ["tuò"], "freqRank": 2575, "traditional": ""},
