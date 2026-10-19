@@ -1909,7 +1909,7 @@
 {"char": "强", "pinyin": "qiáng", "syllable": "qiang", "tone": 2, "core": "strong", "mnemonic": "strong — the CHAmpion", "invented": false, "crossRefs": ["qiǎng", "jiàng"], "freqRank": 331, "traditional": "強彊"},
 {"char": "墙", "pinyin": "qiáng", "syllable": "qiang", "tone": 2, "core": "wall", "mnemonic": "the wall — what CHAnnels you round", "invented": false, "crossRefs": [], "freqRank": 1312, "traditional": "墻牆"},
 {"char": "强", "pinyin": "qiǎng", "syllable": "qiang", "tone": 3, "core": "forced by strength", "mnemonic": "forced by strength — the CHAmpion's shove", "invented": false, "crossRefs": ["qiáng"], "freqRank": 331, "traditional": "強彊"},
-{"char": "抢", "pinyin": "qiǎng", "syllable": "qiang", "tone": 3, "core": "grabbed at ahead of others", "mnemonic": "grabbed ahead of others — the CHAnce snatched", "invented": false, "crossRefs": [], "freqRank": 1564, "traditional": "搶"},
+{"char": "抢", "pinyin": "qiǎng", "syllable": "qiang", "tone": 3, "core": "grabbed at ahead of others", "mnemonic": "SCRAMble / SNATCH at", "invented": false, "crossRefs": [], "freqRank": 1564, "traditional": "搶"},
 {"char": "敲", "pinyin": "qiāo", "syllable": "qiao", "tone": 1, "core": "knocked on", "mnemonic": "knocked on — the CHAP at the door", "invented": false, "crossRefs": [], "freqRank": 1953, "traditional": ""},
 {"char": "桥", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "bridge", "mnemonic": "the bridge — the CHOice crossing", "invented": false, "crossRefs": [], "freqRank": 1305, "traditional": "橋"},
 {"char": "乔", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "tall", "mnemonic": "tall — the CHOice height", "invented": false, "crossRefs": [], "freqRank": 1659, "traditional": "喬"},
