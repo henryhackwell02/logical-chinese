@@ -17,9 +17,9 @@ const INTERVALS_MS = [0, 6e4 * 10, 864e5, 3 * 864e5, 7 * 864e5, 21 * 864e5];
 
 /**
  * Recognition and recall are different skills that fail in different places.
- * Seeing 张 and reaching for the sound is what reading asks of you; holding
- * "opened and spread" and reaching for the character is what writing asks, and
- * it is much the harder of the two. Both directions drill the same deck.
+ * Seeing 张 and reaching for the sound is what reading asks of you; holding the
+ * mnemonic and reaching for the character is what writing asks, and it is much
+ * the harder of the two. Both directions drill the same deck.
  */
 type Direction = 'zh-en' | 'en-zh';
 
@@ -48,22 +48,41 @@ function writeProgress(progress: Progress) {
 
 const idOf = (row: IndexRow) => `${row[0]}-${row[1]}`;
 
+/** `?syllable=ji,yi` — one sound or several. Older single-value links still work. */
+function parseSyllables(raw: string | null): string[] {
+  if (!raw) return [];
+  return [...new Set(raw.split(',').map((s) => s.trim()).filter(Boolean))];
+}
+
+function practiceHref(syllables: string[]): string {
+  if (!syllables.length) return '/practice/';
+  return `/practice/?syllable=${syllables.map(encodeURIComponent).join(',')}`;
+}
+
+/** "ji", "ji and yi", "ji, yi and shi". */
+function listPhrase(items: string[]): string {
+  if (items.length <= 1) return items[0] ?? '';
+  return `${items.slice(0, -1).join(', ')} and ${items[items.length - 1]}`;
+}
+
 export default function Practice({
-  crowded,
+  syllableOptions,
   clusterOptions,
 }: {
-  crowded: { syllable: string; count: number }[];
+  syllableOptions: { syllable: string; count: number }[];
   clusterOptions: { slug: string; name: string; chars: string[] }[];
 }) {
   const params = useSearchParams();
   const [index, setIndex] = useState<IndexRow[] | null>(null);
   const [progress, setProgress] = useState<Progress>({});
   const [direction, setDirection] = useState<Direction>('zh-en');
-  const [syllable, setSyllable] = useState<string | null>(null);
+  const [syllables, setSyllables] = useState<string[]>([]);
   const [cluster, setCluster] = useState<string | null>(null);
+  const [anyChar, setAnyChar] = useState(false);
   const [current, setCurrent] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [seen, setSeen] = useState(0);
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
     setProgress(readProgress());
@@ -79,8 +98,9 @@ export default function Practice({
   }, []);
 
   useEffect(() => {
-    setSyllable(params.get('syllable'));
+    setSyllables(parseSyllables(params.get('syllable')));
     setCluster(params.get('cluster'));
+    setAnyChar(params.get('deck') === 'any');
     setCurrent(null);
     setRevealed(false);
   }, [params]);
@@ -101,12 +121,15 @@ export default function Practice({
     return found ? new Set(found.chars) : null;
   }, [cluster, clusterOptions]);
 
+  const syllableSet = useMemo(() => new Set(syllables), [syllables]);
+
   const deck = useMemo(() => {
     if (!index) return [];
-    if (syllable) return index.filter((row) => row[2] === syllable);
+    if (syllableSet.size) return index.filter((row) => syllableSet.has(row[2]));
     if (clusterChars) return index.filter((row) => clusterChars.has(row[0]));
+    if (anyChar) return index;
     return index.filter((row) => row[6] !== null && row[6] <= 500);
-  }, [index, syllable, clusterChars]);
+  }, [index, syllableSet, clusterChars, anyChar]);
 
   /** Next card: the one that has been waiting longest, unseen counting as due now. */
   const pick = useCallback(
@@ -154,21 +177,33 @@ export default function Practice({
   const learned = deck.filter((row) => (progress[idOf(row)]?.box ?? 0) >= 3).length;
   const started = deck.filter((row) => progress[idOf(row)]).length;
 
-  const scopeLabel = syllable
-    ? `everything read ${syllable}`
+  const scopeLabel = syllables.length
+    ? `everything read ${listPhrase(syllables)}`
     : cluster
       ? (clusterOptions.find((c) => c.slug === cluster)?.name.toLowerCase() ?? 'this cluster')
-      : 'every reading ranked 1 to 500';
+      : anyChar
+        ? 'any character on the site'
+        : 'every reading ranked 1 to 500';
 
-  // A syllable reached from a sound page is usually not one of the twelve
-  // fullest, so it needs a chip of its own or nothing appears to be selected.
-  const syllableChips = useMemo(() => {
-    if (syllable && !crowded.some((c) => c.syllable === syllable)) {
-      return [{ syllable, count: deck.length }, ...crowded];
-    }
-    return crowded;
-  }, [crowded, syllable, deck.length]);
+  /** Toggling a sound drops any other deck, so the URL carries one choice at a time. */
+  const toggleHref = useCallback(
+    (syllable: string) =>
+      practiceHref(
+        syllableSet.has(syllable)
+          ? syllables.filter((s) => s !== syllable)
+          : [...syllables, syllable],
+      ),
+    [syllables, syllableSet],
+  );
 
+  const shownSyllables = useMemo(() => {
+    const needle = filter.trim().toLowerCase();
+    const pool = syllableOptions.filter((s) => !syllableSet.has(s.syllable));
+    if (!needle) return pool;
+    return pool.filter((s) => s.syllable.startsWith(needle));
+  }, [syllableOptions, syllableSet, filter]);
+
+  // The answer is whatever the prompt did not already give away.
   const answer = card && (
     <>
       <p className="card-reading">
@@ -178,7 +213,9 @@ export default function Practice({
         <span>{card[1]}</span>
         {card[8] === 1 && <InventedMark />}
       </p>
-      <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
+      {direction === 'zh-en' && (
+        <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
+      )}
       {coreAddsMeaning(card[4], card[5]) && <p className="core">{card[4]}</p>}
     </>
   );
@@ -215,10 +252,10 @@ export default function Practice({
         </div>
         <p className="note">
           Drilling {scopeLabel} — {deck.length} {deck.length === 1 ? 'card' : 'cards'}.
-          {syllable && (
+          {syllables.length === 1 && (
             <>
               {' '}
-              <Link href={soundHref(syllable)}>See the whole group laid out</Link>.
+              <Link href={soundHref(syllables[0])}>See the whole group laid out</Link>.
             </>
           )}
         </p>
@@ -240,9 +277,9 @@ export default function Practice({
           ) : (
             <>
               <p className="card-prompt">
-                {revealed ? 'the character' : 'Which character is this, and how is it read?'}
+                {revealed ? 'the character' : 'Which character does this thread hold?'}
               </p>
-              <p className="card-idea core">{card[4]}</p>
+              <Mnemonic text={card[5]} className="card-idea-mnemonic" as="div" />
             </>
           )}
 
@@ -294,29 +331,84 @@ export default function Practice({
 
       <div className="controls" style={{ marginTop: '2.5rem' }}>
         <div className="control">
-          <span className="control-label" id="drill-label">
-            Drill a sound
+          <span className="control-label" id="deck-label">
+            Drill
           </span>
-          <ul className="chips" role="group" aria-labelledby="drill-label">
+          <ul className="chips" role="group" aria-labelledby="deck-label">
             <li>
-              <Link href="/practice/" className="chip" data-on={!syllable && !cluster}>
+              <Link
+                href="/practice/"
+                className="chip"
+                data-on={!syllables.length && !cluster && !anyChar}
+              >
                 commonest 500
               </Link>
             </li>
-            {syllableChips.map((s) => (
-              <li key={s.syllable}>
-                <Link
-                  href={`/practice/?syllable=${encodeURIComponent(s.syllable)}`}
-                  className="chip"
-                  data-on={syllable === s.syllable}
-                >
-                  {s.syllable}
-                  <span className="chip-count">{s.count}</span>
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link href="/practice/?deck=any" className="chip" data-on={anyChar}>
+                any character
+                <span className="chip-count">{index ? index.length : '…'}</span>
+              </Link>
+            </li>
           </ul>
         </div>
+
+        <div className="control control-stack">
+          <div className="picker-head">
+            <span className="control-label" id="drill-label">
+              Or sounds — pick as many as you like
+            </span>
+            <label className="picker-filter">
+              <span className="sr-only">Filter sounds</span>
+              <input
+                type="search"
+                value={filter}
+                placeholder="filter, e.g. ji"
+                onChange={(e) => setFilter(e.target.value)}
+              />
+            </label>
+          </div>
+
+          {syllables.length > 0 && (
+            <ul className="chips chips-chosen" role="group" aria-label="Sounds chosen">
+              {syllables.map((s) => (
+                <li key={s}>
+                  <Link href={toggleHref(s)} className="chip" data-on={true}>
+                    {s}
+                    <span className="chip-remove" aria-hidden="true">
+                      ×
+                    </span>
+                    <span className="sr-only"> — remove</span>
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/practice/" className="btn-quiet picker-clear">
+                  Clear all
+                </Link>
+              </li>
+            </ul>
+          )}
+
+          <div className="picker-scroll">
+            <ul className="chips" role="group" aria-labelledby="drill-label">
+              {shownSyllables.map((s) => (
+                <li key={s.syllable}>
+                  <Link href={toggleHref(s.syllable)} className="chip">
+                    {s.syllable}
+                    <span className="chip-count">{s.count}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            {!shownSyllables.length && (
+              <p className="note" style={{ margin: 0 }}>
+                No sound starts with “{filter.trim()}”.
+              </p>
+            )}
+          </div>
+        </div>
+
         <div className="control">
           <span className="control-label" id="drill-cluster">
             Or a meaning

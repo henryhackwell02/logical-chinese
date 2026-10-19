@@ -11,10 +11,13 @@ export const metadata: Metadata = {
   alternates: { canonical: '/practice/' },
 };
 
-const crowded = [...bySyllable.entries()]
+/**
+ * Every syllable, alphabetical, so any combination can be built from this page
+ * alone. The picker scrolls and filters rather than showing a chosen few.
+ */
+const syllableOptions = [...bySyllable.entries()]
   .map(([syllable, group]) => ({ syllable, count: group.length }))
-  .sort((a, b) => b.count - a.count || a.syllable.localeCompare(b.syllable))
-  .slice(0, 12);
+  .sort((a, b) => a.syllable.localeCompare(b.syllable, 'en'));
 
 export default function PracticePage() {
   return (
@@ -27,14 +30,14 @@ export default function PracticePage() {
         <h1>Practise</h1>
         <p className="lede">
           Flashcards over the mnemonics, spaced so the ones you miss come back sooner. Test
-          in either direction, and drill a whole sound group at once — the difficulty is
+          in either direction, and drill several sound groups at once — the difficulty is
           rarely one character in isolation, it is telling thirteen that sound alike apart.
         </p>
       </header>
 
       <Suspense fallback={<p className="note">Loading…</p>}>
         <Practice
-          crowded={crowded}
+          syllableOptions={syllableOptions}
           clusterOptions={clusters.map((c) => ({
             slug: c.slug,
             name: c.name,
