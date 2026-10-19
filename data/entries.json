@@ -2847,7 +2847,7 @@
 {"char": "映", "pinyin": "yìng", "syllable": "ying", "tone": 4, "core": "thrown back as an image", "mnemonic": "vISible / mirrorING", "invented": false, "crossRefs": [], "freqRank": 1525, "traditional": "暎"},
 {"char": "哟", "pinyin": "yō", "syllable": "yo", "tone": 1, "core": "a small cry of surprise", "mnemonic": "a small cry of surprise — YO!", "invented": false, "crossRefs": ["yo"], "freqRank": 2777, "traditional": "喲"},
 {"char": "哟", "pinyin": "yo", "syllable": "yo", "tone": 5, "core": "the coaxing particle", "mnemonic": "the coaxing particle — a soft YO", "invented": false, "crossRefs": ["yō"], "freqRank": 2777, "traditional": "喲"},
-{"char": "庸", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "the ordinary run, put to ordinary use", "mnemonic": "the ordinary run, put to ordinary use — the everydaY ONe", "invented": false, "crossRefs": [], "freqRank": 2049, "traditional": ""},
+{"char": "庸", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "the ordinary run, put to ordinary use", "mnemonic": "ORDinary", "invented": false, "crossRefs": [], "freqRank": 2049, "traditional": ""},
 {"char": "拥", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "held in the arms, and so crowding round", "mnemonic": "HOLD in the arms", "invented": false, "crossRefs": [], "freqRank": 1167, "traditional": "擁"},
 {"char": "佣", "pinyin": "yōng", "syllable": "yong", "tone": 1, "core": "hired on", "mnemonic": "hired on — the YOked worker", "invented": false, "crossRefs": ["yòng"], "freqRank": 2734, "traditional": "傭"},
 {"char": "永", "pinyin": "yǒng", "syllable": "yong", "tone": 3, "core": "going on without end", "mnemonic": "going on without end — YOnder, forever", "invented": false, "crossRefs": [], "freqRank": 757, "traditional": ""},
