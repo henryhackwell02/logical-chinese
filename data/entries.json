@@ -2883,7 +2883,7 @@
 {"char": "渔", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "taking fish", "mnemonic": "taking fish — the YOU-with-a-net", "invented": false, "crossRefs": [], "freqRank": 1954, "traditional": "漁"},
 {"char": "愚", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "dull of wit", "mnemonic": "stYUpid", "invented": false, "crossRefs": [], "freqRank": 1759, "traditional": ""},
 {"char": "娱", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "amused", "mnemonic": "amused — YOU're entertained", "invented": false, "crossRefs": [], "freqRank": 2766, "traditional": "娛"},
-{"char": "逾", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "going past the mark", "mnemonic": "going past the mark — YOU overshoot", "invented": false, "crossRefs": [], "freqRank": 2288, "traditional": "踰"},
+{"char": "逾", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "going past the mark", "mnemonic": "overshOOT", "invented": false, "crossRefs": [], "freqRank": 2288, "traditional": "踰"},
 {"char": "愉", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "pleased", "mnemonic": "pleased — YOU're happy", "invented": false, "crossRefs": [], "freqRank": 2347, "traditional": ""},
 {"char": "舆", "pinyin": "yú", "syllable": "yu", "tone": 2, "core": "what the public carries", "mnemonic": "what YOU all say between you", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "輿"},
 {"char": "语", "pinyin": "yǔ", "syllable": "yu", "tone": 3, "core": "language spoken", "mnemonic": "language spoken — what YOU say", "invented": false, "crossRefs": [], "freqRank": 485, "traditional": "語"},
