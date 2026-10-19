@@ -1898,7 +1898,7 @@
 {"char": "虔", "pinyin": "qián", "syllable": "qian", "tone": 2, "core": "reverent", "mnemonic": "reverent — the CHANting devotion", "invented": false, "crossRefs": [], "freqRank": 2594, "traditional": ""},
 {"char": "浅", "pinyin": "qiǎn", "syllable": "qian", "tone": 3, "core": "shallow", "mnemonic": "shallow — the CHIN-deep water", "invented": false, "crossRefs": [], "freqRank": 1818, "traditional": "淺"},
 {"char": "遣", "pinyin": "qiǎn", "syllable": "qian", "tone": 3, "core": "sent away on a charge", "mnemonic": "sent away on a charge — the CHANce to leave", "invented": false, "crossRefs": [], "freqRank": 807, "traditional": ""},
-{"char": "谴", "pinyin": "qiǎn", "syllable": "qian", "tone": 3, "core": "sent a rebuke", "mnemonic": "sent a rebuke — the CHIding sent", "invented": false, "crossRefs": [], "freqRank": 2706, "traditional": "譴"},
+{"char": "谴", "pinyin": "qiǎn", "syllable": "qian", "tone": 3, "core": "sent a rebuke", "mnemonic": "CENSor / CHIDE", "invented": false, "crossRefs": [], "freqRank": 2706, "traditional": "譴"},
 {"char": "纤", "pinyin": "qiàn", "syllable": "qian", "tone": 4, "core": "the tow-rope", "mnemonic": "the tow-rope — the CHAIN that hauls", "invented": false, "crossRefs": ["xiān"], "freqRank": 2258, "traditional": "縴纖"},
 {"char": "欠", "pinyin": "qiàn", "syllable": "qian", "tone": 4, "core": "short of what is owed; and the yawn that gapes", "mnemonic": "short of what's owed, and the yawn — the CHASM in your account", "invented": false, "crossRefs": [], "freqRank": 2114, "traditional": ""},
 {"char": "歉", "pinyin": "qiàn", "syllable": "qian", "tone": 4, "core": "sorry for the shortfall", "mnemonic": "sorry for the shortfall — the CHAgrin", "invented": false, "crossRefs": [], "freqRank": 2471, "traditional": ""},
