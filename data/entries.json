@@ -2372,7 +2372,7 @@
 {"char": "桶", "pinyin": "tǒng", "syllable": "tong", "tone": 3, "core": "the bucket", "mnemonic": "tub", "invented": false, "crossRefs": [], "freqRank": 2688, "traditional": ""},
 {"char": "同", "pinyin": "tòng", "syllable": "tong", "tone": 4, "core": "in 胡同, the lane", "mnemonic": "in 胡同, the lane — the TUNNel of a lane", "invented": false, "crossRefs": ["tóng"], "freqRank": 74, "traditional": "仝衕"},
 {"char": "痛", "pinyin": "tòng", "syllable": "tong", "tone": 4, "core": "pain, and feeling it deeply", "mnemonic": "pain, and feeling it deeply — the TWINGe", "invented": false, "crossRefs": [], "freqRank": 844, "traditional": ""},
-{"char": "偷", "pinyin": "tōu", "syllable": "tou", "tone": 1, "core": "taken on the sly", "mnemonic": "taken on the sly — the TOe-in theft", "invented": false, "crossRefs": [], "freqRank": 1390, "traditional": ""},
+{"char": "偷", "pinyin": "tōu", "syllable": "tou", "tone": 1, "core": "taken on the sly", "mnemonic": "TAKEn / THIEFed", "invented": false, "crossRefs": [], "freqRank": 1390, "traditional": ""},
 {"char": "头", "pinyin": "tóu", "syllable": "tou", "tone": 2, "core": "the head, and the top or end of anything", "mnemonic": "the head, and the top or end — the TOp", "invented": false, "crossRefs": ["tou"], "freqRank": 135, "traditional": "頭"},
 {"char": "投", "pinyin": "tóu", "syllable": "tou", "tone": 2, "core": "thrown into, and so throwing oneself in", "mnemonic": "toss", "invented": false, "crossRefs": [], "freqRank": 589, "traditional": ""},
 {"char": "透", "pinyin": "tòu", "syllable": "tou", "tone": 4, "core": "passed right through", "mnemonic": "passed right through — THrOugh", "invented": false, "crossRefs": [], "freqRank": 1280, "traditional": ""},
