@@ -2260,7 +2260,7 @@
 {"char": "粟", "pinyin": "sù", "syllable": "su", "tone": 4, "core": "millet grain", "mnemonic": "millet grain — the SEEd-corn", "invented": false, "crossRefs": [], "freqRank": 2457, "traditional": ""},
 {"char": "酸", "pinyin": "suān", "syllable": "suan", "tone": 1, "core": "sour, and the ache that tastes so", "mnemonic": "sour, and the ache that tastes so — the SWANky tang", "invented": false, "crossRefs": [], "freqRank": 1734, "traditional": ""},
 {"char": "算", "pinyin": "suàn", "syllable": "suan", "tone": 4, "core": "reckoned up, and so counted as", "mnemonic": "sum", "invented": false, "crossRefs": [], "freqRank": 454, "traditional": ""},
-{"char": "虽", "pinyin": "suī", "syllable": "sui", "tone": 1, "core": "granted that, even so", "mnemonic": "granted that, even so — SUppose so", "invented": false, "crossRefs": [], "freqRank": 435, "traditional": "雖"},
+{"char": "虽", "pinyin": "suī", "syllable": "sui", "tone": 1, "core": "granted that, even so", "mnemonic": "even SO / SUpOse that", "invented": false, "crossRefs": [], "freqRank": 435, "traditional": "雖"},
 {"char": "随", "pinyin": "suí", "syllable": "sui", "tone": 2, "core": "going along after", "mnemonic": "going along after — the SUIte that follows", "invented": false, "crossRefs": [], "freqRank": 468, "traditional": "隨"},
 {"char": "碎", "pinyin": "suì", "syllable": "sui", "tone": 4, "core": "broken into bits", "mnemonic": "broken into bits — SMAshed", "invented": false, "crossRefs": [], "freqRank": 1595, "traditional": ""},
 {"char": "岁", "pinyin": "suì", "syllable": "sui", "tone": 4, "core": "the year turned, and the age counted by it", "mnemonic": "the year turned, and the age counted by it — the SEAson's count", "invented": false, "crossRefs": [], "freqRank": 604, "traditional": "嵗歲"},
