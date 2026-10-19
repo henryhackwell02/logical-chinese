@@ -561,7 +561,7 @@
 {"char": "陡", "pinyin": "dǒu", "syllable": "dou", "tone": 3, "core": "steeply pitched; abruptly", "mnemonic": "steep — a sheer DrOp", "invented": false, "crossRefs": [], "freqRank": 2740, "traditional": ""},
 {"char": "斗", "pinyin": "dòu", "syllable": "dou", "tone": 4, "core": "the same pitting of one against another, now man against man", "mnemonic": "duel", "invented": true, "crossRefs": ["dǒu"], "freqRank": 646, "traditional": "鬥鬦鬪鬭"},
 {"char": "豆", "pinyin": "dòu", "syllable": "dou", "tone": 4, "core": "bean; the stemmed vessel", "mnemonic": "the bean in its DOUgh", "invented": false, "crossRefs": [], "freqRank": 1929, "traditional": "荳"},
-{"char": "逗", "pinyin": "dòu", "syllable": "dou", "tone": 4, "core": "held up a moment, and so teasing", "mnemonic": "held a moment — teasing, a DOUble take", "invented": false, "crossRefs": [], "freqRank": 2917, "traditional": ""},
+{"char": "逗", "pinyin": "dòu", "syllable": "dou", "tone": 4, "core": "held up a moment, and so teasing", "mnemonic": "JOKing around (taking a while)", "invented": false, "crossRefs": [], "freqRank": 2917, "traditional": ""},
 {"char": "窦", "pinyin": "dòu", "syllable": "dou", "tone": 4, "core": "an opening or cavity", "mnemonic": "the cavity — a DOOr in the flesh", "invented": false, "crossRefs": [], "freqRank": 2388, "traditional": "竇"},
 {"char": "都", "pinyin": "dū", "syllable": "du", "tone": 1, "core": "the capital", "mnemonic": "the capital — the DUcal seat", "invented": false, "crossRefs": ["dōu"], "freqRank": 68, "traditional": ""},
 {"char": "督", "pinyin": "dū", "syllable": "du", "tone": 1, "core": "overseeing from above", "mnemonic": "overseeing from above — the DUke", "invented": false, "crossRefs": [], "freqRank": 841, "traditional": ""},
