@@ -2859,7 +2859,7 @@
 {"char": "用", "pinyin": "yòng", "syllable": "yong", "tone": 4, "core": "put to use", "mnemonic": "USE", "invented": false, "crossRefs": [], "freqRank": 57, "traditional": ""},
 {"char": "佣", "pinyin": "yòng", "syllable": "yong", "tone": 4, "core": "the middleman's cut", "mnemonic": "YOUR cut", "invented": false, "crossRefs": ["yōng"], "freqRank": 2734, "traditional": "傭"},
 {"char": "优", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "better than the rest", "mnemonic": "outDO / SUPerior", "invented": false, "crossRefs": [], "freqRank": 911, "traditional": "優"},
-{"char": "忧", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "weighed on by worry", "mnemonic": "woe", "invented": false, "crossRefs": [], "freqRank": 1275, "traditional": "憂"},
+{"char": "忧", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "weighed on by worry", "mnemonic": "WORry / WOE / sorROW", "invented": false, "crossRefs": [], "freqRank": 1275, "traditional": "憂"},
 {"char": "幽", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "hidden away and still", "mnemonic": "hidden away and still — the YOnder quiet", "invented": false, "crossRefs": [], "freqRank": 1439, "traditional": ""},
 {"char": "悠", "pinyin": "yōu", "syllable": "you", "tone": 1, "core": "drawn out long and easy", "mnemonic": "drawn out long and easy — the YAWning ease", "invented": false, "crossRefs": [], "freqRank": 2201, "traditional": ""},
 {"char": "油", "pinyin": "yóu", "syllable": "you", "tone": 2, "core": "oil", "mnemonic": "oil — the OOze", "invented": false, "crossRefs": [], "freqRank": 1115, "traditional": ""},
