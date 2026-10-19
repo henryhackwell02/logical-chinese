@@ -1536,7 +1536,7 @@
 {"char": "律", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the fixed rule", "mnemonic": "the fixed rule — the LEgal line", "invented": false, "crossRefs": [], "freqRank": 605, "traditional": ""},
 {"char": "虑", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "turned over in the mind", "mnemonic": "turned over in the mind — the LOng think", "invented": false, "crossRefs": [], "freqRank": 991, "traditional": "慮"},
 {"char": "滤", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "strained through to clean", "mnemonic": "what the cloth LEts through", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "濾"},
-{"char": "略", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "cut down to the outline, and so the plan", "mnemonic": "cut down to the outline, and so the plan — the LEAn version", "invented": false, "crossRefs": [], "freqRank": 726, "traditional": "畧"},
+{"char": "略", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "cut down to the outline, and so the plan", "mnemonic": "outLINED / LEAN version", "invented": false, "crossRefs": [], "freqRank": 726, "traditional": "畧"},
 {"char": "掠", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "swept off and taken", "mnemonic": "swept off and taken — the LOOt swept up", "invented": false, "crossRefs": [], "freqRank": 1771, "traditional": ""},
 {"char": "卵", "pinyin": "luǎn", "syllable": "luan", "tone": 3, "core": "egg", "mnemonic": "the egg — the LUmp of yolk", "invented": false, "crossRefs": [], "freqRank": 2323, "traditional": ""},
 {"char": "乱", "pinyin": "luàn", "syllable": "luan", "tone": 4, "core": "thrown out of order", "mnemonic": "thrown out of order — aLL at ONce", "invented": false, "crossRefs": [], "freqRank": 665, "traditional": "亂"},
