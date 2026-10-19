@@ -1751,7 +1751,7 @@
 {"char": "哦", "pinyin": "ò", "syllable": "o", "tone": 4, "core": "the sound of dawning", "mnemonic": "the sound of dawning — OH, I see", "invented": false, "crossRefs": ["ó"], "freqRank": 2263, "traditional": ""},
 {"char": "哦", "pinyin": "o", "syllable": "o", "tone": 5, "core": "the same, softened into warmth", "mnemonic": "the same, softened — a warm OH", "invented": false, "crossRefs": ["ó"], "freqRank": 2263, "traditional": ""},
 {"char": "欧", "pinyin": "ōu", "syllable": "ou", "tone": 1, "core": "Europe", "mnemonic": "Europe — the Old continent", "invented": false, "crossRefs": [], "freqRank": 1016, "traditional": "歐"},
-{"char": "殴", "pinyin": "ōu", "syllable": "ou", "tone": 1, "core": "struck and beaten", "mnemonic": "set abOUt someone", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "毆"},
+{"char": "殴", "pinyin": "ōu", "syllable": "ou", "tone": 1, "core": "struck and beaten", "mnemonic": "set abOUT / OOF someone up", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "毆"},
 {"char": "偶", "pinyin": "ǒu", "syllable": "ou", "tone": 3, "core": "one of a pair, and so by chance", "mnemonic": "one of a pair, and so by chance — the Odd One out", "invented": false, "crossRefs": [], "freqRank": 1466, "traditional": ""},
 {"char": "呕", "pinyin": "ǒu", "syllable": "ou", "tone": 3, "core": "brought up from the stomach", "mnemonic": "OUt it comes", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "嘔"},
 {"char": "趴", "pinyin": "pā", "syllable": "pa", "tone": 1, "core": "lying face down", "mnemonic": "flat on your front, a PAncake", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
