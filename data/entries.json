@@ -1574,7 +1574,7 @@
 {"char": "曼", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "drawn out long", "mnemonic": "he's some MAN", "invented": false, "crossRefs": [], "freqRank": 1483, "traditional": ""},
 {"char": "慢", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "slow", "mnemonic": "slow — the MOsey", "invented": false, "crossRefs": [], "freqRank": 920, "traditional": ""},
 {"char": "漫", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "spilling over without bound", "mnemonic": "spilling over without bound — the flood MOUNts over", "invented": false, "crossRefs": [], "freqRank": 1679, "traditional": ""},
-{"char": "蔓", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "spreading by creeping", "mnemonic": "creeping on — a MANy-footed vine", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "蔓", "pinyin": "màn", "syllable": "man", "tone": 4, "core": "spreading by creeping", "mnemonic": "exTEND", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "盲", "pinyin": "máng", "syllable": "mang", "tone": 2, "core": "blind", "mnemonic": "blind — MAde to see nothiNG", "invented": false, "crossRefs": [], "freqRank": 2518, "traditional": ""},
 {"char": "忙", "pinyin": "máng", "syllable": "mang", "tone": 2, "core": "pressed for time", "mnemonic": "pressed for time — a MAd rush", "invented": false, "crossRefs": [], "freqRank": 745, "traditional": ""},
 {"char": "茫", "pinyin": "máng", "syllable": "mang", "tone": 2, "core": "vast and without edge, and so at a loss", "mnemonic": "vast and without edge, and so at a loss — the MASS with no end", "invented": false, "crossRefs": [], "freqRank": 1988, "traditional": ""},
