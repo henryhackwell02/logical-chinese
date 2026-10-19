@@ -2927,7 +2927,7 @@
 {"char": "愿", "pinyin": "yuàn", "syllable": "yuan", "tone": 4, "core": "wished for", "mnemonic": "what YOU WANt", "invented": false, "crossRefs": [], "freqRank": 591, "traditional": "願"},
 {"char": "怨", "pinyin": "yuàn", "syllable": "yuan", "tone": 4, "core": "blame held against", "mnemonic": "YOU Hate", "invented": false, "crossRefs": [], "freqRank": 1420, "traditional": ""},
 {"char": "约", "pinyin": "yuē", "syllable": "yue", "tone": 1, "core": "bound by agreement; and so, roughly", "mnemonic": "bound by agreement, and so roughly — the vOW made", "invented": false, "crossRefs": [], "freqRank": 461, "traditional": "約"},
-{"char": "曰", "pinyin": "yuē", "syllable": "yue", "tone": 1, "core": "said", "mnemonic": "said — the wOrd", "invented": false, "crossRefs": [], "freqRank": 186, "traditional": ""},
+{"char": "曰", "pinyin": "yuē", "syllable": "yue", "tone": 1, "core": "said", "mnemonic": "what YOU SAY", "invented": false, "crossRefs": [], "freqRank": 186, "traditional": ""},
 {"char": "乐", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "music", "mnemonic": "music — the YULEtide song", "invented": false, "crossRefs": ["lè"], "freqRank": 493, "traditional": "樂"},
 {"char": "月", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "the moon, and the month it makes", "mnemonic": "the moon, and the month — the YULE moon", "invented": false, "crossRefs": [], "freqRank": 116, "traditional": ""},
 {"char": "越", "pinyin": "yuè", "syllable": "yue", "tone": 4, "core": "passing over and beyond", "mnemonic": "passing over and beyond — the vaULt over", "invented": false, "crossRefs": [], "freqRank": 486, "traditional": ""},
