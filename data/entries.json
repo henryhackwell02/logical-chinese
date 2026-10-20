@@ -924,7 +924,7 @@
 {"char": "痕", "pinyin": "hén", "syllable": "hen", "tone": 2, "core": "the mark left behind", "mnemonic": "the mark left behind — a HiNt of it", "invented": false, "crossRefs": [], "freqRank": 2119, "traditional": ""},
 {"char": "狠", "pinyin": "hěn", "syllable": "hen", "tone": 3, "core": "hard-hearted and unrelenting", "mnemonic": "hard-hearted — a HArd oNe", "invented": false, "crossRefs": [], "freqRank": 1888, "traditional": ""},
 {"char": "很", "pinyin": "hěn", "syllable": "hen", "tone": 3, "core": "very", "mnemonic": "very — HEAps", "invented": false, "crossRefs": [], "freqRank": 175, "traditional": ""},
-{"char": "恨", "pinyin": "hèn", "syllable": "hen", "tone": 4, "core": "hatred that will not let go", "mnemonic": "hatred that won't let go — the grudge you HANG onto", "invented": false, "crossRefs": [], "freqRank": 1220, "traditional": ""},
+{"char": "恨", "pinyin": "hèn", "syllable": "hen", "tone": 4, "core": "hatred that will not let go", "mnemonic": "HATred", "invented": false, "crossRefs": [], "freqRank": 1220, "traditional": ""},
 {"char": "亨", "pinyin": "hēng", "syllable": "heng", "tone": 1, "core": "going smoothly", "mnemonic": "going smoothly — HUmmiNG along", "invented": false, "crossRefs": [], "freqRank": 2333, "traditional": ""},
 {"char": "哼", "pinyin": "hēng", "syllable": "heng", "tone": 1, "core": "a sound made through the nose", "mnemonic": "a sound through the nose — HUmmiNG", "invented": false, "crossRefs": [], "freqRank": 2316, "traditional": ""},
 {"char": "横", "pinyin": "héng", "syllable": "heng", "tone": 2, "core": "lying across", "mnemonic": "lying across — HUNG crossways", "invented": false, "crossRefs": ["hèng"], "freqRank": 1261, "traditional": "橫"},
