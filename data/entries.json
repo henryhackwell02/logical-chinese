@@ -387,7 +387,7 @@
 {"char": "醇", "pinyin": "chún", "syllable": "chun", "tone": 2, "core": "rich and unmixed, of wine", "mnemonic": "the wine, rich and unCHURNed", "invented": false, "crossRefs": [], "freqRank": 2780, "traditional": "醕"},
 {"char": "纯", "pinyin": "chún", "syllable": "chun", "tone": 2, "core": "unmixed", "mnemonic": "unmixed — CHURNed to one thing", "invented": false, "crossRefs": [], "freqRank": 1259, "traditional": "純"},
 {"char": "唇", "pinyin": "chún", "syllable": "chun", "tone": 2, "core": "lip", "mnemonic": "the lip you CHURN words through", "invented": false, "crossRefs": [], "freqRank": 2101, "traditional": "脣"},
-{"char": "淳", "pinyin": "chún", "syllable": "chun", "tone": 2, "core": "plain and unadulterated, of a person", "mnemonic": "plain and honest — unCHURNed", "invented": false, "crossRefs": [], "freqRank": 2513, "traditional": "湻"},
+{"char": "淳", "pinyin": "chún", "syllable": "chun", "tone": 2, "core": "plain and unadulterated, of a person", "mnemonic": "pure and GENUINE", "invented": false, "crossRefs": [], "freqRank": 2513, "traditional": "湻"},
 {"char": "蠢", "pinyin": "chǔn", "syllable": "chun", "tone": 3, "core": "slow and squirming", "mnemonic": "slow — CHURNing along stupidly", "invented": false, "crossRefs": [], "freqRank": 2521, "traditional": "惷"},
 {"char": "绰", "pinyin": "chuò", "syllable": "chuo", "tone": 4, "core": "ample, with room to spare", "mnemonic": "ample — room to CHUck about", "invented": false, "crossRefs": ["chāo"], "freqRank": 2737, "traditional": "綽"},
 {"char": "词", "pinyin": "cí", "syllable": "ci", "tone": 2, "core": "words set in order", "mnemonic": "the words you SEt in order", "invented": false, "crossRefs": [], "freqRank": 985, "traditional": "䛐詞"},
