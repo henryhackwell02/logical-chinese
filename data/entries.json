@@ -1497,7 +1497,7 @@
 {"char": "流", "pinyin": "liú", "syllable": "liu", "tone": 2, "core": "flowing, and spreading as it goes", "mnemonic": "flow", "invented": false, "crossRefs": [], "freqRank": 379, "traditional": ""},
 {"char": "留", "pinyin": "liú", "syllable": "liu", "tone": 2, "core": "kept back in place", "mnemonic": "kept back in place — LEft where it is", "invented": false, "crossRefs": [], "freqRank": 492, "traditional": "㽞畱"},
 {"char": "瘤", "pinyin": "liú", "syllable": "liu", "tone": 2, "core": "a growth left on the body", "mnemonic": "a growth left on the body — the LUmp", "invented": false, "crossRefs": [], "freqRank": 2599, "traditional": "癅"},
-{"char": "柳", "pinyin": "liǔ", "syllable": "liu", "tone": 3, "core": "willow", "mnemonic": "the willow — the LOOse-hanging tree", "invented": false, "crossRefs": [], "freqRank": 1291, "traditional": "栁桺"},
+{"char": "柳", "pinyin": "liǔ", "syllable": "liu", "tone": 3, "core": "willow", "mnemonic": "wiLLOW", "invented": false, "crossRefs": [], "freqRank": 1291, "traditional": "栁桺"},
 {"char": "六", "pinyin": "liù", "syllable": "liu", "tone": 4, "core": "six", "mnemonic": "six — the LOt after five", "invented": false, "crossRefs": [], "freqRank": 311, "traditional": ""},
 {"char": "陆", "pinyin": "liù", "syllable": "liu", "tone": 4, "core": "six, in fraud-proof form", "mnemonic": "six, written safe — the LOcked-down six", "invented": false, "crossRefs": ["lù"], "freqRank": 735, "traditional": "陸"},
 {"char": "龙", "pinyin": "lóng", "syllable": "long", "tone": 2, "core": "dragon", "mnemonic": "the dragon — a LONG serpent", "invented": false, "crossRefs": [], "freqRank": 548, "traditional": "龍"},
