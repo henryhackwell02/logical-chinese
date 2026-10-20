@@ -1467,7 +1467,7 @@
 {"char": "辽", "pinyin": "liáo", "syllable": "liao", "tone": 2, "core": "wide and far-reaching", "mnemonic": "far OUT", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "遼"},
 {"char": "了", "pinyin": "liǎo", "syllable": "liao", "tone": 3, "core": "brought to a finish, and so grasped clearly", "mnemonic": "brought to a finish, and so grasped clearly — the LOWdown, done", "invented": false, "crossRefs": ["le"], "freqRank": 5, "traditional": "瞭"},
 {"char": "料", "pinyin": "liào", "syllable": "liao", "tone": 4, "core": "the stuff to work with; and reckoning ahead", "mnemonic": "the stuff to work with, and reckoning ahead — the LOAd and the guess", "invented": false, "crossRefs": [], "freqRank": 660, "traditional": ""},
-{"char": "列", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "set out in a row", "mnemonic": "list", "invented": false, "crossRefs": [], "freqRank": 538, "traditional": ""},
+{"char": "列", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "set out in a row", "mnemonic": "LINE up", "invented": false, "crossRefs": [], "freqRank": 538, "traditional": ""},
 {"char": "裂", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "split open", "mnemonic": "split open — the LEAk widens", "invented": false, "crossRefs": [], "freqRank": 1541, "traditional": ""},
 {"char": "烈", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "fierce and burning", "mnemonic": "fierce and burning — a bLAZE", "invented": false, "crossRefs": [], "freqRank": 912, "traditional": ""},
 {"char": "猎", "pinyin": "liè", "syllable": "lie", "tone": 4, "core": "hunting", "mnemonic": "hunting — the LEAsh let slip", "invented": false, "crossRefs": [], "freqRank": 1804, "traditional": "獵"},
