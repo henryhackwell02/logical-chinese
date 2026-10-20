@@ -1756,7 +1756,7 @@
 {"char": "呕", "pinyin": "ǒu", "syllable": "ou", "tone": 3, "core": "brought up from the stomach", "mnemonic": "OUt it comes", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "嘔"},
 {"char": "趴", "pinyin": "pā", "syllable": "pa", "tone": 1, "core": "lying face down", "mnemonic": "flat on your front, a PAncake", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "爬", "pinyin": "pá", "syllable": "pa", "tone": 2, "core": "moving on all fours, up or along", "mnemonic": "moving on all fours — the PAw-crawl", "invented": false, "crossRefs": [], "freqRank": 1673, "traditional": ""},
-{"char": "帕", "pinyin": "pà", "syllable": "pa", "tone": 4, "core": "a square of cloth", "mnemonic": "a square of cloth — the PAtch", "invented": false, "crossRefs": [], "freqRank": 1789, "traditional": ""},
+{"char": "帕", "pinyin": "pà", "syllable": "pa", "tone": 4, "core": "a square of cloth", "mnemonic": "clothes wraPPER", "invented": false, "crossRefs": [], "freqRank": 1789, "traditional": ""},
 {"char": "怕", "pinyin": "pà", "syllable": "pa", "tone": 4, "core": "afraid", "mnemonic": "panic", "invented": false, "crossRefs": [], "freqRank": 667, "traditional": ""},
 {"char": "拍", "pinyin": "pāi", "syllable": "pai", "tone": 1, "core": "struck flat-handed: the beat, and the shot taken", "mnemonic": "pat", "invented": false, "crossRefs": [], "freqRank": 1315, "traditional": ""},
 {"char": "排", "pinyin": "pái", "syllable": "pai", "tone": 2, "core": "set in a row, and so lined up and pushed along", "mnemonic": "set in a row, and so pushed along — the PIle lined up", "invented": false, "crossRefs": [], "freqRank": 819, "traditional": ""},
