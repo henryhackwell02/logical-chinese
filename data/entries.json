@@ -1846,7 +1846,7 @@
 {"char": "剖", "pinyin": "pōu", "syllable": "pou", "tone": 1, "core": "cut open to see inside", "mnemonic": "cut open to see inside — the POst-mortem", "invented": false, "crossRefs": [], "freqRank": 2637, "traditional": ""},
 {"char": "铺", "pinyin": "pū", "syllable": "pu", "tone": 1, "core": "laid out flat", "mnemonic": "laid out flat — sPread Out", "invented": false, "crossRefs": ["pù"], "freqRank": 1671, "traditional": "舖鋪"},
 {"char": "扑", "pinyin": "pū", "syllable": "pu", "tone": 1, "core": "thrown at with the whole body", "mnemonic": "pounce", "invented": false, "crossRefs": [], "freqRank": 1696, "traditional": "撲"},
-{"char": "仆", "pinyin": "pū", "syllable": "pu", "tone": 1, "core": "fallen flat forward", "mnemonic": "fallen flat forward — flat on your PUss", "invented": false, "crossRefs": ["pú"], "freqRank": 1331, "traditional": "僕"},
+{"char": "仆", "pinyin": "pū", "syllable": "pu", "tone": 1, "core": "fallen flat forward", "mnemonic": "PROstrate (on your PUSS)", "invented": false, "crossRefs": ["pú"], "freqRank": 1331, "traditional": "僕"},
 {"char": "仆", "pinyin": "pú", "syllable": "pu", "tone": 2, "core": "the servant", "mnemonic": "the servant — the POOr man serving", "invented": false, "crossRefs": ["pū"], "freqRank": 1331, "traditional": "僕"},
 {"char": "普", "pinyin": "pǔ", "syllable": "pu", "tone": 3, "core": "spread over all alike", "mnemonic": "spread over all alike — the POPular whole", "invented": false, "crossRefs": [], "freqRank": 753, "traditional": ""},
 {"char": "谱", "pinyin": "pǔ", "syllable": "pu", "tone": 3, "core": "the chart things are set out on: table, register, score", "mnemonic": "the chart things are set out on — the PAPer of it", "invented": false, "crossRefs": [], "freqRank": 2480, "traditional": "譜"},
