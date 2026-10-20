@@ -2348,7 +2348,7 @@
 {"char": "调", "pinyin": "tiáo", "syllable": "tiao", "tone": 2, "core": "brought into balance", "mnemonic": "brought into balance — the TUNE adjusted", "invented": false, "crossRefs": ["diào"], "freqRank": 451, "traditional": "調"},
 {"char": "条", "pinyin": "tiáo", "syllable": "tiao", "tone": 2, "core": "the long thin strip, and the clause set out on it", "mnemonic": "the long thin strip, and the clause on it — the TEAr-off strip", "invented": false, "crossRefs": [], "freqRank": 272, "traditional": "條"},
 {"char": "挑", "pinyin": "tiǎo", "syllable": "tiao", "tone": 3, "core": "levered up with a point", "mnemonic": "levered up with a point — the TOEing up", "invented": false, "crossRefs": ["tiāo"], "freqRank": 1462, "traditional": ""},
-{"char": "跳", "pinyin": "tiào", "syllable": "tiao", "tone": 4, "core": "jumped", "mnemonic": "jumped — the TOE-off leap", "invented": false, "crossRefs": [], "freqRank": 1116, "traditional": ""},
+{"char": "跳", "pinyin": "tiào", "syllable": "tiao", "tone": 4, "core": "jumped", "mnemonic": "leapT OVer", "invented": false, "crossRefs": [], "freqRank": 1116, "traditional": ""},
 {"char": "贴", "pinyin": "tiē", "syllable": "tie", "tone": 1, "core": "stuck flat against", "mnemonic": "stuck flat against — the TApE on", "invented": false, "crossRefs": [], "freqRank": 1641, "traditional": "貼"},
 {"char": "帖", "pinyin": "tiē", "syllable": "tie", "tone": 1, "core": "fitting snugly", "mnemonic": "fitting snugly — the TIght fit", "invented": false, "crossRefs": ["tiě"], "freqRank": 2407, "traditional": ""},
 {"char": "铁", "pinyin": "tiě", "syllable": "tie", "tone": 3, "core": "iron", "mnemonic": "iron — the TEmpered metal", "invented": false, "crossRefs": [], "freqRank": 824, "traditional": "鐵"},
