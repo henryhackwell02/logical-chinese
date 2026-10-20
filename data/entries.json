@@ -1562,7 +1562,7 @@
 {"char": "嘛", "pinyin": "ma", "syllable": "ma", "tone": 5, "core": "the particle of the obvious", "mnemonic": "the particle of the obvious — well, MA, obviously", "invented": false, "crossRefs": [], "freqRank": 2022, "traditional": ""},
 {"char": "吗", "pinyin": "ma", "syllable": "ma", "tone": 5, "core": "the question particle", "mnemonic": "the question particle — a little MA at the end", "invented": false, "crossRefs": [], "freqRank": 566, "traditional": "嗎"},
 {"char": "埋", "pinyin": "mái", "syllable": "mai", "tone": 2, "core": "put under the earth", "mnemonic": "put under the earth — MIred under", "invented": false, "crossRefs": ["mán"], "freqRank": 1774, "traditional": ""},
-{"char": "买", "pinyin": "mǎi", "syllable": "mai", "tone": 3, "core": "bought", "mnemonic": "my", "invented": false, "crossRefs": [], "freqRank": 840, "traditional": "買"},
+{"char": "买", "pinyin": "mǎi", "syllable": "mai", "tone": 3, "core": "bought", "mnemonic": "BUY", "invented": false, "crossRefs": [], "freqRank": 840, "traditional": "買"},
 {"char": "脉", "pinyin": "mài", "syllable": "mai", "tone": 4, "core": "the vein running through", "mnemonic": "the vein running through — the MAINline", "invented": false, "crossRefs": [], "freqRank": 1872, "traditional": "䘑脈衇"},
 {"char": "卖", "pinyin": "mài", "syllable": "mai", "tone": 4, "core": "sold", "mnemonic": "sold — MArketed", "invented": false, "crossRefs": [], "freqRank": 1041, "traditional": "賣"},
 {"char": "麦", "pinyin": "mài", "syllable": "mai", "tone": 4, "core": "wheat", "mnemonic": "wheat — the MAize's cousin", "invented": false, "crossRefs": [], "freqRank": 1379, "traditional": "麥"},
