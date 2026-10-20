@@ -2211,7 +2211,7 @@
 {"char": "涮", "pinyin": "shuàn", "syllable": "shuan", "tone": 4, "core": "swished through hot water", "mnemonic": "SWISHed through the broth", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "双", "pinyin": "shuāng", "syllable": "shuang", "tone": 1, "core": "two together", "mnemonic": "two together — the SWANs, a pair", "invented": false, "crossRefs": [], "freqRank": 630, "traditional": "雙"},
 {"char": "霜", "pinyin": "shuāng", "syllable": "shuang", "tone": 1, "core": "frost", "mnemonic": "frost — the SWAthe of white", "invented": false, "crossRefs": [], "freqRank": 2352, "traditional": ""},
-{"char": "爽", "pinyin": "shuǎng", "syllable": "shuang", "tone": 3, "core": "clear and crisp", "mnemonic": "clear and crisp — the SWANk of clear air", "invented": false, "crossRefs": [], "freqRank": 2305, "traditional": ""},
+{"char": "爽", "pinyin": "shuǎng", "syllable": "shuang", "tone": 3, "core": "clear and crisp", "mnemonic": "FRANk / STRaightforward", "invented": false, "crossRefs": [], "freqRank": 2305, "traditional": ""},
 {"char": "水", "pinyin": "shuǐ", "syllable": "shui", "tone": 3, "core": "water", "mnemonic": "water — the SWAY of it", "invented": false, "crossRefs": [], "freqRank": 191, "traditional": ""},
 {"char": "说", "pinyin": "shuì", "syllable": "shui", "tone": 4, "core": "talked round", "mnemonic": "talked round — the SWAY of persuasion", "invented": false, "crossRefs": ["shuō"], "freqRank": 22, "traditional": "說説"},
 {"char": "税", "pinyin": "shuì", "syllable": "shui", "tone": 4, "core": "the levy taken", "mnemonic": "the levy taken — the SWEEp of tax", "invented": false, "crossRefs": [], "freqRank": 909, "traditional": "稅"},
