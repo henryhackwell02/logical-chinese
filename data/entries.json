@@ -1518,7 +1518,7 @@
 {"char": "虏", "pinyin": "lǔ", "syllable": "lu", "tone": 3, "core": "taken captive", "mnemonic": "taken captive — LOOted away", "invented": false, "crossRefs": [], "freqRank": 2001, "traditional": "虜"},
 {"char": "鲁", "pinyin": "lǔ", "syllable": "lu", "tone": 3, "core": "rough, without polish", "mnemonic": "LOUtish, no polish", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "魯"},
 {"char": "路", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "the road, and the route along it", "mnemonic": "the road, and the route along it — the ROUte", "invented": false, "crossRefs": [], "freqRank": 281, "traditional": ""},
-{"char": "露", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "dew, and what lies out uncovered", "mnemonic": "dew, and what lies out uncovered — the LOOse wet on the grass", "invented": false, "crossRefs": ["lòu"], "freqRank": 921, "traditional": ""},
+{"char": "露", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "dew, and what lies out uncovered", "mnemonic": "DEW", "invented": false, "crossRefs": ["lòu"], "freqRank": 921, "traditional": ""},
 {"char": "录", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "set down on record", "mnemonic": "set down on record — the LOG", "invented": false, "crossRefs": [], "freqRank": 905, "traditional": "彔錄"},
 {"char": "陆", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "dry land", "mnemonic": "dry land — the LOOm of the shore", "invented": false, "crossRefs": ["liù"], "freqRank": 735, "traditional": "陸"},
 {"char": "禄", "pinyin": "lù", "syllable": "lu", "tone": 4, "core": "the salary that fortune brings", "mnemonic": "the salary that fortune brings — the LUcre", "invented": false, "crossRefs": [], "freqRank": 1503, "traditional": "祿"},
