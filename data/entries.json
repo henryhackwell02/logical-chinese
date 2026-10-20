@@ -976,7 +976,7 @@
 {"char": "划", "pinyin": "huà", "syllable": "hua", "tone": 4, "core": "the same stroke, now marking a line on a plan", "mnemonic": "the same stroke, now on a plan — the line you sWAthe out", "invented": true, "crossRefs": ["huá"], "freqRank": 685, "traditional": "劃"},
 {"char": "怀", "pinyin": "huái", "syllable": "huai", "tone": 2, "core": "held in the breast: the bosom, and what is carried in mind", "mnemonic": "held in the breast — WHY you carry it", "invented": false, "crossRefs": [], "freqRank": 716, "traditional": "懷"},
 {"char": "徊", "pinyin": "huái", "syllable": "huai", "tone": 2, "core": "pacing to and fro", "mnemonic": "WHY am I still here, pacing", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
-{"char": "坏", "pinyin": "huài", "syllable": "huai", "tone": 4, "core": "gone bad", "mnemonic": "gone bad — WHY spoil it", "invented": false, "crossRefs": [], "freqRank": 925, "traditional": "壞"},
+{"char": "坏", "pinyin": "huài", "syllable": "huai", "tone": 4, "core": "gone bad", "mnemonic": "sPOILt", "invented": false, "crossRefs": [], "freqRank": 925, "traditional": "壞"},
 {"char": "欢", "pinyin": "huān", "syllable": "huan", "tone": 1, "core": "glad, and noisy with it", "mnemonic": "HAppy", "invented": false, "crossRefs": [], "freqRank": 723, "traditional": "懽歡讙驩"},
 {"char": "环", "pinyin": "huán", "syllable": "huan", "tone": 2, "core": "a ring, and each link in it", "mnemonic": "HOOP or HEM around", "invented": false, "crossRefs": [], "freqRank": 796, "traditional": "環"},
 {"char": "还", "pinyin": "huán", "syllable": "huan", "tone": 2, "core": "given back", "mnemonic": "reTURN", "invented": false, "crossRefs": ["hái"], "freqRank": 87, "traditional": "還"},
