@@ -1453,7 +1453,7 @@
 {"char": "良", "pinyin": "liáng", "syllable": "liang", "tone": 2, "core": "good in itself", "mnemonic": "good in itself — a LEnient, decent sort", "invented": false, "crossRefs": [], "freqRank": 789, "traditional": ""},
 {"char": "梁", "pinyin": "liáng", "syllable": "liang", "tone": 2, "core": "the beam spanning across", "mnemonic": "the beam spanning across — the LENGth overhead", "invented": false, "crossRefs": [], "freqRank": 1005, "traditional": "樑"},
 {"char": "粮", "pinyin": "liáng", "syllable": "liang", "tone": 2, "core": "grain kept as provision", "mnemonic": "grain kept as provision — the LArder's supply", "invented": false, "crossRefs": [], "freqRank": 1248, "traditional": "糧"},
-{"char": "凉", "pinyin": "liáng", "syllable": "liang", "tone": 2, "core": "cool", "mnemonic": "cool — a LENGthy chill", "invented": false, "crossRefs": ["liàng"], "freqRank": 1543, "traditional": "涼"},
+{"char": "凉", "pinyin": "liáng", "syllable": "liang", "tone": 2, "core": "cool", "mnemonic": "cooLING", "invented": false, "crossRefs": ["liàng"], "freqRank": 1543, "traditional": "涼"},
 {"char": "两", "pinyin": "liǎng", "syllable": "liang", "tone": 3, "core": "two of a pair; and the tael", "mnemonic": "two of a pair, and the tael — a LENGth of two", "invented": false, "crossRefs": [], "freqRank": 123, "traditional": "兩"},
 {"char": "量", "pinyin": "liàng", "syllable": "liang", "tone": 4, "core": "the amount measured", "mnemonic": "the amount measured — the LENGth of it", "invented": false, "crossRefs": ["liáng"], "freqRank": 292, "traditional": ""},
 {"char": "亮", "pinyin": "liàng", "syllable": "liang", "tone": 4, "core": "bright", "mnemonic": "light", "invented": false, "crossRefs": [], "freqRank": 903, "traditional": ""},
