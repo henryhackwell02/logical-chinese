@@ -1210,7 +1210,7 @@
 {"char": "近", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "close by", "mnemonic": "close by — GOing IN near", "invented": false, "crossRefs": [], "freqRank": 386, "traditional": ""},
 {"char": "禁", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "held back by prohibition", "mnemonic": "held back by prohibition — the GATe shut", "invented": false, "crossRefs": ["jīn"], "freqRank": 943, "traditional": ""},
 {"char": "劲", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "the force put into it", "mnemonic": "SPirit / SPUNK", "invented": false, "crossRefs": ["jìng"], "freqRank": 1598, "traditional": "勁"},
-{"char": "浸", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "soaked through", "mnemonic": "soaked through — sunk IN", "invented": false, "crossRefs": [], "freqRank": 2514, "traditional": ""},
+{"char": "浸", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "soaked through", "mnemonic": "IMMerse / sink IN", "invented": false, "crossRefs": [], "freqRank": 2514, "traditional": ""},
 {"char": "烬", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "fire remnants", "mnemonic": "CINders", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "晋", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "moved up a rank", "mnemonic": "GOING IN higher", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "晉"},
 {"char": "经", "pinyin": "jīng", "syllable": "jing", "tone": 1, "core": "the warp thread running through: the classic, and passing through", "mnemonic": "the warp thread running through — the GIRDING classic", "invented": false, "crossRefs": [], "freqRank": 76, "traditional": "經"},
