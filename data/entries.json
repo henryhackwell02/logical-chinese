@@ -797,7 +797,7 @@
 {"char": "躬", "pinyin": "gōng", "syllable": "gong", "tone": 1, "core": "the body itself, bowed", "mnemonic": "the body itself, bowed — GOING down low", "invented": false, "crossRefs": [], "freqRank": 2313, "traditional": "躳"},
 {"char": "拱", "pinyin": "gǒng", "syllable": "gong", "tone": 3, "core": "hands cupped; the arch of that shape", "mnemonic": "hands cupped, and the arch of it — the GONG-shaped curve", "invented": false, "crossRefs": [], "freqRank": 2324, "traditional": ""},
 {"char": "巩", "pinyin": "gǒng", "syllable": "gong", "tone": 3, "core": "made firm", "mnemonic": "made firm — GONG-solid", "invented": false, "crossRefs": [], "freqRank": 2663, "traditional": "鞏"},
-{"char": "共", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "shared together", "mnemonic": "shared together — GOING in as one", "invented": false, "crossRefs": [], "freqRank": 375, "traditional": ""},
+{"char": "共", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "shared together", "mnemonic": "COMMON", "invented": false, "crossRefs": [], "freqRank": 375, "traditional": ""},
 {"char": "供", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "laid out as an offering, and so confessed", "mnemonic": "laid out as an offering, and so confessed — the GOOds owned up to", "invented": false, "crossRefs": ["gōng"], "freqRank": 645, "traditional": ""},
 {"char": "贡", "pinyin": "gòng", "syllable": "gong", "tone": 4, "core": "sent up as tribute", "mnemonic": "OFFer / GIFT up", "invented": false, "crossRefs": [], "freqRank": 1348, "traditional": "貢"},
 {"char": "钩", "pinyin": "gōu", "syllable": "gou", "tone": 1, "core": "hook", "mnemonic": "the hook — GOUged in", "invented": false, "crossRefs": [], "freqRank": 2234, "traditional": "鈎鉤"},
