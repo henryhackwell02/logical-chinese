@@ -222,7 +222,9 @@ export default function Practice({
     return syllableOptions.filter((s) => s.syllable.startsWith(needle));
   }, [syllableOptions, filter]);
 
-  // The answer is whatever the prompt did not already give away.
+  // The answer is whatever the prompt did not already give away. Meaning-first
+  // shows the definition and the mnemonic up front, so only the character and
+  // its reading are left to reveal.
   const answer = card && (
     <>
       <p className="card-reading">
@@ -233,9 +235,11 @@ export default function Practice({
         {card[8] === 1 && <InventedMark />}
       </p>
       {direction === 'zh-en' && (
-        <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
+        <>
+          <Mnemonic text={card[5]} className="card-mnemonic" as="div" />
+          {coreAddsMeaning(card[4], card[5]) && <p className="core">{card[4]}</p>}
+        </>
       )}
-      {coreAddsMeaning(card[4], card[5]) && <p className="core">{card[4]}</p>}
     </>
   );
 
@@ -296,8 +300,9 @@ export default function Practice({
           ) : (
             <>
               <p className="card-prompt">
-                {revealed ? 'the character' : 'Which character does this thread hold?'}
+                {revealed ? 'the character' : 'Which character is this?'}
               </p>
+              <p className="card-idea core">{card[4]}</p>
               <Mnemonic text={card[5]} className="card-idea-mnemonic" as="div" />
             </>
           )}

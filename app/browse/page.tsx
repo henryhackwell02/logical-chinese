@@ -7,7 +7,8 @@ import { soundHref } from '@/lib/site';
 export const metadata: Metadata = {
   title: 'Browse',
   description:
-    'All 3,021 readings by frequency band, filtered by tone, meaning cluster or invented thread — and the full index of 396 pinyin syllables.',
+    `All ${stats.entries.toLocaleString('en-GB')} readings by frequency band, filtered by tone, ` +
+    `meaning cluster or invented thread — and the full index of ${stats.syllables} pinyin syllables.`,
   alternates: { canonical: '/browse/' },
 };
 

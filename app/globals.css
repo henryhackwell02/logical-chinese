@@ -771,6 +771,55 @@ main {
    so a list row and a full entry read as the same object at two sizes.
    ========================================================================== */
 
+/* ------------------------------------------------------------- folding a list
+
+   The browse list is long and the sound index sits under it, so the whole run
+   of readings folds away in one click. */
+
+.fold {
+  margin-bottom: var(--s-2);
+}
+
+.fold-summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-3);
+  padding-block: var(--s-1);
+  cursor: pointer;
+  list-style: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Safari draws its own triangle without this. */
+.fold-summary::-webkit-details-marker {
+  display: none;
+}
+
+.fold-summary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.fold-hint {
+  font-family: var(--sans);
+  font-size: var(--t-xs);
+  color: var(--muted);
+  flex: none;
+}
+
+.fold-hint::after {
+  content: 'hide the list';
+}
+
+.fold:not([open]) .fold-hint::after {
+  content: 'show the list';
+}
+
+.fold-summary:hover .fold-hint {
+  color: var(--ink);
+}
+
 .rows {
   border-top: 1px solid var(--rule-strong);
 }
@@ -1477,16 +1526,33 @@ main {
   line-height: 1;
 }
 
-/* Meaning-first asks you to go from the trick to the character, so the prompt
-   is the mnemonic itself, lit runs and all — upright, not the italic of a
-   plain gloss, because the capitals have to stay legible. */
-.card-idea-mnemonic {
+/* Meaning-first gives you both halves of what you know about a character —
+   the definition, then the trick that carries its sound — and asks for the
+   character itself. */
+.card-idea {
   font-size: var(--t-2xl);
   line-height: 1.25;
   max-width: 26rem;
   margin-inline: auto;
-  padding-block: clamp(1.25rem, 4vw, 2.25rem);
+  padding-top: clamp(1.25rem, 4vw, 2.25rem);
+  font-style: italic;
   color: var(--ink);
+}
+
+/* Upright, not italic like the gloss above it: the capitals have to stay
+   legible, and the contrast separates the trick from the definition. */
+.card-idea-mnemonic {
+  font-size: var(--t-xl);
+  line-height: 1.3;
+  max-width: 26rem;
+  margin-inline: auto;
+  padding-top: var(--s-3);
+  padding-bottom: clamp(1.25rem, 4vw, 2.25rem);
+  color: var(--muted);
+}
+
+.card-idea-mnemonic .lit {
+  color: var(--hl-ink);
 }
 
 .card-answer {

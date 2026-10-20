@@ -31,6 +31,7 @@ export default function BrowseExplorer({
   const [tone, setTone] = useState<number | null>(null);
   const [cluster, setCluster] = useState<string | null>(null);
   const [hideInvented, setHideInvented] = useState(false);
+  const [listOpen, setListOpen] = useState(true);
 
   useEffect(() => {
     let live = true;
@@ -173,35 +174,53 @@ export default function BrowseExplorer({
         </div>
       </div>
 
-      <p className="note" aria-live="polite" style={{ marginBottom: '0.75rem' }}>
-        {index
-          ? `${rows.length} ${rows.length === 1 ? 'reading' : 'readings'}${
-              cluster ? ' in this cluster' : ''
-            }`
-          : 'Loading the dictionary…'}
-      </p>
+      {/* The list runs to hundreds of readings, and the index of every sound sits
+          below it. Folding it away puts that index one click from the controls. */}
+      <details
+        className="fold"
+        open={listOpen}
+        onToggle={(e) => setListOpen(e.currentTarget.open)}
+      >
+        <summary className="fold-summary">
+          <span className="note" aria-live="polite">
+            {index
+              ? `${rows.length} ${rows.length === 1 ? 'reading' : 'readings'}${
+                  cluster ? ' in this cluster' : ''
+                }`
+              : 'Loading the dictionary…'}
+          </span>
+          <span className="fold-hint" aria-hidden="true" />
+        </summary>
 
-      <ul className="rows">
-        {rows.map((row) => (
-          <li className="row" key={`${row[0]}-${row[1]}`}>
-            <Link href={charHref(row[0])} className="row-char" lang="zh" aria-label={row[0]}>
-              {row[0]}
-            </Link>
-            <div className="row-head">
-              <Link href={charHref(row[0])} className="row-pinyin">
-                {row[1]}
+        <ul className="rows">
+          {rows.map((row) => (
+            <li className="row" key={`${row[0]}-${row[1]}`}>
+              <Link
+                href={charHref(row[0])}
+                className="row-char"
+                lang="zh"
+                aria-label={row[0]}
+              >
+                {row[0]}
               </Link>
-              {row[8] === 1 && <InventedMark />}
-            </div>
-            <Mnemonic text={row[5]} className="row-mnemonic" />
-            {coreAddsMeaning(row[4], row[5]) && <p className="row-core core">{row[4]}</p>}
-            <div className="row-meta">
-              <Link href={soundHref(row[2])}>{row[2]}</Link>
-              <span>{row[6] === null ? 'added' : `no. ${row[6]}`}</span>
-            </div>
-          </li>
-        ))}
-      </ul>
+              <div className="row-head">
+                <Link href={charHref(row[0])} className="row-pinyin">
+                  {row[1]}
+                </Link>
+                {row[8] === 1 && <InventedMark />}
+              </div>
+              <Mnemonic text={row[5]} className="row-mnemonic" />
+              {coreAddsMeaning(row[4], row[5]) && <p className="row-core core">{row[4]}</p>}
+              <div className="row-meta">
+                <Link href={soundHref(row[2])} className="row-meta-link">
+                  {row[2]}
+                </Link>
+                <span>{row[6] === null ? 'added' : `no. ${row[6]}`}</span>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </details>
     </>
   );
 }
