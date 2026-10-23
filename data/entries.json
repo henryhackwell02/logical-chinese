@@ -1370,7 +1370,7 @@
 {"char": "廓", "pinyin": "kuò", "syllable": "kuo", "tone": 4, "core": "the outline round a shape", "mnemonic": "the QUOted outline", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "拉", "pinyin": "lā", "syllable": "la", "tone": 1, "core": "drawn along", "mnemonic": "drawn along — a LUg", "invented": false, "crossRefs": [], "freqRank": 399, "traditional": ""},
 {"char": "啦", "pinyin": "lā", "syllable": "la", "tone": 1, "core": "a run of sound", "mnemonic": "a run of sound — LA-la-la", "invented": false, "crossRefs": ["la"], "freqRank": 1446, "traditional": ""},
-{"char": "喇", "pinyin": "lǎ", "syllable": "la", "tone": 3, "core": "the horn, and its blare", "mnemonic": "the LAh of a horn", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "喇", "pinyin": "lǎ", "syllable": "la", "tone": 3, "core": "the horn, and its blare", "mnemonic": "bLARE", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "落", "pinyin": "là", "syllable": "la", "tone": 4, "core": "left behind", "mnemonic": "left behind — LAgged", "invented": false, "crossRefs": ["luò"], "freqRank": 516, "traditional": ""},
 {"char": "辣", "pinyin": "là", "syllable": "la", "tone": 4, "core": "the burn of spice", "mnemonic": "the burn of spice — the LAsh of chilli", "invented": false, "crossRefs": [], "freqRank": 2797, "traditional": "辢"},
 {"char": "蜡", "pinyin": "là", "syllable": "la", "tone": 4, "core": "wax", "mnemonic": "wax — the LArd of candles", "invented": false, "crossRefs": [], "freqRank": 2817, "traditional": "蠟"},
