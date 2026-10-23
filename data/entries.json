@@ -1915,7 +1915,7 @@
 {"char": "乔", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "tall", "mnemonic": "tall — the CHOice height", "invented": false, "crossRefs": [], "freqRank": 1659, "traditional": "喬"},
 {"char": "翘", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "raised above the rest", "mnemonic": "raised above the rest — the CHOice one lifted", "invented": false, "crossRefs": ["qiào"], "freqRank": 2995, "traditional": "翹"},
 {"char": "侨", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "living away from home", "mnemonic": "living away from home — the CHOice to leave", "invented": false, "crossRefs": [], "freqRank": 2565, "traditional": "僑"},
-{"char": "瞧", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "taken a look at", "mnemonic": "taken a look at — a CHEck-Over", "invented": false, "crossRefs": [], "freqRank": 1576, "traditional": ""},
+{"char": "瞧", "pinyin": "qiáo", "syllable": "qiao", "tone": 2, "core": "taken a look at", "mnemonic": "CHECK OUT with eyes", "invented": false, "crossRefs": [], "freqRank": 1576, "traditional": ""},
 {"char": "巧", "pinyin": "qiǎo", "syllable": "qiao", "tone": 3, "core": "deft, and neatly timed", "mnemonic": "deft, and neatly timed — the CHOice touch", "invented": false, "crossRefs": [], "freqRank": 1260, "traditional": ""},
 {"char": "悄", "pinyin": "qiǎo", "syllable": "qiao", "tone": 3, "core": "hushed", "mnemonic": "hushed — the CHOked quiet", "invented": false, "crossRefs": [], "freqRank": 1509, "traditional": ""},
 {"char": "壳", "pinyin": "qiào", "syllable": "qiao", "tone": 4, "core": "the hard shell over", "mnemonic": "the hard shell over — the CHItin", "invented": false, "crossRefs": [], "freqRank": 2264, "traditional": "殼"},
