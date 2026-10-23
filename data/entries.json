@@ -431,7 +431,7 @@
 {"char": "答", "pinyin": "dá", "syllable": "da", "tone": 2, "core": "the answer given", "mnemonic": "the answer you DAsh back", "invented": false, "crossRefs": ["dā"], "freqRank": 571, "traditional": ""},
 {"char": "打", "pinyin": "dǎ", "syllable": "da", "tone": 3, "core": "striking, and by extension doing", "mnemonic": "DAsh it — strike it", "invented": false, "crossRefs": ["dá"], "freqRank": 240, "traditional": ""},
 {"char": "大", "pinyin": "dà", "syllable": "da", "tone": 4, "core": "big", "mnemonic": "DAd is big", "invented": false, "crossRefs": ["dài"], "freqRank": 15, "traditional": ""},
-{"char": "瘩", "pinyin": "da", "syllable": "da", "tone": 5, "core": "the reduced half of a lump", "mnemonic": "the -DA on the end of a lump", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "瘩", "pinyin": "da", "syllable": "da", "tone": 5, "core": "the reduced half of a lump", "mnemonic": "harDA boil/lump", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "待", "pinyin": "dāi", "syllable": "dai", "tone": 1, "core": "staying put", "mnemonic": "reMAIN / sTAY put", "invented": false, "crossRefs": ["dài"], "freqRank": 596, "traditional": ""},
 {"char": "呆", "pinyin": "dāi", "syllable": "dai", "tone": 1, "core": "blank and unmoving", "mnemonic": "dazed", "invented": false, "crossRefs": [], "freqRank": 1500, "traditional": "獃"},
 {"char": "歹", "pinyin": "dǎi", "syllable": "dai", "tone": 3, "core": "bad", "mnemonic": "bad — a DIre sort", "invented": false, "crossRefs": [], "freqRank": 2987, "traditional": ""},
