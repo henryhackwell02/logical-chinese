@@ -1806,7 +1806,7 @@
 {"char": "啤", "pinyin": "pí", "syllable": "pi", "tone": 2, "core": "beer", "mnemonic": "beer — the PInt", "invented": false, "crossRefs": [], "freqRank": 2884, "traditional": ""},
 {"char": "脾", "pinyin": "pí", "syllable": "pi", "tone": 2, "core": "spleen", "mnemonic": "the spleen — the PIece inside", "invented": false, "crossRefs": [], "freqRank": 2578, "traditional": ""},
 {"char": "匹", "pinyin": "pǐ", "syllable": "pi", "tone": 3, "core": "one of a matched pair; and the bolt of cloth", "mnemonic": "one of a matched pair, and the bolt of cloth — the PIEce that matches", "invented": false, "crossRefs": [], "freqRank": 1634, "traditional": "疋"},
-{"char": "劈", "pinyin": "pǐ", "syllable": "pi", "tone": 3, "core": "split into shares", "mnemonic": "split into shares — the PIEces divided", "invented": false, "crossRefs": ["pī"], "freqRank": 2641, "traditional": ""},
+{"char": "劈", "pinyin": "pǐ", "syllable": "pi", "tone": 3, "core": "split into shares", "mnemonic": "sPLIt open", "invented": false, "crossRefs": ["pī"], "freqRank": 2641, "traditional": ""},
 {"char": "屁", "pinyin": "pì", "syllable": "pi", "tone": 4, "core": "wind broken, and so nonsense", "mnemonic": "wind broken, and so nonsense — the PIffle", "invented": false, "crossRefs": [], "freqRank": 2589, "traditional": ""},
 {"char": "辟", "pinyin": "pì", "syllable": "pi", "tone": 4, "core": "opened up and cleared", "mnemonic": "opened up and cleared — the PIth opened", "invented": false, "crossRefs": ["bì"], "freqRank": 1901, "traditional": "闢"},
 {"char": "僻", "pinyin": "pì", "syllable": "pi", "tone": 4, "core": "off to one side and out of the way", "mnemonic": "off to one side and out of the way — the PEripheral spot", "invented": false, "crossRefs": [], "freqRank": 2922, "traditional": ""},
