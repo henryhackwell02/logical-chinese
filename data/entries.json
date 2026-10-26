@@ -1085,7 +1085,7 @@
 {"char": "妓", "pinyin": "jì", "syllable": "ji", "tone": 4, "core": "prostitute", "mnemonic": "the prostitute — the GEEsha's trade", "invented": false, "crossRefs": [], "freqRank": 2629, "traditional": ""},
 {"char": "既", "pinyin": "jì", "syllable": "ji", "tone": 4, "core": "already done, and so, given that", "mnemonic": "already done, and so given that — GEE, it's done", "invented": false, "crossRefs": [], "freqRank": 531, "traditional": ""},
 {"char": "家", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "the household under one roof", "mnemonic": "the household under one roof — the GAtherinG", "invented": false, "crossRefs": [], "freqRank": 55, "traditional": "傢"},
-{"char": "加", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "put on top of", "mnemonic": "put on top of — a GAin added", "invented": false, "crossRefs": [], "freqRank": 188, "traditional": ""},
+{"char": "加", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "put on top of", "mnemonic": "ADD", "invented": false, "crossRefs": [], "freqRank": 188, "traditional": ""},
 {"char": "夹", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "held between two sides", "mnemonic": "jam", "invented": false, "crossRefs": ["jiá"], "freqRank": 1762, "traditional": "夾裌"},
 {"char": "佳", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "fine and pleasing", "mnemonic": "fine and pleasing — a GAy one", "invented": false, "crossRefs": [], "freqRank": 1585, "traditional": ""},
 {"char": "嘉", "pinyin": "jiā", "syllable": "jia", "tone": 1, "core": "praised as excellent", "mnemonic": "praised as excellent — GrAnd", "invented": false, "crossRefs": [], "freqRank": 1308, "traditional": ""},
