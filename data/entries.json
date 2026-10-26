@@ -2133,7 +2133,7 @@
 {"char": "湿", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "wet", "mnemonic": "wet — the SHEEn of damp", "invented": false, "crossRefs": [], "freqRank": 2027, "traditional": "溼濕"},
 {"char": "狮", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "lion", "mnemonic": "the lion — the SHEer roar", "invented": false, "crossRefs": [], "freqRank": 2547, "traditional": "獅"},
 {"char": "时", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "time, and the season of it", "mnemonic": "time, and the season — the SEAson", "invented": false, "crossRefs": [], "freqRank": 28, "traditional": "旹時"},
-{"char": "石", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "stone", "mnemonic": "stone — the SHEEr rock", "invented": false, "crossRefs": ["dàn"], "freqRank": 368, "traditional": ""},
+{"char": "石", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "stone", "mnemonic": "STone", "invented": false, "crossRefs": ["dàn"], "freqRank": 368, "traditional": ""},
 {"char": "实", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "solid all through, and so true", "mnemonic": "solid all through, and so true — the SUbSTance", "invented": false, "crossRefs": [], "freqRank": 119, "traditional": "實"},
 {"char": "食", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "eaten", "mnemonic": "eaten — the SHEEr feed", "invented": false, "crossRefs": ["sì"], "freqRank": 568, "traditional": ""},
 {"char": "十", "pinyin": "shí", "syllable": "shi", "tone": 2, "core": "ten", "mnemonic": "ten — the SEt of ten", "invented": false, "crossRefs": [], "freqRank": 56, "traditional": ""},
