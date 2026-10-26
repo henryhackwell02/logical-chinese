@@ -2158,7 +2158,7 @@
 {"char": "势", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "the force of how things stand", "mnemonic": "foRCE and influeNCE", "invented": false, "crossRefs": [], "freqRank": 549, "traditional": "勢"},
 {"char": "氏", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "the clan name", "mnemonic": "the clan name — the SIre's name", "invented": false, "crossRefs": [], "freqRank": 719, "traditional": ""},
 {"char": "示", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "held out to be seen", "mnemonic": "held out to be seen — SHOWn", "invented": false, "crossRefs": [], "freqRank": 509, "traditional": ""},
-{"char": "释", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "loosed, and so explained", "mnemonic": "loosed, and so explained — SEt free and made plain", "invented": false, "crossRefs": [], "freqRank": 902, "traditional": "釋"},
+{"char": "释", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "loosed, and so explained", "mnemonic": "releASE / SET free", "invented": false, "crossRefs": [], "freqRank": 902, "traditional": "釋"},
 {"char": "饰", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "put on to dress up", "mnemonic": "put on to dress up — the SHOWy trim", "invented": false, "crossRefs": [], "freqRank": 1628, "traditional": "飾"},
 {"char": "适", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "fitting the case", "mnemonic": "fitting the case — it SUIts", "invented": false, "crossRefs": [], "freqRank": 759, "traditional": "適"},
 {"char": "似", "pinyin": "shì", "syllable": "shi", "tone": 4, "core": "in 似的, like", "mnemonic": "like — SEEmingly", "invented": false, "crossRefs": ["sì"], "freqRank": 466, "traditional": "佀"},
