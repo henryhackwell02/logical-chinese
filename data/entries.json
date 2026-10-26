@@ -1207,7 +1207,7 @@
 {"char": "仅", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "no more than", "mnemonic": "no more than — GENuinely just that", "invented": false, "crossRefs": [], "freqRank": 635, "traditional": "僅"},
 {"char": "进", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "moving forward and in", "mnemonic": "moving forward and in — GO IN", "invented": false, "crossRefs": [], "freqRank": 84, "traditional": "進"},
 {"char": "尽", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "used to the very end", "mnemonic": "used to the very end — all GONe", "invented": false, "crossRefs": ["jǐn"], "freqRank": 414, "traditional": "儘盡"},
-{"char": "近", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "close by", "mnemonic": "close by — GOing IN near", "invented": false, "crossRefs": [], "freqRank": 386, "traditional": ""},
+{"char": "近", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "close by", "mnemonic": "NEAR", "invented": false, "crossRefs": [], "freqRank": 386, "traditional": ""},
 {"char": "禁", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "held back by prohibition", "mnemonic": "held back by prohibition — the GATe shut", "invented": false, "crossRefs": ["jīn"], "freqRank": 943, "traditional": ""},
 {"char": "劲", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "the force put into it", "mnemonic": "SPirit / SPUNK", "invented": false, "crossRefs": ["jìng"], "freqRank": 1598, "traditional": "勁"},
 {"char": "浸", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "soaked through", "mnemonic": "IMMerse / sink IN", "invented": false, "crossRefs": [], "freqRank": 2514, "traditional": ""},
