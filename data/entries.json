@@ -2125,7 +2125,7 @@
 {"char": "盛", "pinyin": "shèng", "syllable": "sheng", "tone": 4, "core": "full and flourishing", "mnemonic": "full and flourishing — the SUrGE of it", "invented": false, "crossRefs": ["chéng"], "freqRank": 1066, "traditional": ""},
 {"char": "乘", "pinyin": "shèng", "syllable": "sheng", "tone": 4, "core": "the four-horse chariot", "mnemonic": "the four-horse chariot — the SEAtiNG of four", "invented": false, "crossRefs": ["chéng"], "freqRank": 1013, "traditional": "椉"},
 {"char": "剩", "pinyin": "shèng", "syllable": "sheng", "tone": 4, "core": "left over", "mnemonic": "left over — the SURplus", "invented": false, "crossRefs": [], "freqRank": 1604, "traditional": ""},
-{"char": "失", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "let slip and lost", "mnemonic": "let slip and lost — SHEd by accident", "invented": false, "crossRefs": [], "freqRank": 378, "traditional": ""},
+{"char": "失", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "let slip and lost", "mnemonic": "lOSE / miSS out", "invented": false, "crossRefs": [], "freqRank": 378, "traditional": ""},
 {"char": "师", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "the master, and those under him", "mnemonic": "teaCHER / masTER", "invented": false, "crossRefs": [], "freqRank": 270, "traditional": "師"},
 {"char": "施", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "put out and applied", "mnemonic": "put out and applied — the SHEddiNG of alms", "invented": false, "crossRefs": [], "freqRank": 617, "traditional": ""},
 {"char": "诗", "pinyin": "shī", "syllable": "shi", "tone": 1, "core": "poetry", "mnemonic": "poetry — the SHEEt of verse", "invented": false, "crossRefs": [], "freqRank": 754, "traditional": "詩"},
