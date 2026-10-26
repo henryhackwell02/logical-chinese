@@ -1202,7 +1202,7 @@
 {"char": "斤", "pinyin": "jīn", "syllable": "jin", "tone": 1, "core": "the catty; the axe-head that weighed it", "mnemonic": "the catty, and the axe-head that weighed it — the GRINding weight", "invented": false, "crossRefs": [], "freqRank": 1946, "traditional": ""},
 {"char": "尽", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "to the very limit allowed", "mnemonic": "up to the LIMit", "invented": false, "crossRefs": ["jìn"], "freqRank": 414, "traditional": "儘盡"},
 {"char": "紧", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "drawn tight", "mnemonic": "STRICT / tIGHt", "invented": false, "crossRefs": [], "freqRank": 659, "traditional": "緊"},
-{"char": "锦", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "brocade", "mnemonic": "brocade — the GLINting weave", "invented": false, "crossRefs": [], "freqRank": 1600, "traditional": "錦"},
+{"char": "锦", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "brocade", "mnemonic": "EMbroidery", "invented": false, "crossRefs": [], "freqRank": 1600, "traditional": "錦"},
 {"char": "谨", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "careful at every step", "mnemonic": "careful at every step — GINgerly", "invented": false, "crossRefs": [], "freqRank": 1782, "traditional": "謹"},
 {"char": "仅", "pinyin": "jǐn", "syllable": "jin", "tone": 3, "core": "no more than", "mnemonic": "no more than — GENuinely just that", "invented": false, "crossRefs": [], "freqRank": 635, "traditional": "僅"},
 {"char": "进", "pinyin": "jìn", "syllable": "jin", "tone": 4, "core": "moving forward and in", "mnemonic": "moving forward and in — GO IN", "invented": false, "crossRefs": [], "freqRank": 84, "traditional": "進"},
