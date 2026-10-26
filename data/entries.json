@@ -400,7 +400,7 @@
 {"char": "此", "pinyin": "cǐ", "syllable": "ci", "tone": 3, "core": "this one, here", "mnemonic": "this one — SEE, here", "invented": false, "crossRefs": [], "freqRank": 89, "traditional": ""},
 {"char": "次", "pinyin": "cì", "syllable": "ci", "tone": 4, "core": "next in order, and so one occurrence", "mnemonic": "SEcond / neXT / SEQuence", "invented": false, "crossRefs": [], "freqRank": 214, "traditional": ""},
 {"char": "刺", "pinyin": "cì", "syllable": "ci", "tone": 4, "core": "a sharp point driven in", "mnemonic": "stick", "invented": false, "crossRefs": [], "freqRank": 793, "traditional": ""},
-{"char": "赐", "pinyin": "cì", "syllable": "ci", "tone": 4, "core": "granted down from above", "mnemonic": "granted down — the king SEEs fit", "invented": false, "crossRefs": [], "freqRank": 1057, "traditional": "賜"},
+{"char": "赐", "pinyin": "cì", "syllable": "ci", "tone": 4, "core": "granted down from above", "mnemonic": "paSS down", "invented": false, "crossRefs": [], "freqRank": 1057, "traditional": "賜"},
 {"char": "伺", "pinyin": "cì", "syllable": "ci", "tone": 4, "core": "waiting on", "mnemonic": "waiting on — at your SErvice", "invented": false, "crossRefs": ["sì"], "freqRank": 2438, "traditional": ""},
 {"char": "聪", "pinyin": "cōng", "syllable": "cong", "tone": 1, "core": "sharp of hearing, and so quick-witted", "mnemonic": "sharp-eared — it all COmes throuGh", "invented": false, "crossRefs": [], "freqRank": 1733, "traditional": "聰"},
 {"char": "匆", "pinyin": "cōng", "syllable": "cong", "tone": 1, "core": "hurried", "mnemonic": "COme on, hurry", "invented": false, "crossRefs": [], "freqRank": 1801, "traditional": "怱悤"},
