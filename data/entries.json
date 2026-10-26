@@ -2350,7 +2350,7 @@
 {"char": "挑", "pinyin": "tiǎo", "syllable": "tiao", "tone": 3, "core": "levered up with a point", "mnemonic": "levered up with a point — the TOEing up", "invented": false, "crossRefs": ["tiāo"], "freqRank": 1462, "traditional": ""},
 {"char": "跳", "pinyin": "tiào", "syllable": "tiao", "tone": 4, "core": "jumped", "mnemonic": "leapT OVer", "invented": false, "crossRefs": [], "freqRank": 1116, "traditional": ""},
 {"char": "贴", "pinyin": "tiē", "syllable": "tie", "tone": 1, "core": "stuck flat against", "mnemonic": "pasTE / STIck on", "invented": false, "crossRefs": [], "freqRank": 1641, "traditional": "貼"},
-{"char": "帖", "pinyin": "tiē", "syllable": "tie", "tone": 1, "core": "fitting snugly", "mnemonic": "fitting snugly — the TIght fit", "invented": false, "crossRefs": ["tiě"], "freqRank": 2407, "traditional": ""},
+{"char": "帖", "pinyin": "tiē", "syllable": "tie", "tone": 1, "core": "fitting snugly", "mnemonic": "fiTTIngly", "invented": false, "crossRefs": ["tiě"], "freqRank": 2407, "traditional": ""},
 {"char": "铁", "pinyin": "tiě", "syllable": "tie", "tone": 3, "core": "iron", "mnemonic": "iron — the TEmpered metal", "invented": false, "crossRefs": [], "freqRank": 824, "traditional": "鐵"},
 {"char": "帖", "pinyin": "tiě", "syllable": "tie", "tone": 3, "core": "the written card", "mnemonic": "the written card — the TIcket", "invented": false, "crossRefs": ["tiē"], "freqRank": 2407, "traditional": ""},
 {"char": "听", "pinyin": "tīng", "syllable": "ting", "tone": 1, "core": "listened to, and so heeded", "mnemonic": "listened to, and so heeded — the TUNING in", "invented": false, "crossRefs": ["tìng"], "freqRank": 245, "traditional": "聽"},
