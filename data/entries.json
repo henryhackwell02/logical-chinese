@@ -1787,7 +1787,7 @@
 {"char": "配", "pinyin": "pèi", "syllable": "pei", "tone": 4, "core": "matched and paired off", "mnemonic": "pair", "invented": false, "crossRefs": [], "freqRank": 843, "traditional": ""},
 {"char": "佩", "pinyin": "pèi", "syllable": "pei", "tone": 4, "core": "worn at the belt, and so held in regard", "mnemonic": "worn at the belt, and so held in regard — the PENdant", "invented": false, "crossRefs": [], "freqRank": 1629, "traditional": "珮"},
 {"char": "沛", "pinyin": "pèi", "syllable": "pei", "tone": 4, "core": "flowing in plenty", "mnemonic": "flowing in plenty — the PAIls of it", "invented": false, "crossRefs": [], "freqRank": 2836, "traditional": ""},
-{"char": "喷", "pinyin": "pēn", "syllable": "pen", "tone": 1, "core": "forced out in a spray", "mnemonic": "forced out in a spray — the PUmp's jet", "invented": false, "crossRefs": ["pèn"], "freqRank": 2052, "traditional": "噴"},
+{"char": "喷", "pinyin": "pēn", "syllable": "pen", "tone": 1, "core": "forced out in a spray", "mnemonic": "sPURt / PUMP out", "invented": false, "crossRefs": ["pèn"], "freqRank": 2052, "traditional": "噴"},
 {"char": "盆", "pinyin": "pén", "syllable": "pen", "tone": 2, "core": "the wide shallow basin", "mnemonic": "the wide shallow basin — the PAN", "invented": false, "crossRefs": [], "freqRank": 2217, "traditional": ""},
 {"char": "喷", "pinyin": "pèn", "syllable": "pen", "tone": 4, "core": "at its strongest flush", "mnemonic": "at its strongest flush — the PUmping peak", "invented": false, "crossRefs": ["pēn"], "freqRank": 2052, "traditional": "噴"},
 {"char": "烹", "pinyin": "pēng", "syllable": "peng", "tone": 1, "core": "cooked over heat", "mnemonic": "the PAN set going", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
