@@ -1660,7 +1660,7 @@
 {"char": "魔", "pinyin": "mó", "syllable": "mo", "tone": 2, "core": "the demon and its spell", "mnemonic": "the demon and its spell — the MOnster", "invented": false, "crossRefs": [], "freqRank": 1381, "traditional": ""},
 {"char": "膜", "pinyin": "mó", "syllable": "mo", "tone": 2, "core": "a thin covering film", "mnemonic": "a thin covering film — the MEMbrane", "invented": false, "crossRefs": [], "freqRank": 2369, "traditional": ""},
 {"char": "摹", "pinyin": "mó", "syllable": "mo", "tone": 2, "core": "copied from the model", "mnemonic": "copied from the model — the MOdel traced", "invented": false, "crossRefs": [], "freqRank": 2983, "traditional": ""},
-{"char": "抹", "pinyin": "mǒ", "syllable": "mo", "tone": 3, "core": "smeared on, or wiped off", "mnemonic": "smeared on, or wiped off — the MOp across", "invented": false, "crossRefs": ["mā", "mò"], "freqRank": 2300, "traditional": ""},
+{"char": "抹", "pinyin": "mǒ", "syllable": "mo", "tone": 3, "core": "smeared on, or wiped off", "mnemonic": "sMEAR out", "invented": false, "crossRefs": ["mā", "mò"], "freqRank": 2300, "traditional": ""},
 {"char": "没", "pinyin": "mò", "syllable": "mo", "tone": 4, "core": "gone under", "mnemonic": "gone under — the MOment it sinks", "invented": false, "crossRefs": ["méi"], "freqRank": 98, "traditional": "沒"},
 {"char": "莫", "pinyin": "mò", "syllable": "mo", "tone": 4, "core": "let there be none", "mnemonic": "let there be none — MOst certainly not", "invented": false, "crossRefs": [], "freqRank": 797, "traditional": ""},
 {"char": "磨", "pinyin": "mò", "syllable": "mo", "tone": 4, "core": "the millstone", "mnemonic": "the millstone — the MORtar-stone", "invented": false, "crossRefs": ["mó"], "freqRank": 1725, "traditional": ""},
