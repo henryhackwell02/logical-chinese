@@ -1028,7 +1028,7 @@
 {"char": "活", "pinyin": "huó", "syllable": "huo", "tone": 2, "core": "living, and the work of the living", "mnemonic": "living, and the work of the living — WHAt keeps you going", "invented": false, "crossRefs": [], "freqRank": 284, "traditional": ""},
 {"char": "火", "pinyin": "huǒ", "syllable": "huo", "tone": 3, "core": "fire", "mnemonic": "WHOA, fire!", "invented": false, "crossRefs": [], "freqRank": 431, "traditional": ""},
 {"char": "伙", "pinyin": "huǒ", "syllable": "huo", "tone": 3, "core": "the mess-group that eats together", "mnemonic": "the mess-group that eats together — the WHOle crew", "invented": false, "crossRefs": [], "freqRank": 1201, "traditional": "夥"},
-{"char": "和", "pinyin": "huò", "syllable": "huo", "tone": 4, "core": "stirred together", "mnemonic": "stirred together — WHIsked", "invented": false, "crossRefs": ["hé"], "freqRank": 24, "traditional": "咊龢"},
+{"char": "和", "pinyin": "huò", "syllable": "huo", "tone": 4, "core": "stirred together", "mnemonic": "inCORporate", "invented": false, "crossRefs": ["hé"], "freqRank": 24, "traditional": "咊龢"},
 {"char": "货", "pinyin": "huò", "syllable": "huo", "tone": 4, "core": "goods to be traded", "mnemonic": "goods to be traded — WHAt's for sale", "invented": false, "crossRefs": [], "freqRank": 953, "traditional": "貨"},
 {"char": "获", "pinyin": "huò", "syllable": "huo", "tone": 4, "core": "taken and brought in", "mnemonic": "taken and brought in — WHAt you harvest", "invented": false, "crossRefs": [], "freqRank": 741, "traditional": "獲穫"},
 {"char": "霍", "pinyin": "huò", "syllable": "huo", "tone": 4, "core": "all at once", "mnemonic": "all at once — WHOOsh", "invented": false, "crossRefs": [], "freqRank": 1661, "traditional": ""},
