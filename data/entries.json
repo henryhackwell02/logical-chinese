@@ -2390,7 +2390,7 @@
 {"char": "吐", "pinyin": "tù", "syllable": "tu", "tone": 4, "core": "brought up", "mnemonic": "brought up — the ThrOw-up", "invented": false, "crossRefs": ["tǔ"], "freqRank": 1589, "traditional": ""},
 {"char": "兔", "pinyin": "tù", "syllable": "tu", "tone": 4, "core": "rabbit", "mnemonic": "the rabbit — the TUft-tail", "invented": false, "crossRefs": [], "freqRank": 2494, "traditional": "兎"},
 {"char": "团", "pinyin": "tuán", "syllable": "tuan", "tone": 2, "core": "rolled into a ball, and so the body gathered", "mnemonic": "rolled into a ball, and so the body gathered — the rOUND clump", "invented": false, "crossRefs": [], "freqRank": 498, "traditional": "團糰"},
-{"char": "推", "pinyin": "tuī", "syllable": "tui", "tone": 1, "core": "pushed forward, and so put forward", "mnemonic": "pushed forward, and so put forward — the TWO-handed shove", "invented": false, "crossRefs": [], "freqRank": 536, "traditional": ""},
+{"char": "推", "pinyin": "tuī", "syllable": "tui", "tone": 1, "core": "pushed forward, and so put forward", "mnemonic": "push / rejecT AWAY", "invented": false, "crossRefs": [], "freqRank": 536, "traditional": ""},
 {"char": "腿", "pinyin": "tuǐ", "syllable": "tui", "tone": 3, "core": "leg", "mnemonic": "the leg — the TWo of them", "invented": false, "crossRefs": [], "freqRank": 1555, "traditional": "骽"},
 {"char": "退", "pinyin": "tuì", "syllable": "tui", "tone": 4, "core": "drawn back", "mnemonic": "drawn back — the reTreAT", "invented": false, "crossRefs": [], "freqRank": 710, "traditional": ""},
 {"char": "吞", "pinyin": "tūn", "syllable": "tun", "tone": 1, "core": "swallowed whole", "mnemonic": "swallowed whole — the TON gulped", "invented": false, "crossRefs": [], "freqRank": 2004, "traditional": ""},
