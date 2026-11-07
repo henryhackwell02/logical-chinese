@@ -1113,7 +1113,7 @@
 {"char": "简", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "the bamboo slip, and so pared down to the plain", "mnemonic": "the bamboo slip, pared to the plain — the GENtle simple", "invented": false, "crossRefs": [], "freqRank": 820, "traditional": "簡"},
 {"char": "减", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "taken away from", "mnemonic": "taken away from — the GAiN reversed", "invented": false, "crossRefs": [], "freqRank": 897, "traditional": "減"},
 {"char": "俭", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "sparing in use", "mnemonic": "sparing in use — GENtle with the purse", "invented": false, "crossRefs": [], "freqRank": 2417, "traditional": "儉"},
-{"char": "剪", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "cut with two blades", "mnemonic": "cut with two blades — the sheArs GO snip", "invented": false, "crossRefs": [], "freqRank": 2420, "traditional": "翦"},
+{"char": "剪", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "cut with two blades", "mnemonic": "SECT in two", "invented": false, "crossRefs": [], "freqRank": 2420, "traditional": "翦"},
 {"char": "拣", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "picked out from the rest", "mnemonic": "picked out from the rest — GAtherinG the good ones", "invented": false, "crossRefs": [], "freqRank": 2887, "traditional": "揀"},
 {"char": "柬", "pinyin": "jiǎn", "syllable": "jian", "tone": 3, "core": "a written invitation", "mnemonic": "the invitation you're GIvEN", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "见", "pinyin": "jiàn", "syllable": "jian", "tone": 4, "core": "seen", "mnemonic": "seen — GAiNed sight of", "invented": false, "crossRefs": ["xiàn"], "freqRank": 95, "traditional": "見"},
