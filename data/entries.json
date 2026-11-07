@@ -599,7 +599,7 @@
 {"char": "度", "pinyin": "duó", "syllable": "duo", "tone": 2, "core": "measured by eye and estimated", "mnemonic": "sized up by eye — DUly reckoned", "invented": false, "crossRefs": ["dù"], "freqRank": 196, "traditional": ""},
 {"char": "夺", "pinyin": "duó", "syllable": "duo", "tone": 2, "core": "seized out of another's hold", "mnemonic": "seized — DUcked out of his hold", "invented": false, "crossRefs": [], "freqRank": 1190, "traditional": "奪"},
 {"char": "躲", "pinyin": "duǒ", "syllable": "duo", "tone": 3, "core": "got out of sight", "mnemonic": "dodge", "invented": false, "crossRefs": [], "freqRank": 1844, "traditional": ""},
-{"char": "朵", "pinyin": "duǒ", "syllable": "duo", "tone": 3, "core": "a blossom-shaped cluster on a stem", "mnemonic": "the blossom's DOughy cluster", "invented": false, "crossRefs": [], "freqRank": 1800, "traditional": "朶"},
+{"char": "朵", "pinyin": "duǒ", "syllable": "duo", "tone": 3, "core": "a blossom-shaped cluster on a stem", "mnemonic": "LOBE", "invented": false, "crossRefs": [], "freqRank": 1800, "traditional": "朶"},
 {"char": "堕", "pinyin": "duò", "syllable": "duo", "tone": 4, "core": "fallen away and down", "mnemonic": "fallen away — DrOpped down", "invented": false, "crossRefs": [], "freqRank": 2666, "traditional": "墮"},
 {"char": "惰", "pinyin": "duò", "syllable": "duo", "tone": 4, "core": "idle, unwilling to stir", "mnemonic": "DOing nothing", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "额", "pinyin": "é", "syllable": "e", "tone": 2, "core": "the flat brow, and the figure fixed on it", "mnemonic": "outER quoTA or AMount", "invented": false, "crossRefs": [], "freqRank": 1055, "traditional": "頟額"},
