@@ -1603,7 +1603,7 @@
 {"char": "每", "pinyin": "měi", "syllable": "mei", "tone": 3, "core": "each one in turn", "mnemonic": "each one in turn — every MAn", "invented": false, "crossRefs": [], "freqRank": 380, "traditional": ""},
 {"char": "妹", "pinyin": "mèi", "syllable": "mei", "tone": 4, "core": "younger sister", "mnemonic": "the younger sister — the MAid behind you", "invented": false, "crossRefs": [], "freqRank": 1082, "traditional": ""},
 {"char": "媚", "pinyin": "mèi", "syllable": "mei", "tone": 4, "core": "pleasing enough to win over", "mnemonic": "pleasing enough to win over — the MAiden's charm", "invented": false, "crossRefs": [], "freqRank": 2292, "traditional": ""},
-{"char": "昧", "pinyin": "mèi", "syllable": "mei", "tone": 4, "core": "kept dark", "mnemonic": "kept dark — MAde murky", "invented": false, "crossRefs": [], "freqRank": 2430, "traditional": ""},
+{"char": "昧", "pinyin": "mèi", "syllable": "mei", "tone": 4, "core": "kept dark", "mnemonic": "MUrky", "invented": false, "crossRefs": [], "freqRank": 2430, "traditional": ""},
 {"char": "魅", "pinyin": "mèi", "syllable": "mei", "tone": 4, "core": "the spirit that bewitches", "mnemonic": "the spirit that bewitches — the MAlign charm", "invented": false, "crossRefs": [], "freqRank": 2763, "traditional": ""},
 {"char": "闷", "pinyin": "mēn", "syllable": "men", "tone": 1, "core": "shut in with no air", "mnemonic": "shut in with no air — the MUggy room", "invented": false, "crossRefs": ["mèn"], "freqRank": 1917, "traditional": "悶"},
 {"char": "门", "pinyin": "mén", "syllable": "men", "tone": 2, "core": "the gate, and the family or school within it", "mnemonic": "the gate, and the family within — MEN at the gate", "invented": false, "crossRefs": [], "freqRank": 151, "traditional": "門"},
