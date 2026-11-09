@@ -542,7 +542,7 @@
 {"char": "盯", "pinyin": "dīng", "syllable": "ding", "tone": 1, "core": "eyes fixed on", "mnemonic": "fiXEDly", "invented": false, "crossRefs": [], "freqRank": 2340, "traditional": ""},
 {"char": "顶", "pinyin": "dǐng", "syllable": "ding", "tone": 3, "core": "the top, and pushing up against it", "mnemonic": "roofING", "invented": false, "crossRefs": [], "freqRank": 1114, "traditional": "頂"},
 {"char": "鼎", "pinyin": "dǐng", "syllable": "ding", "tone": 3, "core": "the three-legged cauldron", "mnemonic": "the three-legged cauldron's DIN", "invented": false, "crossRefs": [], "freqRank": 2051, "traditional": ""},
-{"char": "定", "pinyin": "dìng", "syllable": "ding", "tone": 4, "core": "fixed in place and settled", "mnemonic": "fixed and settled — DONE", "invented": false, "crossRefs": [], "freqRank": 94, "traditional": ""},
+{"char": "定", "pinyin": "dìng", "syllable": "ding", "tone": 4, "core": "fixed in place and settled", "mnemonic": "FIX Down", "invented": false, "crossRefs": [], "freqRank": 94, "traditional": ""},
 {"char": "订", "pinyin": "dìng", "syllable": "ding", "tone": 4, "core": "settled by agreement", "mnemonic": "settled by agreement — DONE deal", "invented": false, "crossRefs": [], "freqRank": 1418, "traditional": "訂"},
 {"char": "钉", "pinyin": "dìng", "syllable": "ding", "tone": 4, "core": "nailed fast", "mnemonic": "nailed fast — DINGed home", "invented": false, "crossRefs": ["dīng"], "freqRank": 2505, "traditional": "釘"},
 {"char": "丢", "pinyin": "diū", "syllable": "diu", "tone": 1, "core": "let go and lost", "mnemonic": "let go — DrOpped and lost", "invented": false, "crossRefs": [], "freqRank": 1841, "traditional": "丟"},
