@@ -2335,7 +2335,7 @@
 {"char": "蹄", "pinyin": "tí", "syllable": "ti", "tone": 2, "core": "hoof", "mnemonic": "the hoof — the TIp of the leg", "invented": false, "crossRefs": [], "freqRank": 2930, "traditional": "蹏"},
 {"char": "啼", "pinyin": "tí", "syllable": "ti", "tone": 2, "core": "the cry of a bird or child", "mnemonic": "hooTING", "invented": false, "crossRefs": [], "freqRank": 2670, "traditional": "嗁"},
 {"char": "体", "pinyin": "tǐ", "syllable": "ti", "tone": 3, "core": "the body, and the form it takes", "mnemonic": "the body, and the form it takes — the TOrso", "invented": false, "crossRefs": [], "freqRank": 181, "traditional": "體"},
-{"char": "替", "pinyin": "tì", "syllable": "ti", "tone": 4, "core": "put in another's place", "mnemonic": "put in another's place — the sTAnd-in", "invented": false, "crossRefs": [], "freqRank": 1140, "traditional": ""},
+{"char": "替", "pinyin": "tì", "syllable": "ti", "tone": 4, "core": "put in another's place", "mnemonic": "subsTItue", "invented": false, "crossRefs": [], "freqRank": 1140, "traditional": ""},
 {"char": "涕", "pinyin": "tì", "syllable": "ti", "tone": 4, "core": "tears and mucus", "mnemonic": "tears and mucus — the TEArs", "invented": false, "crossRefs": [], "freqRank": 2659, "traditional": ""},
 {"char": "惕", "pinyin": "tì", "syllable": "ti", "tone": 4, "core": "alert to danger", "mnemonic": "up on your TIptoes, watchful", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "天", "pinyin": "tiān", "syllable": "tian", "tone": 1, "core": "the sky, and the day under it", "mnemonic": "the sky, and the day under it — the TENt of heaven", "invented": false, "crossRefs": [], "freqRank": 59, "traditional": ""},
