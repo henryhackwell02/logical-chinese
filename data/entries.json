@@ -355,7 +355,7 @@
 {"char": "丑", "pinyin": "chǒu", "syllable": "chou", "tone": 3, "core": "ugly; the clown", "mnemonic": "CLOWN face!", "invented": false, "crossRefs": [], "freqRank": 1369, "traditional": "醜"},
 {"char": "臭", "pinyin": "chòu", "syllable": "chou", "tone": 4, "core": "a bad smell", "mnemonic": "stenCH OF", "invented": false, "crossRefs": ["xiù"], "freqRank": 2361, "traditional": ""},
 {"char": "出", "pinyin": "chū", "syllable": "chu", "tone": 1, "core": "coming out from within", "mnemonic": "CHUcked out from within", "invented": false, "crossRefs": [], "freqRank": 30, "traditional": "齣"},
-{"char": "初", "pinyin": "chū", "syllable": "chu", "tone": 1, "core": "the first of something", "mnemonic": "the CHUrn of the very first", "invented": false, "crossRefs": [], "freqRank": 477, "traditional": ""},
+{"char": "初", "pinyin": "chū", "syllable": "chu", "tone": 1, "core": "the first of something", "mnemonic": "iniCHUl", "invented": false, "crossRefs": [], "freqRank": 477, "traditional": ""},
 {"char": "除", "pinyin": "chú", "syllable": "chu", "tone": 2, "core": "taken away and cleared", "mnemonic": "CHUcked out and cleared", "invented": false, "crossRefs": [], "freqRank": 475, "traditional": ""},
 {"char": "厨", "pinyin": "chú", "syllable": "chu", "tone": 2, "core": "kitchen", "mnemonic": "the kitchen's CHEf", "invented": false, "crossRefs": [], "freqRank": 2277, "traditional": "㕑廚"},
 {"char": "处", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "being situated, and dealing with it", "mnemonic": "situated — you CHOose how to deal", "invented": false, "crossRefs": ["chù"], "freqRank": 207, "traditional": "處"},
