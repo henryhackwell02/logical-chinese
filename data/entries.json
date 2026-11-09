@@ -362,7 +362,7 @@
 {"char": "储", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "laid by in reserve", "mnemonic": "STOCKpile (CHOCKS of it)", "invented": false, "crossRefs": [], "freqRank": 1710, "traditional": "儲"},
 {"char": "楚", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "sharp and distinct — in sight, or in pain", "mnemonic": "sharp — it CHEws at you", "invented": false, "crossRefs": [], "freqRank": 842, "traditional": ""},
 {"char": "础", "pinyin": "chǔ", "syllable": "chu", "tone": 3, "core": "the stone a pillar stands on", "mnemonic": "the stone the pillar's CHOcked on", "invented": false, "crossRefs": [], "freqRank": 1211, "traditional": "礎"},
-{"char": "处", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "a place", "mnemonic": "the place you're CHUcked", "invented": false, "crossRefs": ["chǔ"], "freqRank": 207, "traditional": "處"},
+{"char": "处", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "a place", "mnemonic": "the siTU (noun/place)", "invented": false, "crossRefs": ["chǔ"], "freqRank": 207, "traditional": "處"},
 {"char": "触", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "touching, and so setting off", "mnemonic": "a touch that sets it off — CHOOses to fire", "invented": false, "crossRefs": [], "freqRank": 1417, "traditional": "觸"},
 {"char": "畜", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "the kept animal", "mnemonic": "CHUCKie ducks", "invented": false, "crossRefs": ["xù"], "freqRank": 2065, "traditional": ""},
 {"char": "黜", "pinyin": "chù", "syllable": "chu", "tone": 4, "core": "put out of office", "mnemonic": "CHUcked out of office", "invented": false, "crossRefs": [], "freqRank": 2958, "traditional": ""},
