@@ -1925,7 +1925,7 @@
 {"char": "峭", "pinyin": "qiào", "syllable": "qiao", "tone": 4, "core": "steep and sheer", "mnemonic": "the CHOp of a cliff face", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "切", "pinyin": "qiē", "syllable": "qie", "tone": 1, "core": "cut through", "mnemonic": "cut through — the CHOp", "invented": false, "crossRefs": ["qiè"], "freqRank": 400, "traditional": ""},
 {"char": "且", "pinyin": "qiě", "syllable": "qie", "tone": 3, "core": "and moreover; for now", "mnemonic": "and moreover; for now — CHEck, and also", "invented": false, "crossRefs": [], "freqRank": 276, "traditional": ""},
-{"char": "切", "pinyin": "qiè", "syllable": "qie", "tone": 4, "core": "pressed close, and so urgently", "mnemonic": "pressed close, and so urgently — CHEEk to cheek", "invented": false, "crossRefs": ["qiē"], "freqRank": 400, "traditional": ""},
+{"char": "切", "pinyin": "qiè", "syllable": "qie", "tone": 4, "core": "pressed close, and so urgently", "mnemonic": "EAGerly SLICE", "invented": false, "crossRefs": ["qiē"], "freqRank": 400, "traditional": ""},
 {"char": "窃", "pinyin": "qiè", "syllable": "qie", "tone": 4, "core": "taken on the quiet", "mnemonic": "taken on the quiet — the CHEEky theft", "invented": false, "crossRefs": [], "freqRank": 1856, "traditional": "竊"},
 {"char": "怯", "pinyin": "qiè", "syllable": "qie", "tone": 4, "core": "shrinking back", "mnemonic": "shrinking back — the CHIcken in you", "invented": false, "crossRefs": [], "freqRank": 2523, "traditional": ""},
 {"char": "妾", "pinyin": "qiè", "syllable": "qie", "tone": 4, "core": "the concubine", "mnemonic": "the concubine — the CHEEk beside the wife", "invented": false, "crossRefs": [], "freqRank": 1949, "traditional": ""},
