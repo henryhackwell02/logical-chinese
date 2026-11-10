@@ -2648,7 +2648,7 @@
 {"char": "修", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "put in order and made good", "mnemonic": "reSTORE", "invented": false, "crossRefs": [], "freqRank": 680, "traditional": "脩"},
 {"char": "休", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "stopped and rested", "mnemonic": "STOP for a minute", "invented": false, "crossRefs": [], "freqRank": 1020, "traditional": ""},
 {"char": "羞", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "shamed, and shrinking from it", "mnemonic": "SHAmed / SHY", "invented": false, "crossRefs": [], "freqRank": 2020, "traditional": ""},
-{"char": "宿", "pinyin": "xiǔ", "syllable": "xiu", "tone": 3, "core": "one night's stay", "mnemonic": "one night's stay — the SHUt-eye night", "invented": false, "crossRefs": ["sù", "xiù"], "freqRank": 1370, "traditional": "㝛"},
+{"char": "宿", "pinyin": "xiǔ", "syllable": "xiu", "tone": 3, "core": "one night's stay", "mnemonic": "STAY (as in \"one night's stay\")", "invented": false, "crossRefs": ["sù", "xiù"], "freqRank": 1370, "traditional": "㝛"},
 {"char": "朽", "pinyin": "xiǔ", "syllable": "xiu", "tone": 3, "core": "rotted through", "mnemonic": "rotted through — the SHOddy rot", "invented": false, "crossRefs": [], "freqRank": 2772, "traditional": ""},
 {"char": "秀", "pinyin": "xiù", "syllable": "xiu", "tone": 4, "core": "the ear of grain coming out, and so fine and elegant", "mnemonic": "SUPerior / SHOW off", "invented": false, "crossRefs": [], "freqRank": 1076, "traditional": ""},
 {"char": "宿", "pinyin": "xiù", "syllable": "xiu", "tone": 4, "core": "the lodge of the moon; the constellation", "mnemonic": "the lodge of the moon; the constellation — the SkY's inn", "invented": false, "crossRefs": ["sù", "xiǔ"], "freqRank": 1370, "traditional": "㝛"},
