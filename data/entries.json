@@ -659,7 +659,7 @@
 {"char": "肥", "pinyin": "féi", "syllable": "fei", "tone": 2, "core": "fat", "mnemonic": "fat — a FAt belly", "invented": false, "crossRefs": [], "freqRank": 1824, "traditional": ""},
 {"char": "菲", "pinyin": "fěi", "syllable": "fei", "tone": 3, "core": "meagre and humble", "mnemonic": "meagre — a FEEble portion", "invented": false, "crossRefs": [], "freqRank": 1756, "traditional": ""},
 {"char": "匪", "pinyin": "fěi", "syllable": "fei", "tone": 3, "core": "bandit", "mnemonic": "the bandit — a FIEnd", "invented": false, "crossRefs": [], "freqRank": 2254, "traditional": ""},
-{"char": "诽", "pinyin": "fěi", "syllable": "fei", "tone": 3, "core": "speaking ill of", "mnemonic": "FEIgning faults in someone", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "誹"},
+{"char": "诽", "pinyin": "fěi", "syllable": "fei", "tone": 3, "core": "speaking ill of", "mnemonic": "FAKE libel", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "誹"},
 {"char": "费", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "spent out", "mnemonic": "fee", "invented": false, "crossRefs": [], "freqRank": 560, "traditional": "費"},
 {"char": "废", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "cast aside as useless", "mnemonic": "do aWAY with WAste", "invented": false, "crossRefs": [], "freqRank": 1182, "traditional": "廢癈"},
 {"char": "肺", "pinyin": "fèi", "syllable": "fei", "tone": 4, "core": "lung", "mnemonic": "the lung's puFF", "invented": false, "crossRefs": [], "freqRank": 2348, "traditional": ""},
