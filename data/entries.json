@@ -1409,7 +1409,7 @@
 {"char": "累", "pinyin": "lěi", "syllable": "lei", "tone": 3, "core": "piled up one on another", "mnemonic": "piled up one on another — the LAYers grow", "invented": false, "crossRefs": ["léi", "lèi"], "freqRank": 1176, "traditional": "纍"},
 {"char": "垒", "pinyin": "lěi", "syllable": "lei", "tone": 3, "core": "stones built up into a rampart", "mnemonic": "stones built into a rampart — the LAYered wall", "invented": false, "crossRefs": [], "freqRank": 2411, "traditional": "壘"},
 {"char": "蕾", "pinyin": "lěi", "syllable": "lei", "tone": 3, "core": "the bud before it opens", "mnemonic": "the LAYered bud, not yet open", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
-{"char": "类", "pinyin": "lèi", "syllable": "lei", "tone": 4, "core": "things of one kind together", "mnemonic": "things of one kind — the LAYer they belong to", "invented": false, "crossRefs": [], "freqRank": 372, "traditional": "類"},
+{"char": "类", "pinyin": "lèi", "syllable": "lei", "tone": 4, "core": "things of one kind together", "mnemonic": "cLASS", "invented": false, "crossRefs": [], "freqRank": 372, "traditional": "類"},
 {"char": "累", "pinyin": "lèi", "syllable": "lei", "tone": 4, "core": "worn down by the load", "mnemonic": "lay", "invented": false, "crossRefs": ["léi", "lěi"], "freqRank": 1176, "traditional": "纍"},
 {"char": "泪", "pinyin": "lèi", "syllable": "lei", "tone": 4, "core": "tears", "mnemonic": "tears — what you LAY down crying", "invented": false, "crossRefs": [], "freqRank": 1274, "traditional": "淚"},
 {"char": "冷", "pinyin": "lěng", "syllable": "leng", "tone": 3, "core": "cold", "mnemonic": "cold — a LENGthy winter", "invented": false, "crossRefs": [], "freqRank": 831, "traditional": ""},
