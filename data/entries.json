@@ -1535,7 +1535,7 @@
 {"char": "率", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the rate: one measured against another", "mnemonic": "the rate: one measured against another — the LEvy per hundred", "invented": false, "crossRefs": ["shuài"], "freqRank": 594, "traditional": ""},
 {"char": "律", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the fixed rule", "mnemonic": "LAW", "invented": false, "crossRefs": [], "freqRank": 605, "traditional": ""},
 {"char": "虑", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "turned over in the mind", "mnemonic": "mULL over", "invented": false, "crossRefs": [], "freqRank": 991, "traditional": "慮"},
-{"char": "滤", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "strained through to clean", "mnemonic": "what the cloth LEts through", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "濾"},
+{"char": "滤", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "strained through to clean", "mnemonic": "fiLTer thrOUGH", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "濾"},
 {"char": "略", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "cut down to the outline, and so the plan", "mnemonic": "outLINED / LEAN version", "invented": false, "crossRefs": [], "freqRank": 726, "traditional": "畧"},
 {"char": "掠", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "swept off and taken", "mnemonic": "swept off and taken — the LOOt swept up", "invented": false, "crossRefs": [], "freqRank": 1771, "traditional": ""},
 {"char": "卵", "pinyin": "luǎn", "syllable": "luan", "tone": 3, "core": "egg", "mnemonic": "L'OEUF", "invented": false, "crossRefs": [], "freqRank": 2323, "traditional": ""},
