@@ -2645,7 +2645,7 @@
 {"char": "汹", "pinyin": "xiōng", "syllable": "xiong", "tone": 1, "core": "water surging up", "mnemonic": "water that SHOUlders up", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "洶"},
 {"char": "雄", "pinyin": "xióng", "syllable": "xiong", "tone": 2, "core": "the male, and the strength of it", "mnemonic": "the male, and the strength of it — the STRONG one", "invented": false, "crossRefs": [], "freqRank": 1029, "traditional": ""},
 {"char": "熊", "pinyin": "xióng", "syllable": "xiong", "tone": 2, "core": "bear", "mnemonic": "the bear — the SHAGGY one", "invented": false, "crossRefs": [], "freqRank": 1950, "traditional": ""},
-{"char": "修", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "put in order and made good", "mnemonic": "put in order and made good — the SHOOed-up repair", "invented": false, "crossRefs": [], "freqRank": 680, "traditional": "脩"},
+{"char": "修", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "put in order and made good", "mnemonic": "reSTORE", "invented": false, "crossRefs": [], "freqRank": 680, "traditional": "脩"},
 {"char": "休", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "stopped and rested", "mnemonic": "stopped and rested — the SHOOsh, a break", "invented": false, "crossRefs": [], "freqRank": 1020, "traditional": ""},
 {"char": "羞", "pinyin": "xiū", "syllable": "xiu", "tone": 1, "core": "shamed, and shrinking from it", "mnemonic": "SHAmed / SHY", "invented": false, "crossRefs": [], "freqRank": 2020, "traditional": ""},
 {"char": "宿", "pinyin": "xiǔ", "syllable": "xiu", "tone": 3, "core": "one night's stay", "mnemonic": "one night's stay — the SHUt-eye night", "invented": false, "crossRefs": ["sù", "xiù"], "freqRank": 1370, "traditional": "㝛"},
