@@ -2204,7 +2204,7 @@
 {"char": "墅", "pinyin": "shù", "syllable": "shu", "tone": 4, "core": "a house out of town", "mnemonic": "the house SHOved out of town", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "刷", "pinyin": "shuā", "syllable": "shua", "tone": 1, "core": "brushed over", "mnemonic": "brushed over — the SWAb", "invented": false, "crossRefs": [], "freqRank": 2193, "traditional": ""},
 {"char": "耍", "pinyin": "shuǎ", "syllable": "shua", "tone": 3, "core": "played with", "mnemonic": "played with — the SWAgger", "invented": false, "crossRefs": [], "freqRank": 1788, "traditional": ""},
-{"char": "衰", "pinyin": "shuāi", "syllable": "shuai", "tone": 1, "core": "falling away in strength", "mnemonic": "falling away in strength — SWAYing to nothing", "invented": false, "crossRefs": [], "freqRank": 1752, "traditional": ""},
+{"char": "衰", "pinyin": "shuāi", "syllable": "shuai", "tone": 1, "core": "falling away in strength", "mnemonic": "deCAY aWAY", "invented": false, "crossRefs": [], "freqRank": 1752, "traditional": ""},
 {"char": "摔", "pinyin": "shuāi", "syllable": "shuai", "tone": 1, "core": "thrown down", "mnemonic": "thrown down — the SWIpe to the floor", "invented": false, "crossRefs": [], "freqRank": 2655, "traditional": ""},
 {"char": "率", "pinyin": "shuài", "syllable": "shuai", "tone": 4, "core": "led at the head", "mnemonic": "lead the SHWAY / say it the SHWAY it is", "invented": false, "crossRefs": ["lǜ"], "freqRank": 594, "traditional": ""},
 {"char": "帅", "pinyin": "shuài", "syllable": "shuai", "tone": 4, "core": "the commander; and so, smart", "mnemonic": "the commander, and so smart — the SWAgger of command", "invented": false, "crossRefs": [], "freqRank": 1227, "traditional": "帥"},
