@@ -2595,7 +2595,7 @@
 {"char": "孝", "pinyin": "xiào", "syllable": "xiao", "tone": 4, "core": "duty owed to parents", "mnemonic": "duty owed to parents — SHOWiNG respect", "invented": false, "crossRefs": [], "freqRank": 1098, "traditional": ""},
 {"char": "肖", "pinyin": "xiào", "syllable": "xiao", "tone": 4, "core": "taking after", "mnemonic": "SO SImilar", "invented": false, "crossRefs": [], "freqRank": 2282, "traditional": ""},
 {"char": "啸", "pinyin": "xiào", "syllable": "xiao", "tone": 4, "core": "a long whistling cry", "mnemonic": "a long whistling cry — the SHrIEK", "invented": false, "crossRefs": [], "freqRank": 2586, "traditional": "嘯"},
-{"char": "歇", "pinyin": "xiē", "syllable": "xie", "tone": 1, "core": "stopped to rest", "mnemonic": "stopped to rest — the SHElter taken", "invented": false, "crossRefs": [], "freqRank": 1763, "traditional": ""},
+{"char": "歇", "pinyin": "xiē", "syllable": "xie", "tone": 1, "core": "stopped to rest", "mnemonic": "REST yixia", "invented": false, "crossRefs": [], "freqRank": 1763, "traditional": ""},
 {"char": "些", "pinyin": "xiē", "syllable": "xie", "tone": 1, "core": "a few", "mnemonic": "a few — a SHEd-load, but small", "invented": false, "crossRefs": [], "freqRank": 109, "traditional": ""},
 {"char": "叶", "pinyin": "xié", "syllable": "xie", "tone": 2, "core": "in accord", "mnemonic": "in accord — the SHEEr agreement", "invented": false, "crossRefs": ["yè"], "freqRank": 968, "traditional": "葉"},
 {"char": "协", "pinyin": "xié", "syllable": "xie", "tone": 2, "core": "working together", "mnemonic": "working together — the SHARed effort", "invented": false, "crossRefs": [], "freqRank": 888, "traditional": "協"},
