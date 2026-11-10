@@ -283,7 +283,7 @@
 {"char": "畅", "pinyin": "chàng", "syllable": "chang", "tone": 4, "core": "flowing unobstructed", "mnemonic": "flowing free, unCHAiNed", "invented": false, "crossRefs": [], "freqRank": 2294, "traditional": "暢"},
 {"char": "倡", "pinyin": "chàng", "syllable": "chang", "tone": 4, "core": "led off for others to follow", "mnemonic": "CHANting the lead for others", "invented": false, "crossRefs": [], "freqRank": 2465, "traditional": ""},
 {"char": "超", "pinyin": "chāo", "syllable": "chao", "tone": 1, "core": "past and beyond", "mnemonic": "SHOOts past and beyond", "invented": false, "crossRefs": [], "freqRank": 885, "traditional": ""},
-{"char": "抄", "pinyin": "chāo", "syllable": "chao", "tone": 1, "core": "copied out; swept up in a raid", "mnemonic": "copied — a SHOd-off duplicate", "invented": false, "crossRefs": [], "freqRank": 2157, "traditional": ""},
+{"char": "抄", "pinyin": "chāo", "syllable": "chao", "tone": 1, "core": "copied out; swept up in a raid", "mnemonic": "COpy / GO Off with", "invented": false, "crossRefs": [], "freqRank": 2157, "traditional": ""},
 {"char": "钞", "pinyin": "chāo", "syllable": "chao", "tone": 1, "core": "paper money", "mnemonic": "the paper money you SHOw", "invented": false, "crossRefs": [], "freqRank": 2319, "traditional": "鈔"},
 {"char": "绰", "pinyin": "chāo", "syllable": "chao", "tone": 1, "core": "snatched up", "mnemonic": "SNAtched up", "invented": false, "crossRefs": ["chuò"], "freqRank": 2737, "traditional": "綽"},
 {"char": "朝", "pinyin": "cháo", "syllable": "chao", "tone": 2, "core": "faced toward; the court, the dynasty", "mnemonic": "facing the court — SHOw up", "invented": false, "crossRefs": ["zhāo"], "freqRank": 382, "traditional": ""},
