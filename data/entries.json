@@ -1533,7 +1533,7 @@
 {"char": "缕", "pinyin": "lǚ", "syllable": "lü", "tone": 3, "core": "a single strand, and so thread by thread", "mnemonic": "detaiLEd LOOp / strand", "invented": false, "crossRefs": [], "freqRank": 2911, "traditional": "縷"},
 {"char": "绿", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "green", "mnemonic": "green — the LUsh colour", "invented": false, "crossRefs": [], "freqRank": 1169, "traditional": "綠緑"},
 {"char": "率", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the rate: one measured against another", "mnemonic": "the rate: one measured against another — the LEvy per hundred", "invented": false, "crossRefs": ["shuài"], "freqRank": 594, "traditional": ""},
-{"char": "律", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the fixed rule", "mnemonic": "the fixed rule — the LEgal line", "invented": false, "crossRefs": [], "freqRank": 605, "traditional": ""},
+{"char": "律", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "the fixed rule", "mnemonic": "LAW", "invented": false, "crossRefs": [], "freqRank": 605, "traditional": ""},
 {"char": "虑", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "turned over in the mind", "mnemonic": "turned over in the mind — the LOng think", "invented": false, "crossRefs": [], "freqRank": 991, "traditional": "慮"},
 {"char": "滤", "pinyin": "lǜ", "syllable": "lü", "tone": 4, "core": "strained through to clean", "mnemonic": "what the cloth LEts through", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "濾"},
 {"char": "略", "pinyin": "lüè", "syllable": "lüe", "tone": 4, "core": "cut down to the outline, and so the plan", "mnemonic": "outLINED / LEAN version", "invented": false, "crossRefs": [], "freqRank": 726, "traditional": "畧"},
