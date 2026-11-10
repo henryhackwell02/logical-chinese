@@ -2623,7 +2623,7 @@
 {"char": "馨", "pinyin": "xīn", "syllable": "xin", "tone": 1, "core": "a fragrance that carries", "mnemonic": "a fragrance that carries — the SCENt", "invented": false, "crossRefs": [], "freqRank": 2790, "traditional": ""},
 {"char": "信", "pinyin": "xìn", "syllable": "xin", "tone": 4, "core": "trusted, and the letter that carries the word", "mnemonic": "sincere", "invented": false, "crossRefs": [], "freqRank": 195, "traditional": ""},
 {"char": "芯", "pinyin": "xìn", "syllable": "xin", "tone": 4, "core": "the core", "mnemonic": "the core — the SEEd within", "invented": false, "crossRefs": ["xīn"], "freqRank": 2859, "traditional": ""},
-{"char": "衅", "pinyin": "xìn", "syllable": "xin", "tone": 4, "core": "the rift that starts a quarrel", "mnemonic": "the rift that starts a quarrel — the SPlIt that starts it", "invented": false, "crossRefs": [], "freqRank": 2972, "traditional": "釁"},
+{"char": "衅", "pinyin": "xìn", "syllable": "xin", "tone": 4, "core": "the rift that starts a quarrel", "mnemonic": "SPlit / DISpute", "invented": false, "crossRefs": [], "freqRank": 2972, "traditional": "釁"},
 {"char": "星", "pinyin": "xīng", "syllable": "xing", "tone": 1, "core": "star", "mnemonic": "shining", "invented": false, "crossRefs": [], "freqRank": 515, "traditional": ""},
 {"char": "兴", "pinyin": "xīng", "syllable": "xing", "tone": 1, "core": "rising and taking off", "mnemonic": "rising and taking off — the SPRING up", "invented": false, "crossRefs": ["xìng"], "freqRank": 432, "traditional": "興"},
 {"char": "猩", "pinyin": "xīng", "syllable": "xing", "tone": 1, "core": "the ape", "mnemonic": "the ape — the SwINGING beast", "invented": false, "crossRefs": [], "freqRank": 2321, "traditional": ""},
