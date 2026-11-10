@@ -1019,7 +1019,7 @@
 {"char": "贿", "pinyin": "huì", "syllable": "hui", "tone": 4, "core": "goods given to buy favour", "mnemonic": "goods given to buy favour — the WEIghty gift", "invented": false, "crossRefs": [], "freqRank": 2698, "traditional": "賄"},
 {"char": "婚", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "marriage", "mnemonic": "two become HUN", "invented": false, "crossRefs": [], "freqRank": 1080, "traditional": ""},
 {"char": "昏", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "dusk, and the mind gone dim in it", "mnemonic": "dusk, and the mind gone dim — WANiNG light", "invented": false, "crossRefs": [], "freqRank": 1524, "traditional": "昬"},
-{"char": "荤", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "meat on the plate", "mnemonic": "the meat that WON'T do for a monk", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "葷"},
+{"char": "荤", "pinyin": "hūn", "syllable": "hun", "tone": 1, "core": "meat on the plate", "mnemonic": "VUlgar HUNk of beef", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "葷"},
 {"char": "混", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "muddied by mixing", "mnemonic": "WOOly / MUDdy", "invented": false, "crossRefs": ["hùn"], "freqRank": 1296, "traditional": ""},
 {"char": "魂", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "the soul that can leave the body", "mnemonic": "what lives ON", "invented": false, "crossRefs": [], "freqRank": 1389, "traditional": "䰟"},
 {"char": "浑", "pinyin": "hún", "syllable": "hun", "tone": 2, "core": "thick and unclear throughout", "mnemonic": "thick and unclear throughout — WHOlly muddy", "invented": false, "crossRefs": [], "freqRank": 1835, "traditional": "渾"},
