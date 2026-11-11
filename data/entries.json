@@ -745,7 +745,7 @@
 {"char": "尴", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "awkward, caught out", "mnemonic": "GAwky and caught out", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "尷"},
 {"char": "感", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "felt and moved by", "mnemonic": "felt and moved — it GOt to you", "invented": false, "crossRefs": [], "freqRank": 290, "traditional": ""},
 {"char": "杆", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "a shaft held in the hand", "mnemonic": "the shaft in your hand — the GUN-barrel", "invented": false, "crossRefs": ["gān"], "freqRank": 2302, "traditional": "桿"},
-{"char": "赶", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "hurried after, and driven on", "mnemonic": "hurried after — GO on, drive them", "invented": false, "crossRefs": [], "freqRank": 944, "traditional": "趕"},
+{"char": "赶", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "hurried after, and driven on", "mnemonic": "Going AFter / trying to CATCH", "invented": false, "crossRefs": [], "freqRank": 944, "traditional": "趕"},
 {"char": "敢", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "daring to", "mnemonic": "daring — GAme enough", "invented": false, "crossRefs": [], "freqRank": 621, "traditional": ""},
 {"char": "干", "pinyin": "gàn", "syllable": "gan", "tone": 4, "core": "the same trunk as the main shaft — and so the work it does", "mnemonic": "the main shaft, and the work it does — GONe and done it", "invented": true, "crossRefs": ["gān"], "freqRank": 389, "traditional": "乹乾亁幹"},
 {"char": "钢", "pinyin": "gāng", "syllable": "gang", "tone": 1, "core": "steel", "mnemonic": "steel — the GIRDer", "invented": false, "crossRefs": [], "freqRank": 1922, "traditional": "鋼"},
