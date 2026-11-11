@@ -1299,7 +1299,7 @@
 {"char": "堪", "pinyin": "kān", "syllable": "kan", "tone": 1, "core": "able to bear it", "mnemonic": "able to bear it — you CAN", "invented": false, "crossRefs": [], "freqRank": 1766, "traditional": ""},
 {"char": "勘", "pinyin": "kān", "syllable": "kan", "tone": 1, "core": "examined on the ground", "mnemonic": "COllate and investigate", "invented": false, "crossRefs": [], "freqRank": 2545, "traditional": ""},
 {"char": "坎", "pinyin": "kǎn", "syllable": "kan", "tone": 3, "core": "a pit, and the threshold at its edge", "mnemonic": "the pit, and the threshold at its edge — the CANyon lip", "invented": false, "crossRefs": [], "freqRank": 2694, "traditional": "埳"},
-{"char": "砍", "pinyin": "kǎn", "syllable": "kan", "tone": 3, "core": "chopped at", "mnemonic": "chopped at — the CANting axe", "invented": false, "crossRefs": [], "freqRank": 2259, "traditional": ""},
+{"char": "砍", "pinyin": "kǎn", "syllable": "kan", "tone": 3, "core": "chopped at", "mnemonic": "CUT down", "invented": false, "crossRefs": [], "freqRank": 2259, "traditional": ""},
 {"char": "侃", "pinyin": "kǎn", "syllable": "kan", "tone": 3, "core": "talking easily and at length", "mnemonic": "CANdid talk, and plenty of it", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "看", "pinyin": "kàn", "syllable": "kan", "tone": 4, "core": "looked at", "mnemonic": "scan", "invented": false, "crossRefs": ["kān"], "freqRank": 82, "traditional": ""},
 {"char": "康", "pinyin": "kāng", "syllable": "kang", "tone": 1, "core": "sound and thriving", "mnemonic": "sound and thriving — in fine CONdition", "invented": false, "crossRefs": [], "freqRank": 883, "traditional": ""},
