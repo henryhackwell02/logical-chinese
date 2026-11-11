@@ -2458,7 +2458,7 @@
 {"char": "胃", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "stomach", "mnemonic": "the stomach — the WEIght of dinner", "invented": false, "crossRefs": [], "freqRank": 2301, "traditional": ""},
 {"char": "畏", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "held in fear", "mnemonic": "held in fear — the WAry dread", "invented": false, "crossRefs": [], "freqRank": 1836, "traditional": ""},
 {"char": "慰", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "settled and soothed", "mnemonic": "settled and soothed — the WArmth given", "invented": false, "crossRefs": [], "freqRank": 1601, "traditional": ""},
-{"char": "谓", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "said of, and so meaning", "mnemonic": "said of, and so meaning — WHAt you call it", "invented": false, "crossRefs": [], "freqRank": 558, "traditional": "謂"},
+{"char": "谓", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "said of, and so meaning", "mnemonic": "nAME and what you SAY", "invented": false, "crossRefs": [], "freqRank": 558, "traditional": "謂"},
 {"char": "尉", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "the officer", "mnemonic": "the officer — the WAtch's captain", "invented": false, "crossRefs": [], "freqRank": 1243, "traditional": ""},
 {"char": "喂", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "fed to", "mnemonic": "fed to — the WAY you feed them", "invented": false, "crossRefs": ["wéi"], "freqRank": 2336, "traditional": "餧餵"},
 {"char": "蔚", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "spread wide and bright", "mnemonic": "the WIde blue of it", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
