@@ -736,7 +736,7 @@
 {"char": "盖", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "a lid laid over", "mnemonic": "GUArd / COver / CANopy", "invented": false, "crossRefs": [], "freqRank": 981, "traditional": "蓋"},
 {"char": "概", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "taken in broad outline", "mnemonic": "the GIst / in GENeral", "invented": false, "crossRefs": [], "freqRank": 976, "traditional": "槩"},
 {"char": "丐", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "begging", "mnemonic": "beGGA", "invented": false, "crossRefs": [], "freqRank": 2898, "traditional": "匃匄"},
-{"char": "溉", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "water let onto the land", "mnemonic": "the water GIven to a field", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "溉", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "water let onto the land", "mnemonic": "irriGATe", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "钙", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "calcium", "mnemonic": "the GUArd inside your bones", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "鈣"},
 {"char": "干", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "the bare stripped trunk: dry, with the sap gone", "mnemonic": "dry — the trunk with the sap GONe", "invented": true, "crossRefs": ["gàn"], "freqRank": 389, "traditional": "乹乾亁幹"},
 {"char": "杆", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "a tall pole", "mnemonic": "the tall pole — a GANtry", "invented": false, "crossRefs": ["gǎn"], "freqRank": 2302, "traditional": "桿"},
