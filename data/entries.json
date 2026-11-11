@@ -157,7 +157,7 @@
 {"char": "贬", "pinyin": "biǎn", "syllable": "bian", "tone": 3, "core": "lowered in value or rank", "mnemonic": "knocked down — in the BIN", "invented": false, "crossRefs": [], "freqRank": 2281, "traditional": "貶"},
 {"char": "变", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "become other than it was", "mnemonic": "BEcomes another — the CHANge", "invented": false, "crossRefs": [], "freqRank": 273, "traditional": "變"},
 {"char": "便", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "what comes without trouble", "mnemonic": "paSSINg by, conVENient", "invented": false, "crossRefs": ["pián"], "freqRank": 208, "traditional": ""},
-{"char": "辩", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "a case argued in speech", "mnemonic": "the BIcker, the BAttle of words", "invented": false, "crossRefs": [], "freqRank": 1482, "traditional": "辯"},
+{"char": "辩", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "a case argued in speech", "mnemonic": "BIcker and deBAte", "invented": false, "crossRefs": [], "freqRank": 1482, "traditional": "辯"},
 {"char": "遍", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "over the whole extent; one full pass", "mnemonic": "BEEN over every inch", "invented": false, "crossRefs": [], "freqRank": 1072, "traditional": "徧"},
 {"char": "辨", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "told apart", "mnemonic": "tell whIch is whIch, BIt by BIt", "invented": false, "crossRefs": [], "freqRank": 1897, "traditional": ""},
 {"char": "辫", "pinyin": "biàn", "syllable": "bian", "tone": 4, "core": "braid / queue / plait - all lined up", "mnemonic": "BRAID / PLAIt", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
