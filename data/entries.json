@@ -758,7 +758,7 @@
 {"char": "高", "pinyin": "gāo", "syllable": "gao", "tone": 1, "core": "high", "mnemonic": "GO up high", "invented": false, "crossRefs": [], "freqRank": 132, "traditional": ""},
 {"char": "膏", "pinyin": "gāo", "syllable": "gao", "tone": 1, "core": "rich fat, and the paste from it", "mnemonic": "rich fat, and the paste — the GOOey stuff", "invented": false, "crossRefs": ["gào"], "freqRank": 2838, "traditional": ""},
 {"char": "糕", "pinyin": "gāo", "syllable": "gao", "tone": 1, "core": "cake", "mnemonic": "cake — a GAteau", "invented": false, "crossRefs": [], "freqRank": 2867, "traditional": "餻"},
-{"char": "稿", "pinyin": "gǎo", "syllable": "gao", "tone": 3, "core": "the draft not yet finished", "mnemonic": "the draft not finished — the rouGH copy", "invented": false, "crossRefs": [], "freqRank": 1900, "traditional": "稾"},
+{"char": "稿", "pinyin": "gǎo", "syllable": "gao", "tone": 3, "core": "the draft not yet finished", "mnemonic": "rouGH COpy", "invented": false, "crossRefs": [], "freqRank": 1900, "traditional": "稾"},
 {"char": "搞", "pinyin": "gǎo", "syllable": "gao", "tone": 3, "core": "got done, whatever it takes", "mnemonic": "got done, whatever it takes — GO and sort it", "invented": false, "crossRefs": [], "freqRank": 1421, "traditional": ""},
 {"char": "告", "pinyin": "gào", "syllable": "gao", "tone": 4, "core": "told to another", "mnemonic": "told to another — GO and say it", "invented": false, "crossRefs": [], "freqRank": 328, "traditional": ""},
 {"char": "膏", "pinyin": "gào", "syllable": "gao", "tone": 4, "core": "greased on", "mnemonic": "greased on — the GOO applied", "invented": false, "crossRefs": ["gāo"], "freqRank": 2838, "traditional": ""},
