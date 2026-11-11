@@ -740,7 +740,7 @@
 {"char": "钙", "pinyin": "gài", "syllable": "gai", "tone": 4, "core": "calcium", "mnemonic": "CAlcium", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "鈣"},
 {"char": "干", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "the bare stripped trunk: dry, with the sap gone", "mnemonic": "dry — the trunk with the sap GONe", "invented": true, "crossRefs": ["gàn"], "freqRank": 389, "traditional": "乹乾亁幹"},
 {"char": "杆", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "a tall pole", "mnemonic": "the tall pole — a GANtry", "invented": false, "crossRefs": ["gǎn"], "freqRank": 2302, "traditional": "桿"},
-{"char": "甘", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "sweet, and so willing", "mnemonic": "sweet, and so willing — GAme for it", "invented": false, "crossRefs": [], "freqRank": 1409, "traditional": ""},
+{"char": "甘", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "sweet, and so willing", "mnemonic": "sugarCANE", "invented": false, "crossRefs": [], "freqRank": 1409, "traditional": ""},
 {"char": "肝", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "liver", "mnemonic": "the liver — the GLANd", "invented": false, "crossRefs": [], "freqRank": 2024, "traditional": ""},
 {"char": "尴", "pinyin": "gān", "syllable": "gan", "tone": 1, "core": "awkward, caught out", "mnemonic": "GAwky and caught out", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "尷"},
 {"char": "感", "pinyin": "gǎn", "syllable": "gan", "tone": 3, "core": "felt and moved by", "mnemonic": "felt and moved — it GOt to you", "invented": false, "crossRefs": [], "freqRank": 290, "traditional": ""},
