@@ -2449,7 +2449,7 @@
 {"char": "伪", "pinyin": "wěi", "syllable": "wei", "tone": 3, "core": "made to pass for real", "mnemonic": "FAKE / false", "invented": false, "crossRefs": [], "freqRank": 1635, "traditional": "偽僞"},
 {"char": "伟", "pinyin": "wěi", "syllable": "wei", "tone": 3, "core": "great in stature", "mnemonic": "GREAT", "invented": false, "crossRefs": [], "freqRank": 1304, "traditional": "偉"},
 {"char": "纬", "pinyin": "wěi", "syllable": "wei", "tone": 3, "core": "the crossways thread; latitude", "mnemonic": "the crossways thread; latitude — the WEft", "invented": false, "crossRefs": [], "freqRank": 2691, "traditional": "緯"},
-{"char": "萎", "pinyin": "wěi", "syllable": "wei", "tone": 3, "core": "withered, gone limp", "mnemonic": "the WIlted stem", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
+{"char": "萎", "pinyin": "wěi", "syllable": "wei", "tone": 3, "core": "withered, gone limp", "mnemonic": "WIther aWAY", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "为", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "for the sake of", "mnemonic": "for the sake of — the WAY it's done for them", "invented": false, "crossRefs": ["wéi"], "freqRank": 12, "traditional": "為爲"},
 {"char": "位", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "the place one stands in", "mnemonic": "the place you stand in — the WHEre of you", "invented": false, "crossRefs": [], "freqRank": 194, "traditional": ""},
 {"char": "卫", "pinyin": "wèi", "syllable": "wei", "tone": 4, "core": "guarded", "mnemonic": "guarded — the WAtch kept", "invented": false, "crossRefs": [], "freqRank": 603, "traditional": "衛"},
