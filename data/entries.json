@@ -3043,7 +3043,7 @@
 {"char": "遮", "pinyin": "zhē", "syllable": "zhe", "tone": 1, "core": "screened from view", "mnemonic": "screened from view — the JAcketed-off", "invented": false, "crossRefs": [], "freqRank": 2249, "traditional": ""},
 {"char": "折", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "broken and bent back, and so discounted", "mnemonic": "broken and bent back, and so discounted — the JErked break", "invented": false, "crossRefs": ["zhē", "shé"], "freqRank": 1137, "traditional": "摺"},
 {"char": "哲", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "wise", "mnemonic": "wise — the JUdicious one", "invented": false, "crossRefs": [], "freqRank": 1299, "traditional": "喆"},
-{"char": "辙", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "the rut a wheel leaves", "mnemonic": "where the wheel JErked along", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "轍"},
+{"char": "辙", "pinyin": "zhé", "syllable": "zhe", "tone": 2, "core": "the rut a wheel leaves", "mnemonic": "direCTION of traffic", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "轍"},
 {"char": "者", "pinyin": "zhě", "syllable": "zhe", "tone": 3, "core": "the one who does it", "mnemonic": "the one who does it — the JOb-doer", "invented": false, "crossRefs": [], "freqRank": 65, "traditional": ""},
 {"char": "这", "pinyin": "zhè", "syllable": "zhe", "tone": 4, "core": "this", "mnemonic": "this — JUst this", "invented": false, "crossRefs": [], "freqRank": 11, "traditional": "這"},
 {"char": "着", "pinyin": "zhe", "syllable": "zhe", "tone": 5, "core": "the marker of action going on", "mnemonic": "the marker of action going on — the -ing, JUst now", "invented": false, "crossRefs": ["zhāo"], "freqRank": 47, "traditional": "著"},
