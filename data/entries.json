@@ -2296,7 +2296,7 @@
 {"char": "瘫", "pinyin": "tān", "syllable": "tan", "tone": 1, "core": "gone limp, past moving", "mnemonic": "a TANgle of limbs gone slack", "invented": false, "crossRefs": [], "freqRank": null, "traditional": "癱"},
 {"char": "弹", "pinyin": "tán", "syllable": "tan", "tone": 2, "core": "plucked and sprung", "mnemonic": "plucked and sprung — the TWANG", "invented": false, "crossRefs": ["dàn"], "freqRank": 762, "traditional": "彈"},
 {"char": "谈", "pinyin": "tán", "syllable": "tan", "tone": 2, "core": "talked over", "mnemonic": "talk", "invented": false, "crossRefs": [], "freqRank": 561, "traditional": "談"},
-{"char": "坛", "pinyin": "tán", "syllable": "tan", "tone": 2, "core": "the raised earthen platform; and the jar", "mnemonic": "the raised earthen platform, and the jar — the TANk of earth", "invented": false, "crossRefs": [], "freqRank": 1828, "traditional": "壇罈"},
+{"char": "坛", "pinyin": "tán", "syllable": "tan", "tone": 2, "core": "the raised earthen platform; and the jar", "mnemonic": "alTAR / plATform", "invented": false, "crossRefs": [], "freqRank": 1828, "traditional": "壇罈"},
 {"char": "潭", "pinyin": "tán", "syllable": "tan", "tone": 2, "core": "the deep pool", "mnemonic": "the deep pool — the TARN", "invented": false, "crossRefs": [], "freqRank": 2609, "traditional": ""},
 {"char": "坦", "pinyin": "tǎn", "syllable": "tan", "tone": 3, "core": "flat and open, and so frank", "mnemonic": "flat and open, and so frank — the TAble-flat truth", "invented": false, "crossRefs": [], "freqRank": 1206, "traditional": ""},
 {"char": "探", "pinyin": "tàn", "syllable": "tan", "tone": 4, "core": "reached out into, to find", "mnemonic": "reached out into, to find — the probe TAkeN in", "invented": false, "crossRefs": [], "freqRank": 1011, "traditional": ""},
