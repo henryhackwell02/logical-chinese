@@ -121,6 +121,7 @@
 {"char": "奔", "pinyin": "bèn", "syllable": "ben", "tone": 4, "core": "running headlong at a destination", "mnemonic": "BENt on getting there", "invented": false, "crossRefs": ["bēn"], "freqRank": 1113, "traditional": "犇逩"},
 {"char": "笨", "pinyin": "bèn", "syllable": "ben", "tone": 4, "core": "heavy and unhandy", "mnemonic": "blunt", "invented": false, "crossRefs": [], "freqRank": 2713, "traditional": ""},
 {"char": "崩", "pinyin": "bēng", "syllable": "beng", "tone": 1, "core": "giving way and falling in", "mnemonic": "BURSTs inwards", "invented": false, "crossRefs": [], "freqRank": 1951, "traditional": ""},
+{"char": "绷", "pinyin": "bēng", "syllable": "beng", "tone": 1, "core": "-", "mnemonic": "BOING - it's pulled taut", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "甭", "pinyin": "béng", "syllable": "beng", "tone": 2, "core": "no need to", "mnemonic": "don't even BEGiN — no need", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "蹦", "pinyin": "bèng", "syllable": "beng", "tone": 4, "core": "leaping / springing / jumping", "mnemonic": "sPRING / BOUNce", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
 {"char": "迸", "pinyin": "bèng", "syllable": "beng", "tone": 4, "core": "spouting or spurting", "mnemonic": "BURST forth", "invented": false, "crossRefs": [], "freqRank": null, "traditional": ""},
